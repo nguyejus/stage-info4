@@ -14,3 +14,8 @@
 2. Lecture de la documentation de Dune (syntaxe des stanzas)
 3. Lecture de la documentation de Menhir
 4. Lecture de la documentation OCaml sur les labels
+
+# 12/05/22: 4ème jour de stage
+1. Continuation de l'adaptation vers l'environnement Dune (modification du stanza pour menhir)
+2. Lecture de la documentation de Org
+
