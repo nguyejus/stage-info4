@@ -1,0 +1,154 @@
+"global.ml" 2 40 44 "global.ml" 2 40 51
+type(
+  string
+)
+ident(
+  def version "global.ml" 4 61 61 "global.ml" 0 0 -1
+)
+"global.ml" 2 40 52 "global.ml" 2 40 59
+type(
+  string
+)
+"global.ml" 4 61 65 "global.ml" 4 61 73
+type(
+  string
+)
+ident(
+  def cocciext "global.ml" 5 86 86 "global.ml" 0 0 -1
+)
+"global.ml" 4 61 77 "global.ml" 4 61 85
+type(
+  string
+)
+"global.ml" 5 86 90 "global.ml" 5 86 97
+type(
+  string
+)
+ident(
+  def origext "global.ml" 6 114 114 "global.ml" 0 0 -1
+)
+"global.ml" 5 86 102 "global.ml" 5 86 113
+type(
+  string
+)
+"global.ml" 6 114 118 "global.ml" 6 114 127
+type(
+  string
+)
+ident(
+  def correlext "global.ml" 7 144 144 "global.ml" 0 0 -1
+)
+"global.ml" 6 114 130 "global.ml" 6 114 143
+type(
+  string
+)
+"global.ml" 7 144 148 "global.ml" 7 144 156
+type(
+  string
+)
+ident(
+  def patchext "global.ml" 8 172 172 "global.ml" 0 0 -1
+)
+"global.ml" 7 144 160 "global.ml" 7 144 171
+type(
+  string
+)
+"global.ml" 8 172 176 "global.ml" 8 172 186
+type(
+  string
+)
+ident(
+  def gumtreeext "global.ml" 9 201 201 "global.ml" 0 0 -1
+)
+"global.ml" 8 172 190 "global.ml" 8 172 200
+type(
+  string
+)
+"global.ml" 9 201 205 "global.ml" 9 201 212
+type(
+  string
+)
+ident(
+  def editext "global.ml" 10 229 229 "global.ml" 0 0 -1
+)
+"global.ml" 9 201 217 "global.ml" 9 201 228
+type(
+  string
+)
+"global.ml" 10 229 233 "global.ml" 10 229 239
+type(
+  string
+)
+ident(
+  def bugext "global.ml" 11 256 256 "global.ml" 0 0 -1
+)
+"global.ml" 10 229 245 "global.ml" 10 229 255
+type(
+  string
+)
+"global.ml" 11 256 260 "global.ml" 11 256 268
+type(
+  string
+)
+ident(
+  def existext "global.ml" 12 281 281 "global.ml" 0 0 -1
+)
+"global.ml" 11 256 272 "global.ml" 11 256 280
+type(
+  string
+)
+"global.ml" 12 281 285 "global.ml" 12 281 292
+type(
+  string
+)
+ident(
+  def listext "global.ml" 13 305 305 "global.ml" 0 0 -1
+)
+"global.ml" 12 281 297 "global.ml" 12 281 304
+type(
+  string
+)
+"global.ml" 13 305 309 "global.ml" 13 305 315
+type(
+  string
+)
+ident(
+  def failed "global.ml" 15 329 329 "global.ml" 0 0 -1
+)
+"global.ml" 13 305 318 "global.ml" 13 305 327
+type(
+  string
+)
+"global.ml" 15 329 333 "global.ml" 15 329 336
+type(
+  string
+)
+ident(
+  def sep "global.ml" 17 344 344 "global.ml" 0 0 -1
+)
+"global.ml" 15 329 339 "global.ml" 15 329 342
+type(
+  string
+)
+"global.ml" 17 344 348 "global.ml" 17 344 353
+type(
+  bool ref
+)
+ident(
+  def hacks "global.ml" 19 367 367 "global.ml" 0 0 -1
+)
+"global.ml" 17 344 356 "global.ml" 17 344 359
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1218 46275 46275 "stdlib.mli" 1218 46275 46319
+)
+"global.ml" 17 344 360 "global.ml" 17 344 365
+type(
+  bool
+)
+"global.ml" 17 344 356 "global.ml" 17 344 365
+type(
+  bool ref
+)

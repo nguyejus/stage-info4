@@ -1,0 +1,8 @@
+.projects_test.hc
+debug.config
+full-trace.log
+.jgrfiles
+Makefile
+gr
+results/
+website/

@@ -1,0 +1,4 @@
+(executable
+ (public_name herodotos)
+ (name main)
+ (libraries herodotos))

@@ -1,0 +1,2969 @@
+"exists.ml" 6 71 75 "exists.ml" 6 71 85
+type(
+  string -> string
+)
+ident(
+  def str_lexeme "exists.ml" 12 177 177 "exists.ml" 0 0 -1
+)
+"exists.ml" 6 71 86 "exists.ml" 6 71 92
+type(
+  string
+)
+ident(
+  def lexeme "exists.ml" 7 95 97 "exists.ml" 10 155 175
+)
+"exists.ml" 7 95 103 "exists.ml" 7 95 109
+type(
+  string
+)
+ident(
+  int_ref lexeme "exists.ml" 6 71 86 "exists.ml" 6 71 92
+)
+"exists.ml" 8 115 121 "exists.ml" 8 115 125
+type(
+  string
+)
+type(
+  string
+)
+"exists.ml" 8 115 129 "exists.ml" 8 115 134
+type(
+  string
+)
+"exists.ml" 9 135 141 "exists.ml" 9 135 145
+type(
+  string
+)
+type(
+  string
+)
+"exists.ml" 9 135 149 "exists.ml" 9 135 154
+type(
+  string
+)
+"exists.ml" 10 155 161 "exists.ml" 10 155 162
+type(
+  string
+)
+type(
+  string
+)
+"exists.ml" 10 155 169 "exists.ml" 10 155 175
+type(
+  string
+)
+ident(
+  int_ref lexeme "exists.ml" 6 71 86 "exists.ml" 6 71 92
+)
+"exists.ml" 7 95 97 "exists.ml" 10 155 175
+type(
+  string
+)
+"exists.ml" 12 177 181 "exists.ml" 12 177 192
+type(
+  string -> Ast_exist.matrix
+)
+ident(
+  def parse_exist "exists.ml" 42 1137 1137 "exists.ml" 0 0 -1
+)
+"exists.ml" 12 177 193 "exists.ml" 12 177 197
+type(
+  string
+)
+ident(
+  def file "exists.ml" 13 200 202 "exists.ml" 40 1117 1135
+)
+"exists.ml" 13 200 206 "exists.ml" 13 200 211
+type(
+  in_channel
+)
+ident(
+  def in_ch "exists.ml" 14 230 232 "exists.ml" 40 1117 1135
+)
+"exists.ml" 13 200 214 "exists.ml" 13 200 221
+type(
+  string -> in_channel
+)
+ident(
+  int_ref Stdlib.open_in "stdlib.mli" 1074 39825 39825 "stdlib.mli" 1074 39825 39859
+)
+"exists.ml" 13 200 222 "exists.ml" 13 200 226
+type(
+  string
+)
+ident(
+  int_ref file "exists.ml" 12 177 193 "exists.ml" 12 177 197
+)
+"exists.ml" 13 200 214 "exists.ml" 13 200 226
+type(
+  in_channel
+)
+"exists.ml" 14 230 236 "exists.ml" 14 230 242
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "exists.ml" 15 275 277 "exists.ml" 40 1117 1135
+)
+"exists.ml" 14 230 245 "exists.ml" 14 230 264
+type(
+  ?with_positions:bool -> in_channel -> Lexing.lexbuf
+)
+ident(
+  int_ref Stdlib.Lexing.from_channel "lexing.mli" 92 4163 4163 "lexing.mli" 92 4163 4226
+)
+"exists.ml" 14 230 265 "exists.ml" 14 230 270
+type(
+  in_channel
+)
+ident(
+  int_ref in_ch "exists.ml" 13 200 206 "exists.ml" 13 200 211
+)
+"exists.ml" 14 230 245 "exists.ml" 14 230 270
+type(
+  Lexing.lexbuf
+)
+"exists.ml" 17 323 327 "exists.ml" 17 323 336
+type(
+  string -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref Misc.init "misc.ml" 41 899 903 "misc.ml" 41 899 907
+)
+"exists.ml" 17 323 337 "exists.ml" 17 323 341
+type(
+  string
+)
+ident(
+  int_ref file "exists.ml" 12 177 193 "exists.ml" 12 177 197
+)
+"exists.ml" 17 323 342 "exists.ml" 17 323 348
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "exists.ml" 14 230 236 "exists.ml" 14 230 242
+)
+"exists.ml" 17 323 327 "exists.ml" 17 323 348
+type(
+  unit
+)
+"exists.ml" 18 350 358 "exists.ml" 18 350 361
+type(
+  Ast_exist.matrix
+)
+ident(
+  def ast "exists.ml" 19 410 416 "exists.ml" 20 432 441
+)
+"exists.ml" 18 350 364 "exists.ml" 18 350 381
+type(
+  (Lexing.lexbuf -> Exist_lexer.P.token) -> Lexing.lexbuf -> Ast_exist.matrix
+)
+ident(
+  int_ref Exist_parser.main "exist_parser.mli" 19 235 235 "exist_parser.mli" 19 235 308
+)
+"exists.ml" 18 350 382 "exists.ml" 18 350 399
+type(
+  Lexing.lexbuf -> Exist_lexer.P.token
+)
+ident(
+  int_ref Exist_lexer.token "exist_lexer.ml" 322 20546 20554 "exist_lexer.ml" 322 20546 20559
+)
+"exists.ml" 18 350 400 "exists.ml" 18 350 406
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "exists.ml" 14 230 236 "exists.ml" 14 230 242
+)
+"exists.ml" 18 350 364 "exists.ml" 18 350 406
+type(
+  Ast_exist.matrix
+)
+"exists.ml" 19 410 416 "exists.ml" 19 410 424
+type(
+  in_channel -> unit
+)
+ident(
+  int_ref Stdlib.close_in "stdlib.mli" 1174 44544 44544 "stdlib.mli" 1174 44544 44577
+)
+"exists.ml" 19 410 425 "exists.ml" 19 410 430
+type(
+  in_channel
+)
+ident(
+  int_ref in_ch "exists.ml" 13 200 206 "exists.ml" 13 200 211
+)
+"exists.ml" 19 410 416 "exists.ml" 19 410 430
+type(
+  unit
+)
+"exists.ml" 20 432 438 "exists.ml" 20 432 441
+type(
+  Ast_exist.matrix
+)
+ident(
+  int_ref ast "exists.ml" 18 350 358 "exists.ml" 18 350 361
+)
+"exists.ml" 19 410 416 "exists.ml" 20 432 441
+type(
+  Ast_exist.matrix
+)
+"exists.ml" 18 350 354 "exists.ml" 20 432 441
+type(
+  Ast_exist.matrix
+)
+"exists.ml" 17 323 327 "exists.ml" 20 432 441
+type(
+  Ast_exist.matrix
+)
+"exists.ml" 22 449 476 "exists.ml" 22 449 479
+type(
+  string
+)
+ident(
+  def msg "exists.ml" 23 484 485 "exists.ml" 30 746 764
+)
+"exists.ml" 22 449 455 "exists.ml" 22 449 480
+type(
+  exn
+)
+"exists.ml" 23 484 489 "exists.ml" 23 484 492
+type(
+  Lexing.position
+)
+ident(
+  def pos "exists.ml" 24 516 519 "exists.ml" 30 746 764
+)
+"exists.ml" 23 484 495 "exists.ml" 23 484 501
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "exists.ml" 14 230 236 "exists.ml" 14 230 242
+)
+"exists.ml" 23 484 495 "exists.ml" 23 484 512
+type(
+  Lexing.position
+)
+"exists.ml" 24 516 519 "exists.ml" 24 516 535
+type(
+  Ast.pos -> string -> unit
+)
+ident(
+  int_ref Misc.print_error "misc.ml" 32 743 747 "misc.ml" 32 743 758
+)
+"exists.ml" 25 536 555 "exists.ml" 25 536 559
+type(
+  string
+)
+ident(
+  int_ref file "exists.ml" 12 177 193 "exists.ml" 12 177 197
+)
+"exists.ml" 26 561 580 "exists.ml" 26 561 583
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "exists.ml" 23 484 489 "exists.ml" 23 484 492
+)
+"exists.ml" 26 561 580 "exists.ml" 26 561 592
+type(
+  int
+)
+"exists.ml" 26 561 593 "exists.ml" 26 561 594
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"exists.ml" 26 561 595 "exists.ml" 26 561 596
+type(
+  int
+)
+"exists.ml" 26 561 580 "exists.ml" 26 561 596
+type(
+  int
+)
+"exists.ml" 27 598 617 "exists.ml" 27 598 620
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "exists.ml" 23 484 489 "exists.ml" 23 484 492
+)
+"exists.ml" 27 598 617 "exists.ml" 27 598 629
+type(
+  int
+)
+"exists.ml" 27 598 630 "exists.ml" 27 598 631
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"exists.ml" 27 598 632 "exists.ml" 27 598 635
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "exists.ml" 23 484 489 "exists.ml" 23 484 492
+)
+"exists.ml" 27 598 632 "exists.ml" 27 598 643
+type(
+  int
+)
+"exists.ml" 27 598 617 "exists.ml" 27 598 643
+type(
+  int
+)
+"exists.ml" 28 645 665 "exists.ml" 28 645 682
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  int_ref Stdlib.Lexing.lexeme_end "lexing.mli" 158 6933 6933 "lexing.mli" 158 6933 6963
+)
+"exists.ml" 28 645 683 "exists.ml" 28 645 689
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "exists.ml" 14 230 236 "exists.ml" 14 230 242
+)
+"exists.ml" 28 645 664 "exists.ml" 28 645 690
+type(
+  int
+)
+"exists.ml" 28 645 691 "exists.ml" 28 645 692
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"exists.ml" 28 645 693 "exists.ml" 28 645 696
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "exists.ml" 23 484 489 "exists.ml" 23 484 492
+)
+"exists.ml" 28 645 693 "exists.ml" 28 645 704
+type(
+  int
+)
+"exists.ml" 28 645 664 "exists.ml" 28 645 704
+type(
+  int
+)
+"exists.ml" 28 645 705 "exists.ml" 28 645 706
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"exists.ml" 28 645 707 "exists.ml" 28 645 708
+type(
+  int
+)
+"exists.ml" 28 645 664 "exists.ml" 28 645 708
+type(
+  int
+)
+"exists.ml" 25 536 541 "exists.ml" 28 645 709
+type(
+  Ast.pos
+)
+"exists.ml" 29 710 716 "exists.ml" 29 710 737
+type(
+  string
+)
+"exists.ml" 29 710 738 "exists.ml" 29 710 739
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"exists.ml" 29 710 740 "exists.ml" 29 710 743
+type(
+  string
+)
+ident(
+  int_ref msg "exists.ml" 22 449 476 "exists.ml" 22 449 479
+)
+"exists.ml" 29 710 715 "exists.ml" 29 710 744
+type(
+  string
+)
+"exists.ml" 24 516 519 "exists.ml" 29 710 744
+type(
+  unit
+)
+"exists.ml" 30 746 749 "exists.ml" 30 746 754
+type(
+  exn -> Ast_exist.matrix
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"exists.ml" 30 746 755 "exists.ml" 30 746 764
+type(
+  exn
+)
+"exists.ml" 30 746 749 "exists.ml" 30 746 764
+type(
+  Ast_exist.matrix
+)
+"exists.ml" 24 516 519 "exists.ml" 30 746 764
+type(
+  Ast_exist.matrix
+)
+"exists.ml" 23 484 485 "exists.ml" 30 746 764
+type(
+  Ast_exist.matrix
+)
+"exists.ml" 31 765 771 "exists.ml" 31 765 789
+type(
+  exn
+)
+"exists.ml" 32 793 798 "exists.ml" 32 793 801
+type(
+  Lexing.position
+)
+ident(
+  def pos "exists.ml" 33 825 828 "exists.ml" 40 1117 1135
+)
+"exists.ml" 32 793 804 "exists.ml" 32 793 810
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "exists.ml" 14 230 236 "exists.ml" 14 230 242
+)
+"exists.ml" 32 793 804 "exists.ml" 32 793 821
+type(
+  Lexing.position
+)
+"exists.ml" 33 825 828 "exists.ml" 33 825 844
+type(
+  Ast.pos -> string -> unit
+)
+ident(
+  int_ref Misc.print_error "misc.ml" 32 743 747 "misc.ml" 32 743 758
+)
+"exists.ml" 34 845 864 "exists.ml" 34 845 868
+type(
+  string
+)
+ident(
+  int_ref file "exists.ml" 12 177 193 "exists.ml" 12 177 197
+)
+"exists.ml" 35 870 889 "exists.ml" 35 870 892
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "exists.ml" 32 793 798 "exists.ml" 32 793 801
+)
+"exists.ml" 35 870 889 "exists.ml" 35 870 901
+type(
+  int
+)
+"exists.ml" 35 870 902 "exists.ml" 35 870 903
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"exists.ml" 35 870 904 "exists.ml" 35 870 905
+type(
+  int
+)
+"exists.ml" 35 870 889 "exists.ml" 35 870 905
+type(
+  int
+)
+"exists.ml" 36 907 926 "exists.ml" 36 907 929
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "exists.ml" 32 793 798 "exists.ml" 32 793 801
+)
+"exists.ml" 36 907 926 "exists.ml" 36 907 938
+type(
+  int
+)
+"exists.ml" 36 907 939 "exists.ml" 36 907 940
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"exists.ml" 36 907 941 "exists.ml" 36 907 944
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "exists.ml" 32 793 798 "exists.ml" 32 793 801
+)
+"exists.ml" 36 907 941 "exists.ml" 36 907 952
+type(
+  int
+)
+"exists.ml" 36 907 926 "exists.ml" 36 907 952
+type(
+  int
+)
+"exists.ml" 37 954 974 "exists.ml" 37 954 991
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  int_ref Stdlib.Lexing.lexeme_end "lexing.mli" 158 6933 6933 "lexing.mli" 158 6933 6963
+)
+"exists.ml" 37 954 992 "exists.ml" 37 954 998
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "exists.ml" 14 230 236 "exists.ml" 14 230 242
+)
+"exists.ml" 37 954 973 "exists.ml" 37 954 999
+type(
+  int
+)
+"exists.ml" 37 954 1000 "exists.ml" 37 954 1001
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"exists.ml" 37 954 1002 "exists.ml" 37 954 1005
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "exists.ml" 32 793 798 "exists.ml" 32 793 801
+)
+"exists.ml" 37 954 1002 "exists.ml" 37 954 1013
+type(
+  int
+)
+"exists.ml" 37 954 973 "exists.ml" 37 954 1013
+type(
+  int
+)
+"exists.ml" 37 954 1014 "exists.ml" 37 954 1015
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"exists.ml" 37 954 1016 "exists.ml" 37 954 1017
+type(
+  int
+)
+"exists.ml" 37 954 973 "exists.ml" 37 954 1017
+type(
+  int
+)
+"exists.ml" 34 845 850 "exists.ml" 37 954 1018
+type(
+  Ast.pos
+)
+"exists.ml" 38 1019 1025 "exists.ml" 38 1019 1065
+type(
+  string
+)
+"exists.ml" 39 1066 1072 "exists.ml" 39 1066 1073
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"exists.ml" 39 1066 1075 "exists.ml" 39 1066 1085
+type(
+  string -> string
+)
+ident(
+  int_ref str_lexeme "exists.ml" 6 71 75 "exists.ml" 6 71 85
+)
+"exists.ml" 39 1066 1087 "exists.ml" 39 1066 1100
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  int_ref Stdlib.Lexing.lexeme "lexing.mli" 145 6465 6465 "lexing.mli" 145 6465 6494
+)
+"exists.ml" 39 1066 1101 "exists.ml" 39 1066 1107
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "exists.ml" 14 230 236 "exists.ml" 14 230 242
+)
+"exists.ml" 39 1066 1086 "exists.ml" 39 1066 1108
+type(
+  string
+)
+"exists.ml" 39 1066 1074 "exists.ml" 39 1066 1109
+type(
+  string
+)
+"exists.ml" 39 1066 1110 "exists.ml" 39 1066 1111
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"exists.ml" 39 1066 1111 "exists.ml" 39 1066 1114
+type(
+  string
+)
+"exists.ml" 39 1066 1074 "exists.ml" 39 1066 1114
+type(
+  string
+)
+"exists.ml" 38 1019 1024 "exists.ml" 39 1066 1115
+type(
+  string
+)
+"exists.ml" 33 825 828 "exists.ml" 39 1066 1115
+type(
+  unit
+)
+"exists.ml" 40 1117 1120 "exists.ml" 40 1117 1125
+type(
+  exn -> Ast_exist.matrix
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"exists.ml" 40 1117 1126 "exists.ml" 40 1117 1135
+type(
+  exn
+)
+"exists.ml" 40 1117 1120 "exists.ml" 40 1117 1135
+type(
+  Ast_exist.matrix
+)
+"exists.ml" 33 825 828 "exists.ml" 40 1117 1135
+type(
+  Ast_exist.matrix
+)
+"exists.ml" 32 793 794 "exists.ml" 40 1117 1135
+type(
+  Ast_exist.matrix
+)
+"exists.ml" 15 275 277 "exists.ml" 40 1117 1135
+type(
+  Ast_exist.matrix
+)
+"exists.ml" 14 230 232 "exists.ml" 40 1117 1135
+type(
+  Ast_exist.matrix
+)
+"exists.ml" 13 200 202 "exists.ml" 40 1117 1135
+type(
+  Ast_exist.matrix
+)
+"exists.ml" 42 1137 1141 "exists.ml" 42 1137 1153
+type(
+  string -> string -> string -> Ast_exist.state
+)
+ident(
+  def analyze_file "exists.ml" 56 1522 1522 "exists.ml" 0 0 -1
+)
+"exists.ml" 42 1137 1154 "exists.ml" 42 1137 1160
+type(
+  string
+)
+ident(
+  def prjdir "exists.ml" 42 1137 1161 "exists.ml" 54 1499 1520
+)
+"exists.ml" 42 1137 1161 "exists.ml" 42 1137 1165
+type(
+  string
+)
+ident(
+  def file "exists.ml" 42 1137 1166 "exists.ml" 54 1499 1520
+)
+"exists.ml" 42 1137 1166 "exists.ml" 42 1137 1170
+type(
+  string
+)
+ident(
+  def vers "exists.ml" 44 1209 1211 "exists.ml" 54 1499 1520
+)
+"exists.ml" 44 1209 1215 "exists.ml" 44 1209 1222
+type(
+  string
+)
+ident(
+  def newfile "exists.ml" 50 1349 1351 "exists.ml" 54 1499 1520
+)
+"exists.ml" 45 1225 1232 "exists.ml" 45 1225 1233
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1221 46381 46381 "stdlib.mli" 1221 46381 46422
+)
+"exists.ml" 45 1225 1233 "exists.ml" 45 1225 1245
+type(
+  bool ref
+)
+ident(
+  int_ref Global.hacks "global.ml" 17 344 348 "global.ml" 17 344 353
+)
+"exists.ml" 45 1225 1232 "exists.ml" 45 1225 1245
+type(
+  bool
+)
+"exists.ml" 46 1251 1257 "exists.ml" 46 1251 1274
+type(
+  Str.regexp -> string -> string -> string
+)
+ident(
+  int_ref Str.replace_first "str.mli" 208 9257 9257 "str.mli" 208 9257 9313
+)
+"exists.ml" 46 1251 1276 "exists.ml" 46 1251 1286
+type(
+  string -> Str.regexp
+)
+ident(
+  int_ref Str.regexp "str.mli" 26 1237 1237 "str.mli" 26 1237 1266
+)
+"exists.ml" 46 1251 1287 "exists.ml" 46 1251 1298
+type(
+  string
+)
+"exists.ml" 46 1251 1275 "exists.ml" 46 1251 1299
+type(
+  Str.regexp
+)
+"exists.ml" 46 1251 1300 "exists.ml" 46 1251 1318
+type(
+  string
+)
+"exists.ml" 46 1251 1319 "exists.ml" 46 1251 1323
+type(
+  string
+)
+ident(
+  int_ref file "exists.ml" 42 1137 1161 "exists.ml" 42 1137 1165
+)
+"exists.ml" 46 1251 1257 "exists.ml" 46 1251 1323
+type(
+  string
+)
+"exists.ml" 48 1333 1339 "exists.ml" 48 1333 1343
+type(
+  string
+)
+ident(
+  int_ref file "exists.ml" 42 1137 1161 "exists.ml" 42 1137 1165
+)
+"exists.ml" 45 1225 1229 "exists.ml" 48 1333 1343
+type(
+  string
+)
+"exists.ml" 50 1349 1355 "exists.ml" 50 1349 1362
+type(
+  string
+)
+ident(
+  def absfile "exists.ml" 51 1405 1409 "exists.ml" 54 1499 1520
+)
+"exists.ml" 50 1349 1365 "exists.ml" 50 1349 1371
+type(
+  string
+)
+ident(
+  int_ref prjdir "exists.ml" 42 1137 1154 "exists.ml" 42 1137 1160
+)
+"exists.ml" 50 1349 1372 "exists.ml" 50 1349 1373
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"exists.ml" 50 1349 1374 "exists.ml" 50 1349 1377
+type(
+  string
+)
+"exists.ml" 50 1349 1378 "exists.ml" 50 1349 1379
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"exists.ml" 50 1349 1380 "exists.ml" 50 1349 1384
+type(
+  string
+)
+ident(
+  int_ref vers "exists.ml" 42 1137 1166 "exists.ml" 42 1137 1170
+)
+"exists.ml" 50 1349 1386 "exists.ml" 50 1349 1387
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"exists.ml" 50 1349 1388 "exists.ml" 50 1349 1391
+type(
+  string
+)
+"exists.ml" 50 1349 1392 "exists.ml" 50 1349 1393
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"exists.ml" 50 1349 1394 "exists.ml" 50 1349 1401
+type(
+  string
+)
+ident(
+  int_ref newfile "exists.ml" 44 1209 1215 "exists.ml" 44 1209 1222
+)
+"exists.ml" 50 1349 1388 "exists.ml" 50 1349 1401
+type(
+  string
+)
+"exists.ml" 50 1349 1380 "exists.ml" 50 1349 1401
+type(
+  string
+)
+"exists.ml" 50 1349 1374 "exists.ml" 50 1349 1401
+type(
+  string
+)
+"exists.ml" 50 1349 1365 "exists.ml" 50 1349 1401
+type(
+  string
+)
+"exists.ml" 51 1405 1412 "exists.ml" 51 1405 1427
+type(
+  string -> bool
+)
+ident(
+  int_ref Stdlib.Sys.file_exists "sys.mli" 35 1767 1767 "sys.mli" 35 1767 1829
+)
+"exists.ml" 51 1405 1428 "exists.ml" 51 1405 1435
+type(
+  string
+)
+ident(
+  int_ref absfile "exists.ml" 50 1349 1355 "exists.ml" 50 1349 1362
+)
+"exists.ml" 51 1405 1412 "exists.ml" 51 1405 1435
+type(
+  bool
+)
+"exists.ml" 52 1441 1463 "exists.ml" 52 1441 1480
+type(
+  string -> int
+)
+ident(
+  int_ref Misc.size_of_file "misc.ml" 282 7844 7848 "misc.ml" 282 7844 7860
+)
+"exists.ml" 52 1441 1481 "exists.ml" 52 1441 1488
+type(
+  string
+)
+ident(
+  int_ref absfile "exists.ml" 50 1349 1355 "exists.ml" 50 1349 1362
+)
+"exists.ml" 52 1441 1462 "exists.ml" 52 1441 1489
+type(
+  int
+)
+"exists.ml" 52 1441 1447 "exists.ml" 52 1441 1489
+type(
+  Ast_exist.state
+)
+"exists.ml" 54 1499 1505 "exists.ml" 54 1499 1520
+type(
+  Ast_exist.state
+)
+"exists.ml" 51 1405 1409 "exists.ml" 54 1499 1520
+type(
+  Ast_exist.state
+)
+"exists.ml" 50 1349 1351 "exists.ml" 54 1499 1520
+type(
+  Ast_exist.state
+)
+"exists.ml" 44 1209 1211 "exists.ml" 54 1499 1520
+type(
+  Ast_exist.state
+)
+"exists.ml" 56 1522 1526 "exists.ml" 56 1522 1538
+type(
+  string -> string list -> string -> string * Ast_exist.state list
+)
+ident(
+  def analyze_vers "exists.ml" 61 1624 1624 "exists.ml" 0 0 -1
+)
+"exists.ml" 56 1522 1539 "exists.ml" 56 1522 1545
+type(
+  string
+)
+ident(
+  def prjdir "exists.ml" 56 1522 1546 "exists.ml" 59 1619 1622
+)
+"exists.ml" 56 1522 1546 "exists.ml" 56 1522 1554
+type(
+  string list
+)
+ident(
+  def verslist "exists.ml" 56 1522 1555 "exists.ml" 59 1619 1622
+)
+"exists.ml" 56 1522 1555 "exists.ml" 56 1522 1559
+type(
+  string
+)
+ident(
+  def file "exists.ml" 57 1562 1564 "exists.ml" 59 1619 1622
+)
+"exists.ml" 57 1562 1565 "exists.ml" 57 1562 1569
+type(
+  string
+)
+ident(
+  int_ref file "exists.ml" 56 1522 1555 "exists.ml" 56 1522 1559
+)
+"exists.ml" 58 1571 1574 "exists.ml" 58 1571 1582
+type(
+  (string -> Ast_exist.state) -> string list -> Ast_exist.state list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exists.ml" 58 1571 1584 "exists.ml" 58 1571 1596
+type(
+  string -> string -> string -> Ast_exist.state
+)
+ident(
+  int_ref analyze_file "exists.ml" 42 1137 1141 "exists.ml" 42 1137 1153
+)
+"exists.ml" 58 1571 1597 "exists.ml" 58 1571 1603
+type(
+  string
+)
+ident(
+  int_ref prjdir "exists.ml" 56 1522 1539 "exists.ml" 56 1522 1545
+)
+"exists.ml" 58 1571 1604 "exists.ml" 58 1571 1608
+type(
+  string
+)
+ident(
+  int_ref file "exists.ml" 56 1522 1555 "exists.ml" 56 1522 1559
+)
+"exists.ml" 58 1571 1583 "exists.ml" 58 1571 1609
+type(
+  string -> Ast_exist.state
+)
+"exists.ml" 58 1571 1610 "exists.ml" 58 1571 1618
+type(
+  string list
+)
+ident(
+  int_ref verslist "exists.ml" 56 1522 1546 "exists.ml" 56 1522 1554
+)
+"exists.ml" 58 1571 1574 "exists.ml" 58 1571 1618
+type(
+  Ast_exist.state list
+)
+"exists.ml" 57 1562 1564 "exists.ml" 59 1619 1622
+type(
+  string * Ast_exist.state list
+)
+"exists.ml" 61 1624 1628 "exists.ml" 61 1624 1639
+type(
+  string ->
+  string list ->
+  string list -> string list * (string * Ast_exist.state list) list
+)
+ident(
+  def analyze_rep "exists.ml" 66 1737 1737 "exists.ml" 0 0 -1
+)
+"exists.ml" 61 1624 1640 "exists.ml" 61 1624 1646
+type(
+  string
+)
+ident(
+  def prjdir "exists.ml" 61 1624 1647 "exists.ml" 64 1732 1735
+)
+"exists.ml" 61 1624 1647 "exists.ml" 61 1624 1655
+type(
+  string list
+)
+ident(
+  def verslist "exists.ml" 61 1624 1656 "exists.ml" 64 1732 1735
+)
+"exists.ml" 61 1624 1656 "exists.ml" 61 1624 1664
+type(
+  string list
+)
+ident(
+  def filelist "exists.ml" 62 1667 1669 "exists.ml" 64 1732 1735
+)
+"exists.ml" 62 1667 1670 "exists.ml" 62 1667 1678
+type(
+  string list
+)
+ident(
+  int_ref verslist "exists.ml" 61 1624 1647 "exists.ml" 61 1624 1655
+)
+"exists.ml" 63 1680 1683 "exists.ml" 63 1680 1691
+type(
+  (string -> string * Ast_exist.state list) ->
+  string list -> (string * Ast_exist.state list) list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exists.ml" 63 1680 1693 "exists.ml" 63 1680 1705
+type(
+  string -> string list -> string -> string * Ast_exist.state list
+)
+ident(
+  int_ref analyze_vers "exists.ml" 56 1522 1526 "exists.ml" 56 1522 1538
+)
+"exists.ml" 63 1680 1706 "exists.ml" 63 1680 1712
+type(
+  string
+)
+ident(
+  int_ref prjdir "exists.ml" 61 1624 1640 "exists.ml" 61 1624 1646
+)
+"exists.ml" 63 1680 1713 "exists.ml" 63 1680 1721
+type(
+  string list
+)
+ident(
+  int_ref verslist "exists.ml" 61 1624 1647 "exists.ml" 61 1624 1655
+)
+"exists.ml" 63 1680 1692 "exists.ml" 63 1680 1722
+type(
+  string -> string * Ast_exist.state list
+)
+"exists.ml" 63 1680 1723 "exists.ml" 63 1680 1731
+type(
+  string list
+)
+ident(
+  int_ref filelist "exists.ml" 61 1624 1656 "exists.ml" 61 1624 1664
+)
+"exists.ml" 63 1680 1683 "exists.ml" 63 1680 1731
+type(
+  (string * Ast_exist.state list) list
+)
+"exists.ml" 62 1667 1669 "exists.ml" 64 1732 1735
+type(
+  string list * (string * Ast_exist.state list) list
+)
+"exists.ml" 66 1737 1741 "exists.ml" 66 1737 1749
+type(
+  int list -> int
+)
+ident(
+  def min_list "exists.ml" 67 1777 1777 "exists.ml" 0 0 -1
+)
+"exists.ml" 66 1737 1750 "exists.ml" 66 1737 1751
+type(
+  int list
+)
+ident(
+  def l "exists.ml" 66 1737 1754 "exists.ml" 66 1737 1776
+)
+"exists.ml" 66 1737 1754 "exists.ml" 66 1737 1768
+type(
+  (int -> int -> int) -> int -> int list -> int
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 211 7387 7387 "list.mli" 211 7387 7442
+)
+"exists.ml" 66 1737 1769 "exists.ml" 66 1737 1772
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.min "stdlib.mli" 181 7799 7799 "stdlib.mli" 181 7799 7823
+)
+"exists.ml" 66 1737 1773 "exists.ml" 66 1737 1774
+type(
+  int
+)
+"exists.ml" 66 1737 1775 "exists.ml" 66 1737 1776
+type(
+  int list
+)
+ident(
+  int_ref l "exists.ml" 66 1737 1750 "exists.ml" 66 1737 1751
+)
+"exists.ml" 66 1737 1754 "exists.ml" 66 1737 1776
+type(
+  int
+)
+"exists.ml" 67 1777 1781 "exists.ml" 67 1777 1789
+type(
+  int list -> int
+)
+ident(
+  def max_list "exists.ml" 69 1818 1818 "exists.ml" 0 0 -1
+)
+"exists.ml" 67 1777 1790 "exists.ml" 67 1777 1791
+type(
+  int list
+)
+ident(
+  def l "exists.ml" 67 1777 1794 "exists.ml" 67 1777 1816
+)
+"exists.ml" 67 1777 1794 "exists.ml" 67 1777 1808
+type(
+  (int -> int -> int) -> int -> int list -> int
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 211 7387 7387 "list.mli" 211 7387 7442
+)
+"exists.ml" 67 1777 1809 "exists.ml" 67 1777 1812
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.max "stdlib.mli" 186 7963 7963 "stdlib.mli" 186 7963 7987
+)
+"exists.ml" 67 1777 1813 "exists.ml" 67 1777 1814
+type(
+  int
+)
+"exists.ml" 67 1777 1815 "exists.ml" 67 1777 1816
+type(
+  int list
+)
+ident(
+  int_ref l "exists.ml" 67 1777 1790 "exists.ml" 67 1777 1791
+)
+"exists.ml" 67 1777 1794 "exists.ml" 67 1777 1816
+type(
+  int
+)
+"exists.ml" 69 1818 1822 "exists.ml" 69 1818 1831
+type(
+  bool list -> int * bool
+)
+ident(
+  def min_exist "exists.ml" 78 1982 1982 "exists.ml" 0 0 -1
+)
+"exists.ml" 69 1818 1832 "exists.ml" 69 1818 1833
+type(
+  bool list
+)
+ident(
+  def l "exists.ml" 70 1851 1853 "exists.ml" 76 1962 1980
+)
+"exists.ml" 70 1851 1853 "exists.ml" 70 1851 1867
+type(
+  (int * bool -> bool -> int * bool) -> int * bool -> bool list -> int * bool
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 211 7387 7387 "list.mli" 211 7387 7442
+)
+"exists.ml" 71 1868 1878 "exists.ml" 71 1868 1879
+type(
+  int
+)
+ident(
+  def i "exists.ml" 71 1868 1883 "exists.ml" 75 1947 1961
+)
+"exists.ml" 71 1868 1880 "exists.ml" 71 1868 1881
+type(
+  bool
+)
+ident(
+  def e "exists.ml" 71 1868 1883 "exists.ml" 75 1947 1961
+)
+"exists.ml" 71 1868 1877 "exists.ml" 71 1868 1882
+type(
+  int * bool
+)
+"exists.ml" 71 1868 1883 "exists.ml" 71 1868 1884
+type(
+  bool
+)
+ident(
+  def s "exists.ml" 72 1888 1895 "exists.ml" 75 1947 1961
+)
+"exists.ml" 72 1888 1899 "exists.ml" 72 1888 1900
+type(
+  bool
+)
+ident(
+  int_ref e "exists.ml" 71 1868 1880 "exists.ml" 71 1868 1881
+)
+"exists.ml" 72 1888 1901 "exists.ml" 72 1888 1903
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 227 9492 9492 "stdlib.mli" 227 9492 9542
+)
+"exists.ml" 72 1888 1905 "exists.ml" 72 1888 1908
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"exists.ml" 72 1888 1909 "exists.ml" 72 1888 1910
+type(
+  bool
+)
+ident(
+  int_ref e "exists.ml" 71 1868 1880 "exists.ml" 71 1868 1881
+)
+"exists.ml" 72 1888 1905 "exists.ml" 72 1888 1910
+type(
+  bool
+)
+"exists.ml" 72 1888 1911 "exists.ml" 72 1888 1913
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"exists.ml" 72 1888 1914 "exists.ml" 72 1888 1915
+type(
+  bool
+)
+ident(
+  int_ref s "exists.ml" 71 1868 1883 "exists.ml" 71 1868 1884
+)
+"exists.ml" 72 1888 1904 "exists.ml" 72 1888 1916
+type(
+  bool
+)
+"exists.ml" 72 1888 1898 "exists.ml" 72 1888 1917
+type(
+  bool
+)
+"exists.ml" 73 1923 1926 "exists.ml" 73 1923 1927
+type(
+  int
+)
+ident(
+  int_ref i "exists.ml" 71 1868 1878 "exists.ml" 71 1868 1879
+)
+"exists.ml" 73 1923 1929 "exists.ml" 73 1923 1933
+type(
+  bool
+)
+"exists.ml" 73 1923 1925 "exists.ml" 73 1923 1934
+type(
+  int * bool
+)
+"exists.ml" 75 1947 1950 "exists.ml" 75 1947 1951
+type(
+  int
+)
+ident(
+  int_ref i "exists.ml" 71 1868 1878 "exists.ml" 71 1868 1879
+)
+"exists.ml" 75 1947 1951 "exists.ml" 75 1947 1952
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"exists.ml" 75 1947 1952 "exists.ml" 75 1947 1953
+type(
+  int
+)
+"exists.ml" 75 1947 1950 "exists.ml" 75 1947 1953
+type(
+  int
+)
+"exists.ml" 75 1947 1955 "exists.ml" 75 1947 1960
+type(
+  bool
+)
+"exists.ml" 75 1947 1949 "exists.ml" 75 1947 1961
+type(
+  int * bool
+)
+"exists.ml" 72 1888 1895 "exists.ml" 75 1947 1961
+type(
+  int * bool
+)
+"exists.ml" 71 1868 1872 "exists.ml" 76 1962 1967
+type(
+  int * bool -> bool -> int * bool
+)
+"exists.ml" 76 1962 1969 "exists.ml" 76 1962 1970
+type(
+  int
+)
+"exists.ml" 76 1962 1972 "exists.ml" 76 1962 1977
+type(
+  bool
+)
+"exists.ml" 76 1962 1968 "exists.ml" 76 1962 1978
+type(
+  int * bool
+)
+"exists.ml" 76 1962 1979 "exists.ml" 76 1962 1980
+type(
+  bool list
+)
+ident(
+  int_ref l "exists.ml" 69 1818 1832 "exists.ml" 69 1818 1833
+)
+"exists.ml" 70 1851 1853 "exists.ml" 76 1962 1980
+type(
+  int * bool
+)
+"exists.ml" 78 1982 1986 "exists.ml" 78 1982 1995
+type(
+  bool list -> int -> int * bool
+)
+ident(
+  def max_exist "exists.ml" 87 2149 2149 "exists.ml" 0 0 -1
+)
+"exists.ml" 78 1982 1996 "exists.ml" 78 1982 1997
+type(
+  bool list
+)
+ident(
+  def l "exists.ml" 78 1982 1998 "exists.ml" 85 2129 2147
+)
+"exists.ml" 78 1982 1998 "exists.ml" 78 1982 1999
+type(
+  int
+)
+ident(
+  def i "exists.ml" 79 2017 2019 "exists.ml" 85 2129 2147
+)
+"exists.ml" 79 2017 2019 "exists.ml" 79 2017 2034
+type(
+  (bool -> int * bool -> int * bool) -> bool list -> int * bool -> int * bool
+)
+ident(
+  int_ref Stdlib.List.fold_right "list.mli" 216 7528 7528 "list.mli" 216 7528 7584
+)
+"exists.ml" 80 2035 2044 "exists.ml" 80 2035 2045
+type(
+  bool
+)
+ident(
+  def s "exists.ml" 80 2035 2046 "exists.ml" 84 2114 2128
+)
+"exists.ml" 80 2035 2047 "exists.ml" 80 2035 2048
+type(
+  int
+)
+ident(
+  def i "exists.ml" 81 2055 2062 "exists.ml" 84 2114 2128
+)
+"exists.ml" 80 2035 2049 "exists.ml" 80 2035 2050
+type(
+  bool
+)
+ident(
+  def e "exists.ml" 81 2055 2062 "exists.ml" 84 2114 2128
+)
+"exists.ml" 80 2035 2046 "exists.ml" 80 2035 2051
+type(
+  int * bool
+)
+"exists.ml" 81 2055 2066 "exists.ml" 81 2055 2067
+type(
+  bool
+)
+ident(
+  int_ref e "exists.ml" 80 2035 2049 "exists.ml" 80 2035 2050
+)
+"exists.ml" 81 2055 2068 "exists.ml" 81 2055 2070
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 227 9492 9492 "stdlib.mli" 227 9492 9542
+)
+"exists.ml" 81 2055 2072 "exists.ml" 81 2055 2075
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"exists.ml" 81 2055 2076 "exists.ml" 81 2055 2077
+type(
+  bool
+)
+ident(
+  int_ref e "exists.ml" 80 2035 2049 "exists.ml" 80 2035 2050
+)
+"exists.ml" 81 2055 2072 "exists.ml" 81 2055 2077
+type(
+  bool
+)
+"exists.ml" 81 2055 2078 "exists.ml" 81 2055 2080
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"exists.ml" 81 2055 2081 "exists.ml" 81 2055 2082
+type(
+  bool
+)
+ident(
+  int_ref s "exists.ml" 80 2035 2044 "exists.ml" 80 2035 2045
+)
+"exists.ml" 81 2055 2071 "exists.ml" 81 2055 2083
+type(
+  bool
+)
+"exists.ml" 81 2055 2065 "exists.ml" 81 2055 2084
+type(
+  bool
+)
+"exists.ml" 82 2090 2093 "exists.ml" 82 2090 2094
+type(
+  int
+)
+ident(
+  int_ref i "exists.ml" 80 2035 2047 "exists.ml" 80 2035 2048
+)
+"exists.ml" 82 2090 2096 "exists.ml" 82 2090 2100
+type(
+  bool
+)
+"exists.ml" 82 2090 2092 "exists.ml" 82 2090 2101
+type(
+  int * bool
+)
+"exists.ml" 84 2114 2117 "exists.ml" 84 2114 2118
+type(
+  int
+)
+ident(
+  int_ref i "exists.ml" 80 2035 2047 "exists.ml" 80 2035 2048
+)
+"exists.ml" 84 2114 2118 "exists.ml" 84 2114 2119
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"exists.ml" 84 2114 2119 "exists.ml" 84 2114 2120
+type(
+  int
+)
+"exists.ml" 84 2114 2117 "exists.ml" 84 2114 2120
+type(
+  int
+)
+"exists.ml" 84 2114 2122 "exists.ml" 84 2114 2127
+type(
+  bool
+)
+"exists.ml" 84 2114 2116 "exists.ml" 84 2114 2128
+type(
+  int * bool
+)
+"exists.ml" 81 2055 2062 "exists.ml" 84 2114 2128
+type(
+  int * bool
+)
+"exists.ml" 80 2035 2039 "exists.ml" 85 2129 2134
+type(
+  bool -> int * bool -> int * bool
+)
+"exists.ml" 85 2129 2135 "exists.ml" 85 2129 2136
+type(
+  bool list
+)
+ident(
+  int_ref l "exists.ml" 78 1982 1996 "exists.ml" 78 1982 1997
+)
+"exists.ml" 85 2129 2138 "exists.ml" 85 2129 2139
+type(
+  int
+)
+ident(
+  int_ref i "exists.ml" 78 1982 1998 "exists.ml" 78 1982 1999
+)
+"exists.ml" 85 2129 2141 "exists.ml" 85 2129 2146
+type(
+  bool
+)
+"exists.ml" 85 2129 2137 "exists.ml" 85 2129 2147
+type(
+  int * bool
+)
+"exists.ml" 79 2017 2019 "exists.ml" 85 2129 2147
+type(
+  int * bool
+)
+"exists.ml" 87 2149 2153 "exists.ml" 87 2149 2161
+type(
+  string array -> int list -> unit
+)
+ident(
+  def show_ver "exists.ml" 94 2361 2361 "exists.ml" 0 0 -1
+)
+"exists.ml" 87 2149 2162 "exists.ml" 87 2149 2167
+type(
+  string array
+)
+ident(
+  def vlist "exists.ml" 87 2149 2168 "exists.ml" 92 2341 2359
+)
+"exists.ml" 87 2149 2168 "exists.ml" 87 2149 2170
+type(
+  int list
+)
+ident(
+  def vs "exists.ml" 88 2173 2175 "exists.ml" 92 2341 2359
+)
+"exists.ml" 88 2173 2175 "exists.ml" 88 2173 2187
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_string "stdlib.mli" 853 31250 31250 "stdlib.mli" 853 31250 31283
+)
+"exists.ml" 88 2173 2188 "exists.ml" 88 2173 2212
+type(
+  string
+)
+"exists.ml" 88 2173 2175 "exists.ml" 88 2173 2212
+type(
+  unit
+)
+"exists.ml" 89 2214 2216 "exists.ml" 89 2214 2228
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_string "stdlib.mli" 853 31250 31250 "stdlib.mli" 853 31250 31283
+)
+"exists.ml" 89 2214 2230 "exists.ml" 89 2214 2239
+type(
+  string array -> int -> string
+)
+ident(
+  int_ref Stdlib.Array.get "array.mli" 36 1594 1594 "array.mli" 36 1594 1650
+)
+"exists.ml" 89 2214 2240 "exists.ml" 89 2214 2245
+type(
+  string array
+)
+ident(
+  int_ref vlist "exists.ml" 87 2149 2162 "exists.ml" 87 2149 2167
+)
+"exists.ml" 89 2214 2247 "exists.ml" 89 2214 2255
+type(
+  int list -> int
+)
+ident(
+  int_ref min_list "exists.ml" 66 1737 1741 "exists.ml" 66 1737 1749
+)
+"exists.ml" 89 2214 2256 "exists.ml" 89 2214 2258
+type(
+  int list
+)
+ident(
+  int_ref vs "exists.ml" 87 2149 2168 "exists.ml" 87 2149 2170
+)
+"exists.ml" 89 2214 2246 "exists.ml" 89 2214 2259
+type(
+  int
+)
+"exists.ml" 89 2214 2229 "exists.ml" 89 2214 2260
+type(
+  string
+)
+"exists.ml" 89 2214 2216 "exists.ml" 89 2214 2260
+type(
+  unit
+)
+"exists.ml" 90 2262 2264 "exists.ml" 90 2262 2276
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_string "stdlib.mli" 853 31250 31250 "stdlib.mli" 853 31250 31283
+)
+"exists.ml" 90 2262 2277 "exists.ml" 90 2262 2291
+type(
+  string
+)
+"exists.ml" 90 2262 2264 "exists.ml" 90 2262 2291
+type(
+  unit
+)
+"exists.ml" 91 2293 2295 "exists.ml" 91 2293 2307
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_string "stdlib.mli" 853 31250 31250 "stdlib.mli" 853 31250 31283
+)
+"exists.ml" 91 2293 2309 "exists.ml" 91 2293 2318
+type(
+  string array -> int -> string
+)
+ident(
+  int_ref Stdlib.Array.get "array.mli" 36 1594 1594 "array.mli" 36 1594 1650
+)
+"exists.ml" 91 2293 2319 "exists.ml" 91 2293 2324
+type(
+  string array
+)
+ident(
+  int_ref vlist "exists.ml" 87 2149 2162 "exists.ml" 87 2149 2167
+)
+"exists.ml" 91 2293 2326 "exists.ml" 91 2293 2334
+type(
+  int list -> int
+)
+ident(
+  int_ref max_list "exists.ml" 67 1777 1781 "exists.ml" 67 1777 1789
+)
+"exists.ml" 91 2293 2335 "exists.ml" 91 2293 2337
+type(
+  int list
+)
+ident(
+  int_ref vs "exists.ml" 87 2149 2168 "exists.ml" 87 2149 2170
+)
+"exists.ml" 91 2293 2325 "exists.ml" 91 2293 2338
+type(
+  int
+)
+"exists.ml" 91 2293 2308 "exists.ml" 91 2293 2339
+type(
+  string
+)
+"exists.ml" 91 2293 2295 "exists.ml" 91 2293 2339
+type(
+  unit
+)
+"exists.ml" 92 2341 2343 "exists.ml" 92 2341 2356
+type(
+  unit -> unit
+)
+ident(
+  int_ref Stdlib.print_newline "stdlib.mli" 870 31756 31756 "stdlib.mli" 870 31756 31788
+)
+"exists.ml" 92 2341 2357 "exists.ml" 92 2341 2359
+type(
+  unit
+)
+"exists.ml" 92 2341 2343 "exists.ml" 92 2341 2359
+type(
+  unit
+)
+"exists.ml" 91 2293 2295 "exists.ml" 92 2341 2359
+type(
+  unit
+)
+"exists.ml" 90 2262 2264 "exists.ml" 92 2341 2359
+type(
+  unit
+)
+"exists.ml" 89 2214 2216 "exists.ml" 92 2341 2359
+type(
+  unit
+)
+"exists.ml" 88 2173 2175 "exists.ml" 92 2341 2359
+type(
+  unit
+)
+"exists.ml" 94 2361 2365 "exists.ml" 94 2361 2378
+type(
+  Ast_exist.state -> bool
+)
+ident(
+  def convert_state "exists.ml" 102 2557 2557 "exists.ml" 0 0 -1
+)
+"exists.ml" 94 2361 2379 "exists.ml" 94 2361 2380
+type(
+  Ast_exist.state
+)
+ident(
+  def s "exists.ml" 95 2383 2385 "exists.ml" 100 2525 2555
+)
+"exists.ml" 95 2383 2391 "exists.ml" 95 2383 2392
+type(
+  Ast_exist.state
+)
+ident(
+  int_ref s "exists.ml" 94 2361 2379 "exists.ml" 94 2361 2380
+)
+"exists.ml" 96 2398 2404 "exists.ml" 96 2398 2419
+type(
+  Ast_exist.state
+)
+type(
+  Ast_exist.state
+)
+"exists.ml" 96 2398 2424 "exists.ml" 96 2398 2429
+type(
+  bool
+)
+"exists.ml" 97 2430 2451 "exists.ml" 97 2430 2452
+type(
+  int
+)
+"exists.ml" 97 2430 2436 "exists.ml" 97 2430 2452
+type(
+  Ast_exist.state
+)
+type(
+  Ast_exist.state
+)
+"exists.ml" 97 2430 2456 "exists.ml" 97 2430 2461
+type(
+  bool
+)
+"exists.ml" 98 2462 2468 "exists.ml" 98 2462 2483
+type(
+  Ast_exist.state
+)
+type(
+  Ast_exist.state
+)
+"exists.ml" 98 2462 2488 "exists.ml" 98 2462 2493
+type(
+  bool
+)
+"exists.ml" 99 2494 2515 "exists.ml" 99 2494 2516
+type(
+  int
+)
+"exists.ml" 99 2494 2500 "exists.ml" 99 2494 2516
+type(
+  Ast_exist.state
+)
+type(
+  Ast_exist.state
+)
+"exists.ml" 99 2494 2520 "exists.ml" 99 2494 2524
+type(
+  bool
+)
+"exists.ml" 100 2525 2531 "exists.ml" 100 2525 2545
+type(
+  Ast_exist.state
+)
+type(
+  Ast_exist.state
+)
+"exists.ml" 100 2525 2551 "exists.ml" 100 2525 2555
+type(
+  bool
+)
+"exists.ml" 95 2383 2385 "exists.ml" 100 2525 2555
+type(
+  bool
+)
+"exists.ml" 102 2557 2561 "exists.ml" 102 2557 2574
+type(
+  int -> string * Ast_exist.state list -> string * int * int
+)
+ident(
+  def compute_entry "exists.ml" 114 2957 2957 "exists.ml" 0 0 -1
+)
+"exists.ml" 102 2557 2575 "exists.ml" 102 2557 2576
+type(
+  int
+)
+ident(
+  def i "exists.ml" 102 2557 2577 "exists.ml" 112 2934 2955
+)
+"exists.ml" 102 2557 2577 "exists.ml" 102 2557 2578
+type(
+  string * Ast_exist.state list
+)
+ident(
+  def e "exists.ml" 103 2581 2583 "exists.ml" 112 2934 2955
+)
+"exists.ml" 103 2581 2588 "exists.ml" 103 2581 2589
+type(
+  string
+)
+ident(
+  def f "exists.ml" 104 2602 2604 "exists.ml" 112 2934 2955
+)
+"exists.ml" 103 2581 2591 "exists.ml" 103 2581 2593
+type(
+  Ast_exist.state list
+)
+ident(
+  def sl "exists.ml" 104 2602 2604 "exists.ml" 112 2934 2955
+)
+"exists.ml" 103 2581 2587 "exists.ml" 103 2581 2594
+type(
+  string * Ast_exist.state list
+)
+"exists.ml" 103 2581 2597 "exists.ml" 103 2581 2598
+type(
+  string * Ast_exist.state list
+)
+ident(
+  int_ref e "exists.ml" 102 2557 2577 "exists.ml" 102 2557 2578
+)
+"exists.ml" 104 2602 2608 "exists.ml" 104 2602 2611
+type(
+  bool list
+)
+ident(
+  def nsl "exists.ml" 105 2643 2645 "exists.ml" 112 2934 2955
+)
+"exists.ml" 104 2602 2614 "exists.ml" 104 2602 2622
+type(
+  (Ast_exist.state -> bool) -> Ast_exist.state list -> bool list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exists.ml" 104 2602 2623 "exists.ml" 104 2602 2636
+type(
+  Ast_exist.state -> bool
+)
+ident(
+  int_ref convert_state "exists.ml" 94 2361 2365 "exists.ml" 94 2361 2378
+)
+"exists.ml" 104 2602 2637 "exists.ml" 104 2602 2639
+type(
+  Ast_exist.state list
+)
+ident(
+  int_ref sl "exists.ml" 103 2581 2591 "exists.ml" 103 2581 2593
+)
+"exists.ml" 104 2602 2614 "exists.ml" 104 2602 2639
+type(
+  bool list
+)
+"exists.ml" 105 2643 2649 "exists.ml" 105 2643 2653
+type(
+  int
+)
+ident(
+  def vmin "exists.ml" 106 2681 2683 "exists.ml" 112 2934 2955
+)
+"exists.ml" 105 2643 2656 "exists.ml" 105 2643 2659
+type(
+  int * bool -> int
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"exists.ml" 105 2643 2661 "exists.ml" 105 2643 2670
+type(
+  bool list -> int * bool
+)
+ident(
+  int_ref min_exist "exists.ml" 69 1818 1822 "exists.ml" 69 1818 1831
+)
+"exists.ml" 105 2643 2671 "exists.ml" 105 2643 2674
+type(
+  bool list
+)
+ident(
+  int_ref nsl "exists.ml" 104 2602 2608 "exists.ml" 104 2602 2611
+)
+"exists.ml" 105 2643 2660 "exists.ml" 105 2643 2677
+type(
+  int * bool
+)
+"exists.ml" 105 2643 2656 "exists.ml" 105 2643 2677
+type(
+  int
+)
+"exists.ml" 106 2681 2687 "exists.ml" 106 2681 2691
+type(
+  int
+)
+ident(
+  def vmax "exists.ml" 107 2719 2723 "exists.ml" 112 2934 2955
+)
+"exists.ml" 106 2681 2694 "exists.ml" 106 2681 2697
+type(
+  int * bool -> int
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"exists.ml" 106 2681 2699 "exists.ml" 106 2681 2708
+type(
+  bool list -> int -> int * bool
+)
+ident(
+  int_ref max_exist "exists.ml" 78 1982 1986 "exists.ml" 78 1982 1995
+)
+"exists.ml" 106 2681 2709 "exists.ml" 106 2681 2712
+type(
+  bool list
+)
+ident(
+  int_ref nsl "exists.ml" 104 2602 2608 "exists.ml" 104 2602 2611
+)
+"exists.ml" 106 2681 2713 "exists.ml" 106 2681 2714
+type(
+  int
+)
+ident(
+  int_ref i "exists.ml" 102 2557 2575 "exists.ml" 102 2557 2576
+)
+"exists.ml" 106 2681 2698 "exists.ml" 106 2681 2715
+type(
+  int * bool
+)
+"exists.ml" 106 2681 2694 "exists.ml" 106 2681 2715
+type(
+  int
+)
+"exists.ml" 107 2719 2726 "exists.ml" 107 2719 2730
+type(
+  int
+)
+ident(
+  int_ref vmin "exists.ml" 105 2643 2649 "exists.ml" 105 2643 2653
+)
+"exists.ml" 107 2719 2731 "exists.ml" 107 2719 2732
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 135 5721 5721 "stdlib.mli" 135 5721 5768
+)
+"exists.ml" 107 2719 2733 "exists.ml" 107 2719 2734
+type(
+  int
+)
+"exists.ml" 107 2719 2726 "exists.ml" 107 2719 2734
+type(
+  bool
+)
+"exists.ml" 107 2719 2735 "exists.ml" 107 2719 2737
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 227 9492 9492 "stdlib.mli" 227 9492 9542
+)
+"exists.ml" 107 2719 2738 "exists.ml" 107 2719 2742
+type(
+  int
+)
+ident(
+  int_ref vmax "exists.ml" 106 2681 2687 "exists.ml" 106 2681 2691
+)
+"exists.ml" 107 2719 2743 "exists.ml" 107 2719 2744
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 135 5721 5721 "stdlib.mli" 135 5721 5768
+)
+"exists.ml" 107 2719 2745 "exists.ml" 107 2719 2746
+type(
+  int
+)
+"exists.ml" 107 2719 2738 "exists.ml" 107 2719 2746
+type(
+  bool
+)
+"exists.ml" 107 2719 2726 "exists.ml" 107 2719 2746
+type(
+  bool
+)
+"exists.ml" 108 2752 2758 "exists.ml" 108 2752 2763
+type(
+  exn -> string * int * int
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"exists.ml" 109 2782 2791 "exists.ml" 109 2782 2844
+type(
+  string
+)
+"exists.ml" 109 2782 2844 "exists.ml" 109 2782 2845
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"exists.ml" 109 2782 2845 "exists.ml" 109 2782 2846
+type(
+  string
+)
+ident(
+  int_ref f "exists.ml" 103 2581 2588 "exists.ml" 103 2581 2589
+)
+"exists.ml" 109 2782 2846 "exists.ml" 109 2782 2847
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"exists.ml" 109 2782 2847 "exists.ml" 109 2782 2852
+type(
+  string
+)
+"exists.ml" 109 2782 2853 "exists.ml" 109 2782 2854
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"exists.ml" 110 2855 2859 "exists.ml" 110 2855 2922
+type(
+  string
+)
+"exists.ml" 109 2782 2847 "exists.ml" 110 2855 2922
+type(
+  string
+)
+"exists.ml" 109 2782 2845 "exists.ml" 110 2855 2922
+type(
+  string
+)
+"exists.ml" 109 2782 2790 "exists.ml" 110 2855 2923
+type(
+  string
+)
+"exists.ml" 108 2752 2764 "exists.ml" 110 2855 2924
+type(
+  exn
+)
+"exists.ml" 108 2752 2758 "exists.ml" 110 2855 2924
+type(
+  string * int * int
+)
+"exists.ml" 112 2934 2941 "exists.ml" 112 2934 2942
+type(
+  string
+)
+ident(
+  int_ref f "exists.ml" 103 2581 2588 "exists.ml" 103 2581 2589
+)
+"exists.ml" 112 2934 2944 "exists.ml" 112 2934 2948
+type(
+  int
+)
+ident(
+  int_ref vmin "exists.ml" 105 2643 2649 "exists.ml" 105 2643 2653
+)
+"exists.ml" 112 2934 2950 "exists.ml" 112 2934 2954
+type(
+  int
+)
+ident(
+  int_ref vmax "exists.ml" 106 2681 2687 "exists.ml" 106 2681 2691
+)
+"exists.ml" 112 2934 2940 "exists.ml" 112 2934 2955
+type(
+  string * int * int
+)
+"exists.ml" 107 2719 2723 "exists.ml" 112 2934 2955
+type(
+  string * int * int
+)
+"exists.ml" 106 2681 2683 "exists.ml" 112 2934 2955
+type(
+  string * int * int
+)
+"exists.ml" 105 2643 2645 "exists.ml" 112 2934 2955
+type(
+  string * int * int
+)
+"exists.ml" 104 2602 2604 "exists.ml" 112 2934 2955
+type(
+  string * int * int
+)
+"exists.ml" 103 2581 2583 "exists.ml" 112 2934 2955
+type(
+  string * int * int
+)
+"exists.ml" 114 2957 2961 "exists.ml" 114 2957 2971
+type(
+  string * int * int -> unit
+)
+ident(
+  def show_entry "exists.ml" 124 3191 3191 "exists.ml" 0 0 -1
+)
+"exists.ml" 114 2957 2973 "exists.ml" 114 2957 2974
+type(
+  string
+)
+ident(
+  def f "exists.ml" 115 2988 2990 "exists.ml" 122 3171 3189
+)
+"exists.ml" 114 2957 2976 "exists.ml" 114 2957 2979
+type(
+  int
+)
+ident(
+  def min "exists.ml" 115 2988 2990 "exists.ml" 122 3171 3189
+)
+"exists.ml" 114 2957 2981 "exists.ml" 114 2957 2984
+type(
+  int
+)
+ident(
+  def max "exists.ml" 115 2988 2990 "exists.ml" 122 3171 3189
+)
+"exists.ml" 114 2957 2972 "exists.ml" 114 2957 2985
+type(
+  string * int * int
+)
+"exists.ml" 115 2988 2990 "exists.ml" 115 2988 3002
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_string "stdlib.mli" 853 31250 31250 "stdlib.mli" 853 31250 31283
+)
+"exists.ml" 115 2988 3003 "exists.ml" 115 2988 3010
+type(
+  string
+)
+"exists.ml" 115 2988 2990 "exists.ml" 115 2988 3010
+type(
+  unit
+)
+"exists.ml" 116 3012 3014 "exists.ml" 116 3012 3026
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_string "stdlib.mli" 853 31250 31250 "stdlib.mli" 853 31250 31283
+)
+"exists.ml" 116 3012 3028 "exists.ml" 116 3012 3041
+type(
+  int -> string
+)
+ident(
+  int_ref Stdlib.string_of_int "stdlib.mli" 750 27897 27897 "stdlib.mli" 750 27897 27930
+)
+"exists.ml" 116 3012 3042 "exists.ml" 116 3012 3045
+type(
+  int
+)
+ident(
+  int_ref min "exists.ml" 114 2957 2976 "exists.ml" 114 2957 2979
+)
+"exists.ml" 116 3012 3027 "exists.ml" 116 3012 3046
+type(
+  string
+)
+"exists.ml" 116 3012 3014 "exists.ml" 116 3012 3046
+type(
+  unit
+)
+"exists.ml" 117 3048 3050 "exists.ml" 117 3048 3062
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_string "stdlib.mli" 853 31250 31250 "stdlib.mli" 853 31250 31283
+)
+"exists.ml" 117 3048 3063 "exists.ml" 117 3048 3069
+type(
+  string
+)
+"exists.ml" 117 3048 3050 "exists.ml" 117 3048 3069
+type(
+  unit
+)
+"exists.ml" 118 3071 3073 "exists.ml" 118 3071 3085
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_string "stdlib.mli" 853 31250 31250 "stdlib.mli" 853 31250 31283
+)
+"exists.ml" 118 3071 3087 "exists.ml" 118 3071 3100
+type(
+  int -> string
+)
+ident(
+  int_ref Stdlib.string_of_int "stdlib.mli" 750 27897 27897 "stdlib.mli" 750 27897 27930
+)
+"exists.ml" 118 3071 3101 "exists.ml" 118 3071 3104
+type(
+  int
+)
+ident(
+  int_ref max "exists.ml" 114 2957 2981 "exists.ml" 114 2957 2984
+)
+"exists.ml" 118 3071 3086 "exists.ml" 118 3071 3105
+type(
+  string
+)
+"exists.ml" 118 3071 3073 "exists.ml" 118 3071 3105
+type(
+  unit
+)
+"exists.ml" 119 3107 3109 "exists.ml" 119 3107 3121
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_string "stdlib.mli" 853 31250 31250 "stdlib.mli" 853 31250 31283
+)
+"exists.ml" 119 3107 3122 "exists.ml" 119 3107 3125
+type(
+  string
+)
+"exists.ml" 119 3107 3109 "exists.ml" 119 3107 3125
+type(
+  unit
+)
+"exists.ml" 120 3127 3129 "exists.ml" 120 3127 3141
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_string "stdlib.mli" 853 31250 31250 "stdlib.mli" 853 31250 31283
+)
+"exists.ml" 120 3127 3142 "exists.ml" 120 3127 3143
+type(
+  string
+)
+ident(
+  int_ref f "exists.ml" 114 2957 2973 "exists.ml" 114 2957 2974
+)
+"exists.ml" 120 3127 3129 "exists.ml" 120 3127 3143
+type(
+  unit
+)
+"exists.ml" 121 3145 3147 "exists.ml" 121 3145 3159
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_string "stdlib.mli" 853 31250 31250 "stdlib.mli" 853 31250 31283
+)
+"exists.ml" 121 3145 3160 "exists.ml" 121 3145 3169
+type(
+  string
+)
+"exists.ml" 121 3145 3147 "exists.ml" 121 3145 3169
+type(
+  unit
+)
+"exists.ml" 122 3171 3173 "exists.ml" 122 3171 3186
+type(
+  unit -> unit
+)
+ident(
+  int_ref Stdlib.print_newline "stdlib.mli" 870 31756 31756 "stdlib.mli" 870 31756 31788
+)
+"exists.ml" 122 3171 3187 "exists.ml" 122 3171 3189
+type(
+  unit
+)
+"exists.ml" 122 3171 3173 "exists.ml" 122 3171 3189
+type(
+  unit
+)
+"exists.ml" 121 3145 3147 "exists.ml" 122 3171 3189
+type(
+  unit
+)
+"exists.ml" 120 3127 3129 "exists.ml" 122 3171 3189
+type(
+  unit
+)
+"exists.ml" 119 3107 3109 "exists.ml" 122 3171 3189
+type(
+  unit
+)
+"exists.ml" 118 3071 3073 "exists.ml" 122 3171 3189
+type(
+  unit
+)
+"exists.ml" 117 3048 3050 "exists.ml" 122 3171 3189
+type(
+  unit
+)
+"exists.ml" 116 3012 3014 "exists.ml" 122 3171 3189
+type(
+  unit
+)
+"exists.ml" 115 2988 2990 "exists.ml" 122 3171 3189
+type(
+  unit
+)
+"exists.ml" 124 3191 3195 "exists.ml" 124 3191 3208
+type(
+  'a array ->
+  'b * (string * Ast_exist.state list) list ->
+  int * (string * int * int) list
+)
+ident(
+  def compute_exist "exists.ml" 129 3352 3352 "exists.ml" 0 0 -1
+)
+"exists.ml" 124 3191 3209 "exists.ml" 124 3191 3214
+type(
+  'a array
+)
+ident(
+  def vlist "exists.ml" 124 3191 3215 "exists.ml" 127 3297 3350
+)
+"exists.ml" 124 3191 3215 "exists.ml" 124 3191 3218
+type(
+  'b * (string * Ast_exist.state list) list
+)
+ident(
+  def ast "exists.ml" 125 3221 3223 "exists.ml" 127 3297 3350
+)
+"exists.ml" 125 3221 3228 "exists.ml" 125 3221 3236
+type(
+  'b
+)
+ident(
+  def versions "exists.ml" 126 3256 3258 "exists.ml" 127 3297 3350
+)
+"exists.ml" 125 3221 3238 "exists.ml" 125 3221 3245
+type(
+  (string * Ast_exist.state list) list
+)
+ident(
+  def entries "exists.ml" 126 3256 3258 "exists.ml" 127 3297 3350
+)
+"exists.ml" 125 3221 3227 "exists.ml" 125 3221 3246
+type(
+  'b * (string * Ast_exist.state list) list
+)
+"exists.ml" 125 3221 3249 "exists.ml" 125 3221 3252
+type(
+  'b * (string * Ast_exist.state list) list
+)
+ident(
+  int_ref ast "exists.ml" 124 3191 3215 "exists.ml" 124 3191 3218
+)
+"exists.ml" 126 3256 3262 "exists.ml" 126 3256 3268
+type(
+  int
+)
+ident(
+  def maxidx "exists.ml" 127 3297 3301 "exists.ml" 127 3297 3350
+)
+"exists.ml" 126 3256 3271 "exists.ml" 126 3256 3283
+type(
+  'a array -> int
+)
+ident(
+  int_ref Stdlib.Array.length "array.mli" 33 1475 1475 "array.mli" 33 1475 1526
+)
+"exists.ml" 126 3256 3284 "exists.ml" 126 3256 3289
+type(
+  'a array
+)
+ident(
+  int_ref vlist "exists.ml" 124 3191 3209 "exists.ml" 124 3191 3214
+)
+"exists.ml" 126 3256 3271 "exists.ml" 126 3256 3289
+type(
+  int
+)
+"exists.ml" 126 3256 3290 "exists.ml" 126 3256 3291
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"exists.ml" 126 3256 3292 "exists.ml" 126 3256 3293
+type(
+  int
+)
+"exists.ml" 126 3256 3271 "exists.ml" 126 3256 3293
+type(
+  int
+)
+"exists.ml" 127 3297 3302 "exists.ml" 127 3297 3308
+type(
+  int
+)
+ident(
+  int_ref maxidx "exists.ml" 126 3256 3262 "exists.ml" 126 3256 3268
+)
+"exists.ml" 127 3297 3310 "exists.ml" 127 3297 3318
+type(
+  (string * Ast_exist.state list -> string * int * int) ->
+  (string * Ast_exist.state list) list -> (string * int * int) list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exists.ml" 127 3297 3320 "exists.ml" 127 3297 3333
+type(
+  int -> string * Ast_exist.state list -> string * int * int
+)
+ident(
+  int_ref compute_entry "exists.ml" 102 2557 2561 "exists.ml" 102 2557 2574
+)
+"exists.ml" 127 3297 3334 "exists.ml" 127 3297 3340
+type(
+  int
+)
+ident(
+  int_ref maxidx "exists.ml" 126 3256 3262 "exists.ml" 126 3256 3268
+)
+"exists.ml" 127 3297 3319 "exists.ml" 127 3297 3341
+type(
+  string * Ast_exist.state list -> string * int * int
+)
+"exists.ml" 127 3297 3342 "exists.ml" 127 3297 3349
+type(
+  (string * Ast_exist.state list) list
+)
+ident(
+  int_ref entries "exists.ml" 125 3221 3238 "exists.ml" 125 3221 3245
+)
+"exists.ml" 127 3297 3310 "exists.ml" 127 3297 3349
+type(
+  (string * int * int) list
+)
+"exists.ml" 127 3297 3301 "exists.ml" 127 3297 3350
+type(
+  int * (string * int * int) list
+)
+"exists.ml" 126 3256 3258 "exists.ml" 127 3297 3350
+type(
+  int * (string * int * int) list
+)
+"exists.ml" 125 3221 3223 "exists.ml" 127 3297 3350
+type(
+  int * (string * int * int) list
+)
+"exists.ml" 129 3352 3356 "exists.ml" 129 3352 3364
+type(
+  string -> string list * (string * Ast_exist.state list) list -> unit
+)
+ident(
+  def print_to "exists.ml" 151 3954 3970 "exists.ml" 0 0 -1
+)
+"exists.ml" 129 3352 3365 "exists.ml" 129 3352 3378
+type(
+  string
+)
+ident(
+  def existfilepath "exists.ml" 129 3352 3379 "exists.ml" 151 3954 3970
+)
+"exists.ml" 129 3352 3379 "exists.ml" 129 3352 3382
+type(
+  string list * (string * Ast_exist.state list) list
+)
+ident(
+  def ast "exists.ml" 130 3385 3387 "exists.ml" 151 3954 3970
+)
+"exists.ml" 130 3385 3391 "exists.ml" 130 3385 3393
+type(
+  out_channel
+)
+ident(
+  def ch "exists.ml" 131 3422 3424 "exists.ml" 151 3954 3970
+)
+"exists.ml" 130 3385 3396 "exists.ml" 130 3385 3404
+type(
+  string -> out_channel
+)
+ident(
+  int_ref Stdlib.open_out "stdlib.mli" 957 34534 34534 "stdlib.mli" 957 34534 34570
+)
+"exists.ml" 130 3385 3405 "exists.ml" 130 3385 3418
+type(
+  string
+)
+ident(
+  int_ref existfilepath "exists.ml" 129 3352 3365 "exists.ml" 129 3352 3378
+)
+"exists.ml" 130 3385 3396 "exists.ml" 130 3385 3418
+type(
+  out_channel
+)
+"exists.ml" 131 3422 3429 "exists.ml" 131 3422 3437
+type(
+  string list
+)
+ident(
+  def versions "exists.ml" 132 3457 3461 "exists.ml" 151 3954 3970
+)
+"exists.ml" 131 3422 3439 "exists.ml" 131 3422 3446
+type(
+  (string * Ast_exist.state list) list
+)
+ident(
+  def entries "exists.ml" 132 3457 3461 "exists.ml" 151 3954 3970
+)
+"exists.ml" 131 3422 3428 "exists.ml" 131 3422 3447
+type(
+  string list * (string * Ast_exist.state list) list
+)
+"exists.ml" 131 3422 3450 "exists.ml" 131 3422 3453
+type(
+  string list * (string * Ast_exist.state list) list
+)
+ident(
+  int_ref ast "exists.ml" 129 3352 3379 "exists.ml" 129 3352 3382
+)
+"exists.ml" 132 3457 3461 "exists.ml" 132 3457 3474
+type(
+  out_channel -> string -> unit
+)
+ident(
+  int_ref Stdlib.output_string "stdlib.mli" 989 35967 35967 "stdlib.mli" 989 35967 36016
+)
+"exists.ml" 132 3457 3475 "exists.ml" 132 3457 3477
+type(
+  out_channel
+)
+ident(
+  int_ref ch "exists.ml" 130 3385 3391 "exists.ml" 130 3385 3393
+)
+"exists.ml" 132 3457 3478 "exists.ml" 132 3457 3485
+type(
+  string
+)
+"exists.ml" 132 3457 3461 "exists.ml" 132 3457 3485
+type(
+  unit
+)
+"exists.ml" 133 3487 3491 "exists.ml" 133 3487 3500
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 159 5701 5701 "list.mli" 159 5701 5743
+)
+"exists.ml" 133 3487 3506 "exists.ml" 133 3487 3507
+type(
+  string
+)
+ident(
+  def v "exists.ml" 133 3487 3511 "exists.ml" 133 3487 3535
+)
+"exists.ml" 133 3487 3511 "exists.ml" 133 3487 3524
+type(
+  out_channel -> string -> unit
+)
+ident(
+  int_ref Stdlib.output_string "stdlib.mli" 989 35967 35967 "stdlib.mli" 989 35967 36016
+)
+"exists.ml" 133 3487 3525 "exists.ml" 133 3487 3527
+type(
+  out_channel
+)
+ident(
+  int_ref ch "exists.ml" 130 3385 3391 "exists.ml" 130 3385 3393
+)
+"exists.ml" 133 3487 3529 "exists.ml" 133 3487 3530
+type(
+  string
+)
+ident(
+  int_ref v "exists.ml" 133 3487 3506 "exists.ml" 133 3487 3507
+)
+"exists.ml" 133 3487 3530 "exists.ml" 133 3487 3531
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"exists.ml" 133 3487 3531 "exists.ml" 133 3487 3534
+type(
+  string
+)
+"exists.ml" 133 3487 3528 "exists.ml" 133 3487 3535
+type(
+  string
+)
+"exists.ml" 133 3487 3511 "exists.ml" 133 3487 3535
+type(
+  unit
+)
+"exists.ml" 133 3487 3501 "exists.ml" 133 3487 3536
+type(
+  string -> unit
+)
+"exists.ml" 133 3487 3537 "exists.ml" 133 3487 3545
+type(
+  string list
+)
+ident(
+  int_ref versions "exists.ml" 131 3422 3429 "exists.ml" 131 3422 3437
+)
+"exists.ml" 133 3487 3491 "exists.ml" 133 3487 3545
+type(
+  unit
+)
+"exists.ml" 134 3547 3551 "exists.ml" 134 3547 3564
+type(
+  out_channel -> string -> unit
+)
+ident(
+  int_ref Stdlib.output_string "stdlib.mli" 989 35967 35967 "stdlib.mli" 989 35967 36016
+)
+"exists.ml" 134 3547 3565 "exists.ml" 134 3547 3567
+type(
+  out_channel
+)
+ident(
+  int_ref ch "exists.ml" 130 3385 3391 "exists.ml" 130 3385 3393
+)
+"exists.ml" 134 3547 3568 "exists.ml" 134 3547 3572
+type(
+  string
+)
+"exists.ml" 134 3547 3551 "exists.ml" 134 3547 3572
+type(
+  unit
+)
+"exists.ml" 135 3574 3578 "exists.ml" 135 3574 3587
+type(
+  (string * Ast_exist.state list -> unit) ->
+  (string * Ast_exist.state list) list -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 159 5701 5701 "list.mli" 159 5701 5743
+)
+"exists.ml" 135 3574 3594 "exists.ml" 135 3574 3595
+type(
+  string
+)
+ident(
+  def f "exists.ml" 136 3608 3614 "exists.ml" 149 3911 3938
+)
+"exists.ml" 135 3574 3597 "exists.ml" 135 3574 3603
+type(
+  Ast_exist.state list
+)
+ident(
+  def states "exists.ml" 136 3608 3614 "exists.ml" 149 3911 3938
+)
+"exists.ml" 135 3574 3593 "exists.ml" 135 3574 3604
+type(
+  string * Ast_exist.state list
+)
+"exists.ml" 136 3608 3614 "exists.ml" 136 3608 3627
+type(
+  out_channel -> string -> unit
+)
+ident(
+  int_ref Stdlib.output_string "stdlib.mli" 989 35967 35967 "stdlib.mli" 989 35967 36016
+)
+"exists.ml" 136 3608 3628 "exists.ml" 136 3608 3630
+type(
+  out_channel
+)
+ident(
+  int_ref ch "exists.ml" 130 3385 3391 "exists.ml" 130 3385 3393
+)
+"exists.ml" 136 3608 3632 "exists.ml" 136 3608 3633
+type(
+  string
+)
+ident(
+  int_ref f "exists.ml" 135 3574 3594 "exists.ml" 135 3574 3595
+)
+"exists.ml" 136 3608 3633 "exists.ml" 136 3608 3634
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"exists.ml" 136 3608 3634 "exists.ml" 136 3608 3637
+type(
+  string
+)
+"exists.ml" 136 3608 3631 "exists.ml" 136 3608 3638
+type(
+  string
+)
+"exists.ml" 136 3608 3614 "exists.ml" 136 3608 3638
+type(
+  unit
+)
+"exists.ml" 137 3640 3650 "exists.ml" 137 3640 3654
+type(
+  string list
+)
+ident(
+  def toks "exists.ml" 148 3862 3868 "exists.ml" 149 3911 3938
+)
+"exists.ml" 137 3640 3657 "exists.ml" 137 3640 3665
+type(
+  (Ast_exist.state -> string) -> Ast_exist.state list -> string list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exists.ml" 137 3640 3671 "exists.ml" 137 3640 3672
+type(
+  Ast_exist.state
+)
+ident(
+  def s "exists.ml" 138 3676 3677 "exists.ml" 146 3836 3843
+)
+"exists.ml" 138 3676 3683 "exists.ml" 138 3676 3684
+type(
+  Ast_exist.state
+)
+ident(
+  int_ref s "exists.ml" 137 3640 3671 "exists.ml" 137 3640 3672
+)
+"exists.ml" 139 3690 3695 "exists.ml" 139 3690 3709
+type(
+  Ast_exist.state
+)
+type(
+  Ast_exist.state
+)
+"exists.ml" 140 3713 3720 "exists.ml" 140 3713 3726
+type(
+  string
+)
+"exists.ml" 141 3727 3732 "exists.ml" 141 3727 3747
+type(
+  Ast_exist.state
+)
+type(
+  Ast_exist.state
+)
+"exists.ml" 142 3751 3756 "exists.ml" 142 3751 3763
+type(
+  string
+)
+"exists.ml" 143 3764 3784 "exists.ml" 143 3764 3787
+type(
+  int
+)
+ident(
+  def i "exists.ml" 144 3791 3796 "exists.ml" 144 3791 3811
+)
+"exists.ml" 143 3764 3769 "exists.ml" 143 3764 3787
+type(
+  Ast_exist.state
+)
+type(
+  Ast_exist.state
+)
+"exists.ml" 144 3791 3796 "exists.ml" 144 3791 3809
+type(
+  int -> string
+)
+ident(
+  int_ref Stdlib.string_of_int "stdlib.mli" 750 27897 27897 "stdlib.mli" 750 27897 27930
+)
+"exists.ml" 144 3791 3810 "exists.ml" 144 3791 3811
+type(
+  int
+)
+ident(
+  int_ref i "exists.ml" 143 3764 3784 "exists.ml" 143 3764 3787
+)
+"exists.ml" 144 3791 3796 "exists.ml" 144 3791 3811
+type(
+  string
+)
+"exists.ml" 145 3812 3817 "exists.ml" 145 3812 3832
+type(
+  Ast_exist.state
+)
+type(
+  Ast_exist.state
+)
+"exists.ml" 146 3836 3841 "exists.ml" 146 3836 3843
+type(
+  string
+)
+"exists.ml" 138 3676 3677 "exists.ml" 146 3836 3843
+type(
+  string
+)
+"exists.ml" 137 3640 3666 "exists.ml" 147 3844 3851
+type(
+  Ast_exist.state -> string
+)
+"exists.ml" 147 3844 3852 "exists.ml" 147 3844 3858
+type(
+  Ast_exist.state list
+)
+ident(
+  int_ref states "exists.ml" 135 3574 3597 "exists.ml" 135 3574 3603
+)
+"exists.ml" 137 3640 3657 "exists.ml" 147 3844 3858
+type(
+  string list
+)
+"exists.ml" 148 3862 3868 "exists.ml" 148 3862 3881
+type(
+  out_channel -> string -> unit
+)
+ident(
+  int_ref Stdlib.output_string "stdlib.mli" 989 35967 35967 "stdlib.mli" 989 35967 36016
+)
+"exists.ml" 148 3862 3882 "exists.ml" 148 3862 3884
+type(
+  out_channel
+)
+ident(
+  int_ref ch "exists.ml" 130 3385 3391 "exists.ml" 130 3385 3393
+)
+"exists.ml" 148 3862 3886 "exists.ml" 148 3862 3899
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref Stdlib.String.concat "string.mli" 132 5016 5016 "string.mli" 132 5016 5060
+)
+"exists.ml" 148 3862 3900 "exists.ml" 148 3862 3903
+type(
+  string
+)
+"exists.ml" 148 3862 3904 "exists.ml" 148 3862 3908
+type(
+  string list
+)
+ident(
+  int_ref toks "exists.ml" 137 3640 3650 "exists.ml" 137 3640 3654
+)
+"exists.ml" 148 3862 3885 "exists.ml" 148 3862 3909
+type(
+  string
+)
+"exists.ml" 148 3862 3868 "exists.ml" 148 3862 3909
+type(
+  unit
+)
+"exists.ml" 149 3911 3917 "exists.ml" 149 3911 3930
+type(
+  out_channel -> string -> unit
+)
+ident(
+  int_ref Stdlib.output_string "stdlib.mli" 989 35967 35967 "stdlib.mli" 989 35967 36016
+)
+"exists.ml" 149 3911 3931 "exists.ml" 149 3911 3933
+type(
+  out_channel
+)
+ident(
+  int_ref ch "exists.ml" 130 3385 3391 "exists.ml" 130 3385 3393
+)
+"exists.ml" 149 3911 3934 "exists.ml" 149 3911 3938
+type(
+  string
+)
+"exists.ml" 149 3911 3917 "exists.ml" 149 3911 3938
+type(
+  unit
+)
+"exists.ml" 148 3862 3868 "exists.ml" 149 3911 3938
+type(
+  unit
+)
+"exists.ml" 137 3640 3646 "exists.ml" 149 3911 3938
+type(
+  unit
+)
+"exists.ml" 136 3608 3614 "exists.ml" 149 3911 3938
+type(
+  unit
+)
+"exists.ml" 135 3574 3588 "exists.ml" 150 3939 3944
+type(
+  string * Ast_exist.state list -> unit
+)
+"exists.ml" 150 3939 3945 "exists.ml" 150 3939 3952
+type(
+  (string * Ast_exist.state list) list
+)
+ident(
+  int_ref entries "exists.ml" 131 3422 3439 "exists.ml" 131 3422 3446
+)
+"exists.ml" 135 3574 3578 "exists.ml" 150 3939 3952
+type(
+  unit
+)
+"exists.ml" 151 3954 3958 "exists.ml" 151 3954 3967
+type(
+  out_channel -> unit
+)
+ident(
+  int_ref Stdlib.close_out "stdlib.mli" 1050 38733 38733 "stdlib.mli" 1050 38733 38768
+)
+"exists.ml" 151 3954 3968 "exists.ml" 151 3954 3970
+type(
+  out_channel
+)
+ident(
+  int_ref ch "exists.ml" 130 3385 3391 "exists.ml" 130 3385 3393
+)
+"exists.ml" 151 3954 3958 "exists.ml" 151 3954 3970
+type(
+  unit
+)
+"exists.ml" 135 3574 3578 "exists.ml" 151 3954 3970
+type(
+  unit
+)
+"exists.ml" 134 3547 3551 "exists.ml" 151 3954 3970
+type(
+  unit
+)
+"exists.ml" 133 3487 3491 "exists.ml" 151 3954 3970
+type(
+  unit
+)
+"exists.ml" 132 3457 3461 "exists.ml" 151 3954 3970
+type(
+  unit
+)
+"exists.ml" 131 3422 3424 "exists.ml" 151 3954 3970
+type(
+  unit
+)
+"exists.ml" 130 3385 3387 "exists.ml" 151 3954 3970
+type(
+  unit
+)
