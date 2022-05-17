@@ -72,7 +72,7 @@ let options = [
   "-o", Arg.Set_string outfile, "file path to an output file";
   "--outfile", Arg.Set_string outfile, "file path to an output file";
   "--prefix", Arg.Set_string prefix, "path prefix of the source directories (to properly parse Org files)";
-  "--profile", Arg.Unit (fun () -> Bolt.Logger.log "*** PROFILING ENABLED ***" Bolt.Level.TRACE "";
+  "--profile", Arg.Unit (fun () -> Bolt.Logger.log "" Bolt.Level.TRACE "*** PROFILING ENABLED ***" ;
 			   Debug.profile := Debug.PALL), " gather timing information about the main functions";
   "--eps", Arg.Clear pdf, " disable the (default) generation of PDF with 'epstopdf'";
   "--png", Arg.Set png, " enable the generation of png images (in default mode)";
@@ -136,7 +136,7 @@ let main aligned =
 	      Version ->
 	       print_endline ("Herodotos version "^ Global.version);
                let pmsg=Printf.sprintf "CPU: %d" (Parmap.get_default_ncores ()) in
-		Bolt.Logger.log pmsg Bolt.Level.DEBUG ""
+		Bolt.Logger.log "" Bolt.Level.DEBUG pmsg
 	    | Help | Longhelp ->
 	      Arg.usage aligned usage_msg;
 	      
@@ -170,46 +170,46 @@ let main aligned =
 			      let ast = Org.parse_org !verbose1 !orgfile in
 			      if ast = [] then
                                 let orgf=Printf.sprintf "Empty Org file: %s" !orgfile in
-				Bolt.Logger.log orgf Bolt.Level.WARN ""
+				Bolt.Logger.log "" Bolt.Level.WARN orgf
 			      else
 				begin
                                   let msg=Printf.sprintf "Checking %d elements..." (List.length ast) in 
-				  Bolt.Logger.log msg Bolt.Level.INFO "";
+				  Bolt.Logger.log "" Bolt.Level.INFO msg;
 				  let formatted =
 				    try
 				      Org.format_orgs !prefix 1 ast
 				    with Misc.Strip msg ->
                                       let msgg= Printf.sprintf "Error: %s" msg in
-				      Bolt.Logger.log msgg Bolt.Level.FATAL "";
+				      Bolt.Logger.log "" Bolt.Level.FATAL msgg;
 				      failwith msg
 				  in
                                   let msg=Printf.sprintf "Converting %d elements..." (List.length formatted) in
-				  Bolt.Logger.log msg Bolt.Level.INFO "";
+				  Bolt.Logger.log "" Bolt.Level.INFO msg;
 				  if formatted = [] then
-				    Bolt.Logger.log "Conversion failed!" Bolt.Level.ERROR ""
+				    Bolt.Logger.log "" Bolt.Level.ERROR "Conversion failed!"
 				  else
 				    let filtered =
 				      if !extract = "" then
-					(Bolt.Logger.log "No extraction to perform" Bolt.Level.INFO "";
+					(Bolt.Logger.log "" Bolt.Level.INFO "No extraction to perform";
 					 formatted)
 				      else
 					(let msg=Printf.sprintf  "Extracting version tagged '%s'" !extract in
-                                         Bolt.Logger.log msg Bolt.Level.INFO "";
+                                         Bolt.Logger.log "" Bolt.Level.INFO msg;
 					 Orgfilter.filter_version !extract !prefix formatted)
 				    in
 				    try
 				      let out = if !outfile = "" then stdout else open_out !outfile in
 				      Org.print_orgs_raw out !prefix filtered;
 				      if !outfile <> "" then close_out out;
-				      Bolt.Logger.log "Done!" Bolt.Level.INFO ""
-				    with _ -> (let msg=Printf.sprintf "Fail to write to %s" !outfile in Bolt.Logger.log msg Bolt.Level.ERROR "");
+				      Bolt.Logger.log "" Bolt.Level.INFO "Done!"
+				    with _ -> (let msg=Printf.sprintf "Fail to write to %s" !outfile in Bolt.Logger.log "" Bolt.Level.ERROR msg);
 				end
 			    ) else (
-			      Bolt.Logger.log "*** ERROR *** Prefix not set" Bolt.Level.ERROR "";
+			      Bolt.Logger.log "" Bolt.Level.ERROR "*** ERROR *** Prefix not set";
 			      failwith "No prefix set"
 			    )
 			  ) else (
-			    Bolt.Logger.log "*** ERROR *** Org file not set" Bolt.Level.ERROR "";
+			    Bolt.Logger.log "" Bolt.Level.ERROR "*** ERROR *** Org file not set";
 			    failwith "No org file set"
 			  )
 			)
@@ -217,9 +217,9 @@ let main aligned =
 		      Debug.profile_code "graph generation"
 			(fun () ->
                           let msg=Printf.sprintf "Herodotos version %s" Global.version in 
-			  Bolt.Logger.log msg Bolt.Level.INFO "";
+			  Bolt.Logger.log "" Bolt.Level.INFO msg;
                           let msg=Printf.sprintf "Processing %s" !configfile in 
-			  Bolt.Logger.log msg Bolt.Level.INFO "";
+			  Bolt.Logger.log "" Bolt.Level.INFO msg;
 			  Cfgmode.graph_gen !verbose1 !verbose2 !verbose3 !configfile !pdf !png !web !freearg;
 			)
 		    | Erase ->
@@ -239,15 +239,15 @@ let main aligned =
 			  (* For converting Org file to SQL entries *)
 			  if ((String.length !orgfile) <> 0) then
 			    begin
-			      if ((String.length !prefix) = 0) then Bolt.Logger.log "*** WARNING *** Prefix not set" Bolt.Level.WARN "";
-			      Bolt.Logger.log "Parsing...\n" Bolt.Level.INFO "";
+			      if ((String.length !prefix) = 0) then Bolt.Logger.log "" Bolt.Level.WARN "*** WARNING *** Prefix not set";
+			      Bolt.Logger.log "" Bolt.Level.INFO "Parsing...\n";
 			      let ast = Org.parse_org false !orgfile in
 			      if ast = [] then
-				Bolt.Logger.log "Empty Org file" Bolt.Level.WARN ""
+				Bolt.Logger.log "" Bolt.Level.WARN "Empty Org file"
 			      else
 				begin
                                   let msg=Printf.sprintf "Checking... (%d elements)" (List.length ast) in
-				  Bolt.Logger.log msg Bolt.Level.INFO "";
+				  Bolt.Logger.log "" Bolt.Level.INFO msg;
 				  if !Misc.debug then
 				    (Misc.print_stack (List.map (Org.make_org "") ast);
 				     prerr_newline ()
@@ -258,10 +258,10 @@ let main aligned =
 				    with Misc.Strip msg -> (msg, [])
 				  in
                                   let msgg=Printf.sprintf "Converting... (%d elements)" (List.length formatted) in
-				  Bolt.Logger.log msgg Bolt.Level.INFO "";
+				  Bolt.Logger.log "" Bolt.Level.INFO msgg;
  				  if msg <> "" then let msggg=Printf.sprintf "%s" msg in Bolt.Logger.log msggg Bolt.Level.ERROR "";
 				  if formatted = [] then
-				    Bolt.Logger.log "Failed!" Bolt.Level.FATAL ""
+				    Bolt.Logger.log "" Bolt.Level.FATAL "Failed!"
 				  else
 				    (if !sql then
 					Sql.print_orgs stdout !prefix !orgfile formatted
@@ -304,22 +304,22 @@ let anon_fun = fun
 let _ =
   Bolt.Logger.register "" Bolt.Level.INFO "all" "default" ""(Bolt.Mode.direct ()) (*I set the pass filter nameto "" *)
     "file" ("<stderr>", {Bolt.Output.seconds_elapsed = None; Bolt.Output.signal_caught = None});
-  Bolt.Logger.log "*** START ***" Bolt.Level.TRACE "";
-  Array.iteri (fun i opt ->let msg=Printf.sprintf "Option %d: %s" i opt in Bolt.Logger.log msg Bolt.Level.TRACE "") Sys.argv;
+  Bolt.Logger.log "" Bolt.Level.TRACE "*** START ***";
+  Array.iteri (fun i opt ->let msg=Printf.sprintf "Option %d: %s" i opt in Bolt.Logger.log "" Bolt.Level.TRACE msg) Sys.argv;
   let aligned = Arg.align options in
     (try
       Arg.parse_argv Sys.argv aligned anon_fun usage_msg;
     with Arg.Bad msg ->
-      (Bolt.Logger.log msg Bolt.Level.FATAL ""; exit 0));
+      (Bolt.Logger.log "" Bolt.Level.FATAL msg; exit 0));
   (try main aligned
    with e ->
      let msg=Printf.sprintf "Exception: %s" (Printexc.to_string e) in
-     Bolt.Logger.log msg Bolt.Level.FATAL "";
+     Bolt.Logger.log "" Bolt.Level.FATAL msg;
      Debug.trace (Printexc.get_backtrace ());
      exit 1);
   if !Debug.profile <> Debug.PNONE then
     Debug.trace (Debug.profile_diagnostic ());
-  Bolt.Logger.log "*** END ***" Bolt.Level.TRACE ""
+  Bolt.Logger.log "" Bolt.Level.TRACE "*** END ***"
 
 (* For ratio computation *)
 (*

@@ -2,25 +2,28 @@
 let build_updated_cache cache_projects withsizes =
   Setup.PrjTbl.fold 
     (fun prj _ cache ->
-      Bolt.Logger.log "Processing %s for cache" prj Bolt.Level.INFO;
+      let logmsg=Printf.sprintf "Processing %s for cache" prj in
+      Bolt.Logger.log logmsg Bolt.Level.INFO "";
       (* Check for a regular expression *)
       let re = Config.get_versionsRE prj in
       try
 	let cacheddata = List.assoc prj cache_projects in
-	Bolt.Logger.log "Data found in the cache for %s" prj Bolt.Level.INFO;
+        let logmsg2=Printf.sprintf "Data found in the cache for %s" prj in
+	Bolt.Logger.log logmsg2 Bolt.Level.INFO "";
 	if re <> "" then
 	  let infos = Cpt_scm_stats.extract_vers_infos prj re cacheddata withsizes in
 	  (prj, infos)::cache
 	else
 	  (prj, cacheddata)::cache
       with Not_found ->
-	Bolt.Logger.log "No data in cache for %s" prj Bolt.Level.INFO;
+        let logmsg3=Printf.sprintf "No data in cache for %s" prj in
+	Bolt.Logger.log logmsg3 Bolt.Level.INFO "";
 	let versinfos =
 	  try
 	    List.map (fun (name, days, date, size) -> (name, date, size))
 	      (Array.to_list (snd (Config.get_versinfos prj)))
 	  with _ ->
-	    Bolt.Logger.log "No version information manually provided." Bolt.Level.DEBUG;
+	    Bolt.Logger.log "No version information manually provided." Bolt.Level.DEBUG "";
 	    []
 	in
 	if re <> "" then
@@ -29,12 +32,12 @@ let build_updated_cache cache_projects withsizes =
 	else
 	  if versinfos = [] then
 	    begin
-	      Bolt.Logger.log "No data source provided." Bolt.Level.FATAL;
+	      Bolt.Logger.log "No data source provided." Bolt.Level.FATAL "";
 	      failwith "No data source provided."
 	    end
 	  else
 	    begin
-	      Bolt.Logger.log "Use only user provided data." Bolt.Level.INFO;
+	      Bolt.Logger.log "Use only user provided data." Bolt.Level.INFO "";
 	      (prj, versinfos)::cache
 	    end
     )
@@ -53,7 +56,7 @@ let  print_cache out_channel prj_cache =
 
 let preinit v1 v2 v3 configfile withsizes =
   ignore(Config.parse_config_no_cache configfile);
-  Bolt.Logger.log "Config parsing OK!" Bolt.Level.INFO;
+  Bolt.Logger.log "Config parsing OK!" Bolt.Level.INFO "";
   (*  Config.show_config ();*)
   let cache_file = ".projects_"^configfile in
   let cache =

@@ -38,7 +38,7 @@ let map_to_size bugfile_ext =
 let clean_file exist editfile =
   if Sys.file_exists editfile then
     begin
-      if exist then Bolt.Logger.log "*** INFO *** %s is thus removed." Bolt.Level.INFO editfile;
+      if exist then let msg=Printf.sprintf "*** INFO *** %s is thus removed." editfile in Bolt.Logger.log msg Bolt.Level.INFO "";
       Sys.remove editfile
     end
 
@@ -105,7 +105,7 @@ let correl_patt_prj v1 v2 v3 cpucore diffalgo bugfile_ext =
 	      then ""
 	      else "" (* " "^string_of_int new_bugs^ " new REPORTS (potential BUGS)." *)
 	    in
-	    let msg = Printf.sprintf "%- 10s %- 16s\t% 5d / % 6d (% 5d TODO)%s%s" p patt ccount count todos todostr bug_msg in
+	    let msg = Printf.sprintf "%s 10s %s 16s\t%d 5d / %d 6d (%d 5d TODO)%s%s" p patt ccount count todos todostr bug_msg in
 	    Bolt.Logger.log msg Bolt.Level.INFO "";
 	    if !Misc.debug then
 	      (Diff.show_diff v3 vlist diffs1;
@@ -113,16 +113,19 @@ let correl_patt_prj v1 v2 v3 cpucore diffalgo bugfile_ext =
 	    if todos = 0 then
 	      if not (Sys.file_exists bugfile_ext)
 	      then (write_org bugfile_ext prefix orgs2; (*edition du .new.org *)
-		    Bolt.Logger.log "*** NEW FILE TO EDIT *** %s" Bolt.Level.INFO bugfile_ext)  
+                    let log=Printf.sprintf "*** NEW FILE TO EDIT *** %s" bugfile_ext in 
+		    Bolt.Logger.log log Bolt.Level.INFO "")  
 	      else
 		let exist = Sys.file_exists editfile in
 		let cleanorgs = reparse_org editfile prefix depth vlist orgs2 in
 		Org.sort annots;
  		if not (cleanorgs = annots) then
-		  Bolt.Logger.log "*** NEW FILE TO EDIT *** %s" Bolt.Level.INFO editfile
+                  let msgg=Printf.sprintf "*** NEW FILE TO EDIT *** %s" editfile in
+		  Bolt.Logger.log msgg Bolt.Level.INFO ""
 		else
 		  begin
-		    Bolt.Logger.log "*** INFO *** %s is up to date." Bolt.Level.INFO bugfile_ext;
+                    let msg=Printf.sprintf "*** INFO *** %s is up to date." bugfile_ext in
+		    Bolt.Logger.log msg Bolt.Level.INFO "";
 		    if not !Misc.debug
 		    then clean_file exist editfile
 		    else
@@ -130,7 +133,8 @@ let correl_patt_prj v1 v2 v3 cpucore diffalgo bugfile_ext =
 			let ch = open_out editfile in
 			let cleanlist = Org.list_of_bug_array annots in
 			Org.print_bugs_raw ch prefix cleanlist;
-			Bolt.Logger.log "*** INFO *** %s contains a sorted version." Bolt.Level.INFO editfile;
+                        let msggg=Printf.sprintf "*** INFO *** %s contains a sorted version." editfile in
+			Bolt.Logger.log msggg Bolt.Level.INFO "";
 		      end
 		  end
 	    else
@@ -138,10 +142,12 @@ let correl_patt_prj v1 v2 v3 cpucore diffalgo bugfile_ext =
 		write_org editfile prefix orgs2
 	  end
 	else
-	  Bolt.Logger.log "*** NO CORREL *** %s" Bolt.Level.INFO orgfile
+          let logmsg=Printf.sprintf "*** NO CORREL *** %s" orgfile in
+	  Bolt.Logger.log logmsg Bolt.Level.INFO ""
     else
       if Config.get_format patt = Ast_config.Org then
-	Bolt.Logger.log "*** SKIP (NOT FOUND) *** %s" Bolt.Level.WARN orgfile
+        let logmsg=Printf.sprintf "*** SKIP (NOT FOUND) *** %s" orgfile in
+	Bolt.Logger.log logmsg Bolt.Level.WARN ""
 
 let correl_patt_prj_nofail v1 v2 v3 cpucore diffalgo file =
   try
@@ -149,16 +155,20 @@ let correl_patt_prj_nofail v1 v2 v3 cpucore diffalgo file =
       correl_patt_prj v1 v2 v3 cpucore diffalgo file;
       0
     with Config.Warning msg ->
-      Bolt.Logger.log "*** WARNING *** %s" Bolt.Level.WARN msg;
+      let logmsg=Printf.sprintf "*** WARNING *** %s" msg in
+      Bolt.Logger.log logmsg Bolt.Level.WARN "";
       1
   with
-      Misc.Strip msg ->
-	Bolt.Logger.log "*** FATAL *** Precessing %s" Bolt.Level.FATAL file;
-	Bolt.Logger.log "*** FATAL *** %s" Bolt.Level.FATAL msg;
+    Misc.Strip msg ->
+     let logmsg=Printf.sprintf "*** FATAL *** Precessing %s" file in
+     Bolt.Logger.log logmsg Bolt.Level.FATAL "";
+     let logmsg2=Printf.sprintf "*** FATAL *** %s" msg in
+	Bolt.Logger.log logmsg2 Bolt.Level.FATAL "";
 	Debug.trace (Printexc.get_backtrace ());
 	1
-    | e ->
-      Bolt.Logger.log "*** FATAL *** %s" Bolt.Level.FATAL (Printexc.to_string e);
+  | e ->
+     let logmsg3=Printf.sprintf "*** FATAL *** %s" (Printexc.to_string e) in
+      Bolt.Logger.log logmsg3 Bolt.Level.FATAL "";
       Debug.trace (Printexc.get_backtrace ());
       1
 
@@ -167,15 +177,19 @@ let run_correl_job v1 v2 v3 cpucore diffalgo file =
     if pid = 0 then (* I'm a slave *)
       begin
 	(if !Misc.debug then
-	    let pid = Unix.getpid() in
-	    Bolt.Logger.log "New child %d on %s" Bolt.Level.TRACE (string_of_int(pid) ^ file)
+	   let pid = Unix.getpid() in
+           let logmsg=Printf.sprintf "New child %d on %s" pid file in
+	    Bolt.Logger.log logmsg Bolt.Level.TRACE ""
 	 else
-	    Bolt.Logger.log "New child on %s" Bolt.Level.TRACE file);
+           let logmsg2=Printf.sprintf "New child on %s" file in
+	    Bolt.Logger.log logmsg2 Bolt.Level.TRACE "");
 	let ret = correl_patt_prj_nofail v1 v2 v3 cpucore diffalgo file in
 	(if !Misc.debug then
-	    Bolt.Logger.log "Job done for child %d - exit %d" Bolt.Level.TRACE (string_of_int(pid) ^ string_of_int(ret))
+           let logmsg3=Printf.sprintf "Job done for child %d - exit %d" pid ret in
+	    Bolt.Logger.log logmsg3 Bolt.Level.TRACE ""
 	 else
-	    Bolt.Logger.log "Job done for child - exit %d" Bolt.Level.TRACE ("" ^ string_of_int(ret))
+           let logmsg4=Printf.sprintf  "Job done for child - exit %d" ret in
+	    Bolt.Logger.log logmsg4 Bolt.Level.TRACE ""
 	);
 	let msg = Debug.profile_diagnostic () in
 	if msg <> "" then
@@ -194,9 +208,11 @@ let dispatch_correl_job v1 v2 v3 cpucore diffalgo (perr, pidlist) file :int*int 
 	| _ -> true
       in
       (if !Misc.debug then
-	  Bolt.Logger.log "Master: Job done for child %d - error status %b" Bolt.Level.TRACE (string_of_int(death) ^ string_of_bool(child_err))
+         let logmsg=Printf.sprintf "Master: Job done for child %d - error status %b" death child_err in
+	  Bolt.Logger.log logmsg Bolt.Level.TRACE ""
        else
-	  Bolt.Logger.log "Master: Job done for child - error status %b" Bolt.Level.TRACE ("" ^ string_of_bool(child_err))
+         let logmsg=Printf.sprintf "Master: Job done for child - error status %b" child_err in
+	  Bolt.Logger.log logmsg Bolt.Level.TRACE ""
       );
       let error = if child_err then perr + 1 else perr in
 	  (error, List.filter (fun x -> x <> death) pidlist)
@@ -213,7 +229,7 @@ let correl v1 v2 v3 configfile diffalgo filter =
   let unorder_bugfiles = (Cfghelper.get_bugset_gen filter) in
   let size_of = List.map map_to_size unorder_bugfiles in   
   let order = List.sort (fun a b -> -(compare (fst a) (fst b))) size_of in
-  List.iter (fun (s, n) -> Bolt.Logger.log "%d %s" Bolt.Level.DEBUG (string_of_int(s) ^ n)) order;
+  List.iter (fun (s, n) -> let logmsg=Printf.sprintf "%d %s" s n in Bolt.Logger.log logmsg Bolt.Level.DEBUG "") order;
   let bugfiles = snd (List.split order) in 
   let cpucore = Setup.getCPUcore () in
   let error =
@@ -229,17 +245,20 @@ let correl v1 v2 v3 configfile diffalgo filter =
 	  | _ -> true
 	in
 	(if !Misc.debug then
-	    Bolt.Logger.log "Master: Job done for child %d - error status %b" Bolt.Level.TRACE (string_of_int(death) ^ string_of_bool(child_err))
+           let logmsg2=Printf.sprintf "Master: Job done for child %d - error status %b" death child_err in
+	    Bolt.Logger.log logmsg2 Bolt.Level.TRACE ""
 	 else
-	    Bolt.Logger.log "Master: Job done for child - error status %b" Bolt.Level.TRACE ("" ^ string_of_bool(child_err))
+           let logmsg2=Printf.sprintf "Master: Job done for child - error status %b" child_err in
+	    Bolt.Logger.log logmsg2 Bolt.Level.TRACE ""
 	);
 	if child_err then 1 else 0
       ) pidlist
       in
 	List.fold_left (+) err res
   in
-    if error <> 0 then
-      Bolt.Logger.log ("*** ERROR *** %d error(s) during the correlation.") Bolt.Level.ERROR ("" ^ string_of_int(error))
+  if error <> 0 then
+    let logmsg3=Printf.sprintf "*** ERROR *** %d error(s) during the correlation." error in
+      Bolt.Logger.log logmsg3 Bolt.Level.ERROR ""
 
 
 

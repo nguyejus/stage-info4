@@ -1,2 +1,2 @@
 BOLT_CONFIG=debug.config
--include /Makefile.inc
+-include /usr/local/share/herodotos/Makefile.inc
