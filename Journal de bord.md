@@ -32,3 +32,8 @@ J'espère pouvoir avoir un Herodotos fonctionnel dans les semaines qui viennent.
 # 16/05/22: 2ème semaine de stage jour 1
 1. Refonte du projet dune (suppression des dossiers inutilisés, correction des printf, correction des types dans les logs, makefile vidé)
 2. Tests avec différentes options pour ./herodotos.exe (preinit, init, graph, erase) pour voir leur effets
+
+# 17/05/22: 2ème semaine jour 2
+1.Réunion pour faire le point et répartir le travail avec un autre étudiant (je dois m'occuper de Herodotos pendant qu'il s'occupe de Grid'5000)
+2.Correction d'erreurs de syntaxe du système de logging (l'ordre des arguments entre la version implicite et explicite n'est pas la même)
+
