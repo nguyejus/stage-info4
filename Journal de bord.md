@@ -34,6 +34,10 @@ J'espère pouvoir avoir un Herodotos fonctionnel dans les semaines qui viennent.
 2. Tests avec différentes options pour ./herodotos.exe (preinit, init, graph, erase) pour voir leur effets
 
 # 17/05/22: 2ème semaine jour 2
-1.Réunion pour faire le point et répartir le travail avec un autre étudiant (je dois m'occuper de Herodotos pendant qu'il s'occupe de Grid'5000)
-2.Correction d'erreurs de syntaxe du système de logging (l'ordre des arguments entre la version implicite et explicite n'est pas la même)
+1. Réunion pour faire le point et répartir le travail avec un autre étudiant (je dois m'occuper de Herodotos pendant qu'il s'occupe de Grid'5000)
+2. Correction d'erreurs de syntaxe du système de logging (l'ordre des arguments entre la version implicite et explicite n'est pas le même)
 
+# 18/05/22: 2ème semaine jour 3
+1. Fin de l'adaptation du système de logging
+2. Test de Herodotos avec des versions de Linux, Wine, VLC et OpenSSL(celles fournies dans la base de code)
+3. Recherche d'une solution pour ne plus dépendre de make(champ <code>rule</code> et de <code>action</code> dans le fichier <code>dune</code> par exemple)
