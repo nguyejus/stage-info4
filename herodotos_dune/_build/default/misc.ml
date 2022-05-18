@@ -31,7 +31,7 @@ let dummy_pos = getpos Lexing.dummy_pos 0
 
 let print_error pos str =
   let logmsg=Printf.sprintf "%s" ((print_pos pos) ^ str) in
-  Bolt.Logger.log logmsg Bolt.Level.FATAL "" 
+  Bolt.Logger.log "" Bolt.Level.FATAL logmsg
 
 let report_error pos str =
   print_error pos str;

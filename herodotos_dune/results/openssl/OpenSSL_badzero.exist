@@ -1,0 +1,5 @@
+file;openssl-0.9.8a;openssl-0.9.8b;openssl-0.9.8c;openssl-0.9.8d;openssl-0.9.8e;openssl-0.9.8g;openssl-0.9.8h;openssl-0.9.8i;openssl-0.9.8j;
+crypto/mem.c;false;false;false;false;false;false;false;false;false
+crypto/ecdh/ech_ossl.c;false;false;false;false;false;false;false;false;false
+crypto/sha/sha512.c;false;false;false;false;false;false;false;false;false
+crypto/bio/b_print.c;false;false;false;false;false;false;false;false;false

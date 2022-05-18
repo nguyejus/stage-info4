@@ -1,0 +1,4 @@
+file;linux-2.6.13;linux-2.6.14;linux-2.6.15;linux-2.6.16;linux-2.6.17;linux-2.6.18;linux-2.6.19;linux-2.6.20;linux-2.6.21;linux-2.6.22;linux-2.6.23;linux-2.6.24;linux-2.6.25;linux-2.6.26;linux-2.6.27;linux-2.6.28;
+scripts/genksyms/genksyms.c;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false
+drivers/zorro/gen-devlist.c;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false
+drivers/media/dvb/ttpci/fdump.c;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false

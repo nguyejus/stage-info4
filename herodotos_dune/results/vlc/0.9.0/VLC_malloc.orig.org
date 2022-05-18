@@ -1,0 +1,6 @@
+* TODO [[view:./projects/vlc/0.9.0/modules/misc/xml/xtag.c::face=ovl-face1::linb=646::colb=23::cole=26][ ./projects/vlc/0.9.0/modules/misc/xml/xtag.c::646]]
+[[view:./projects/vlc/0.9.0/modules/misc/xml/xtag.c::face=ovl-face2::linb=647::colb=81::cole=87][]]
+* TODO [[view:./projects/vlc/0.9.0/modules/demux/subtitle.c::face=ovl-face1::linb=1851::colb=8::cole=16][ ./projects/vlc/0.9.0/modules/demux/subtitle.c::1851]]
+[[view:./projects/vlc/0.9.0/modules/demux/subtitle.c::face=ovl-face2::linb=1849::colb=12::cole=18][]]
+* TODO [[view:./projects/vlc/0.9.0/modules/demux/subtitle.c::face=ovl-face1::linb=1851::colb=8::cole=16][ ./projects/vlc/0.9.0/modules/demux/subtitle.c::1851]]
+[[view:./projects/vlc/0.9.0/modules/demux/subtitle.c::face=ovl-face2::linb=1899::colb=12::cole=18][]]

@@ -1,0 +1,11 @@
+* BUG [[view:./projects/wine/wine-0.9.21/dlls/wined3d/drawprim.c::face=ovl-face1::linb=403::colb=8::cole=15][dlls/wined3d/drawprim.c]]
+ [[view:./projects/wine/wine-0.9.21/dlls/wined3d/drawprim.c::face=ovl-face1::linb=403::colb=8::cole=15][./projects/wine/wine-0.9.21/dlls/wined3d/drawprim.c::403]]
+ [[view:./projects/wine/wine-0.9.26/dlls/wined3d/drawprim.c::face=ovl-face1::linb=395::colb=8::cole=15][./projects/wine/wine-0.9.26/dlls/wined3d/drawprim.c::395]]
+ [[view:./projects/wine/wine-0.9.30/dlls/wined3d/drawprim.c::face=ovl-face1::linb=135::colb=8::cole=15][./projects/wine/wine-0.9.30/dlls/wined3d/drawprim.c::135]]
+ [[view:./projects/wine/wine-0.9.36/dlls/wined3d/drawprim.c::face=ovl-face1::linb=136::colb=8::cole=15][./projects/wine/wine-0.9.36/dlls/wined3d/drawprim.c::136]]
+ [[view:./projects/wine/wine-0.9.41/dlls/wined3d/drawprim.c::face=ovl-face1::linb=136::colb=8::cole=15][./projects/wine/wine-0.9.41/dlls/wined3d/drawprim.c::136]]
+ [[view:./projects/wine/wine-0.9.47/dlls/wined3d/drawprim.c::face=ovl-face1::linb=136::colb=8::cole=15][./projects/wine/wine-0.9.47/dlls/wined3d/drawprim.c::136]]
+
+* org config
+
+#+SEQ_TODO: TODO | BUG FP

@@ -1,0 +1,16 @@
+file;openssl-0.9.8a;openssl-0.9.8b;openssl-0.9.8c;openssl-0.9.8d;openssl-0.9.8e;openssl-0.9.8g;openssl-0.9.8h;openssl-0.9.8i;openssl-0.9.8j;
+fips/des/fips_desmovs.c;false;false;false;false;false;false;false;false;16176;
+fips/aes/fips_aesavs.c;false;false;false;false;false;false;false;false;20665;
+test/fips_aesavs.c;false;false;false;false;false;false;false;false;20665;
+test/fips_desmovs.c;false;false;false;false;false;false;false;false;16176;
+crypto/cms/cms_io.c;false;false;false;false;false;false;4482;4482;4482;
+bugs/sgiccbug.c;1304;1304;1304;1304;1304;1304;1304;1304;1304;
+apps/s_socket.c;15323;15323;15323;15323;15323;15323;15323;15323;15323;
+demos/engines/cluster_labs/hw_cluster_labs.c;19596;19596;19596;19596;19596;19596;19596;19596;19596;
+engines/e_gmp.c;12221;12221;12221;12221;12221;12221;12989;13124;13124;
+crypto/des/read_pwd.c;12301;12301;12301;12301;12301;12301;12301;12301;12301;
+crypto/pkcs7/dec.c;7657;7657;7657;7657;7657;7657;7657;7657;7657;
+crypto/pkcs7/verify.c;7793;7793;7793;7793;7793;7793;7793;7793;7793;
+crypto/asn1/tasn_dec.c;31015;31186;31214;31231;31237;31223;31215;31215;31213;
+ssl/d1_both.c;36134;36134;36134;36134;36134;32567;32567;32567;32567;
+ssl/t1_enc.c;25210;25210;25540;25540;25610;26026;26026;26197;26365;

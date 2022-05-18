@@ -1,0 +1,14 @@
+file;0.8.2;0.8.4;0.8.4b;0.8.5;0.8.6;0.8.6a;0.8.6b;0.8.6c;0.8.6d;0.8.6e;0.8.6f;0.8.6g;0.8.6h;0.8.6i;0.9.0;0.9.4;0.9.8a;
+src/input/input.c;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false
+src/playlist/engine.c;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false
+modules/misc/notify/xosd.c;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false
+modules/video_filter/motiondetect.c;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false
+modules/misc/svg.c;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false
+src/network/httpd.c;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false
+src/misc/httpd.c;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false
+src/misc/threads.c;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false
+src/audio_output/dec.c;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false
+modules/visualization/xosd.c;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false
+modules/access/cdda/info.c;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false
+modules/access/vcdx/vcdplayer.c;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false
+modules/codec/dvbsub.c;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false

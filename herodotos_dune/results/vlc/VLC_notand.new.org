@@ -1,0 +1,23 @@
+* BUG [[view:./projects/vlc/0.9.0/modules/misc/lua/libs/variables.c::face=ovl-face1::linb=210::colb=8::cole=9][modules/misc/lua/libs/variables.c]]
+ [[view:./projects/vlc/0.9.0/modules/misc/lua/libs/variables.c::face=ovl-face1::linb=210::colb=8::cole=9][./projects/vlc/0.9.0/modules/misc/lua/libs/variables.c::210]]
+ [[view:./projects/vlc/0.9.4/modules/misc/lua/libs/variables.c::face=ovl-face1::linb=240::colb=8::cole=9][./projects/vlc/0.9.4/modules/misc/lua/libs/variables.c::240]]
+ [[view:./projects/vlc/0.9.8a/modules/misc/lua/libs/variables.c::face=ovl-face1::linb=240::colb=8::cole=9][./projects/vlc/0.9.8a/modules/misc/lua/libs/variables.c::240]]
+* BUG [[view:./projects/vlc/0.8.2/src/playlist/playlist.c::face=ovl-face1::linb=352::colb=12::cole=13][src/playlist/playlist.c]]
+ [[view:./projects/vlc/0.8.2/src/playlist/playlist.c::face=ovl-face1::linb=352::colb=12::cole=13][./projects/vlc/0.8.2/src/playlist/playlist.c::352]]
+ [[view:./projects/vlc/0.8.4/src/playlist/playlist.c::face=ovl-face1::linb=384::colb=12::cole=13][./projects/vlc/0.8.4/src/playlist/playlist.c::384]]
+ [[view:./projects/vlc/0.8.4b/src/playlist/playlist.c::face=ovl-face1::linb=384::colb=12::cole=13][./projects/vlc/0.8.4b/src/playlist/playlist.c::384]]
+ [[view:./projects/vlc/0.8.5/src/playlist/playlist.c::face=ovl-face1::linb=395::colb=12::cole=13][./projects/vlc/0.8.5/src/playlist/playlist.c::395]]
+ [[view:./projects/vlc/0.8.6/src/playlist/playlist.c::face=ovl-face1::linb=395::colb=12::cole=13][./projects/vlc/0.8.6/src/playlist/playlist.c::395]]
+ [[view:./projects/vlc/0.8.6a/src/playlist/playlist.c::face=ovl-face1::linb=395::colb=12::cole=13][./projects/vlc/0.8.6a/src/playlist/playlist.c::395]]
+ [[view:./projects/vlc/0.8.6b/src/playlist/playlist.c::face=ovl-face1::linb=395::colb=12::cole=13][./projects/vlc/0.8.6b/src/playlist/playlist.c::395]]
+ [[view:./projects/vlc/0.8.6c/src/playlist/playlist.c::face=ovl-face1::linb=395::colb=12::cole=13][./projects/vlc/0.8.6c/src/playlist/playlist.c::395]]
+ [[view:./projects/vlc/0.8.6d/src/playlist/playlist.c::face=ovl-face1::linb=395::colb=12::cole=13][./projects/vlc/0.8.6d/src/playlist/playlist.c::395]]
+ [[view:./projects/vlc/0.8.6e/src/playlist/playlist.c::face=ovl-face1::linb=395::colb=12::cole=13][./projects/vlc/0.8.6e/src/playlist/playlist.c::395]]
+ [[view:./projects/vlc/0.8.6f/src/playlist/playlist.c::face=ovl-face1::linb=395::colb=12::cole=13][./projects/vlc/0.8.6f/src/playlist/playlist.c::395]]
+ [[view:./projects/vlc/0.8.6g/src/playlist/playlist.c::face=ovl-face1::linb=403::colb=12::cole=13][./projects/vlc/0.8.6g/src/playlist/playlist.c::403]]
+ [[view:./projects/vlc/0.8.6h/src/playlist/playlist.c::face=ovl-face1::linb=403::colb=12::cole=13][./projects/vlc/0.8.6h/src/playlist/playlist.c::403]]
+ [[view:./projects/vlc/0.8.6i/src/playlist/playlist.c::face=ovl-face1::linb=403::colb=12::cole=13][./projects/vlc/0.8.6i/src/playlist/playlist.c::403]]
+
+* org config
+
+#+SEQ_TODO: TODO | BUG FP

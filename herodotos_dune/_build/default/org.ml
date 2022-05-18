@@ -173,7 +173,7 @@ let parse_line file lnum line : (int * Ast_org.org) option =
 	  ("Org Parser Error: unexpected token '" ^ (Lexing.lexeme lexbuf) ^"'")
   with Sys_error msg ->
     (let logmsg=Printf.sprintf "*** WARNING *** %s" msg in
-    Bolt.Logger.log logmsg Bolt.Level.WARN "");
+    Bolt.Logger.log "" Bolt.Level.WARN logmsg);
     None
 
 let push_stack stack org =
@@ -283,7 +283,7 @@ let parse_org v file : Ast_org.orgs =
 	   ast
        with Sys_error msg ->
          (let logmsg=Printf.sprintf "*** WARNING *** %s" msg in
-	 Bolt.Logger.log logmsg Bolt.Level.WARN "");
+	 Bolt.Logger.log "" Bolt.Level.WARN logmsg);
 	 []
     )
 
@@ -428,23 +428,23 @@ let show_buglist verbose bugs =
   count := 0;
   List.iter (fun bug ->
       (let logmsg=Printf.sprintf "#%03d %s" !count (show_bug verbose bug) in
-    Bolt.Logger.log logmsg Bolt.Level.TRACE "");
+    Bolt.Logger.log "" Bolt.Level.TRACE logmsg);
     count := !count + 1;
   ) bugs
 
 let show_org verbose prefix (orgs: (string*Ast_org.bugs  list) list) =
   count := 0;
-  Bolt.Logger.log "SHOW ORG" Bolt.Level.TRACE "";
+  Bolt.Logger.log "" Bolt.Level.TRACE "SHOW ORG";
   let logmsg=Printf.sprintf "Prefix used: %s" prefix in
-  Bolt.Logger.log logmsg Bolt.Level.TRACE "";
+  Bolt.Logger.log "" Bolt.Level.TRACE logmsg;
   List.iter (fun (file, bugslist) ->
-    Bolt.Logger.log file Bolt.Level.TRACE "";
+    Bolt.Logger.log "" Bolt.Level.TRACE file;
     List.iter (fun bugs ->
       let vers = String.concat " -> "
 	(List.map (show_bug verbose) bugs)
       in
       let logmsg=Printf.sprintf "#%03d in vers. %s" !count vers in
-      Bolt.Logger.log logmsg Bolt.Level.TRACE "";
+      Bolt.Logger.log "" Bolt.Level.TRACE logmsg;
       count := !count + 1
     ) bugslist;
     Bolt.Logger.log "" Bolt.Level.TRACE ""
@@ -476,7 +476,7 @@ let print_bugs ch prefix orgs =
   Printf.fprintf ch "%s" orgtail
 
 let compute_correlation prefix depth correl =
-  Bolt.Logger.log "compute_correlation: start" Bolt.Level.TRACE "";
+  Bolt.Logger.log "" Bolt.Level.TRACE "compute_correlation: start";
   try
     let list = List.map (flat_org prefix depth) correl in
     List.fold_left (fun correllist b ->
@@ -488,24 +488,24 @@ let compute_correlation prefix depth correl =
 	(s, file, ver, pos, nfile, nver, npos, new_t)::correllist
       with Failure msg ->
         (let logmsg=Printf.sprintf "compute_correlation: failure with %s" msg in
-	Bolt.Logger.log logmsg Bolt.Level.FATAL "");
+	Bolt.Logger.log "" Bolt.Level.FATAL logmsg);
 	correllist
     ) [] list
   with Misc.Strip msg ->
     (let logmsg=Printf.sprintf "compute_correlation: failure with %s" msg in
-    Bolt.Logger.log logmsg Bolt.Level.FATAL "");
+    Bolt.Logger.log "" Bolt.Level.FATAL logmsg);
     []
 
 let show_correlation verbose correl =
-  Bolt.Logger.log "SHOW CORRELATION" Bolt.Level.TRACE "";
+  Bolt.Logger.log "" Bolt.Level.TRACE "SHOW CORRELATION";
   List.iter (fun b ->
       let (s, file, ver, pos, nfile, nver, next, t) = b in
       (let logmsg=Printf.sprintf "%s %s %s %s -> %s %s %s"
       (Org_helper.get_status s)
       file ver (get_string_pos pos)
       nfile nver (get_string_pos next) in
-    Bolt.Logger.log logmsg
-      Bolt.Level.TRACE "")
+    Bolt.Logger.log ""
+      Bolt.Level.TRACE logmsg)
   ) correl
 
 let sort_bug bug1 bug2 =

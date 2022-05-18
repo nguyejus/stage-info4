@@ -1,0 +1,3400 @@
+"gumtree.ml" 4 33 37 "gumtree.ml" 4 33 44
+type(
+  string
+)
+ident(
+  def diffcmd "gumtree.ml" 6 73 73 "gumtree.ml" 0 0 -1
+)
+"gumtree.ml" 4 33 47 "gumtree.ml" 4 33 71
+type(
+  string
+)
+"gumtree.ml" 6 73 77 "gumtree.ml" 6 73 87
+type(
+  'a -> string -> string -> ((string * string) * Ast_diff.changes) list
+)
+ident(
+  def parse_diff "gumtree.ml" 34 918 918 "gumtree.ml" 0 0 -1
+)
+"gumtree.ml" 6 73 88 "gumtree.ml" 6 73 89
+type(
+  'a
+)
+ident(
+  def v "gumtree.ml" 6 73 90 "gumtree.ml" 32 878 916
+)
+"gumtree.ml" 6 73 90 "gumtree.ml" 6 73 96
+type(
+  string
+)
+ident(
+  def prefix "gumtree.ml" 6 73 97 "gumtree.ml" 32 878 916
+)
+"gumtree.ml" 6 73 97 "gumtree.ml" 6 73 101
+type(
+  string
+)
+ident(
+  def file "gumtree.ml" 7 104 106 "gumtree.ml" 32 878 916
+)
+"gumtree.ml" 7 104 110 "gumtree.ml" 7 104 118
+type(
+  string * string
+)
+ident(
+  def ver_file "gumtree.ml" 8 154 156 "gumtree.ml" 32 878 916
+)
+"gumtree.ml" 7 104 121 "gumtree.ml" 7 104 138
+type(
+  string -> string -> string * string
+)
+ident(
+  int_ref Misc.strip_prefix "misc.ml" 65 1607 1611 "misc.ml" 65 1607 1623
+)
+"gumtree.ml" 7 104 139 "gumtree.ml" 7 104 145
+type(
+  string
+)
+ident(
+  int_ref prefix "gumtree.ml" 6 73 90 "gumtree.ml" 6 73 96
+)
+"gumtree.ml" 7 104 146 "gumtree.ml" 7 104 150
+type(
+  string
+)
+ident(
+  int_ref file "gumtree.ml" 6 73 97 "gumtree.ml" 6 73 101
+)
+"gumtree.ml" 7 104 121 "gumtree.ml" 7 104 150
+type(
+  string * string
+)
+"gumtree.ml" 8 154 159 "gumtree.ml" 8 154 174
+type(
+  string -> bool
+)
+ident(
+  int_ref Stdlib.Sys.file_exists "sys.mli" 35 1767 1767 "sys.mli" 35 1767 1829
+)
+"gumtree.ml" 8 154 175 "gumtree.ml" 8 154 179
+type(
+  string
+)
+ident(
+  int_ref file "gumtree.ml" 6 73 97 "gumtree.ml" 6 73 101
+)
+"gumtree.ml" 8 154 159 "gumtree.ml" 8 154 179
+type(
+  bool
+)
+"gumtree.ml" 10 195 205 "gumtree.ml" 10 195 211
+type(
+  string
+)
+ident(
+  def logmsg "gumtree.ml" 11 262 268 "gumtree.ml" 29 857 862
+)
+"gumtree.ml" 10 195 212 "gumtree.ml" 10 195 226
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"gumtree.ml" 10 195 227 "gumtree.ml" 10 195 253
+type(
+  (string -> string, unit, string) format
+)
+"gumtree.ml" 10 195 254 "gumtree.ml" 10 195 258
+type(
+  string
+)
+ident(
+  int_ref file "gumtree.ml" 6 73 97 "gumtree.ml" 6 73 101
+)
+"gumtree.ml" 10 195 212 "gumtree.ml" 10 195 258
+type(
+  string
+)
+"gumtree.ml" 11 262 268 "gumtree.ml" 11 262 283
+type(
+  string ->
+  Bolt.Level.t ->
+  ?file:string ->
+  ?line:int ->
+  ?column:int ->
+  ?properties:(string * string) list -> ?error:exn option -> string -> unit
+)
+ident(
+  int_ref Bolt.Logger.log "src/library/logger.mli" 56 2693 2693 "src/library/logger.mli" 57 2768 2843
+)
+"gumtree.ml" 11 262 284 "gumtree.ml" 11 262 286
+type(
+  string
+)
+"gumtree.ml" 11 262 287 "gumtree.ml" 11 262 303
+type(
+  Bolt.Level.t
+)
+"gumtree.ml" 11 262 304 "gumtree.ml" 11 262 310
+type(
+  string
+)
+ident(
+  int_ref logmsg "gumtree.ml" 10 195 205 "gumtree.ml" 10 195 211
+)
+"gumtree.ml" 11 262 268 "gumtree.ml" 11 262 310
+type(
+  unit
+)
+"gumtree.ml" 12 312 322 "gumtree.ml" 12 312 323
+type(
+  in_channel
+)
+ident(
+  def x "gumtree.ml" 13 346 352 "gumtree.ml" 29 857 862
+)
+"gumtree.ml" 12 312 326 "gumtree.ml" 12 312 337
+type(
+  string -> in_channel
+)
+ident(
+  int_ref Stdlib.open_in_bin "stdlib.mli" 1078 39990 39990 "stdlib.mli" 1078 39990 40028
+)
+"gumtree.ml" 12 312 338 "gumtree.ml" 12 312 342
+type(
+  string
+)
+ident(
+  int_ref file "gumtree.ml" 6 73 97 "gumtree.ml" 6 73 101
+)
+"gumtree.ml" 12 312 326 "gumtree.ml" 12 312 342
+type(
+  in_channel
+)
+"gumtree.ml" 14 356 361 "gumtree.ml" 14 356 365
+type(
+  'b
+)
+ident(
+  def tree "gumtree.ml" 15 385 386 "gumtree.ml" 16 398 435
+)
+"gumtree.ml" 14 356 368 "gumtree.ml" 14 356 379
+type(
+  in_channel -> 'b
+)
+ident(
+  int_ref Stdlib.input_value "stdlib.mli" 1145 43110 43110 "stdlib.mli" 1145 43110 43144
+)
+"gumtree.ml" 14 356 380 "gumtree.ml" 14 356 381
+type(
+  in_channel
+)
+ident(
+  int_ref x "gumtree.ml" 12 312 322 "gumtree.ml" 12 312 323
+)
+"gumtree.ml" 14 356 368 "gumtree.ml" 14 356 381
+type(
+  'b
+)
+"gumtree.ml" 15 385 386 "gumtree.ml" 15 385 394
+type(
+  in_channel -> unit
+)
+ident(
+  int_ref Stdlib.close_in "stdlib.mli" 1174 44544 44544 "stdlib.mli" 1174 44544 44577
+)
+"gumtree.ml" 15 385 395 "gumtree.ml" 15 385 396
+type(
+  in_channel
+)
+ident(
+  int_ref x "gumtree.ml" 12 312 322 "gumtree.ml" 12 312 323
+)
+"gumtree.ml" 15 385 386 "gumtree.ml" 15 385 396
+type(
+  unit
+)
+"gumtree.ml" 16 398 401 "gumtree.ml" 16 398 409
+type(
+  string * string
+)
+ident(
+  int_ref ver_file "gumtree.ml" 7 104 110 "gumtree.ml" 7 104 118
+)
+"gumtree.ml" 16 398 429 "gumtree.ml" 16 398 433
+type(
+  Ast_diff.tree
+)
+ident(
+  int_ref tree "gumtree.ml" 14 356 361 "gumtree.ml" 14 356 365
+)
+"gumtree.ml" 16 398 411 "gumtree.ml" 16 398 434
+type(
+  Ast_diff.changes
+)
+"gumtree.ml" 16 398 401 "gumtree.ml" 16 398 434
+type(
+  (string * string) * Ast_diff.changes
+)
+"gumtree.ml" 16 398 400 "gumtree.ml" 16 398 435
+type(
+  ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 15 385 386 "gumtree.ml" 16 398 435
+type(
+  ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 16 398 399 "gumtree.ml" 16 398 436
+type(
+  ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 14 356 357 "gumtree.ml" 16 398 436
+type(
+  ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 18 448 460 "gumtree.ml" 18 448 463
+type(
+  string
+)
+ident(
+  def msg "gumtree.ml" 19 467 477 "gumtree.ml" 22 589 616
+)
+"gumtree.ml" 18 448 449 "gumtree.ml" 18 448 463
+type(
+  exn
+)
+"gumtree.ml" 19 467 481 "gumtree.ml" 19 467 487
+type(
+  string
+)
+ident(
+  def logmsg "gumtree.ml" 20 522 527 "gumtree.ml" 20 522 569
+)
+"gumtree.ml" 19 467 488 "gumtree.ml" 19 467 502
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"gumtree.ml" 19 467 503 "gumtree.ml" 19 467 514
+type(
+  (string -> string, unit, string) format
+)
+"gumtree.ml" 19 467 515 "gumtree.ml" 19 467 518
+type(
+  string
+)
+ident(
+  int_ref msg "gumtree.ml" 18 448 460 "gumtree.ml" 18 448 463
+)
+"gumtree.ml" 19 467 488 "gumtree.ml" 19 467 518
+type(
+  string
+)
+"gumtree.ml" 20 522 527 "gumtree.ml" 20 522 542
+type(
+  string ->
+  Bolt.Level.t ->
+  ?file:string ->
+  ?line:int ->
+  ?column:int ->
+  ?properties:(string * string) list -> ?error:exn option -> string -> unit
+)
+ident(
+  int_ref Bolt.Logger.log "src/library/logger.mli" 56 2693 2693 "src/library/logger.mli" 57 2768 2843
+)
+"gumtree.ml" 20 522 543 "gumtree.ml" 20 522 545
+type(
+  string
+)
+"gumtree.ml" 20 522 546 "gumtree.ml" 20 522 562
+type(
+  Bolt.Level.t
+)
+"gumtree.ml" 20 522 563 "gumtree.ml" 20 522 569
+type(
+  string
+)
+ident(
+  int_ref logmsg "gumtree.ml" 19 467 481 "gumtree.ml" 19 467 487
+)
+"gumtree.ml" 20 522 527 "gumtree.ml" 20 522 569
+type(
+  unit
+)
+"gumtree.ml" 19 467 477 "gumtree.ml" 20 522 569
+type(
+  unit
+)
+"gumtree.ml" 21 572 577 "gumtree.ml" 21 572 585
+type(
+  in_channel -> unit
+)
+ident(
+  int_ref Stdlib.close_in "stdlib.mli" 1174 44544 44544 "stdlib.mli" 1174 44544 44577
+)
+"gumtree.ml" 21 572 586 "gumtree.ml" 21 572 587
+type(
+  in_channel
+)
+ident(
+  int_ref x "gumtree.ml" 12 312 322 "gumtree.ml" 12 312 323
+)
+"gumtree.ml" 21 572 577 "gumtree.ml" 21 572 587
+type(
+  unit
+)
+"gumtree.ml" 22 589 594 "gumtree.ml" 22 589 599
+type(
+  exn -> ((string * string) * Ast_diff.changes) list
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"gumtree.ml" 22 589 612 "gumtree.ml" 22 589 615
+type(
+  string
+)
+ident(
+  int_ref msg "gumtree.ml" 18 448 460 "gumtree.ml" 18 448 463
+)
+"gumtree.ml" 22 589 601 "gumtree.ml" 22 589 615
+type(
+  exn
+)
+"gumtree.ml" 22 589 594 "gumtree.ml" 22 589 616
+type(
+  ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 21 572 577 "gumtree.ml" 22 589 616
+type(
+  ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 19 467 477 "gumtree.ml" 22 589 616
+type(
+  ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 23 617 620 "gumtree.ml" 23 617 621
+type(
+  exn
+)
+ident(
+  def e "gumtree.ml" 24 625 628 "gumtree.ml" 29 857 862
+)
+"gumtree.ml" 24 625 628 "gumtree.ml" 24 625 652
+type(
+  out_channel -> unit
+)
+ident(
+  int_ref Stdlib.Printexc.print_backtrace "printexc.mli" 49 2396 2396 "printexc.mli" 49 2396 2436
+)
+"gumtree.ml" 24 625 653 "gumtree.ml" 24 625 659
+type(
+  out_channel
+)
+ident(
+  int_ref Stdlib.stderr "stdlib.mli" 844 31049 31049 "stdlib.mli" 844 31049 31073
+)
+"gumtree.ml" 24 625 628 "gumtree.ml" 24 625 659
+type(
+  unit
+)
+"gumtree.ml" 25 661 668 "gumtree.ml" 25 661 675
+type(
+  string
+)
+ident(
+  def newfile "gumtree.ml" 26 702 712 "gumtree.ml" 29 857 862
+)
+"gumtree.ml" 25 661 678 "gumtree.ml" 25 661 682
+type(
+  string
+)
+ident(
+  int_ref file "gumtree.ml" 6 73 97 "gumtree.ml" 6 73 101
+)
+"gumtree.ml" 25 661 683 "gumtree.ml" 25 661 684
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"gumtree.ml" 25 661 685 "gumtree.ml" 25 661 698
+type(
+  string
+)
+ident(
+  int_ref Global.failed "global.ml" 13 305 309 "global.ml" 13 305 315
+)
+"gumtree.ml" 25 661 678 "gumtree.ml" 25 661 698
+type(
+  string
+)
+"gumtree.ml" 26 702 716 "gumtree.ml" 26 702 722
+type(
+  string
+)
+ident(
+  def logmsg "gumtree.ml" 27 782 785 "gumtree.ml" 29 857 862
+)
+"gumtree.ml" 26 702 723 "gumtree.ml" 26 702 737
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"gumtree.ml" 26 702 738 "gumtree.ml" 26 702 770
+type(
+  (string -> string, unit, string) format
+)
+"gumtree.ml" 26 702 771 "gumtree.ml" 26 702 778
+type(
+  string
+)
+ident(
+  int_ref newfile "gumtree.ml" 25 661 668 "gumtree.ml" 25 661 675
+)
+"gumtree.ml" 26 702 723 "gumtree.ml" 26 702 778
+type(
+  string
+)
+"gumtree.ml" 27 782 785 "gumtree.ml" 27 782 800
+type(
+  string ->
+  Bolt.Level.t ->
+  ?file:string ->
+  ?line:int ->
+  ?column:int ->
+  ?properties:(string * string) list -> ?error:exn option -> string -> unit
+)
+ident(
+  int_ref Bolt.Logger.log "src/library/logger.mli" 56 2693 2693 "src/library/logger.mli" 57 2768 2843
+)
+"gumtree.ml" 27 782 801 "gumtree.ml" 27 782 803
+type(
+  string
+)
+"gumtree.ml" 27 782 804 "gumtree.ml" 27 782 820
+type(
+  Bolt.Level.t
+)
+"gumtree.ml" 27 782 821 "gumtree.ml" 27 782 827
+type(
+  string
+)
+ident(
+  int_ref logmsg "gumtree.ml" 26 702 716 "gumtree.ml" 26 702 722
+)
+"gumtree.ml" 27 782 785 "gumtree.ml" 27 782 827
+type(
+  unit
+)
+"gumtree.ml" 28 829 832 "gumtree.ml" 28 829 842
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref Stdlib.Sys.rename "sys.mli" 48 2248 2248 "sys.mli" 48 2248 2310
+)
+"gumtree.ml" 28 829 843 "gumtree.ml" 28 829 847
+type(
+  string
+)
+ident(
+  int_ref file "gumtree.ml" 6 73 97 "gumtree.ml" 6 73 101
+)
+"gumtree.ml" 28 829 848 "gumtree.ml" 28 829 855
+type(
+  string
+)
+ident(
+  int_ref newfile "gumtree.ml" 25 661 668 "gumtree.ml" 25 661 675
+)
+"gumtree.ml" 28 829 832 "gumtree.ml" 28 829 855
+type(
+  unit
+)
+"gumtree.ml" 29 857 860 "gumtree.ml" 29 857 862
+type(
+  ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 28 829 832 "gumtree.ml" 29 857 862
+type(
+  ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 27 782 785 "gumtree.ml" 29 857 862
+type(
+  ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 26 702 712 "gumtree.ml" 29 857 862
+type(
+  ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 25 661 664 "gumtree.ml" 29 857 862
+type(
+  ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 24 625 628 "gumtree.ml" 29 857 862
+type(
+  ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 13 346 352 "gumtree.ml" 29 857 862
+type(
+  ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 12 312 318 "gumtree.ml" 29 857 862
+type(
+  ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 11 262 268 "gumtree.ml" 29 857 862
+type(
+  ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 10 195 201 "gumtree.ml" 29 857 862
+type(
+  ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 32 878 884 "gumtree.ml" 32 878 892
+type(
+  string * string
+)
+ident(
+  int_ref ver_file "gumtree.ml" 7 104 110 "gumtree.ml" 7 104 118
+)
+"gumtree.ml" 32 878 894 "gumtree.ml" 32 878 914
+type(
+  Ast_diff.changes
+)
+"gumtree.ml" 32 878 884 "gumtree.ml" 32 878 914
+type(
+  (string * string) * Ast_diff.changes
+)
+"gumtree.ml" 32 878 883 "gumtree.ml" 32 878 915
+type(
+  ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 32 878 882 "gumtree.ml" 32 878 916
+type(
+  ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 8 154 156 "gumtree.ml" 32 878 916
+type(
+  ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 7 104 106 "gumtree.ml" 32 878 916
+type(
+  ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 6 73 97 "gumtree.ml" 32 878 916
+type(
+  string -> ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 6 73 90 "gumtree.ml" 32 878 916
+type(
+  string -> string -> ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 6 73 88 "gumtree.ml" 32 878 916
+type(
+  'a -> string -> string -> ((string * string) * Ast_diff.changes) list
+)
+"gumtree.ml" 34 918 922 "gumtree.ml" 34 918 936
+type(
+  Ast_diff.tree -> Ast_diff.position
+)
+ident(
+  def get_pos_before "gumtree.ml" 38 1006 1006 "gumtree.ml" 0 0 -1
+)
+"gumtree.ml" 34 918 937 "gumtree.ml" 34 918 941
+type(
+  Ast_diff.tree
+)
+ident(
+  def tree "gumtree.ml" 35 944 946 "gumtree.ml" 36 992 1004
+)
+"gumtree.ml" 35 944 964 "gumtree.ml" 35 944 974
+type(
+  Ast_diff.position
+)
+ident(
+  def pos_before "gumtree.ml" 36 992 994 "gumtree.ml" 36 992 1004
+)
+"gumtree.ml" 35 944 976 "gumtree.ml" 35 944 977
+type(
+  Ast_diff.position option
+)
+"gumtree.ml" 35 944 979 "gumtree.ml" 35 944 980
+type(
+  Ast_diff.tree list
+)
+"gumtree.ml" 35 944 950 "gumtree.ml" 35 944 981
+type(
+  Ast_diff.tree
+)
+type(
+  Ast_diff.tree
+)
+"gumtree.ml" 35 944 984 "gumtree.ml" 35 944 988
+type(
+  Ast_diff.tree
+)
+ident(
+  int_ref tree "gumtree.ml" 34 918 937 "gumtree.ml" 34 918 941
+)
+"gumtree.ml" 36 992 994 "gumtree.ml" 36 992 1004
+type(
+  Ast_diff.position
+)
+ident(
+  int_ref pos_before "gumtree.ml" 35 944 964 "gumtree.ml" 35 944 974
+)
+"gumtree.ml" 35 944 946 "gumtree.ml" 36 992 1004
+type(
+  Ast_diff.position
+)
+"gumtree.ml" 34 918 937 "gumtree.ml" 36 992 1004
+type(
+  Ast_diff.tree -> Ast_diff.position
+)
+"gumtree.ml" 38 1006 1010 "gumtree.ml" 38 1006 1023
+type(
+  Ast_diff.tree -> Ast_diff.position option
+)
+ident(
+  def get_pos_after "gumtree.ml" 42 1091 1091 "gumtree.ml" 0 0 -1
+)
+"gumtree.ml" 38 1006 1024 "gumtree.ml" 38 1006 1028
+type(
+  Ast_diff.tree
+)
+ident(
+  def tree "gumtree.ml" 39 1031 1033 "gumtree.ml" 40 1078 1089
+)
+"gumtree.ml" 39 1031 1051 "gumtree.ml" 39 1031 1052
+type(
+  Ast_diff.position
+)
+"gumtree.ml" 39 1031 1054 "gumtree.ml" 39 1031 1063
+type(
+  Ast_diff.position option
+)
+ident(
+  def pos_after "gumtree.ml" 40 1078 1080 "gumtree.ml" 40 1078 1089
+)
+"gumtree.ml" 39 1031 1065 "gumtree.ml" 39 1031 1066
+type(
+  Ast_diff.tree list
+)
+"gumtree.ml" 39 1031 1037 "gumtree.ml" 39 1031 1067
+type(
+  Ast_diff.tree
+)
+type(
+  Ast_diff.tree
+)
+"gumtree.ml" 39 1031 1070 "gumtree.ml" 39 1031 1074
+type(
+  Ast_diff.tree
+)
+ident(
+  int_ref tree "gumtree.ml" 38 1006 1024 "gumtree.ml" 38 1006 1028
+)
+"gumtree.ml" 40 1078 1080 "gumtree.ml" 40 1078 1089
+type(
+  Ast_diff.position option
+)
+ident(
+  int_ref pos_after "gumtree.ml" 39 1031 1054 "gumtree.ml" 39 1031 1063
+)
+"gumtree.ml" 39 1031 1033 "gumtree.ml" 40 1078 1089
+type(
+  Ast_diff.position option
+)
+"gumtree.ml" 38 1006 1024 "gumtree.ml" 40 1078 1089
+type(
+  Ast_diff.tree -> Ast_diff.position option
+)
+"gumtree.ml" 42 1091 1095 "gumtree.ml" 42 1091 1107
+type(
+  Ast_diff.tree -> Ast_diff.tree list
+)
+ident(
+  def get_children "gumtree.ml" 47 1195 1195 "gumtree.ml" 0 0 -1
+)
+"gumtree.ml" 42 1091 1108 "gumtree.ml" 42 1091 1112
+type(
+  Ast_diff.tree
+)
+ident(
+  def tree "gumtree.ml" 43 1115 1117 "gumtree.ml" 44 1161 1171
+)
+"gumtree.ml" 43 1115 1135 "gumtree.ml" 43 1115 1136
+type(
+  Ast_diff.position
+)
+"gumtree.ml" 43 1115 1138 "gumtree.ml" 43 1115 1139
+type(
+  Ast_diff.position option
+)
+"gumtree.ml" 43 1115 1141 "gumtree.ml" 43 1115 1149
+type(
+  Ast_diff.tree list
+)
+ident(
+  def children "gumtree.ml" 44 1161 1163 "gumtree.ml" 44 1161 1171
+)
+"gumtree.ml" 43 1115 1121 "gumtree.ml" 43 1115 1150
+type(
+  Ast_diff.tree
+)
+type(
+  Ast_diff.tree
+)
+"gumtree.ml" 43 1115 1153 "gumtree.ml" 43 1115 1157
+type(
+  Ast_diff.tree
+)
+ident(
+  int_ref tree "gumtree.ml" 42 1091 1108 "gumtree.ml" 42 1091 1112
+)
+"gumtree.ml" 44 1161 1163 "gumtree.ml" 44 1161 1171
+type(
+  Ast_diff.tree list
+)
+ident(
+  int_ref children "gumtree.ml" 43 1115 1141 "gumtree.ml" 43 1115 1149
+)
+"gumtree.ml" 43 1115 1117 "gumtree.ml" 44 1161 1171
+type(
+  Ast_diff.tree list
+)
+"gumtree.ml" 42 1091 1108 "gumtree.ml" 44 1161 1171
+type(
+  Ast_diff.tree -> Ast_diff.tree list
+)
+"gumtree.ml" 47 1195 1199 "gumtree.ml" 47 1195 1215
+type(
+  'a * 'b * int * int * int * int -> string
+)
+ident(
+  def show_gumtree_pos "gumtree.ml" 50 1285 1285 "gumtree.ml" 0 0 -1
+)
+"gumtree.ml" 47 1195 1217 "gumtree.ml" 47 1195 1218
+type(
+  'a
+)
+"gumtree.ml" 47 1195 1220 "gumtree.ml" 47 1195 1221
+type(
+  'b
+)
+"gumtree.ml" 47 1195 1223 "gumtree.ml" 47 1195 1225
+type(
+  int
+)
+ident(
+  def bl "gumtree.ml" 48 1241 1243 "gumtree.ml" 48 1241 1283
+)
+"gumtree.ml" 47 1195 1227 "gumtree.ml" 47 1195 1229
+type(
+  int
+)
+ident(
+  def bc "gumtree.ml" 48 1241 1243 "gumtree.ml" 48 1241 1283
+)
+"gumtree.ml" 47 1195 1231 "gumtree.ml" 47 1195 1233
+type(
+  int
+)
+ident(
+  def el "gumtree.ml" 48 1241 1243 "gumtree.ml" 48 1241 1283
+)
+"gumtree.ml" 47 1195 1235 "gumtree.ml" 47 1195 1237
+type(
+  int
+)
+ident(
+  def ec "gumtree.ml" 48 1241 1243 "gumtree.ml" 48 1241 1283
+)
+"gumtree.ml" 47 1195 1217 "gumtree.ml" 47 1195 1237
+type(
+  'a * 'b * int * int * int * int
+)
+"gumtree.ml" 48 1241 1243 "gumtree.ml" 48 1241 1257
+type(
+  (int -> int -> int -> int -> string, unit, string) format ->
+  int -> int -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"gumtree.ml" 48 1241 1258 "gumtree.ml" 48 1241 1271
+type(
+  (int -> int -> int -> int -> string, unit, string) format
+)
+"gumtree.ml" 48 1241 1272 "gumtree.ml" 48 1241 1274
+type(
+  int
+)
+ident(
+  int_ref bl "gumtree.ml" 47 1195 1223 "gumtree.ml" 47 1195 1225
+)
+"gumtree.ml" 48 1241 1275 "gumtree.ml" 48 1241 1277
+type(
+  int
+)
+ident(
+  int_ref bc "gumtree.ml" 47 1195 1227 "gumtree.ml" 47 1195 1229
+)
+"gumtree.ml" 48 1241 1278 "gumtree.ml" 48 1241 1280
+type(
+  int
+)
+ident(
+  int_ref el "gumtree.ml" 47 1195 1231 "gumtree.ml" 47 1195 1233
+)
+"gumtree.ml" 48 1241 1281 "gumtree.ml" 48 1241 1283
+type(
+  int
+)
+ident(
+  int_ref ec "gumtree.ml" 47 1195 1235 "gumtree.ml" 47 1195 1237
+)
+"gumtree.ml" 48 1241 1243 "gumtree.ml" 48 1241 1283
+type(
+  string
+)
+"gumtree.ml" 47 1195 1216 "gumtree.ml" 48 1241 1283
+type(
+  'a * 'b * int * int * int * int -> string
+)
+"gumtree.ml" 50 1285 1293 "gumtree.ml" 50 1285 1305
+type(
+  bool -> int -> Ast_diff.tree -> unit
+)
+ident(
+  def show_gumtree "gumtree.ml" 50 1285 1285 "gumtree.ml" 0 0 -1
+)
+"gumtree.ml" 50 1285 1306 "gumtree.ml" 50 1285 1311
+type(
+  bool
+)
+ident(
+  def dorec "gumtree.ml" 50 1285 1312 "gumtree.ml" 65 1701 1755
+)
+"gumtree.ml" 50 1285 1312 "gumtree.ml" 50 1285 1317
+type(
+  int
+)
+ident(
+  def depth "gumtree.ml" 50 1285 1318 "gumtree.ml" 65 1701 1755
+)
+"gumtree.ml" 50 1285 1318 "gumtree.ml" 50 1285 1322
+type(
+  Ast_diff.tree
+)
+ident(
+  def tree "gumtree.ml" 51 1325 1327 "gumtree.ml" 65 1701 1755
+)
+"gumtree.ml" 51 1325 1331 "gumtree.ml" 51 1325 1337
+type(
+  Ast_diff.position
+)
+ident(
+  def before "gumtree.ml" 52 1363 1365 "gumtree.ml" 65 1701 1755
+)
+"gumtree.ml" 51 1325 1340 "gumtree.ml" 51 1325 1354
+type(
+  Ast_diff.tree -> Ast_diff.position
+)
+ident(
+  int_ref get_pos_before "gumtree.ml" 34 918 922 "gumtree.ml" 34 918 936
+)
+"gumtree.ml" 51 1325 1355 "gumtree.ml" 51 1325 1359
+type(
+  Ast_diff.tree
+)
+ident(
+  int_ref tree "gumtree.ml" 50 1285 1318 "gumtree.ml" 50 1285 1322
+)
+"gumtree.ml" 51 1325 1340 "gumtree.ml" 51 1325 1359
+type(
+  Ast_diff.position
+)
+"gumtree.ml" 52 1363 1369 "gumtree.ml" 52 1363 1375
+type(
+  Ast_diff.position option
+)
+ident(
+  def oafter "gumtree.ml" 53 1400 1402 "gumtree.ml" 65 1701 1755
+)
+"gumtree.ml" 52 1363 1378 "gumtree.ml" 52 1363 1391
+type(
+  Ast_diff.tree -> Ast_diff.position option
+)
+ident(
+  int_ref get_pos_after "gumtree.ml" 38 1006 1010 "gumtree.ml" 38 1006 1023
+)
+"gumtree.ml" 52 1363 1392 "gumtree.ml" 52 1363 1396
+type(
+  Ast_diff.tree
+)
+ident(
+  int_ref tree "gumtree.ml" 50 1285 1318 "gumtree.ml" 50 1285 1322
+)
+"gumtree.ml" 52 1363 1378 "gumtree.ml" 52 1363 1396
+type(
+  Ast_diff.position option
+)
+"gumtree.ml" 53 1400 1406 "gumtree.ml" 53 1400 1414
+type(
+  Ast_diff.tree list
+)
+ident(
+  def children "gumtree.ml" 54 1438 1440 "gumtree.ml" 65 1701 1755
+)
+"gumtree.ml" 53 1400 1417 "gumtree.ml" 53 1400 1429
+type(
+  Ast_diff.tree -> Ast_diff.tree list
+)
+ident(
+  int_ref get_children "gumtree.ml" 42 1091 1095 "gumtree.ml" 42 1091 1107
+)
+"gumtree.ml" 53 1400 1430 "gumtree.ml" 53 1400 1434
+type(
+  Ast_diff.tree
+)
+ident(
+  int_ref tree "gumtree.ml" 50 1285 1318 "gumtree.ml" 50 1285 1322
+)
+"gumtree.ml" 53 1400 1417 "gumtree.ml" 53 1400 1434
+type(
+  Ast_diff.tree list
+)
+"gumtree.ml" 54 1438 1444 "gumtree.ml" 54 1438 1450
+type(
+  string
+)
+ident(
+  def logmsg "gumtree.ml" 62 1635 1637 "gumtree.ml" 65 1701 1755
+)
+"gumtree.ml" 54 1438 1451 "gumtree.ml" 54 1438 1465
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"gumtree.ml" 54 1438 1466 "gumtree.ml" 54 1438 1480
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"gumtree.ml" 55 1481 1486 "gumtree.ml" 55 1481 1497
+type(
+  int -> char -> string
+)
+ident(
+  int_ref Stdlib.String.make "string.mli" 85 3764 3764 "string.mli" 85 3764 3796
+)
+"gumtree.ml" 55 1481 1498 "gumtree.ml" 55 1481 1503
+type(
+  int
+)
+ident(
+  int_ref depth "gumtree.ml" 50 1285 1312 "gumtree.ml" 50 1285 1317
+)
+"gumtree.ml" 55 1481 1504 "gumtree.ml" 55 1481 1507
+type(
+  char
+)
+"gumtree.ml" 55 1481 1486 "gumtree.ml" 55 1481 1507
+type(
+  string
+)
+"gumtree.ml" 56 1509 1514 "gumtree.ml" 56 1509 1530
+type(
+  Ast_diff.position -> string
+)
+ident(
+  int_ref show_gumtree_pos "gumtree.ml" 47 1195 1199 "gumtree.ml" 47 1195 1215
+)
+"gumtree.ml" 56 1509 1531 "gumtree.ml" 56 1509 1537
+type(
+  Ast_diff.position
+)
+ident(
+  int_ref before "gumtree.ml" 51 1325 1331 "gumtree.ml" 51 1325 1337
+)
+"gumtree.ml" 56 1509 1514 "gumtree.ml" 56 1509 1537
+type(
+  string
+)
+"gumtree.ml" 57 1539 1550 "gumtree.ml" 57 1539 1556
+type(
+  Ast_diff.position option
+)
+ident(
+  int_ref oafter "gumtree.ml" 52 1363 1369 "gumtree.ml" 52 1363 1375
+)
+"gumtree.ml" 58 1562 1568 "gumtree.ml" 58 1562 1573
+type(
+  Ast_diff.position
+)
+ident(
+  def after "gumtree.ml" 58 1562 1577 "gumtree.ml" 58 1562 1599
+)
+"gumtree.ml" 58 1562 1563 "gumtree.ml" 58 1562 1573
+type(
+  Ast_diff.position option
+)
+type(
+  Ast_diff.position option
+)
+"gumtree.ml" 58 1562 1577 "gumtree.ml" 58 1562 1593
+type(
+  Ast_diff.position -> string
+)
+ident(
+  int_ref show_gumtree_pos "gumtree.ml" 47 1195 1199 "gumtree.ml" 47 1195 1215
+)
+"gumtree.ml" 58 1562 1594 "gumtree.ml" 58 1562 1599
+type(
+  Ast_diff.position
+)
+ident(
+  int_ref after "gumtree.ml" 58 1562 1568 "gumtree.ml" 58 1562 1573
+)
+"gumtree.ml" 58 1562 1577 "gumtree.ml" 58 1562 1599
+type(
+  string
+)
+"gumtree.ml" 59 1600 1608 "gumtree.ml" 59 1600 1612
+type(
+  Ast_diff.position option
+)
+type(
+  Ast_diff.position option
+)
+"gumtree.ml" 59 1600 1616 "gumtree.ml" 59 1600 1621
+type(
+  string
+)
+"gumtree.ml" 57 1539 1544 "gumtree.ml" 59 1600 1621
+type(
+  string
+)
+"gumtree.ml" 54 1438 1451 "gumtree.ml" 60 1622 1627
+type(
+  string
+)
+"gumtree.ml" 62 1635 1637 "gumtree.ml" 62 1635 1652
+type(
+  string ->
+  Bolt.Level.t ->
+  ?file:string ->
+  ?line:int ->
+  ?column:int ->
+  ?properties:(string * string) list -> ?error:exn option -> string -> unit
+)
+ident(
+  int_ref Bolt.Logger.log "src/library/logger.mli" 56 2693 2693 "src/library/logger.mli" 57 2768 2843
+)
+"gumtree.ml" 62 1635 1653 "gumtree.ml" 62 1635 1655
+type(
+  string
+)
+"gumtree.ml" 63 1656 1660 "gumtree.ml" 63 1656 1676
+type(
+  Bolt.Level.t
+)
+"gumtree.ml" 63 1656 1677 "gumtree.ml" 63 1656 1683
+type(
+  string
+)
+ident(
+  int_ref logmsg "gumtree.ml" 54 1438 1444 "gumtree.ml" 54 1438 1450
+)
+"gumtree.ml" 62 1635 1637 "gumtree.ml" 63 1656 1683
+type(
+  unit
+)
+"gumtree.ml" 64 1685 1690 "gumtree.ml" 64 1685 1695
+type(
+  bool
+)
+ident(
+  int_ref dorec "gumtree.ml" 50 1285 1306 "gumtree.ml" 50 1285 1311
+)
+"gumtree.ml" 65 1701 1705 "gumtree.ml" 65 1701 1714
+type(
+  (Ast_diff.tree -> unit) -> Ast_diff.tree list -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 159 5701 5701 "list.mli" 159 5701 5743
+)
+"gumtree.ml" 65 1701 1716 "gumtree.ml" 65 1701 1728
+type(
+  bool -> int -> Ast_diff.tree -> unit
+)
+ident(
+  int_ref show_gumtree "gumtree.ml" 50 1285 1293 "gumtree.ml" 50 1285 1305
+)
+"gumtree.ml" 65 1701 1729 "gumtree.ml" 65 1701 1734
+type(
+  bool
+)
+ident(
+  int_ref dorec "gumtree.ml" 50 1285 1306 "gumtree.ml" 50 1285 1311
+)
+"gumtree.ml" 65 1701 1736 "gumtree.ml" 65 1701 1741
+type(
+  int
+)
+ident(
+  int_ref depth "gumtree.ml" 50 1285 1312 "gumtree.ml" 50 1285 1317
+)
+"gumtree.ml" 65 1701 1742 "gumtree.ml" 65 1701 1743
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"gumtree.ml" 65 1701 1743 "gumtree.ml" 65 1701 1744
+type(
+  int
+)
+"gumtree.ml" 65 1701 1736 "gumtree.ml" 65 1701 1744
+type(
+  int
+)
+"gumtree.ml" 65 1701 1716 "gumtree.ml" 65 1701 1745
+type(
+  Ast_diff.tree -> unit
+)
+"gumtree.ml" 65 1701 1747 "gumtree.ml" 65 1701 1755
+type(
+  Ast_diff.tree list
+)
+ident(
+  int_ref children "gumtree.ml" 53 1400 1406 "gumtree.ml" 53 1400 1414
+)
+"gumtree.ml" 65 1701 1705 "gumtree.ml" 65 1701 1755
+type(
+  unit
+)
+"gumtree.ml" 64 1685 1687 "gumtree.ml" 65 1701 1755
+type(
+  unit
+)
+type(
+  unit
+)
+"gumtree.ml" 62 1635 1637 "gumtree.ml" 65 1701 1755
+type(
+  unit
+)
+"gumtree.ml" 54 1438 1440 "gumtree.ml" 65 1701 1755
+type(
+  unit
+)
+"gumtree.ml" 53 1400 1402 "gumtree.ml" 65 1701 1755
+type(
+  unit
+)
+"gumtree.ml" 52 1363 1365 "gumtree.ml" 65 1701 1755
+type(
+  unit
+)
+"gumtree.ml" 51 1325 1327 "gumtree.ml" 65 1701 1755
+type(
+  unit
+)
+"gumtree.ml" 50 1285 1318 "gumtree.ml" 65 1701 1755
+type(
+  Ast_diff.tree -> unit
+)
+"gumtree.ml" 50 1285 1312 "gumtree.ml" 65 1701 1755
+type(
+  int -> Ast_diff.tree -> unit
+)
+"gumtree.ml" 50 1285 1306 "gumtree.ml" 65 1701 1755
+type(
+  bool -> int -> Ast_diff.tree -> unit
+)
+"gumtree.ml" 68 1763 1767 "gumtree.ml" 68 1763 1777
+type(
+  int * int * int -> Ast_diff.tree -> bool
+)
+ident(
+  def is_perfect "gumtree.ml" 74 1953 1953 "gumtree.ml" 0 0 -1
+)
+"gumtree.ml" 68 1763 1778 "gumtree.ml" 68 1763 1781
+type(
+  int * int * int
+)
+ident(
+  def pos "gumtree.ml" 68 1763 1782 "gumtree.ml" 72 1919 1951
+)
+"gumtree.ml" 68 1763 1783 "gumtree.ml" 68 1763 1787
+type(
+  Ast_diff.tree
+)
+type(
+  Ast_diff.tree
+)
+ident(
+  def tree "gumtree.ml" 69 1805 1807 "gumtree.ml" 72 1919 1951
+)
+"gumtree.ml" 69 1805 1812 "gumtree.ml" 69 1805 1816
+type(
+  int
+)
+ident(
+  def line "gumtree.ml" 70 1839 1841 "gumtree.ml" 72 1919 1951
+)
+"gumtree.ml" 69 1805 1818 "gumtree.ml" 69 1805 1822
+type(
+  int
+)
+ident(
+  def colb "gumtree.ml" 70 1839 1841 "gumtree.ml" 72 1919 1951
+)
+"gumtree.ml" 69 1805 1824 "gumtree.ml" 69 1805 1828
+type(
+  int
+)
+ident(
+  def cole "gumtree.ml" 70 1839 1841 "gumtree.ml" 72 1919 1951
+)
+"gumtree.ml" 69 1805 1812 "gumtree.ml" 69 1805 1828
+type(
+  int * int * int
+)
+"gumtree.ml" 69 1805 1832 "gumtree.ml" 69 1805 1835
+type(
+  int * int * int
+)
+ident(
+  int_ref pos "gumtree.ml" 68 1763 1778 "gumtree.ml" 68 1763 1781
+)
+"gumtree.ml" 70 1839 1846 "gumtree.ml" 70 1839 1847
+type(
+  int
+)
+"gumtree.ml" 70 1839 1849 "gumtree.ml" 70 1839 1850
+type(
+  int
+)
+"gumtree.ml" 70 1839 1852 "gumtree.ml" 70 1839 1854
+type(
+  int
+)
+ident(
+  def bl "gumtree.ml" 71 1894 1896 "gumtree.ml" 72 1919 1951
+)
+"gumtree.ml" 70 1839 1856 "gumtree.ml" 70 1839 1858
+type(
+  int
+)
+ident(
+  def bc "gumtree.ml" 71 1894 1896 "gumtree.ml" 72 1919 1951
+)
+"gumtree.ml" 70 1839 1860 "gumtree.ml" 70 1839 1862
+type(
+  int
+)
+ident(
+  def el "gumtree.ml" 71 1894 1896 "gumtree.ml" 72 1919 1951
+)
+"gumtree.ml" 70 1839 1864 "gumtree.ml" 70 1839 1866
+type(
+  int
+)
+ident(
+  def ec "gumtree.ml" 71 1894 1896 "gumtree.ml" 72 1919 1951
+)
+"gumtree.ml" 70 1839 1846 "gumtree.ml" 70 1839 1866
+type(
+  Ast_diff.position
+)
+"gumtree.ml" 70 1839 1871 "gumtree.ml" 70 1839 1885
+type(
+  Ast_diff.tree -> Ast_diff.position
+)
+ident(
+  int_ref get_pos_before "gumtree.ml" 34 918 922 "gumtree.ml" 34 918 936
+)
+"gumtree.ml" 70 1839 1886 "gumtree.ml" 70 1839 1890
+type(
+  Ast_diff.tree
+)
+ident(
+  int_ref tree "gumtree.ml" 68 1763 1783 "gumtree.ml" 68 1763 1787
+)
+"gumtree.ml" 70 1839 1871 "gumtree.ml" 70 1839 1890
+type(
+  Ast_diff.position
+)
+"gumtree.ml" 71 1894 1896 "gumtree.ml" 71 1894 1900
+type(
+  int
+)
+ident(
+  int_ref line "gumtree.ml" 69 1805 1812 "gumtree.ml" 69 1805 1816
+)
+"gumtree.ml" 71 1894 1901 "gumtree.ml" 71 1894 1902
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"gumtree.ml" 71 1894 1903 "gumtree.ml" 71 1894 1905
+type(
+  int
+)
+ident(
+  int_ref bl "gumtree.ml" 70 1839 1852 "gumtree.ml" 70 1839 1854
+)
+"gumtree.ml" 71 1894 1896 "gumtree.ml" 71 1894 1905
+type(
+  bool
+)
+"gumtree.ml" 71 1894 1906 "gumtree.ml" 71 1894 1908
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"gumtree.ml" 71 1894 1909 "gumtree.ml" 71 1894 1913
+type(
+  int
+)
+ident(
+  int_ref line "gumtree.ml" 69 1805 1812 "gumtree.ml" 69 1805 1816
+)
+"gumtree.ml" 71 1894 1914 "gumtree.ml" 71 1894 1915
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"gumtree.ml" 71 1894 1916 "gumtree.ml" 71 1894 1918
+type(
+  int
+)
+ident(
+  int_ref el "gumtree.ml" 70 1839 1860 "gumtree.ml" 70 1839 1862
+)
+"gumtree.ml" 71 1894 1909 "gumtree.ml" 71 1894 1918
+type(
+  bool
+)
+"gumtree.ml" 72 1919 1926 "gumtree.ml" 72 1919 1928
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"gumtree.ml" 72 1919 1929 "gumtree.ml" 72 1919 1933
+type(
+  int
+)
+ident(
+  int_ref colb "gumtree.ml" 69 1805 1818 "gumtree.ml" 69 1805 1822
+)
+"gumtree.ml" 72 1919 1934 "gumtree.ml" 72 1919 1935
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"gumtree.ml" 72 1919 1936 "gumtree.ml" 72 1919 1938
+type(
+  int
+)
+ident(
+  int_ref bc "gumtree.ml" 70 1839 1856 "gumtree.ml" 70 1839 1858
+)
+"gumtree.ml" 72 1919 1929 "gumtree.ml" 72 1919 1938
+type(
+  bool
+)
+"gumtree.ml" 72 1919 1939 "gumtree.ml" 72 1919 1941
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"gumtree.ml" 72 1919 1942 "gumtree.ml" 72 1919 1946
+type(
+  int
+)
+ident(
+  int_ref cole "gumtree.ml" 69 1805 1824 "gumtree.ml" 69 1805 1828
+)
+"gumtree.ml" 72 1919 1947 "gumtree.ml" 72 1919 1948
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"gumtree.ml" 72 1919 1949 "gumtree.ml" 72 1919 1951
+type(
+  int
+)
+ident(
+  int_ref ec "gumtree.ml" 70 1839 1864 "gumtree.ml" 70 1839 1866
+)
+"gumtree.ml" 72 1919 1942 "gumtree.ml" 72 1919 1951
+type(
+  bool
+)
+"gumtree.ml" 72 1919 1929 "gumtree.ml" 72 1919 1951
+type(
+  bool
+)
+"gumtree.ml" 71 1894 1909 "gumtree.ml" 72 1919 1951
+type(
+  bool
+)
+"gumtree.ml" 71 1894 1896 "gumtree.ml" 72 1919 1951
+type(
+  bool
+)
+"gumtree.ml" 70 1839 1841 "gumtree.ml" 72 1919 1951
+type(
+  bool
+)
+"gumtree.ml" 69 1805 1807 "gumtree.ml" 72 1919 1951
+type(
+  bool
+)
+"gumtree.ml" 68 1763 1782 "gumtree.ml" 72 1919 1951
+type(
+  Ast_diff.tree -> bool
+)
+"gumtree.ml" 68 1763 1778 "gumtree.ml" 72 1919 1951
+type(
+  int * int * int -> Ast_diff.tree -> bool
+)
+"gumtree.ml" 74 1953 1957 "gumtree.ml" 74 1953 1962
+type(
+  Ast_diff.tree -> bool
+)
+ident(
+  def found "gumtree.ml" 79 2067 2067 "gumtree.ml" 0 0 -1
+)
+"gumtree.ml" 74 1953 1963 "gumtree.ml" 74 1953 1967
+type(
+  Ast_diff.tree
+)
+ident(
+  def tree "gumtree.ml" 75 1970 1972 "gumtree.ml" 77 2058 2064
+)
+"gumtree.ml" 75 1970 1972 "gumtree.ml" 75 1970 1984
+type(
+  bool -> int -> Ast_diff.tree -> unit
+)
+ident(
+  int_ref show_gumtree "gumtree.ml" 50 1285 1293 "gumtree.ml" 50 1285 1305
+)
+"gumtree.ml" 75 1970 1985 "gumtree.ml" 75 1970 1990
+type(
+  bool
+)
+"gumtree.ml" 75 1970 1991 "gumtree.ml" 75 1970 1992
+type(
+  int
+)
+"gumtree.ml" 75 1970 1993 "gumtree.ml" 75 1970 1997
+type(
+  Ast_diff.tree
+)
+ident(
+  int_ref tree "gumtree.ml" 74 1953 1963 "gumtree.ml" 74 1953 1967
+)
+"gumtree.ml" 75 1970 1972 "gumtree.ml" 75 1970 1997
+type(
+  unit
+)
+"gumtree.ml" 76 1999 2001 "gumtree.ml" 76 1999 2016
+type(
+  string ->
+  Bolt.Level.t ->
+  ?file:string ->
+  ?line:int ->
+  ?column:int ->
+  ?properties:(string * string) list -> ?error:exn option -> string -> unit
+)
+ident(
+  int_ref Bolt.Logger.log "src/library/logger.mli" 56 2693 2693 "src/library/logger.mli" 57 2768 2843
+)
+"gumtree.ml" 76 1999 2017 "gumtree.ml" 76 1999 2019
+type(
+  string
+)
+"gumtree.ml" 76 1999 2020 "gumtree.ml" 76 1999 2036
+type(
+  Bolt.Level.t
+)
+"gumtree.ml" 76 1999 2037 "gumtree.ml" 76 1999 2056
+type(
+  string
+)
+"gumtree.ml" 76 1999 2001 "gumtree.ml" 76 1999 2056
+type(
+  unit
+)
+"gumtree.ml" 77 2058 2060 "gumtree.ml" 77 2058 2064
+type(
+  bool
+)
+"gumtree.ml" 76 1999 2001 "gumtree.ml" 77 2058 2064
+type(
+  bool
+)
+"gumtree.ml" 75 1970 1972 "gumtree.ml" 77 2058 2064
+type(
+  bool
+)
+"gumtree.ml" 74 1953 1963 "gumtree.ml" 77 2058 2064
+type(
+  Ast_diff.tree -> bool
+)
+"gumtree.ml" 79 2067 2071 "gumtree.ml" 79 2067 2081
+type(
+  int * int * int -> Ast_diff.tree -> bool
+)
+ident(
+  def match_tree "gumtree.ml" 102 3105 3105 "gumtree.ml" 0 0 -1
+)
+"gumtree.ml" 79 2067 2082 "gumtree.ml" 79 2067 2085
+type(
+  int * int * int
+)
+ident(
+  def pos "gumtree.ml" 79 2067 2086 "gumtree.ml" 100 3092 3103
+)
+"gumtree.ml" 79 2067 2087 "gumtree.ml" 79 2067 2091
+type(
+  Ast_diff.tree
+)
+type(
+  Ast_diff.tree
+)
+ident(
+  def tree "gumtree.ml" 80 2109 2111 "gumtree.ml" 100 3092 3103
+)
+"gumtree.ml" 80 2109 2116 "gumtree.ml" 80 2109 2120
+type(
+  int
+)
+ident(
+  def line "gumtree.ml" 81 2143 2145 "gumtree.ml" 100 3092 3103
+)
+"gumtree.ml" 80 2109 2122 "gumtree.ml" 80 2109 2126
+type(
+  int
+)
+ident(
+  def colb "gumtree.ml" 81 2143 2145 "gumtree.ml" 100 3092 3103
+)
+"gumtree.ml" 80 2109 2128 "gumtree.ml" 80 2109 2132
+type(
+  int
+)
+ident(
+  def cole "gumtree.ml" 81 2143 2145 "gumtree.ml" 100 3092 3103
+)
+"gumtree.ml" 80 2109 2116 "gumtree.ml" 80 2109 2132
+type(
+  int * int * int
+)
+"gumtree.ml" 80 2109 2136 "gumtree.ml" 80 2109 2139
+type(
+  int * int * int
+)
+ident(
+  int_ref pos "gumtree.ml" 79 2067 2082 "gumtree.ml" 79 2067 2085
+)
+"gumtree.ml" 81 2143 2150 "gumtree.ml" 81 2143 2151
+type(
+  int
+)
+"gumtree.ml" 81 2143 2153 "gumtree.ml" 81 2143 2154
+type(
+  int
+)
+"gumtree.ml" 81 2143 2156 "gumtree.ml" 81 2143 2158
+type(
+  int
+)
+ident(
+  def bl "gumtree.ml" 82 2198 2200 "gumtree.ml" 100 3092 3103
+)
+"gumtree.ml" 81 2143 2160 "gumtree.ml" 81 2143 2162
+type(
+  int
+)
+ident(
+  def bc "gumtree.ml" 82 2198 2200 "gumtree.ml" 100 3092 3103
+)
+"gumtree.ml" 81 2143 2164 "gumtree.ml" 81 2143 2166
+type(
+  int
+)
+ident(
+  def el "gumtree.ml" 82 2198 2200 "gumtree.ml" 100 3092 3103
+)
+"gumtree.ml" 81 2143 2168 "gumtree.ml" 81 2143 2170
+type(
+  int
+)
+ident(
+  def ec "gumtree.ml" 82 2198 2200 "gumtree.ml" 100 3092 3103
+)
+"gumtree.ml" 81 2143 2150 "gumtree.ml" 81 2143 2170
+type(
+  Ast_diff.position
+)
+"gumtree.ml" 81 2143 2175 "gumtree.ml" 81 2143 2189
+type(
+  Ast_diff.tree -> Ast_diff.position
+)
+ident(
+  int_ref get_pos_before "gumtree.ml" 34 918 922 "gumtree.ml" 34 918 936
+)
+"gumtree.ml" 81 2143 2190 "gumtree.ml" 81 2143 2194
+type(
+  Ast_diff.tree
+)
+ident(
+  int_ref tree "gumtree.ml" 79 2067 2087 "gumtree.ml" 79 2067 2091
+)
+"gumtree.ml" 81 2143 2175 "gumtree.ml" 81 2143 2194
+type(
+  Ast_diff.position
+)
+"gumtree.ml" 82 2198 2203 "gumtree.ml" 82 2198 2207
+type(
+  int
+)
+ident(
+  int_ref line "gumtree.ml" 80 2109 2116 "gumtree.ml" 80 2109 2120
+)
+"gumtree.ml" 82 2198 2208 "gumtree.ml" 82 2198 2209
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 140 5875 5875 "stdlib.mli" 140 5875 5925
+)
+"gumtree.ml" 82 2198 2210 "gumtree.ml" 82 2198 2212
+type(
+  int
+)
+ident(
+  int_ref bl "gumtree.ml" 81 2143 2156 "gumtree.ml" 81 2143 2158
+)
+"gumtree.ml" 82 2198 2203 "gumtree.ml" 82 2198 2212
+type(
+  bool
+)
+"gumtree.ml" 82 2198 2213 "gumtree.ml" 82 2198 2215
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"gumtree.ml" 82 2198 2217 "gumtree.ml" 82 2198 2221
+type(
+  int
+)
+ident(
+  int_ref line "gumtree.ml" 80 2109 2116 "gumtree.ml" 80 2109 2120
+)
+"gumtree.ml" 82 2198 2222 "gumtree.ml" 82 2198 2223
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 135 5721 5721 "stdlib.mli" 135 5721 5768
+)
+"gumtree.ml" 82 2198 2224 "gumtree.ml" 82 2198 2226
+type(
+  int
+)
+ident(
+  int_ref el "gumtree.ml" 81 2143 2164 "gumtree.ml" 81 2143 2166
+)
+"gumtree.ml" 82 2198 2217 "gumtree.ml" 82 2198 2226
+type(
+  bool
+)
+"gumtree.ml" 82 2198 2227 "gumtree.ml" 82 2198 2229
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 227 9492 9492 "stdlib.mli" 227 9492 9542
+)
+"gumtree.ml" 82 2198 2230 "gumtree.ml" 82 2198 2234
+type(
+  int
+)
+ident(
+  int_ref line "gumtree.ml" 80 2109 2116 "gumtree.ml" 80 2109 2120
+)
+"gumtree.ml" 82 2198 2235 "gumtree.ml" 82 2198 2236
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"gumtree.ml" 82 2198 2237 "gumtree.ml" 82 2198 2239
+type(
+  int
+)
+ident(
+  int_ref el "gumtree.ml" 81 2143 2164 "gumtree.ml" 81 2143 2166
+)
+"gumtree.ml" 82 2198 2230 "gumtree.ml" 82 2198 2239
+type(
+  bool
+)
+"gumtree.ml" 82 2198 2240 "gumtree.ml" 82 2198 2242
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"gumtree.ml" 82 2198 2243 "gumtree.ml" 82 2198 2247
+type(
+  int
+)
+ident(
+  int_ref cole "gumtree.ml" 80 2109 2128 "gumtree.ml" 80 2109 2132
+)
+"gumtree.ml" 82 2198 2248 "gumtree.ml" 82 2198 2250
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( <= ) "stdlib.mli" 145 6033 6033 "stdlib.mli" 145 6033 6082
+)
+"gumtree.ml" 82 2198 2251 "gumtree.ml" 82 2198 2253
+type(
+  int
+)
+ident(
+  int_ref ec "gumtree.ml" 81 2143 2168 "gumtree.ml" 81 2143 2170
+)
+"gumtree.ml" 82 2198 2243 "gumtree.ml" 82 2198 2253
+type(
+  bool
+)
+"gumtree.ml" 82 2198 2230 "gumtree.ml" 82 2198 2253
+type(
+  bool
+)
+"gumtree.ml" 82 2198 2217 "gumtree.ml" 82 2198 2253
+type(
+  bool
+)
+"gumtree.ml" 82 2198 2203 "gumtree.ml" 82 2198 2254
+type(
+  bool
+)
+"gumtree.ml" 84 2342 2351 "gumtree.ml" 84 2342 2361
+type(
+  bool ref
+)
+ident(
+  int_ref Misc.debug "misc.ml" 8 113 117 "misc.ml" 8 113 122
+)
+"gumtree.ml" 84 2342 2350 "gumtree.ml" 84 2342 2361
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1221 46381 46381 "stdlib.mli" 1221 46381 46422
+)
+type(
+  bool
+)
+"gumtree.ml" 84 2342 2367 "gumtree.ml" 84 2342 2382
+type(
+  string ->
+  Bolt.Level.t ->
+  ?file:string ->
+  ?line:int ->
+  ?column:int ->
+  ?properties:(string * string) list -> ?error:exn option -> string -> unit
+)
+ident(
+  int_ref Bolt.Logger.log "src/library/logger.mli" 56 2693 2693 "src/library/logger.mli" 57 2768 2843
+)
+"gumtree.ml" 84 2342 2383 "gumtree.ml" 84 2342 2385
+type(
+  string
+)
+"gumtree.ml" 84 2342 2386 "gumtree.ml" 84 2342 2402
+type(
+  Bolt.Level.t
+)
+"gumtree.ml" 84 2342 2403 "gumtree.ml" 84 2342 2423
+type(
+  string
+)
+"gumtree.ml" 84 2342 2367 "gumtree.ml" 84 2342 2423
+type(
+  unit
+)
+"gumtree.ml" 84 2342 2347 "gumtree.ml" 84 2342 2423
+type(
+  unit
+)
+type(
+  unit
+)
+"gumtree.ml" 85 2425 2430 "gumtree.ml" 85 2425 2435
+type(
+  Ast_diff.tree -> bool
+)
+ident(
+  int_ref found "gumtree.ml" 74 1953 1957 "gumtree.ml" 74 1953 1962
+)
+"gumtree.ml" 85 2425 2436 "gumtree.ml" 85 2425 2440
+type(
+  Ast_diff.tree
+)
+ident(
+  int_ref tree "gumtree.ml" 79 2067 2087 "gumtree.ml" 79 2067 2091
+)
+"gumtree.ml" 85 2425 2430 "gumtree.ml" 85 2425 2440
+type(
+  bool
+)
+"gumtree.ml" 84 2342 2347 "gumtree.ml" 85 2425 2440
+type(
+  bool
+)
+"gumtree.ml" 86 2442 2452 "gumtree.ml" 86 2442 2456
+type(
+  int
+)
+ident(
+  int_ref line "gumtree.ml" 80 2109 2116 "gumtree.ml" 80 2109 2120
+)
+"gumtree.ml" 86 2442 2457 "gumtree.ml" 86 2442 2458
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"gumtree.ml" 86 2442 2459 "gumtree.ml" 86 2442 2461
+type(
+  int
+)
+ident(
+  int_ref bl "gumtree.ml" 81 2143 2156 "gumtree.ml" 81 2143 2158
+)
+"gumtree.ml" 86 2442 2452 "gumtree.ml" 86 2442 2461
+type(
+  bool
+)
+"gumtree.ml" 86 2442 2462 "gumtree.ml" 86 2442 2464
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"gumtree.ml" 86 2442 2465 "gumtree.ml" 86 2442 2469
+type(
+  int
+)
+ident(
+  int_ref line "gumtree.ml" 80 2109 2116 "gumtree.ml" 80 2109 2120
+)
+"gumtree.ml" 86 2442 2470 "gumtree.ml" 86 2442 2471
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 135 5721 5721 "stdlib.mli" 135 5721 5768
+)
+"gumtree.ml" 86 2442 2472 "gumtree.ml" 86 2442 2474
+type(
+  int
+)
+ident(
+  int_ref el "gumtree.ml" 81 2143 2164 "gumtree.ml" 81 2143 2166
+)
+"gumtree.ml" 86 2442 2465 "gumtree.ml" 86 2442 2474
+type(
+  bool
+)
+"gumtree.ml" 87 2475 2482 "gumtree.ml" 87 2475 2484
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"gumtree.ml" 87 2475 2485 "gumtree.ml" 87 2475 2489
+type(
+  int
+)
+ident(
+  int_ref colb "gumtree.ml" 80 2109 2122 "gumtree.ml" 80 2109 2126
+)
+"gumtree.ml" 87 2475 2490 "gumtree.ml" 87 2475 2492
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 150 6190 6190 "stdlib.mli" 150 6190 6242
+)
+"gumtree.ml" 87 2475 2493 "gumtree.ml" 87 2475 2495
+type(
+  int
+)
+ident(
+  int_ref bc "gumtree.ml" 81 2143 2160 "gumtree.ml" 81 2143 2162
+)
+"gumtree.ml" 87 2475 2485 "gumtree.ml" 87 2475 2495
+type(
+  bool
+)
+"gumtree.ml" 86 2442 2465 "gumtree.ml" 87 2475 2495
+type(
+  bool
+)
+"gumtree.ml" 86 2442 2452 "gumtree.ml" 87 2475 2495
+type(
+  bool
+)
+"gumtree.ml" 89 2598 2607 "gumtree.ml" 89 2598 2617
+type(
+  bool ref
+)
+ident(
+  int_ref Misc.debug "misc.ml" 8 113 117 "misc.ml" 8 113 122
+)
+"gumtree.ml" 89 2598 2606 "gumtree.ml" 89 2598 2617
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1221 46381 46381 "stdlib.mli" 1221 46381 46422
+)
+type(
+  bool
+)
+"gumtree.ml" 89 2598 2623 "gumtree.ml" 89 2598 2638
+type(
+  string ->
+  Bolt.Level.t ->
+  ?file:string ->
+  ?line:int ->
+  ?column:int ->
+  ?properties:(string * string) list -> ?error:exn option -> string -> unit
+)
+ident(
+  int_ref Bolt.Logger.log "src/library/logger.mli" 56 2693 2693 "src/library/logger.mli" 57 2768 2843
+)
+"gumtree.ml" 89 2598 2639 "gumtree.ml" 89 2598 2641
+type(
+  string
+)
+"gumtree.ml" 89 2598 2642 "gumtree.ml" 89 2598 2658
+type(
+  Bolt.Level.t
+)
+"gumtree.ml" 89 2598 2659 "gumtree.ml" 89 2598 2679
+type(
+  string
+)
+"gumtree.ml" 89 2598 2623 "gumtree.ml" 89 2598 2679
+type(
+  unit
+)
+"gumtree.ml" 89 2598 2603 "gumtree.ml" 89 2598 2679
+type(
+  unit
+)
+type(
+  unit
+)
+"gumtree.ml" 90 2681 2686 "gumtree.ml" 90 2681 2691
+type(
+  Ast_diff.tree -> bool
+)
+ident(
+  int_ref found "gumtree.ml" 74 1953 1957 "gumtree.ml" 74 1953 1962
+)
+"gumtree.ml" 90 2681 2692 "gumtree.ml" 90 2681 2696
+type(
+  Ast_diff.tree
+)
+ident(
+  int_ref tree "gumtree.ml" 79 2067 2087 "gumtree.ml" 79 2067 2091
+)
+"gumtree.ml" 90 2681 2686 "gumtree.ml" 90 2681 2696
+type(
+  bool
+)
+"gumtree.ml" 89 2598 2603 "gumtree.ml" 90 2681 2696
+type(
+  bool
+)
+"gumtree.ml" 91 2698 2708 "gumtree.ml" 91 2698 2712
+type(
+  int
+)
+ident(
+  int_ref line "gumtree.ml" 80 2109 2116 "gumtree.ml" 80 2109 2120
+)
+"gumtree.ml" 91 2698 2713 "gumtree.ml" 91 2698 2714
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"gumtree.ml" 91 2698 2715 "gumtree.ml" 91 2698 2717
+type(
+  int
+)
+ident(
+  int_ref bl "gumtree.ml" 81 2143 2156 "gumtree.ml" 81 2143 2158
+)
+"gumtree.ml" 91 2698 2708 "gumtree.ml" 91 2698 2717
+type(
+  bool
+)
+"gumtree.ml" 91 2698 2718 "gumtree.ml" 91 2698 2720
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"gumtree.ml" 91 2698 2721 "gumtree.ml" 91 2698 2725
+type(
+  int
+)
+ident(
+  int_ref line "gumtree.ml" 80 2109 2116 "gumtree.ml" 80 2109 2120
+)
+"gumtree.ml" 91 2698 2726 "gumtree.ml" 91 2698 2727
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"gumtree.ml" 91 2698 2728 "gumtree.ml" 91 2698 2730
+type(
+  int
+)
+ident(
+  int_ref el "gumtree.ml" 81 2143 2164 "gumtree.ml" 81 2143 2166
+)
+"gumtree.ml" 91 2698 2721 "gumtree.ml" 91 2698 2730
+type(
+  bool
+)
+"gumtree.ml" 92 2731 2739 "gumtree.ml" 92 2731 2741
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"gumtree.ml" 92 2731 2742 "gumtree.ml" 92 2731 2746
+type(
+  int
+)
+ident(
+  int_ref colb "gumtree.ml" 80 2109 2122 "gumtree.ml" 80 2109 2126
+)
+"gumtree.ml" 92 2731 2747 "gumtree.ml" 92 2731 2749
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 150 6190 6190 "stdlib.mli" 150 6190 6242
+)
+"gumtree.ml" 92 2731 2750 "gumtree.ml" 92 2731 2752
+type(
+  int
+)
+ident(
+  int_ref bc "gumtree.ml" 81 2143 2160 "gumtree.ml" 81 2143 2162
+)
+"gumtree.ml" 92 2731 2742 "gumtree.ml" 92 2731 2752
+type(
+  bool
+)
+"gumtree.ml" 92 2731 2753 "gumtree.ml" 92 2731 2755
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"gumtree.ml" 92 2731 2756 "gumtree.ml" 92 2731 2760
+type(
+  int
+)
+ident(
+  int_ref cole "gumtree.ml" 80 2109 2128 "gumtree.ml" 80 2109 2132
+)
+"gumtree.ml" 92 2731 2761 "gumtree.ml" 92 2731 2763
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( <= ) "stdlib.mli" 145 6033 6033 "stdlib.mli" 145 6033 6082
+)
+"gumtree.ml" 92 2731 2764 "gumtree.ml" 92 2731 2766
+type(
+  int
+)
+ident(
+  int_ref ec "gumtree.ml" 81 2143 2168 "gumtree.ml" 81 2143 2170
+)
+"gumtree.ml" 92 2731 2756 "gumtree.ml" 92 2731 2766
+type(
+  bool
+)
+"gumtree.ml" 92 2731 2742 "gumtree.ml" 92 2731 2766
+type(
+  bool
+)
+"gumtree.ml" 91 2698 2721 "gumtree.ml" 92 2731 2766
+type(
+  bool
+)
+"gumtree.ml" 91 2698 2708 "gumtree.ml" 92 2731 2766
+type(
+  bool
+)
+"gumtree.ml" 96 2902 2911 "gumtree.ml" 96 2902 2921
+type(
+  bool ref
+)
+ident(
+  int_ref Misc.debug "misc.ml" 8 113 117 "misc.ml" 8 113 122
+)
+"gumtree.ml" 96 2902 2910 "gumtree.ml" 96 2902 2921
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1221 46381 46381 "stdlib.mli" 1221 46381 46422
+)
+type(
+  bool
+)
+"gumtree.ml" 96 2902 2927 "gumtree.ml" 96 2902 2942
+type(
+  string ->
+  Bolt.Level.t ->
+  ?file:string ->
+  ?line:int ->
+  ?column:int ->
+  ?properties:(string * string) list -> ?error:exn option -> string -> unit
+)
+ident(
+  int_ref Bolt.Logger.log "src/library/logger.mli" 56 2693 2693 "src/library/logger.mli" 57 2768 2843
+)
+"gumtree.ml" 96 2902 2943 "gumtree.ml" 96 2902 2945
+type(
+  string
+)
+"gumtree.ml" 96 2902 2946 "gumtree.ml" 96 2902 2962
+type(
+  Bolt.Level.t
+)
+"gumtree.ml" 96 2902 2963 "gumtree.ml" 96 2902 2983
+type(
+  string
+)
+"gumtree.ml" 96 2902 2927 "gumtree.ml" 96 2902 2983
+type(
+  unit
+)
+"gumtree.ml" 96 2902 2907 "gumtree.ml" 96 2902 2983
+type(
+  unit
+)
+type(
+  unit
+)
+"gumtree.ml" 97 2985 2990 "gumtree.ml" 97 2985 2995
+type(
+  Ast_diff.tree -> bool
+)
+ident(
+  int_ref found "gumtree.ml" 74 1953 1957 "gumtree.ml" 74 1953 1962
+)
+"gumtree.ml" 97 2985 2996 "gumtree.ml" 97 2985 3000
+type(
+  Ast_diff.tree
+)
+ident(
+  int_ref tree "gumtree.ml" 79 2067 2087 "gumtree.ml" 79 2067 2091
+)
+"gumtree.ml" 97 2985 2990 "gumtree.ml" 97 2985 3000
+type(
+  bool
+)
+"gumtree.ml" 96 2902 2907 "gumtree.ml" 97 2985 3000
+type(
+  bool
+)
+"gumtree.ml" 99 3009 3018 "gumtree.ml" 99 3009 3028
+type(
+  bool ref
+)
+ident(
+  int_ref Misc.debug "misc.ml" 8 113 117 "misc.ml" 8 113 122
+)
+"gumtree.ml" 99 3009 3017 "gumtree.ml" 99 3009 3028
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1221 46381 46381 "stdlib.mli" 1221 46381 46422
+)
+type(
+  bool
+)
+"gumtree.ml" 99 3009 3034 "gumtree.ml" 99 3009 3049
+type(
+  string ->
+  Bolt.Level.t ->
+  ?file:string ->
+  ?line:int ->
+  ?column:int ->
+  ?properties:(string * string) list -> ?error:exn option -> string -> unit
+)
+ident(
+  int_ref Bolt.Logger.log "src/library/logger.mli" 56 2693 2693 "src/library/logger.mli" 57 2768 2843
+)
+"gumtree.ml" 99 3009 3050 "gumtree.ml" 99 3009 3052
+type(
+  string
+)
+"gumtree.ml" 99 3009 3053 "gumtree.ml" 99 3009 3069
+type(
+  Bolt.Level.t
+)
+"gumtree.ml" 99 3009 3070 "gumtree.ml" 99 3009 3090
+type(
+  string
+)
+"gumtree.ml" 99 3009 3034 "gumtree.ml" 99 3009 3090
+type(
+  unit
+)
+"gumtree.ml" 99 3009 3014 "gumtree.ml" 99 3009 3090
+type(
+  unit
+)
+type(
+  unit
+)
+"gumtree.ml" 100 3092 3097 "gumtree.ml" 100 3092 3102
+type(
+  bool
+)
+"gumtree.ml" 99 3009 3014 "gumtree.ml" 100 3092 3102
+type(
+  bool
+)
+"gumtree.ml" 91 2698 2705 "gumtree.ml" 100 3092 3103
+type(
+  bool
+)
+"gumtree.ml" 86 2442 2449 "gumtree.ml" 100 3092 3103
+type(
+  bool
+)
+"gumtree.ml" 82 2198 2200 "gumtree.ml" 100 3092 3103
+type(
+  bool
+)
+"gumtree.ml" 81 2143 2145 "gumtree.ml" 100 3092 3103
+type(
+  bool
+)
+"gumtree.ml" 80 2109 2111 "gumtree.ml" 100 3092 3103
+type(
+  bool
+)
+"gumtree.ml" 79 2067 2086 "gumtree.ml" 100 3092 3103
+type(
+  Ast_diff.tree -> bool
+)
+"gumtree.ml" 79 2067 2082 "gumtree.ml" 100 3092 3103
+type(
+  int * int * int -> Ast_diff.tree -> bool
+)
+"gumtree.ml" 102 3105 3113 "gumtree.ml" 102 3105 3124
+type(
+  string -> string -> int * int * int -> Ast_diff.tree -> Ast_diff.tree
+)
+ident(
+  def lookup_tree "gumtree.ml" 102 3105 3105 "gumtree.ml" 0 0 -1
+)
+"gumtree.ml" 102 3105 3125 "gumtree.ml" 102 3105 3128
+type(
+  string
+)
+ident(
+  def ver "gumtree.ml" 102 3105 3129 "gumtree.ml" 118 3765 3770
+)
+"gumtree.ml" 102 3105 3129 "gumtree.ml" 102 3105 3133
+type(
+  string
+)
+ident(
+  def file "gumtree.ml" 102 3105 3134 "gumtree.ml" 118 3765 3770
+)
+"gumtree.ml" 102 3105 3134 "gumtree.ml" 102 3105 3137
+type(
+  int * int * int
+)
+ident(
+  def pos "gumtree.ml" 102 3105 3138 "gumtree.ml" 118 3765 3770
+)
+"gumtree.ml" 102 3105 3139 "gumtree.ml" 102 3105 3143
+type(
+  Ast_diff.tree
+)
+type(
+  Ast_diff.tree
+)
+ident(
+  def tree "gumtree.ml" 103 3177 3179 "gumtree.ml" 118 3765 3770
+)
+"gumtree.ml" 103 3177 3179 "gumtree.ml" 103 3177 3204
+type(
+  string -> (unit -> Ast_diff.tree) -> Ast_diff.tree
+)
+ident(
+  int_ref Debug.profile_code_silent "debug.ml" 72 2223 2227 "debug.ml" 72 2223 2246
+)
+"gumtree.ml" 103 3177 3205 "gumtree.ml" 103 3177 3226
+type(
+  string
+)
+"gumtree.ml" 104 3227 3236 "gumtree.ml" 104 3227 3238
+type(
+  unit
+)
+"gumtree.ml" 105 3242 3252 "gumtree.ml" 105 3242 3260
+type(
+  Ast_diff.tree list
+)
+ident(
+  def children "gumtree.ml" 106 3284 3290 "gumtree.ml" 117 3759 3764
+)
+"gumtree.ml" 105 3242 3263 "gumtree.ml" 105 3242 3275
+type(
+  Ast_diff.tree -> Ast_diff.tree list
+)
+ident(
+  int_ref get_children "gumtree.ml" 42 1091 1095 "gumtree.ml" 42 1091 1107
+)
+"gumtree.ml" 105 3242 3276 "gumtree.ml" 105 3242 3280
+type(
+  Ast_diff.tree
+)
+ident(
+  int_ref tree "gumtree.ml" 102 3105 3139 "gumtree.ml" 102 3105 3143
+)
+"gumtree.ml" 105 3242 3263 "gumtree.ml" 105 3242 3280
+type(
+  Ast_diff.tree list
+)
+"gumtree.ml" 107 3294 3299 "gumtree.ml" 107 3294 3308
+type(
+  Ast_diff.tree
+)
+ident(
+  def candidate "gumtree.ml" 108 3350 3351 "gumtree.ml" 113 3544 3583
+)
+"gumtree.ml" 107 3294 3311 "gumtree.ml" 107 3294 3320
+type(
+  (Ast_diff.tree -> bool) -> Ast_diff.tree list -> Ast_diff.tree
+)
+ident(
+  int_ref Stdlib.List.find "list.mli" 305 10263 10263 "list.mli" 305 10263 10303
+)
+"gumtree.ml" 107 3294 3322 "gumtree.ml" 107 3294 3332
+type(
+  int * int * int -> Ast_diff.tree -> bool
+)
+ident(
+  int_ref match_tree "gumtree.ml" 79 2067 2071 "gumtree.ml" 79 2067 2081
+)
+"gumtree.ml" 107 3294 3333 "gumtree.ml" 107 3294 3336
+type(
+  int * int * int
+)
+ident(
+  int_ref pos "gumtree.ml" 102 3105 3134 "gumtree.ml" 102 3105 3137
+)
+"gumtree.ml" 107 3294 3322 "gumtree.ml" 107 3294 3336
+type(
+  Ast_diff.tree -> bool
+)
+"gumtree.ml" 107 3294 3338 "gumtree.ml" 107 3294 3346
+type(
+  Ast_diff.tree list
+)
+ident(
+  int_ref children "gumtree.ml" 105 3242 3252 "gumtree.ml" 105 3242 3260
+)
+"gumtree.ml" 107 3294 3311 "gumtree.ml" 107 3294 3346
+type(
+  Ast_diff.tree
+)
+"gumtree.ml" 108 3350 3354 "gumtree.ml" 108 3350 3364
+type(
+  int * int * int -> Ast_diff.tree -> bool
+)
+ident(
+  int_ref is_perfect "gumtree.ml" 68 1763 1767 "gumtree.ml" 68 1763 1777
+)
+"gumtree.ml" 108 3350 3365 "gumtree.ml" 108 3350 3368
+type(
+  int * int * int
+)
+ident(
+  int_ref pos "gumtree.ml" 102 3105 3134 "gumtree.ml" 102 3105 3137
+)
+"gumtree.ml" 108 3350 3369 "gumtree.ml" 108 3350 3378
+type(
+  Ast_diff.tree
+)
+ident(
+  int_ref candidate "gumtree.ml" 107 3294 3299 "gumtree.ml" 107 3294 3308
+)
+"gumtree.ml" 108 3350 3354 "gumtree.ml" 108 3350 3378
+type(
+  bool
+)
+"gumtree.ml" 109 3384 3388 "gumtree.ml" 109 3384 3403
+type(
+  string ->
+  Bolt.Level.t ->
+  ?file:string ->
+  ?line:int ->
+  ?column:int ->
+  ?properties:(string * string) list -> ?error:exn option -> string -> unit
+)
+ident(
+  int_ref Bolt.Logger.log "src/library/logger.mli" 56 2693 2693 "src/library/logger.mli" 57 2768 2843
+)
+"gumtree.ml" 109 3384 3404 "gumtree.ml" 109 3384 3406
+type(
+  string
+)
+"gumtree.ml" 109 3384 3407 "gumtree.ml" 109 3384 3423
+type(
+  Bolt.Level.t
+)
+"gumtree.ml" 109 3384 3424 "gumtree.ml" 109 3384 3446
+type(
+  string
+)
+"gumtree.ml" 109 3384 3388 "gumtree.ml" 109 3384 3446
+type(
+  unit
+)
+"gumtree.ml" 110 3448 3452 "gumtree.ml" 110 3448 3461
+type(
+  Ast_diff.tree
+)
+ident(
+  int_ref candidate "gumtree.ml" 107 3294 3299 "gumtree.ml" 107 3294 3308
+)
+"gumtree.ml" 109 3384 3388 "gumtree.ml" 110 3448 3461
+type(
+  Ast_diff.tree
+)
+"gumtree.ml" 112 3469 3473 "gumtree.ml" 112 3469 3488
+type(
+  string ->
+  Bolt.Level.t ->
+  ?file:string ->
+  ?line:int ->
+  ?column:int ->
+  ?properties:(string * string) list -> ?error:exn option -> string -> unit
+)
+ident(
+  int_ref Bolt.Logger.log "src/library/logger.mli" 56 2693 2693 "src/library/logger.mli" 57 2768 2843
+)
+"gumtree.ml" 112 3469 3489 "gumtree.ml" 112 3469 3491
+type(
+  string
+)
+"gumtree.ml" 112 3469 3492 "gumtree.ml" 112 3469 3508
+type(
+  Bolt.Level.t
+)
+"gumtree.ml" 112 3469 3509 "gumtree.ml" 112 3469 3542
+type(
+  string
+)
+"gumtree.ml" 112 3469 3473 "gumtree.ml" 112 3469 3542
+type(
+  unit
+)
+"gumtree.ml" 113 3544 3548 "gumtree.ml" 113 3544 3559
+type(
+  string -> string -> int * int * int -> Ast_diff.tree -> Ast_diff.tree
+)
+ident(
+  int_ref lookup_tree "gumtree.ml" 102 3105 3113 "gumtree.ml" 102 3105 3124
+)
+"gumtree.ml" 113 3544 3560 "gumtree.ml" 113 3544 3563
+type(
+  string
+)
+ident(
+  int_ref ver "gumtree.ml" 102 3105 3125 "gumtree.ml" 102 3105 3128
+)
+"gumtree.ml" 113 3544 3564 "gumtree.ml" 113 3544 3568
+type(
+  string
+)
+ident(
+  int_ref file "gumtree.ml" 102 3105 3129 "gumtree.ml" 102 3105 3133
+)
+"gumtree.ml" 113 3544 3569 "gumtree.ml" 113 3544 3572
+type(
+  int * int * int
+)
+ident(
+  int_ref pos "gumtree.ml" 102 3105 3134 "gumtree.ml" 102 3105 3137
+)
+"gumtree.ml" 113 3544 3573 "gumtree.ml" 113 3544 3582
+type(
+  Ast_diff.tree
+)
+ident(
+  int_ref candidate "gumtree.ml" 107 3294 3299 "gumtree.ml" 107 3294 3308
+)
+"gumtree.ml" 113 3544 3548 "gumtree.ml" 113 3544 3582
+type(
+  Ast_diff.tree
+)
+"gumtree.ml" 112 3469 3473 "gumtree.ml" 113 3544 3582
+type(
+  Ast_diff.tree
+)
+"gumtree.ml" 108 3350 3351 "gumtree.ml" 113 3544 3583
+type(
+  Ast_diff.tree
+)
+"gumtree.ml" 107 3294 3295 "gumtree.ml" 113 3544 3583
+type(
+  Ast_diff.tree
+)
+"gumtree.ml" 114 3584 3595 "gumtree.ml" 114 3584 3604
+type(
+  exn
+)
+"gumtree.ml" 115 3608 3621 "gumtree.ml" 115 3608 3627
+type(
+  string
+)
+ident(
+  def logmsg "gumtree.ml" 116 3713 3714 "gumtree.ml" 116 3713 3756
+)
+"gumtree.ml" 115 3608 3628 "gumtree.ml" 115 3608 3642
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"gumtree.ml" 115 3608 3643 "gumtree.ml" 115 3608 3700
+type(
+  (string -> string -> string, unit, string) format
+)
+"gumtree.ml" 115 3608 3701 "gumtree.ml" 115 3608 3704
+type(
+  string
+)
+ident(
+  int_ref ver "gumtree.ml" 102 3105 3125 "gumtree.ml" 102 3105 3128
+)
+"gumtree.ml" 115 3608 3705 "gumtree.ml" 115 3608 3709
+type(
+  string
+)
+ident(
+  int_ref file "gumtree.ml" 102 3105 3129 "gumtree.ml" 102 3105 3133
+)
+"gumtree.ml" 115 3608 3628 "gumtree.ml" 115 3608 3709
+type(
+  string
+)
+"gumtree.ml" 116 3713 3714 "gumtree.ml" 116 3713 3729
+type(
+  string ->
+  Bolt.Level.t ->
+  ?file:string ->
+  ?line:int ->
+  ?column:int ->
+  ?properties:(string * string) list -> ?error:exn option -> string -> unit
+)
+ident(
+  int_ref Bolt.Logger.log "src/library/logger.mli" 56 2693 2693 "src/library/logger.mli" 57 2768 2843
+)
+"gumtree.ml" 116 3713 3730 "gumtree.ml" 116 3713 3732
+type(
+  string
+)
+"gumtree.ml" 116 3713 3733 "gumtree.ml" 116 3713 3749
+type(
+  Bolt.Level.t
+)
+"gumtree.ml" 116 3713 3750 "gumtree.ml" 116 3713 3756
+type(
+  string
+)
+ident(
+  int_ref logmsg "gumtree.ml" 115 3608 3621 "gumtree.ml" 115 3608 3627
+)
+"gumtree.ml" 116 3713 3714 "gumtree.ml" 116 3713 3756
+type(
+  unit
+)
+"gumtree.ml" 115 3608 3617 "gumtree.ml" 116 3713 3756
+type(
+  unit
+)
+"gumtree.ml" 117 3759 3760 "gumtree.ml" 117 3759 3764
+type(
+  Ast_diff.tree
+)
+ident(
+  int_ref tree "gumtree.ml" 102 3105 3139 "gumtree.ml" 102 3105 3143
+)
+"gumtree.ml" 115 3608 3617 "gumtree.ml" 117 3759 3764
+type(
+  Ast_diff.tree
+)
+"gumtree.ml" 106 3284 3290 "gumtree.ml" 117 3759 3764
+type(
+  Ast_diff.tree
+)
+"gumtree.ml" 105 3242 3248 "gumtree.ml" 117 3759 3764
+type(
+  Ast_diff.tree
+)
+"gumtree.ml" 104 3227 3236 "gumtree.ml" 117 3759 3764
+type(
+  unit -> Ast_diff.tree
+)
+"gumtree.ml" 103 3177 3179 "gumtree.ml" 118 3765 3770
+type(
+  Ast_diff.tree
+)
+"gumtree.ml" 102 3105 3138 "gumtree.ml" 118 3765 3770
+type(
+  Ast_diff.tree -> Ast_diff.tree
+)
+"gumtree.ml" 102 3105 3134 "gumtree.ml" 118 3765 3770
+type(
+  int * int * int -> Ast_diff.tree -> Ast_diff.tree
+)
+"gumtree.ml" 102 3105 3129 "gumtree.ml" 118 3765 3770
+type(
+  string -> int * int * int -> Ast_diff.tree -> Ast_diff.tree
+)
+"gumtree.ml" 102 3105 3125 "gumtree.ml" 118 3765 3770
+type(
+  string -> string -> int * int * int -> Ast_diff.tree -> Ast_diff.tree
+)
+"gumtree.ml" 120 3772 3776 "gumtree.ml" 120 3772 3804
+type(
+  Ast_diff.diffs ->
+  Ast_diff.path ->
+  Ast_diff.vname ->
+  int * int * int -> bool * (Ast_diff.lineprediction * int * int)
+)
+ident(
+  def compute_new_pos_with_gumtree "gumtree.ml" 144 4738 4743 "gumtree.ml" 0 0 -1
+)
+"gumtree.ml" 120 3772 3806 "gumtree.ml" 120 3772 3811
+type(
+  Ast_diff.diffs
+)
+type(
+  Ast_diff.diffs
+)
+ident(
+  def diffs "gumtree.ml" 120 3772 3829 "gumtree.ml" 144 4738 4743
+)
+"gumtree.ml" 120 3772 3829 "gumtree.ml" 120 3772 3833
+type(
+  Ast_diff.path
+)
+ident(
+  def file "gumtree.ml" 120 3772 3834 "gumtree.ml" 144 4738 4743
+)
+"gumtree.ml" 120 3772 3834 "gumtree.ml" 120 3772 3837
+type(
+  Ast_diff.vname
+)
+ident(
+  def ver "gumtree.ml" 120 3772 3838 "gumtree.ml" 144 4738 4743
+)
+"gumtree.ml" 120 3772 3838 "gumtree.ml" 120 3772 3841
+type(
+  int * int * int
+)
+ident(
+  def pos "gumtree.ml" 121 3891 3893 "gumtree.ml" 144 4738 4743
+)
+"gumtree.ml" 121 3891 3893 "gumtree.ml" 121 3891 3918
+type(
+  string ->
+  (unit -> bool * (Ast_diff.lineprediction * int * int)) ->
+  bool * (Ast_diff.lineprediction * int * int)
+)
+ident(
+  int_ref Debug.profile_code_silent "debug.ml" 72 2223 2227 "debug.ml" 72 2223 2246
+)
+"gumtree.ml" 121 3891 3919 "gumtree.ml" 121 3891 3957
+type(
+  string
+)
+"gumtree.ml" 122 3958 3967 "gumtree.ml" 122 3958 3969
+type(
+  unit
+)
+"gumtree.ml" 124 3983 3990 "gumtree.ml" 124 3983 4000
+type(
+  Ast_diff.vname * Ast_diff.path -> Ast_diff.diffs -> Ast_diff.changes
+)
+ident(
+  int_ref Stdlib.List.assoc "list.mli" 371 12459 12459 "list.mli" 371 12459 12497
+)
+"gumtree.ml" 124 3983 4002 "gumtree.ml" 124 3983 4005
+type(
+  Ast_diff.vname
+)
+ident(
+  int_ref ver "gumtree.ml" 120 3772 3834 "gumtree.ml" 120 3772 3837
+)
+"gumtree.ml" 124 3983 4007 "gumtree.ml" 124 3983 4011
+type(
+  Ast_diff.path
+)
+ident(
+  int_ref file "gumtree.ml" 120 3772 3829 "gumtree.ml" 120 3772 3833
+)
+"gumtree.ml" 124 3983 4002 "gumtree.ml" 124 3983 4011
+type(
+  Ast_diff.vname * Ast_diff.path
+)
+"gumtree.ml" 124 3983 4013 "gumtree.ml" 124 3983 4018
+type(
+  Ast_diff.diffs
+)
+ident(
+  int_ref diffs "gumtree.ml" 120 3772 3806 "gumtree.ml" 120 3772 3811
+)
+"gumtree.ml" 124 3983 3990 "gumtree.ml" 124 3983 4018
+type(
+  Ast_diff.changes
+)
+"gumtree.ml" 125 4024 4046 "gumtree.ml" 125 4024 4050
+type(
+  Ast_diff.tree
+)
+ident(
+  def root "gumtree.ml" 127 4067 4069 "gumtree.ml" 136 4412 4464
+)
+"gumtree.ml" 125 4024 4029 "gumtree.ml" 125 4024 4050
+type(
+  Ast_diff.changes
+)
+type(
+  Ast_diff.changes
+)
+"gumtree.ml" 127 4067 4073 "gumtree.ml" 127 4067 4085
+type(
+  Ast_diff.tree
+)
+ident(
+  def matched_tree "gumtree.ml" 128 4121 4123 "gumtree.ml" 136 4412 4464
+)
+"gumtree.ml" 127 4067 4088 "gumtree.ml" 127 4067 4099
+type(
+  Ast_diff.vname ->
+  Ast_diff.path -> int * int * int -> Ast_diff.tree -> Ast_diff.tree
+)
+ident(
+  int_ref lookup_tree "gumtree.ml" 102 3105 3113 "gumtree.ml" 102 3105 3124
+)
+"gumtree.ml" 127 4067 4100 "gumtree.ml" 127 4067 4103
+type(
+  Ast_diff.vname
+)
+ident(
+  int_ref ver "gumtree.ml" 120 3772 3834 "gumtree.ml" 120 3772 3837
+)
+"gumtree.ml" 127 4067 4104 "gumtree.ml" 127 4067 4108
+type(
+  Ast_diff.path
+)
+ident(
+  int_ref file "gumtree.ml" 120 3772 3829 "gumtree.ml" 120 3772 3833
+)
+"gumtree.ml" 127 4067 4109 "gumtree.ml" 127 4067 4112
+type(
+  int * int * int
+)
+ident(
+  int_ref pos "gumtree.ml" 120 3772 3838 "gumtree.ml" 120 3772 3841
+)
+"gumtree.ml" 127 4067 4113 "gumtree.ml" 127 4067 4117
+type(
+  Ast_diff.tree
+)
+ident(
+  int_ref root "gumtree.ml" 125 4024 4046 "gumtree.ml" 125 4024 4050
+)
+"gumtree.ml" 127 4067 4088 "gumtree.ml" 127 4067 4117
+type(
+  Ast_diff.tree
+)
+"gumtree.ml" 128 4121 4123 "gumtree.ml" 128 4121 4135
+type(
+  bool -> int -> Ast_diff.tree -> unit
+)
+ident(
+  int_ref show_gumtree "gumtree.ml" 50 1285 1293 "gumtree.ml" 50 1285 1305
+)
+"gumtree.ml" 128 4121 4136 "gumtree.ml" 128 4121 4140
+type(
+  bool
+)
+"gumtree.ml" 128 4121 4141 "gumtree.ml" 128 4121 4142
+type(
+  int
+)
+"gumtree.ml" 128 4121 4143 "gumtree.ml" 128 4121 4155
+type(
+  Ast_diff.tree
+)
+ident(
+  int_ref matched_tree "gumtree.ml" 127 4067 4073 "gumtree.ml" 127 4067 4085
+)
+"gumtree.ml" 128 4121 4123 "gumtree.ml" 128 4121 4155
+type(
+  unit
+)
+"gumtree.ml" 129 4157 4159 "gumtree.ml" 129 4157 4174
+type(
+  string ->
+  Bolt.Level.t ->
+  ?file:string ->
+  ?line:int ->
+  ?column:int ->
+  ?properties:(string * string) list -> ?error:exn option -> string -> unit
+)
+ident(
+  int_ref Bolt.Logger.log "src/library/logger.mli" 56 2693 2693 "src/library/logger.mli" 57 2768 2843
+)
+"gumtree.ml" 129 4157 4175 "gumtree.ml" 129 4157 4177
+type(
+  string
+)
+"gumtree.ml" 129 4157 4178 "gumtree.ml" 129 4157 4194
+type(
+  Bolt.Level.t
+)
+"gumtree.ml" 129 4157 4195 "gumtree.ml" 129 4157 4214
+type(
+  string
+)
+"gumtree.ml" 129 4157 4159 "gumtree.ml" 129 4157 4214
+type(
+  unit
+)
+"gumtree.ml" 130 4216 4224 "gumtree.ml" 130 4216 4237
+type(
+  Ast_diff.tree -> Ast_diff.position option
+)
+ident(
+  int_ref get_pos_after "gumtree.ml" 38 1006 1010 "gumtree.ml" 38 1006 1023
+)
+"gumtree.ml" 130 4216 4238 "gumtree.ml" 130 4216 4250
+type(
+  Ast_diff.tree
+)
+ident(
+  int_ref matched_tree "gumtree.ml" 127 4067 4073 "gumtree.ml" 127 4067 4085
+)
+"gumtree.ml" 130 4216 4224 "gumtree.ml" 130 4216 4250
+type(
+  Ast_diff.position option
+)
+"gumtree.ml" 131 4256 4268 "gumtree.ml" 131 4256 4269
+type(
+  int
+)
+"gumtree.ml" 131 4256 4271 "gumtree.ml" 131 4256 4272
+type(
+  int
+)
+"gumtree.ml" 131 4256 4274 "gumtree.ml" 131 4256 4276
+type(
+  int
+)
+ident(
+  def bl "gumtree.ml" 132 4293 4301 "gumtree.ml" 135 4369 4411
+)
+"gumtree.ml" 131 4256 4278 "gumtree.ml" 131 4256 4280
+type(
+  int
+)
+ident(
+  def bc "gumtree.ml" 132 4293 4301 "gumtree.ml" 135 4369 4411
+)
+"gumtree.ml" 131 4256 4282 "gumtree.ml" 131 4256 4284
+type(
+  int
+)
+ident(
+  def el "gumtree.ml" 132 4293 4301 "gumtree.ml" 135 4369 4411
+)
+"gumtree.ml" 131 4256 4286 "gumtree.ml" 131 4256 4288
+type(
+  int
+)
+ident(
+  def ec "gumtree.ml" 132 4293 4301 "gumtree.ml" 135 4369 4411
+)
+"gumtree.ml" 131 4256 4262 "gumtree.ml" 131 4256 4289
+type(
+  int * int * int * int * int * int
+)
+type(
+  Ast_diff.position option
+)
+type(
+  Ast_diff.position option
+)
+"gumtree.ml" 132 4293 4304 "gumtree.ml" 132 4293 4306
+type(
+  int
+)
+ident(
+  int_ref bl "gumtree.ml" 131 4256 4274 "gumtree.ml" 131 4256 4276
+)
+"gumtree.ml" 132 4293 4307 "gumtree.ml" 132 4293 4309
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( == ) "stdlib.mli" 191 8127 8127 "stdlib.mli" 191 8127 8169
+)
+"gumtree.ml" 132 4293 4310 "gumtree.ml" 132 4293 4312
+type(
+  int
+)
+ident(
+  int_ref el "gumtree.ml" 131 4256 4282 "gumtree.ml" 131 4256 4284
+)
+"gumtree.ml" 132 4293 4304 "gumtree.ml" 132 4293 4312
+type(
+  bool
+)
+"gumtree.ml" 133 4318 4322 "gumtree.ml" 133 4318 4326
+type(
+  bool
+)
+"gumtree.ml" 133 4318 4343 "gumtree.ml" 133 4318 4345
+type(
+  int
+)
+ident(
+  int_ref bl "gumtree.ml" 131 4256 4274 "gumtree.ml" 131 4256 4276
+)
+"gumtree.ml" 133 4318 4329 "gumtree.ml" 133 4318 4345
+type(
+  Ast_diff.lineprediction
+)
+"gumtree.ml" 133 4318 4347 "gumtree.ml" 133 4318 4349
+type(
+  int
+)
+ident(
+  int_ref bc "gumtree.ml" 131 4256 4278 "gumtree.ml" 131 4256 4280
+)
+"gumtree.ml" 133 4318 4351 "gumtree.ml" 133 4318 4353
+type(
+  int
+)
+ident(
+  int_ref ec "gumtree.ml" 131 4256 4286 "gumtree.ml" 131 4256 4288
+)
+"gumtree.ml" 133 4318 4329 "gumtree.ml" 133 4318 4353
+type(
+  Ast_diff.lineprediction * int * int
+)
+"gumtree.ml" 133 4318 4322 "gumtree.ml" 133 4318 4354
+type(
+  bool * (Ast_diff.lineprediction * int * int)
+)
+"gumtree.ml" 135 4369 4373 "gumtree.ml" 135 4369 4377
+type(
+  bool
+)
+"gumtree.ml" 135 4369 4394 "gumtree.ml" 135 4369 4396
+type(
+  int
+)
+ident(
+  int_ref bl "gumtree.ml" 131 4256 4274 "gumtree.ml" 131 4256 4276
+)
+"gumtree.ml" 135 4369 4398 "gumtree.ml" 135 4369 4400
+type(
+  int
+)
+ident(
+  int_ref el "gumtree.ml" 131 4256 4282 "gumtree.ml" 131 4256 4284
+)
+"gumtree.ml" 135 4369 4380 "gumtree.ml" 135 4369 4401
+type(
+  Ast_diff.lineprediction
+)
+"gumtree.ml" 135 4369 4403 "gumtree.ml" 135 4369 4405
+type(
+  int
+)
+ident(
+  int_ref bc "gumtree.ml" 131 4256 4278 "gumtree.ml" 131 4256 4280
+)
+"gumtree.ml" 135 4369 4407 "gumtree.ml" 135 4369 4409
+type(
+  int
+)
+ident(
+  int_ref ec "gumtree.ml" 131 4256 4286 "gumtree.ml" 131 4256 4288
+)
+"gumtree.ml" 135 4369 4380 "gumtree.ml" 135 4369 4409
+type(
+  Ast_diff.lineprediction * int * int
+)
+"gumtree.ml" 135 4369 4373 "gumtree.ml" 135 4369 4410
+type(
+  bool * (Ast_diff.lineprediction * int * int)
+)
+"gumtree.ml" 132 4293 4301 "gumtree.ml" 135 4369 4411
+type(
+  bool * (Ast_diff.lineprediction * int * int)
+)
+"gumtree.ml" 136 4412 4418 "gumtree.ml" 136 4412 4422
+type(
+  Ast_diff.position option
+)
+type(
+  Ast_diff.position option
+)
+"gumtree.ml" 136 4412 4427 "gumtree.ml" 136 4412 4431
+type(
+  bool
+)
+"gumtree.ml" 136 4412 4451 "gumtree.ml" 136 4412 4456
+type(
+  bool
+)
+"gumtree.ml" 136 4412 4434 "gumtree.ml" 136 4412 4456
+type(
+  Ast_diff.lineprediction
+)
+"gumtree.ml" 136 4412 4458 "gumtree.ml" 136 4412 4459
+type(
+  int
+)
+"gumtree.ml" 136 4412 4461 "gumtree.ml" 136 4412 4462
+type(
+  int
+)
+"gumtree.ml" 136 4412 4434 "gumtree.ml" 136 4412 4462
+type(
+  Ast_diff.lineprediction * int * int
+)
+"gumtree.ml" 136 4412 4427 "gumtree.ml" 136 4412 4463
+type(
+  bool * (Ast_diff.lineprediction * int * int)
+)
+"gumtree.ml" 130 4216 4218 "gumtree.ml" 136 4412 4464
+type(
+  bool * (Ast_diff.lineprediction * int * int)
+)
+"gumtree.ml" 129 4157 4159 "gumtree.ml" 136 4412 4464
+type(
+  bool * (Ast_diff.lineprediction * int * int)
+)
+"gumtree.ml" 128 4121 4123 "gumtree.ml" 136 4412 4464
+type(
+  bool * (Ast_diff.lineprediction * int * int)
+)
+"gumtree.ml" 127 4067 4069 "gumtree.ml" 136 4412 4464
+type(
+  bool * (Ast_diff.lineprediction * int * int)
+)
+"gumtree.ml" 138 4476 4481 "gumtree.ml" 138 4476 4501
+type(
+  Ast_diff.changes
+)
+type(
+  Ast_diff.changes
+)
+"gumtree.ml" 138 4476 4506 "gumtree.ml" 138 4476 4510
+type(
+  bool
+)
+"gumtree.ml" 138 4476 4513 "gumtree.ml" 138 4476 4528
+type(
+  Ast_diff.lineprediction
+)
+"gumtree.ml" 138 4476 4530 "gumtree.ml" 138 4476 4531
+type(
+  int
+)
+"gumtree.ml" 138 4476 4533 "gumtree.ml" 138 4476 4534
+type(
+  int
+)
+"gumtree.ml" 138 4476 4513 "gumtree.ml" 138 4476 4534
+type(
+  Ast_diff.lineprediction * int * int
+)
+"gumtree.ml" 138 4476 4506 "gumtree.ml" 138 4476 4535
+type(
+  bool * (Ast_diff.lineprediction * int * int)
+)
+"gumtree.ml" 139 4537 4542 "gumtree.ml" 139 4537 4543
+type(
+  Ast_diff.changes
+)
+type(
+  Ast_diff.changes
+)
+"gumtree.ml" 139 4537 4547 "gumtree.ml" 139 4537 4552
+type(
+  exn -> bool * (Ast_diff.lineprediction * int * int)
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"gumtree.ml" 139 4537 4565 "gumtree.ml" 139 4537 4582
+type(
+  string
+)
+"gumtree.ml" 139 4537 4554 "gumtree.ml" 139 4537 4582
+type(
+  exn
+)
+"gumtree.ml" 139 4537 4547 "gumtree.ml" 139 4537 4583
+type(
+  bool * (Ast_diff.lineprediction * int * int)
+)
+"gumtree.ml" 124 3983 3984 "gumtree.ml" 139 4537 4583
+type(
+  bool * (Ast_diff.lineprediction * int * int)
+)
+"gumtree.ml" 140 4584 4595 "gumtree.ml" 140 4584 4604
+type(
+  exn
+)
+"gumtree.ml" 141 4608 4613 "gumtree.ml" 141 4608 4616
+type(
+  string
+)
+ident(
+  def msg "gumtree.ml" 142 4672 4673 "gumtree.ml" 143 4714 4737
+)
+"gumtree.ml" 141 4608 4619 "gumtree.ml" 141 4608 4641
+type(
+  string
+)
+"gumtree.ml" 141 4608 4641 "gumtree.ml" 141 4608 4642
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"gumtree.ml" 141 4608 4643 "gumtree.ml" 141 4608 4647
+type(
+  Ast_diff.path
+)
+ident(
+  int_ref file "gumtree.ml" 120 3772 3829 "gumtree.ml" 120 3772 3833
+)
+"gumtree.ml" 141 4608 4648 "gumtree.ml" 141 4608 4649
+type(
+  Ast_diff.path -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"gumtree.ml" 141 4608 4650 "gumtree.ml" 141 4608 4662
+type(
+  string
+)
+"gumtree.ml" 141 4608 4663 "gumtree.ml" 141 4608 4664
+type(
+  string -> Ast_diff.vname -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"gumtree.ml" 141 4608 4665 "gumtree.ml" 141 4608 4668
+type(
+  Ast_diff.vname
+)
+ident(
+  int_ref ver "gumtree.ml" 120 3772 3834 "gumtree.ml" 120 3772 3837
+)
+"gumtree.ml" 141 4608 4650 "gumtree.ml" 141 4608 4668
+type(
+  string
+)
+"gumtree.ml" 141 4608 4643 "gumtree.ml" 141 4608 4668
+type(
+  string
+)
+"gumtree.ml" 141 4608 4619 "gumtree.ml" 141 4608 4668
+type(
+  string
+)
+"gumtree.ml" 142 4672 4673 "gumtree.ml" 142 4672 4688
+type(
+  string ->
+  Bolt.Level.t ->
+  ?file:string ->
+  ?line:int ->
+  ?column:int ->
+  ?properties:(string * string) list -> ?error:exn option -> string -> unit
+)
+ident(
+  int_ref Bolt.Logger.log "src/library/logger.mli" 56 2693 2693 "src/library/logger.mli" 57 2768 2843
+)
+"gumtree.ml" 142 4672 4689 "gumtree.ml" 142 4672 4691
+type(
+  string
+)
+"gumtree.ml" 142 4672 4692 "gumtree.ml" 142 4672 4708
+type(
+  Bolt.Level.t
+)
+"gumtree.ml" 142 4672 4709 "gumtree.ml" 142 4672 4712
+type(
+  string
+)
+ident(
+  int_ref msg "gumtree.ml" 141 4608 4613 "gumtree.ml" 141 4608 4616
+)
+"gumtree.ml" 142 4672 4673 "gumtree.ml" 142 4672 4712
+type(
+  unit
+)
+"gumtree.ml" 143 4714 4715 "gumtree.ml" 143 4714 4720
+type(
+  exn -> bool * (Ast_diff.lineprediction * int * int)
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"gumtree.ml" 143 4714 4733 "gumtree.ml" 143 4714 4736
+type(
+  string
+)
+ident(
+  int_ref msg "gumtree.ml" 141 4608 4613 "gumtree.ml" 141 4608 4616
+)
+"gumtree.ml" 143 4714 4722 "gumtree.ml" 143 4714 4736
+type(
+  exn
+)
+"gumtree.ml" 143 4714 4715 "gumtree.ml" 143 4714 4737
+type(
+  bool * (Ast_diff.lineprediction * int * int)
+)
+"gumtree.ml" 142 4672 4673 "gumtree.ml" 143 4714 4737
+type(
+  bool * (Ast_diff.lineprediction * int * int)
+)
+"gumtree.ml" 141 4608 4609 "gumtree.ml" 143 4714 4737
+type(
+  bool * (Ast_diff.lineprediction * int * int)
+)
+"gumtree.ml" 123 3973 3979 "gumtree.ml" 143 4714 4737
+type(
+  bool * (Ast_diff.lineprediction * int * int)
+)
+"gumtree.ml" 122 3958 3967 "gumtree.ml" 143 4714 4737
+type(
+  unit -> bool * (Ast_diff.lineprediction * int * int)
+)
+"gumtree.ml" 121 3891 3893 "gumtree.ml" 144 4738 4743
+type(
+  bool * (Ast_diff.lineprediction * int * int)
+)
+"gumtree.ml" 120 3772 3838 "gumtree.ml" 144 4738 4743
+type(
+  int * int * int -> bool * (Ast_diff.lineprediction * int * int)
+)
+"gumtree.ml" 120 3772 3834 "gumtree.ml" 144 4738 4743
+type(
+  Ast_diff.vname ->
+  int * int * int -> bool * (Ast_diff.lineprediction * int * int)
+)
+"gumtree.ml" 120 3772 3829 "gumtree.ml" 144 4738 4743
+type(
+  Ast_diff.path ->
+  Ast_diff.vname ->
+  int * int * int -> bool * (Ast_diff.lineprediction * int * int)
+)
+"gumtree.ml" 120 3772 3805 "gumtree.ml" 144 4738 4743
+type(
+  Ast_diff.diffs ->
+  Ast_diff.path ->
+  Ast_diff.vname ->
+  int * int * int -> bool * (Ast_diff.lineprediction * int * int)
+)

@@ -1,0 +1,24 @@
+* BUG [[view:./projects/openssl/openssl-0.9.8j/crypto/rsa/rsa_x931g.c::face=ovl-face1::linb=193::colb=5::cole=8][crypto/rsa/rsa_x931g.c]]
+ [[view:./projects/openssl/openssl-0.9.8j/crypto/rsa/rsa_x931g.c::face=ovl-face1::linb=193::colb=5::cole=8][./projects/openssl/openssl-0.9.8j/crypto/rsa/rsa_x931g.c::193]]
+* BUG [[view:./projects/openssl/openssl-0.9.8j/fips/rsa/fips_rsa_x931g.c::face=ovl-face1::linb=197::colb=5::cole=8][fips/rsa/fips_rsa_x931g.c]]
+ [[view:./projects/openssl/openssl-0.9.8j/fips/rsa/fips_rsa_x931g.c::face=ovl-face1::linb=197::colb=5::cole=8][./projects/openssl/openssl-0.9.8j/fips/rsa/fips_rsa_x931g.c::197]]
+* FP [[view:./projects/openssl/openssl-0.9.8a/crypto/x509v3/v3_pci.c::face=ovl-face1::linb=304::colb=12::cole=15][crypto/x509v3/v3_pci.c]]
+ [[view:./projects/openssl/openssl-0.9.8a/crypto/x509v3/v3_pci.c::face=ovl-face1::linb=304::colb=12::cole=15][./projects/openssl/openssl-0.9.8a/crypto/x509v3/v3_pci.c::304]]
+ [[view:./projects/openssl/openssl-0.9.8b/crypto/x509v3/v3_pci.c::face=ovl-face1::linb=304::colb=12::cole=15][./projects/openssl/openssl-0.9.8b/crypto/x509v3/v3_pci.c::304]]
+ [[view:./projects/openssl/openssl-0.9.8c/crypto/x509v3/v3_pci.c::face=ovl-face1::linb=304::colb=12::cole=15][./projects/openssl/openssl-0.9.8c/crypto/x509v3/v3_pci.c::304]]
+ [[view:./projects/openssl/openssl-0.9.8d/crypto/x509v3/v3_pci.c::face=ovl-face1::linb=304::colb=12::cole=15][./projects/openssl/openssl-0.9.8d/crypto/x509v3/v3_pci.c::304]]
+ [[view:./projects/openssl/openssl-0.9.8e/crypto/x509v3/v3_pci.c::face=ovl-face1::linb=304::colb=12::cole=15][./projects/openssl/openssl-0.9.8e/crypto/x509v3/v3_pci.c::304]]
+* BUG [[view:./projects/openssl/openssl-0.9.8a/ssl/ssl_task.c::face=ovl-face1::linb=361::colb=1::cole=6][ssl/ssl_task.c]]
+ [[view:./projects/openssl/openssl-0.9.8a/ssl/ssl_task.c::face=ovl-face1::linb=361::colb=1::cole=6][./projects/openssl/openssl-0.9.8a/ssl/ssl_task.c::361]]
+ [[view:./projects/openssl/openssl-0.9.8b/ssl/ssl_task.c::face=ovl-face1::linb=361::colb=1::cole=6][./projects/openssl/openssl-0.9.8b/ssl/ssl_task.c::361]]
+ [[view:./projects/openssl/openssl-0.9.8c/ssl/ssl_task.c::face=ovl-face1::linb=361::colb=1::cole=6][./projects/openssl/openssl-0.9.8c/ssl/ssl_task.c::361]]
+ [[view:./projects/openssl/openssl-0.9.8d/ssl/ssl_task.c::face=ovl-face1::linb=361::colb=1::cole=6][./projects/openssl/openssl-0.9.8d/ssl/ssl_task.c::361]]
+ [[view:./projects/openssl/openssl-0.9.8e/ssl/ssl_task.c::face=ovl-face1::linb=361::colb=1::cole=6][./projects/openssl/openssl-0.9.8e/ssl/ssl_task.c::361]]
+ [[view:./projects/openssl/openssl-0.9.8g/ssl/ssl_task.c::face=ovl-face1::linb=361::colb=1::cole=6][./projects/openssl/openssl-0.9.8g/ssl/ssl_task.c::361]]
+ [[view:./projects/openssl/openssl-0.9.8h/ssl/ssl_task.c::face=ovl-face1::linb=361::colb=1::cole=6][./projects/openssl/openssl-0.9.8h/ssl/ssl_task.c::361]]
+ [[view:./projects/openssl/openssl-0.9.8i/ssl/ssl_task.c::face=ovl-face1::linb=361::colb=1::cole=6][./projects/openssl/openssl-0.9.8i/ssl/ssl_task.c::361]]
+ [[view:./projects/openssl/openssl-0.9.8j/ssl/ssl_task.c::face=ovl-face1::linb=361::colb=1::cole=6][./projects/openssl/openssl-0.9.8j/ssl/ssl_task.c::361]]
+
+* org config
+
+#+SEQ_TODO: TODO | BUG FP

@@ -1,6 +1,67 @@
+
 -include Makefile.config
 
 TARGET=herodotos
+
+SOURCES =
+SUBDIRS = bin
+MENHIR_PATH=../menhirLib
+DEPDIRS = $(MENHIR_PATH)
+EXTLIBS=postgresql parmap volt # xml-light
+P4=volt
+
+OCAMLFIND=ocamlfind
+
+EXTLIBCMA= $(shell $(OCAMLFIND) query -predicates byte -a-format $(EXTLIBS))
+OCAMLLIBS=str.cma unix.cma threads.cma bigarray.cma dynlink.cma $(EXTLIBCMA)#$(EXTLIBS:%=%.cma)
+FLAG=
+
+# ocamlmktop -custom -thread  -o threadedocaml unix.cma threads.cma -cclib -lthreads
+# Automatic computation
+OCAMLFIND=ocamlfind
+
+LIBDIR=$(shell $(OCAMLFIND) query $(EXTLIBS))
+P4DIR=$(shell $(OCAMLFIND) query $(P4))
+P4FLAG=-pp 'camlp4o $(P4DIR)/bolt_pp.cmo'
+DEPDIRS = $(MENHIR_PATH)
+INCLUDES=$(SUBDIRS:%=-I %) $(LIBDIR:%=-I %)
+
+OBJS = $(SOURCES:.ml=.cmo)
+ROOTLIB = $(TARGET).cmo
+FLAGS= $(INCLUDES) $(FLAG) $(P4FLAG)
+LIBS = $(SUBDIRS:%=%.cma)
+ALLLIBS = $(LIBS) $(ROOTLIB)
+
+OPTOBJS = $(OBJS:.cmo=.cmx)
+OPTROOTLIB = $(ROOTLIB:.cmo=.cmx)
+OPTLIBS = $(LIBS:.cma=.cmxa)
+OPTALLLIBS = $(OPTLIBS) $(OPTROOTLIB)
+OPTOCAMLLIBS=$(OCAMLLIBS:.cma=.cmxa)
+
+EXEC = $(TARGET)
+DEP = $(SUBDIRS) $(DEPDIRS)
+
+MENHIR=$(MENHIR_PATH)/menhirLib.cmo
+MENHIRO=$(MENHIR_PATH)/menhirLib.cmx
+
+# The Caml compilers.
+CFLAGS ?= -g -dtypes -thread $(FLAGS)
+OCAMLDEP = ocamldep$(OPTBIN) $(P4FLAG)
+ifeq ("$(OPTBIN)",".opt")
+OCAMLC=$(OCAMLFIND) ocamlc -predicates native
+OCAMLOPT=$(OCAMLFIND) ocamlopt -predicates native
+else
+OCAMLC=$(OCAMLFIND) ocamlc
+OCAMLOPT=$(OCAMLFIND) ocamlopt
+endif
+
+.PHONY:: all all.opt clean distclean debclean $(DEP)
+.PHONY:: .depend depend install sudo_install deploy
+.PHONY:: test debian debians
+
+all: init
+
+init: check-config .depend scripts/Makefile.inc
 
 test/Makefile:
 	@echo "Generating basic Makefile"
@@ -22,6 +83,33 @@ test: test/Makefile test/debug.config
 	$(MAKE) -C test correl
 	tar xjvf test/exist.tbz2 -C test
 	$(MAKE) -C test web
+
+view:
+	if [ "$(PDFVIEWER)" = "okular" ]; then \
+		find test/gr -name "*.pdf" | xargs $(PDFVIEWER) ; \
+	else \
+	 	for f in `find test/gr -name "*.pdf"`; do \
+			$(PDFVIEWER) $$f & \
+		done \
+	fi
+
+#########################
+## Dependencies        ##
+#########################
+exists: $(MENHIR_PATH) commons
+bugs: $(MENHIR_PATH) commons
+orgs: $(MENHIR_PATH) commons diff
+diff: commons
+hcl: commons
+engine: commons diff exists orgs graph database scm
+#########################
+exists.opt: $(MENHIR_PATH).opt commons.opt
+bugs.opt: $(MENHIR_PATH).opt commons.opt
+orgs.opt: $(MENHIR_PATH).opt commons.opt diff.opt
+diff.opt: commons.opt
+hcl.opt: commons.opt
+engine.opt: commons.opt diff.opt exists.opt orgs.opt
+#########################
 
 ##############################################################################
 # Install
@@ -95,3 +183,9 @@ licensify:
 	ocaml str.cma ../tools/licensify.ml
 	set -e; for i in $(TOLICENSIFY); do cd $$i; \
 		ocaml str.cma ../../tools/licensify.ml; cd -; done
+
+ocamlbuild-byte:
+	ocamlbuild -use-ocamlfind -cflags -thread -lflags -thread herodotos.byte
+
+ocamlbuild-native:
+	ocamlbuild -use-ocamlfind -cflags -thread -lflags -thread herodotos.native

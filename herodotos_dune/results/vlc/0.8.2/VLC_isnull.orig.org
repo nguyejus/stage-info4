@@ -1,0 +1,2 @@
+* TODO [[view:./projects/vlc/0.8.2/modules/misc/rtsp.c::face=ovl-face1::linb=241::colb=17::cole=22][ ./projects/vlc/0.8.2/modules/misc/rtsp.c::241]]
+* TODO [[view:./projects/vlc/0.8.2/modules/access/directory.c::face=ovl-face1::linb=278::colb=26::cole=36][ ./projects/vlc/0.8.2/modules/access/directory.c::278]]

@@ -35,7 +35,7 @@ let parse_cache cache_file =
 	    Ast.colfr = pos.pos_cnum - pos.pos_bol;
  	    Ast.colto = (Lexing.lexeme_end lexbuf) - pos.pos_bol + 1}
 	  ("Config Parser Error: unexpected token '" ^ (Lexing.lexeme lexbuf) ^"'")
-  with _ -> (let logmsg=Printf.sprintf "File %s does not exit, run make preinit." cache_file in Bolt.Logger.log logmsg Bolt.Level.ERROR "");
+  with _ -> (let logmsg=Printf.sprintf "File %s does not exit, run make preinit." cache_file in Bolt.Logger.log "" Bolt.Level.ERROR logmsg);
     failwith ("File "^cache_file^" does not exit, run make preinit.")
 
 let parse_config_no_cache file : unit =
@@ -194,9 +194,9 @@ let show_attr attr : string =
     | Ast_config.VersionRE (re) -> ("version = \"" ^re^"\"")
     | Ast_config.Version (_, vs) ->
       (try
-	 Bolt.Logger.log "version = {" Bolt.Level.TRACE "";
+	 Bolt.Logger.log "" Bolt.Level.TRACE "version = {";
 	 let m = get_vers_min vs in
-	 List.iter (fun v -> Bolt.Logger.log "%s" Bolt.Level.TRACE (show_version m v)) vs;
+	 List.iter (fun v ->(let logmsg=Printf.sprintf "%s" (show_version m v) in Bolt.Logger.log "" Bolt.Level.TRACE logmsg)) vs;
 	 "}"
        with _ -> "No version set !"
       )
@@ -415,7 +415,7 @@ let get_xmin db g atts =
       | _ -> raise Unrecoverable
   with _ ->
     let logmsg=Printf.sprintf "XMin of %s is not defined. Assuming 0." g in
-    Bolt.Logger.log logmsg Bolt.Level.DEBUG "";
+    Bolt.Logger.log "" Bolt.Level.DEBUG logmsg;
     0.0
 
 let get_xtype g atts =
@@ -496,7 +496,7 @@ let get_correl_mode verbose pattern =
 	with
 	  Ast_config.Correl s ->
            (let logmsg=Printf.sprintf "Pattern %s has correlation mode: %s" pattern s in
-	      Bolt.Logger.log logmsg Bolt.Level.TRACE "");
+	      Bolt.Logger.log "" Bolt.Level.TRACE logmsg);
 	      (match s with
 		   "strict"  -> Ast_config.Strict
 		 | "none"    -> Ast_config.Nocorrel
@@ -507,7 +507,7 @@ let get_correl_mode verbose pattern =
 	  | _ -> raise Unrecoverable
       with _ ->
         let logmsg2=Printf.sprintf "Pattern %s has no correlation mode set: default assumed" pattern in
-	Bolt.Logger.log logmsg2 Bolt.Level.TRACE "";
+	Bolt.Logger.log "" Bolt.Level.TRACE logmsg2;
 	Ast_config.Default
   with Not_found ->
     raise (Misconfiguration ("pattern '"^pattern^"' is not declared"))
@@ -938,23 +938,23 @@ let show_curve atts curve =
 	 try
 	   let d_list = get_pattern false atts pattern catts in
 	     if d_list = [] then
-	       Bolt.Logger.log "No need to compute data on bugs for this curve." Bolt.Level.TRACE ""
+	       Bolt.Logger.log "" Bolt.Level.TRACE "No need to compute data on bugs for this curve."
 	     else
 	       begin
 		 let p = get_project (catts@atts) project in
 		 List.iter (fun d ->
                      (let logmsg=Printf.sprintf "Curve with p:%s and d:%s " p d in
-		     Bolt.Logger.log logmsg Bolt.Level.TRACE "")
+		     Bolt.Logger.log "" Bolt.Level.TRACE logmsg)
 			     ) d_list;
 		   List.iter (fun d ->
 		       let data = locate_data p d Global.origext in
                        let logmsg2=Printf.sprintf "Reading data from: %s" data in
-				Bolt.Logger.log logmsg2 Bolt.Level.TRACE ""
+				Bolt.Logger.log "" Bolt.Level.TRACE logmsg2
 			     ) d_list
 	       end;
 	     List.iter (fun x ->
                  (let logmsg3=Printf.sprintf "\t%s" (show_attr x) in
-			  Bolt.Logger.log logmsg3 Bolt.Level.TRACE ""
+			  Bolt.Logger.log "" Bolt.Level.TRACE logmsg3
 		       ))
 	       catts;
 	 with
@@ -964,24 +964,24 @@ let show_curve atts curve =
 
      let show_global () =
        (let logmsg=Printf.sprintf "Prefix = %s" !Setup.prefix in
-        Bolt.Logger.log logmsg Bolt.Level.DEBUG "");
+        Bolt.Logger.log "" Bolt.Level.DEBUG logmsg);
        (let logmsg2=Printf.sprintf "Cocci files in %s" !Setup.smatchdir in
-        Bolt.Logger.log logmsg2 Bolt.Level.DEBUG "");
+        Bolt.Logger.log "" Bolt.Level.DEBUG logmsg2);
        (let logmsg3=Printf.sprintf "Project source code in %s" !Setup.projectsdir in
-        Bolt.Logger.log logmsg3 Bolt.Level.DEBUG "");
+        Bolt.Logger.log "" Bolt.Level.DEBUG logmsg3);
        (let logmsg4=Printf.sprintf "Analysis results in %s" !Setup.resultsdir in
-        Bolt.Logger.log logmsg4 Bolt.Level.DEBUG "");
+        Bolt.Logger.log "" Bolt.Level.DEBUG logmsg4);
        (let logmsg5=Printf.sprintf "FindCmd = \"%s\"" !Setup.findcmd in
-        Bolt.Logger.log logmsg5 Bolt.Level.DEBUG "");
+        Bolt.Logger.log "" Bolt.Level.DEBUG logmsg5);
        (let logmsg6=Printf.sprintf "Flags = \"%s\"" !Setup.spflags in
-  Bolt.Logger.log logmsg6 Bolt.Level.DEBUG "");
+  Bolt.Logger.log "" Bolt.Level.DEBUG logmsg6);
   match !Setup.cpucore with
     None ->
      (let logmsg=Printf.sprintf "CPU core = <undefined: assuming %d>" (Misc.get_number_of_cores()) in
-	Bolt.Logger.log logmsg Bolt.Level.DEBUG "")
+	Bolt.Logger.log "" Bolt.Level.DEBUG logmsg)
   | Some cpucore ->
      (let logmsg=Printf.sprintf "CPU core = %d" cpucore in
-	Bolt.Logger.log logmsg Bolt.Level.DEBUG "")
+	Bolt.Logger.log "" Bolt.Level.DEBUG logmsg)
 
 let show_config () =
   Debug.profile_code "Config.show_config"
@@ -990,21 +990,22 @@ let show_config () =
        Setup.PrjTbl.iter
 	 (fun name (_,atts) ->
            (let logmsg=Printf.sprintf "Project %s" name in
-	   Bolt.Logger.log logmsg Bolt.Level.DEBUG "");
-	   List.iter (fun a -> (let logmsg=Printf.sprintf "%s" (show_attr a) in Bolt.Logger.log logmsg Bolt.Level.TRACE "")) atts
+	   Bolt.Logger.log "" Bolt.Level.DEBUG logmsg);
+	   List.iter (fun a -> (let logmsg=Printf.sprintf "%s" (show_attr a) in Bolt.Logger.log "" Bolt.Level.TRACE logmsg)) atts
 	 )
 	 Setup.projects;
        Setup.DftTbl.iter
 	 (fun name atts ->
            (let logmsg=Printf.sprintf "Pattern %s" name in
-	   Bolt.Logger.log logmsg Bolt.Level.DEBUG "");
-	   List.iter (fun a ->(let logmsg=Printf.sprintf "%s" (show_attr a) in Bolt.Logger.log logmsg Bolt.Level.TRACE "")) atts
+	   Bolt.Logger.log "" Bolt.Level.DEBUG logmsg);
+	   List.iter (fun a ->(let logmsg=Printf.sprintf "%s" (show_attr a) in Bolt.Logger.log "" Bolt.Level.TRACE logmsg)) atts
 	 )
 	 Setup.smatchs;
        Setup.GphTbl.iter
 	 (fun name (atts, subgraph) ->
-	   Bolt.Logger.log "Graph %s" Bolt.Level.DEBUG name;
-	   List.iter (fun a -> (let logmsg=Printf.sprintf "%s" (show_attr a) in Bolt.Logger.log logmsg Bolt.Level.TRACE "")) atts;
+           (let logmsg=Printf.sprintf "Graph %s" name in 
+	   Bolt.Logger.log "" Bolt.Level.DEBUG logmsg);
+	   List.iter (fun a -> (let logmsg=Printf.sprintf "%s" (show_attr a) in Bolt.Logger.log "" Bolt.Level.TRACE logmsg)) atts;
 	   match subgraph with
 	       Ast_config.Curves curves ->
 		 List.iter (show_curve atts) curves
@@ -1048,7 +1049,7 @@ let fixcolor_of_graph name (atts, subgraph) =
 	     with Misconfiguration msg
 	        | Misconfigurationat (msg, _) ->
                    (let logmsg=Printf.sprintf "%s Automatically picking one..." msg in
-		 Bolt.Logger.log logmsg Bolt.Level.ERROR "");
+		 Bolt.Logger.log "" Bolt.Level.ERROR logmsg);
 		 (crv_wc, curve::crv_woc, colors)
 	  ) (0,[],[]) curves
 	in

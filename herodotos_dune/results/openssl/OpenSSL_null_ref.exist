@@ -1,0 +1,4 @@
+file;openssl-0.9.8a;openssl-0.9.8b;openssl-0.9.8c;openssl-0.9.8d;openssl-0.9.8e;openssl-0.9.8g;openssl-0.9.8h;openssl-0.9.8i;openssl-0.9.8j;
+crypto/evp/p5_crpt2.c;8392;8469;8469;8469;8469;8469;8469;8469;8467;
+crypto/x509v3/pcy_tree.c;16699;16723;16723;16723;17046;17058;17058;17129;17127;
+ssl/kssl.c;68921;68921;68921;68921;69405;69405;69402;69402;69402;

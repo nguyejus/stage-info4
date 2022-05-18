@@ -1,0 +1,17 @@
+* TODO [[view:./projects/openssl/openssl-0.9.8i/ssl/s3_srvr.c::face=ovl-face1::linb=1363::colb=7::cole=12][./projects/openssl/openssl-0.9.8i/ssl/s3_srvr.c::1363]]
+ [[view:./projects/openssl/openssl-0.9.8j/ssl/s3_srvr.c::face=ovl-face1::linb=1369::colb=7::cole=12][./projects/openssl/openssl-0.9.8j/ssl/s3_srvr.c::1369]]
+* TODO [[view:./projects/openssl/openssl-0.9.8h/crypto/err/err.c::face=ovl-face1::linb=561::colb=6::cole=10][./projects/openssl/openssl-0.9.8h/crypto/err/err.c::561]]
+ [[view:./projects/openssl/openssl-0.9.8i/crypto/err/err.c::face=ovl-face1::linb=562::colb=6::cole=10][./projects/openssl/openssl-0.9.8i/crypto/err/err.c::562]]
+* TODO [[view:./projects/openssl/openssl-0.9.8g/crypto/err/err.c::face=ovl-face1::linb=560::colb=6::cole=10][./projects/openssl/openssl-0.9.8g/crypto/err/err.c::560]]
+ [[view:./projects/openssl/openssl-0.9.8h/crypto/err/err.c::face=ovl-face1::linb=561::colb=6::cole=10][./projects/openssl/openssl-0.9.8h/crypto/err/err.c::561]]
+* TODO [[view:./projects/openssl/openssl-0.9.8g/ssl/s3_srvr.c::face=ovl-face1::linb=1324::colb=7::cole=12][./projects/openssl/openssl-0.9.8g/ssl/s3_srvr.c::1324]]
+ [[view:./projects/openssl/openssl-0.9.8h/ssl/s3_srvr.c::face=ovl-face1::linb=1363::colb=7::cole=12][./projects/openssl/openssl-0.9.8h/ssl/s3_srvr.c::1363]]
+* TODO [[view:./projects/openssl/openssl-0.9.8e/ssl/s3_srvr.c::face=ovl-face1::linb=1286::colb=7::cole=12][./projects/openssl/openssl-0.9.8e/ssl/s3_srvr.c::1286]]
+ [[view:./projects/openssl/openssl-0.9.8g/ssl/s3_srvr.c::face=ovl-face1::linb=1324::colb=7::cole=12][./projects/openssl/openssl-0.9.8g/ssl/s3_srvr.c::1324]]
+* TODO [[view:./projects/openssl/openssl-0.9.8d/ssl/s3_srvr.c::face=ovl-face1::linb=1284::colb=7::cole=12][./projects/openssl/openssl-0.9.8d/ssl/s3_srvr.c::1284]]
+ [[view:./projects/openssl/openssl-0.9.8e/ssl/s3_srvr.c::face=ovl-face1::linb=1286::colb=7::cole=12][./projects/openssl/openssl-0.9.8e/ssl/s3_srvr.c::1286]]
+* TODO [[view:./projects/openssl/openssl-0.9.8a/crypto/objects/obj_lib.c::face=ovl-face1::linb=111::colb=5::cole=6][./projects/openssl/openssl-0.9.8a/crypto/objects/obj_lib.c::111]]
+ [[view:./projects/openssl/openssl-0.9.8b/crypto/objects/obj_lib.c::face=ovl-face1::linb=112::colb=5::cole=6][./projects/openssl/openssl-0.9.8b/crypto/objects/obj_lib.c::112]]
+
+* org config
+#+SEQ_TODO: TODO | SAME UNRELATED
