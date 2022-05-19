@@ -41,3 +41,7 @@ J'espère pouvoir avoir un Herodotos fonctionnel dans les semaines qui viennent.
 1. Fin de l'adaptation du système de logging
 2. Test de Herodotos avec des versions de Linux, Wine, VLC et OpenSSL(celles fournies dans la base de code)
 3. Recherche d'une solution pour ne plus dépendre de make(champ <code>rule</code> et de <code>action</code> dans le fichier <code>dune</code> par exemple)
+
+# 19/05/22: 2ème semaine jour 4
+1. Début de l'ajout d'une autre version de Linux (5.18.0-rc5) (il faut trouver comment l'ajouter dans la liste des versions étudiées)
+2. Recherche d'arrangement pour ranger en sous-dossiers (impossible car menhir ne peut pas rechercher des fichiers .mly dans des sous-dossiers)
