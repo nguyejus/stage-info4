@@ -1,2 +1,0 @@
-* TODO [[view:./projects/openssl/openssl-0.9.8h/apps/apps.c::face=ovl-face1::linb=169::colb=1::cole=3][ ./projects/openssl/openssl-0.9.8h/apps/apps.c::169]]
-[[view:./projects/openssl/openssl-0.9.8h/apps/apps.c::face=ovl-face2::linb=179::colb=18::cole=24][]]

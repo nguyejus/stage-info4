@@ -1,13 +1,3 @@
-* TODO [[view:./projects/openssl/openssl-0.9.8d/ssl/kssl.c::face=ovl-face1::linb=1490::colb=3::cole=24][./projects/openssl/openssl-0.9.8d/ssl/kssl.c::1490]]
- [[view:./projects/openssl/openssl-0.9.8e/ssl/kssl.c::face=ovl-face1::linb=1509::colb=3::cole=13][./projects/openssl/openssl-0.9.8e/ssl/kssl.c::1509]]
-* TODO [[view:./projects/openssl/openssl-0.9.8d/ssl/kssl.c::face=ovl-face1::linb=1490::colb=3::cole=24][./projects/openssl/openssl-0.9.8d/ssl/kssl.c::1490]]
- [[view:./projects/openssl/openssl-0.9.8e/ssl/kssl.c::face=ovl-face1::linb=1509::colb=3::cole=24][./projects/openssl/openssl-0.9.8e/ssl/kssl.c::1509]]
-* TODO [[view:./projects/openssl/openssl-0.9.8d/ssl/kssl.c::face=ovl-face1::linb=1490::colb=3::cole=13][./projects/openssl/openssl-0.9.8d/ssl/kssl.c::1490]]
- [[view:./projects/openssl/openssl-0.9.8e/ssl/kssl.c::face=ovl-face1::linb=1509::colb=3::cole=13][./projects/openssl/openssl-0.9.8e/ssl/kssl.c::1509]]
-* TODO [[view:./projects/openssl/openssl-0.9.8d/ssl/kssl.c::face=ovl-face1::linb=1490::colb=3::cole=13][./projects/openssl/openssl-0.9.8d/ssl/kssl.c::1490]]
- [[view:./projects/openssl/openssl-0.9.8e/ssl/kssl.c::face=ovl-face1::linb=1509::colb=3::cole=24][./projects/openssl/openssl-0.9.8e/ssl/kssl.c::1509]]
-* TODO [[view:./projects/openssl/openssl-0.9.8a/crypto/evp/evp_enc.c::face=ovl-face1::linb=103::colb=30::cole=41][./projects/openssl/openssl-0.9.8a/crypto/evp/evp_enc.c::103]]
- [[view:./projects/openssl/openssl-0.9.8b/crypto/evp/evp_enc.c::face=ovl-face1::linb=110::colb=30::cole=41][./projects/openssl/openssl-0.9.8b/crypto/evp/evp_enc.c::110]]
 
 * org config
 #+SEQ_TODO: TODO | SAME UNRELATED

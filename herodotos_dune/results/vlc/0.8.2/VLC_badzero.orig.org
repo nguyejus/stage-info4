@@ -1,7 +1,0 @@
-* TODO [[view:./projects/vlc/0.8.2/modules/video_filter/mosaic.c::face=ovl-face1::linb=366::colb=45::cole=57][ ./projects/vlc/0.8.2/modules/video_filter/mosaic.c::366]]
-* TODO [[view:./projects/vlc/0.8.2/modules/stream_out/mosaic_bridge.c::face=ovl-face1::linb=449::colb=12::cole=22][ ./projects/vlc/0.8.2/modules/stream_out/mosaic_bridge.c::449]]
-* TODO [[view:./projects/vlc/0.8.2/modules/stream_out/mosaic_bridge.c::face=ovl-face1::linb=457::colb=12::cole=22][ ./projects/vlc/0.8.2/modules/stream_out/mosaic_bridge.c::457]]
-* TODO [[view:./projects/vlc/0.8.2/modules/stream_out/transcode.c::face=ovl-face1::linb=1864::colb=12::cole=22][ ./projects/vlc/0.8.2/modules/stream_out/transcode.c::1864]]
-* TODO [[view:./projects/vlc/0.8.2/modules/stream_out/transcode.c::face=ovl-face1::linb=1872::colb=12::cole=22][ ./projects/vlc/0.8.2/modules/stream_out/transcode.c::1872]]
-* TODO [[view:./projects/vlc/0.8.2/modules/stream_out/transcode.c::face=ovl-face1::linb=1889::colb=16::cole=26][ ./projects/vlc/0.8.2/modules/stream_out/transcode.c::1889]]
-* TODO [[view:./projects/vlc/0.8.2/modules/stream_out/transcode.c::face=ovl-face1::linb=1897::colb=16::cole=26][ ./projects/vlc/0.8.2/modules/stream_out/transcode.c::1897]]

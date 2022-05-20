@@ -42,7 +42,8 @@ mkdir ./projects/vlc/0.8.5
 mkdir ./projects/vlc/0.8.4b
 mkdir ./projects/vlc/0.8.4
 mkdir ./projects/vlc/0.8.2
-mkdir -p ./projects/linux/linux-2.6.28
+mkdir -p ./projects/linux/linux-5.18.0-rc5
+mkdir ./projects/linux/linux-2.6.28
 mkdir ./projects/linux/linux-2.6.27
 mkdir ./projects/linux/linux-2.6.26
 mkdir ./projects/linux/linux-2.6.25

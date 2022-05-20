@@ -1,14 +1,3 @@
-* FP [[view:./projects/openssl/openssl-0.9.8a/apps/apps.c::face=ovl-face1::linb=169::colb=1::cole=3][apps/apps.c]]
- [[view:./projects/openssl/openssl-0.9.8a/apps/apps.c::face=ovl-face1::linb=169::colb=1::cole=3][./projects/openssl/openssl-0.9.8a/apps/apps.c::169]]
- [[view:./projects/openssl/openssl-0.9.8b/apps/apps.c::face=ovl-face1::linb=169::colb=1::cole=3][./projects/openssl/openssl-0.9.8b/apps/apps.c::169]]
- [[view:./projects/openssl/openssl-0.9.8c/apps/apps.c::face=ovl-face1::linb=169::colb=1::cole=3][./projects/openssl/openssl-0.9.8c/apps/apps.c::169]]
- [[view:./projects/openssl/openssl-0.9.8d/apps/apps.c::face=ovl-face1::linb=169::colb=1::cole=3][./projects/openssl/openssl-0.9.8d/apps/apps.c::169]]
- [[view:./projects/openssl/openssl-0.9.8e/apps/apps.c::face=ovl-face1::linb=169::colb=1::cole=3][./projects/openssl/openssl-0.9.8e/apps/apps.c::169]]
- [[view:./projects/openssl/openssl-0.9.8g/apps/apps.c::face=ovl-face1::linb=169::colb=1::cole=3][./projects/openssl/openssl-0.9.8g/apps/apps.c::169]]
- [[view:./projects/openssl/openssl-0.9.8h/apps/apps.c::face=ovl-face1::linb=169::colb=1::cole=3][./projects/openssl/openssl-0.9.8h/apps/apps.c::169]]
- [[view:./projects/openssl/openssl-0.9.8i/apps/apps.c::face=ovl-face1::linb=169::colb=1::cole=3][./projects/openssl/openssl-0.9.8i/apps/apps.c::169]]
- [[view:./projects/openssl/openssl-0.9.8j/apps/apps.c::face=ovl-face1::linb=173::colb=1::cole=3][./projects/openssl/openssl-0.9.8j/apps/apps.c::173]]
-
 * org config
 
-#+SEQ_TODO: TODO | BUG FP
+#+SEQ_TODO: TODO | BUG FP UNKNOWN IGNORED

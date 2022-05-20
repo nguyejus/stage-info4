@@ -1,15 +1,3 @@
-* TODO [[view:./projects/openssl/openssl-0.9.8i/crypto/mem.c::face=ovl-face1::linb=147::colb=6::cole=7][./projects/openssl/openssl-0.9.8i/crypto/mem.c::147]]
- [[view:./projects/openssl/openssl-0.9.8j/crypto/mem.c::face=ovl-face1::linb=145::colb=6::cole=7][./projects/openssl/openssl-0.9.8j/crypto/mem.c::145]]
-* TODO [[view:./projects/openssl/openssl-0.9.8i/crypto/mem.c::face=ovl-face1::linb=147::colb=6::cole=7][./projects/openssl/openssl-0.9.8i/crypto/mem.c::147]]
- [[view:./projects/openssl/openssl-0.9.8j/crypto/mem.c::face=ovl-face1::linb=162::colb=6::cole=7][./projects/openssl/openssl-0.9.8j/crypto/mem.c::162]]
-* TODO [[view:./projects/openssl/openssl-0.9.8i/crypto/mem.c::face=ovl-face1::linb=130::colb=6::cole=7][./projects/openssl/openssl-0.9.8i/crypto/mem.c::130]]
- [[view:./projects/openssl/openssl-0.9.8j/crypto/mem.c::face=ovl-face1::linb=145::colb=6::cole=7][./projects/openssl/openssl-0.9.8j/crypto/mem.c::145]]
-* TODO [[view:./projects/openssl/openssl-0.9.8i/crypto/mem.c::face=ovl-face1::linb=130::colb=6::cole=7][./projects/openssl/openssl-0.9.8i/crypto/mem.c::130]]
- [[view:./projects/openssl/openssl-0.9.8j/crypto/mem.c::face=ovl-face1::linb=162::colb=6::cole=7][./projects/openssl/openssl-0.9.8j/crypto/mem.c::162]]
-* TODO [[view:./projects/openssl/openssl-0.9.8i/crypto/sha/sha512.c::face=ovl-face1::linb=133::colb=5::cole=7][./projects/openssl/openssl-0.9.8i/crypto/sha/sha512.c::133]]
- [[view:./projects/openssl/openssl-0.9.8j/crypto/sha/sha512.c::face=ovl-face1::linb=143::colb=5::cole=7][./projects/openssl/openssl-0.9.8j/crypto/sha/sha512.c::143]]
-* TODO [[view:./projects/openssl/openssl-0.9.8g/crypto/sha/sha512.c::face=ovl-face1::linb=130::colb=5::cole=7][./projects/openssl/openssl-0.9.8g/crypto/sha/sha512.c::130]]
- [[view:./projects/openssl/openssl-0.9.8h/crypto/sha/sha512.c::face=ovl-face1::linb=133::colb=5::cole=7][./projects/openssl/openssl-0.9.8h/crypto/sha/sha512.c::133]]
 
 * org config
 #+SEQ_TODO: TODO | SAME UNRELATED

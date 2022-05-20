@@ -1,9 +1,0 @@
-* BUG [[view:./projects/linux/linux-2.6.25/arch/um/os-Linux/mem.c::face=ovl-face1::linb=172::colb=1::cole=9][arch/um/os-Linux/mem.c]]
- [[view:./projects/linux/linux-2.6.25/arch/um/os-Linux/mem.c::face=ovl-face1::linb=172::colb=1::cole=9][./projects/linux/linux-2.6.25/arch/um/os-Linux/mem.c::172]]
- [[view:./projects/linux/linux-2.6.26/arch/um/os-Linux/mem.c::face=ovl-face1::linb=172::colb=1::cole=9][./projects/linux/linux-2.6.26/arch/um/os-Linux/mem.c::172]]
- [[view:./projects/linux/linux-2.6.27/arch/um/os-Linux/mem.c::face=ovl-face1::linb=172::colb=1::cole=9][./projects/linux/linux-2.6.27/arch/um/os-Linux/mem.c::172]]
- [[view:./projects/linux/linux-2.6.28/arch/um/os-Linux/mem.c::face=ovl-face1::linb=172::colb=1::cole=9][./projects/linux/linux-2.6.28/arch/um/os-Linux/mem.c::172]]
-
-* org config
-
-#+SEQ_TODO: TODO | BUG FP

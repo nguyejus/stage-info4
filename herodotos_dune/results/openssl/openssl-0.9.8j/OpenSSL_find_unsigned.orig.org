@@ -1,2 +1,0 @@
-* TODO [[view:./projects/openssl/openssl-0.9.8j/fips/dsa/fips_dsa_sign.c::face=ovl-face1::linb=198::colb=5::cole=12][ ./projects/openssl/openssl-0.9.8j/fips/dsa/fips_dsa_sign.c::198]]
-* TODO [[view:./projects/openssl/openssl-0.9.8j/demos/engines/ibmca/hw_ibmca.c::face=ovl-face1::linb=888::colb=12::cole=15][ ./projects/openssl/openssl-0.9.8j/demos/engines/ibmca/hw_ibmca.c::888]]

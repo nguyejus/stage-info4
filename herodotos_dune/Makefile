@@ -4,7 +4,7 @@
 TARGET=herodotos
 
 SOURCES =
-SUBDIRS = bin
+SUBDIRS = results/linux
 MENHIR_PATH=../menhirLib
 DEPDIRS = $(MENHIR_PATH)
 EXTLIBS=postgresql parmap volt # xml-light
@@ -12,7 +12,7 @@ P4=volt
 
 OCAMLFIND=ocamlfind
 
-EXTLIBCMA= $(shell $(OCAMLFIND) query -predicates byte -a-format $(EXTLIBS))
+# EXTLIBCMA= $(shell $(OCAMLFIND) query -predicates byte -a-format $(EXTLIBS))
 OCAMLLIBS=str.cma unix.cma threads.cma bigarray.cma dynlink.cma $(EXTLIBCMA)#$(EXTLIBS:%=%.cma)
 FLAG=
 
@@ -22,7 +22,7 @@ OCAMLFIND=ocamlfind
 
 LIBDIR=$(shell $(OCAMLFIND) query $(EXTLIBS))
 P4DIR=$(shell $(OCAMLFIND) query $(P4))
-P4FLAG=-pp 'camlp4o $(P4DIR)/bolt_pp.cmo'
+P4FLAG=
 DEPDIRS = $(MENHIR_PATH)
 INCLUDES=$(SUBDIRS:%=-I %) $(LIBDIR:%=-I %)
 
@@ -59,9 +59,16 @@ endif
 .PHONY:: .depend depend install sudo_install deploy
 .PHONY:: test debian debians
 
-all: init
+all: init bytecode
+opt: all.opt
+all.opt: init native-noopt
+world: init bytecode native
 
 init: check-config .depend scripts/Makefile.inc
+bytecode: $(EXEC)
+native: $(EXEC).opt
+native-noopt: native
+	mv -f $(EXEC).opt $(EXEC)
 
 test/Makefile:
 	@echo "Generating basic Makefile"
@@ -110,6 +117,45 @@ diff.opt: commons.opt
 hcl.opt: commons.opt
 engine.opt: commons.opt diff.opt exists.opt orgs.opt
 #########################
+
+.SUFFIXES: .ml .mli .cmo .cmi .cmx .cma
+
+.ml.cmo:
+	$(OCAMLC) -c $@ $(CFLAGS) $<
+
+.mli.cmi:
+	$(OCAMLC) -c $<
+
+.ml.cmx:
+	$(OCAMLOPT) -c $@ $(CFLAGS) $<
+
+#
+# To compile bytecode version
+#
+
+#$(ROOTLIB): $(OBJS)
+#	$(OCAMLC) -a -o $@ $(OBJS)
+
+#$(EXEC): $(ALLLIBS) $(TARGET).cmo
+#	$(OCAMLC) $(CFLAGS) -o $@ $(OCAMLLIBS) $(MENHIR) $^
+
+#$(LIBS): $(LIBS:%.cma=%)
+$(DEP):
+	$(MAKE) -C $@
+
+#
+# To compile native version
+#
+
+#$(OPTROOTLIB): $(OPTOBJS)
+#	$(OCAMLOPT) -a -o $@ $(OPTOBJS)
+
+$(EXEC).opt: $(OPTALLLIBS)  $(TARGET).cmx
+	$(OCAMLOPT) $(CFLAGS) -o $@ $(OPTOCAMLLIBS) $(MENHIRO) $^
+
+$(OPTLIBS): $(LIBS:%.cma=%.opt)
+$(DEP:%=%.opt):
+	$(MAKE) -C $(@:%.opt=%) all.opt
 
 ##############################################################################
 # Install

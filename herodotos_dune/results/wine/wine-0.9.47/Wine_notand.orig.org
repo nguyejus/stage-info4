@@ -1,7 +1,0 @@
-* TODO [[view:./projects/wine/wine-0.9.47/dlls/gdi32/dc.c::face=ovl-face1::linb=475::colb=8::cole=9][ ./projects/wine/wine-0.9.47/dlls/gdi32/dc.c::475]]
-* TODO [[view:./projects/wine/wine-0.9.47/dlls/user32/dde_client.c::face=ovl-face1::linb=807::colb=8::cole=9][ ./projects/wine/wine-0.9.47/dlls/user32/dde_client.c::807]]
-* TODO [[view:./projects/wine/wine-0.9.47/dlls/user32/dde_client.c::face=ovl-face1::linb=890::colb=8::cole=9][ ./projects/wine/wine-0.9.47/dlls/user32/dde_client.c::890]]
-* TODO [[view:./projects/wine/wine-0.9.47/dlls/user32/combo.c::face=ovl-face1::linb=776::colb=11::cole=12][ ./projects/wine/wine-0.9.47/dlls/user32/combo.c::776]]
-* TODO [[view:./projects/wine/wine-0.9.47/dlls/comctl32/theme_combo.c::face=ovl-face1::linb=109::colb=11::cole=12][ ./projects/wine/wine-0.9.47/dlls/comctl32/theme_combo.c::109]]
-* TODO [[view:./projects/wine/wine-0.9.47/dlls/wined3d/device.c::face=ovl-face1::linb=6305::colb=25::cole=26][ ./projects/wine/wine-0.9.47/dlls/wined3d/device.c::6305]]
-* TODO [[view:./projects/wine/wine-0.9.47/dlls/wined3d/surface_base.c::face=ovl-face1::linb=300::colb=11::cole=12][ ./projects/wine/wine-0.9.47/dlls/wined3d/surface_base.c::300]]

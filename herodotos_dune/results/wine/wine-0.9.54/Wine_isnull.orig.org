@@ -1,4 +1,0 @@
-* TODO [[view:./projects/wine/wine-0.9.54/dlls/comctl32/syslink.c::face=ovl-face1::linb=574::colb=65::cole=72][ ./projects/wine/wine-0.9.54/dlls/comctl32/syslink.c::574]]
-* TODO [[view:./projects/wine/wine-0.9.54/dlls/winspool.drv/info.c::face=ovl-face1::linb=1078::colb=61::cole=63][ ./projects/wine/wine-0.9.54/dlls/winspool.drv/info.c::1078]]
-* TODO [[view:./projects/wine/wine-0.9.54/dlls/winspool.drv/info.c::face=ovl-face1::linb=1547::colb=27::cole=38][ ./projects/wine/wine-0.9.54/dlls/winspool.drv/info.c::1547]]
-* TODO [[view:./projects/wine/wine-0.9.54/dlls/cabinet/fdi.c::face=ovl-face1::linb=2885::colb=10::cole=13][ ./projects/wine/wine-0.9.54/dlls/cabinet/fdi.c::2885]]

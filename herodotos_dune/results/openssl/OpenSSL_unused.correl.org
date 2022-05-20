@@ -1,9 +1,3 @@
-* TODO [[view:./projects/openssl/openssl-0.9.8i/ssl/t1_enc.c::face=ovl-face1::linb=123::colb=11::cole=12][./projects/openssl/openssl-0.9.8i/ssl/t1_enc.c::123]]
- [[view:./projects/openssl/openssl-0.9.8j/ssl/t1_enc.c::face=ovl-face1::linb=128::colb=11::cole=12][./projects/openssl/openssl-0.9.8j/ssl/t1_enc.c::128]]
-* TODO [[view:./projects/openssl/openssl-0.9.8g/engines/e_gmp.c::face=ovl-face1::linb=367::colb=5::cole=14][./projects/openssl/openssl-0.9.8g/engines/e_gmp.c::367]]
- [[view:./projects/openssl/openssl-0.9.8h/engines/e_gmp.c::face=ovl-face1::linb=403::colb=5::cole=14][./projects/openssl/openssl-0.9.8h/engines/e_gmp.c::403]]
-* TODO [[view:./projects/openssl/openssl-0.9.8e/ssl/d1_both.c::face=ovl-face1::linb=921::colb=8::cole=18][./projects/openssl/openssl-0.9.8e/ssl/d1_both.c::921]]
- [[view:./projects/openssl/openssl-0.9.8g/ssl/d1_both.c::face=ovl-face1::linb=888::colb=5::cole=15][./projects/openssl/openssl-0.9.8g/ssl/d1_both.c::888]]
 
 * org config
 #+SEQ_TODO: TODO | SAME UNRELATED

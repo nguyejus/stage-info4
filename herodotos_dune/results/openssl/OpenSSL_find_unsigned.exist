@@ -1,3 +1,0 @@
-file;openssl-0.9.8a;openssl-0.9.8b;openssl-0.9.8c;openssl-0.9.8d;openssl-0.9.8e;openssl-0.9.8g;openssl-0.9.8h;openssl-0.9.8i;openssl-0.9.8j;
-fips/dsa/fips_dsa_sign.c;false;false;false;false;false;false;false;false;7131;
-demos/engines/ibmca/hw_ibmca.c;28837;28837;28837;28837;28837;28837;28837;28837;28837;

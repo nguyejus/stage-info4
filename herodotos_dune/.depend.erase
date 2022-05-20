@@ -432,6 +432,7 @@ erase-Linux:
 	rm -f ./results/linux/linux-2.6.26/Linux_open.orig.org
 	rm -f ./results/linux/linux-2.6.27/Linux_open.orig.org
 	rm -f ./results/linux/linux-2.6.28/Linux_open.orig.org
+	rm -f ./results/linux/linux-5.18.0-rc5/Linux_open.orig.org
 	rm -f ./results/linux/linux-2.6.13/Linux_kmalloc7.orig.org
 	rm -f ./results/linux/linux-2.6.14/Linux_kmalloc7.orig.org
 	rm -f ./results/linux/linux-2.6.15/Linux_kmalloc7.orig.org
@@ -448,6 +449,7 @@ erase-Linux:
 	rm -f ./results/linux/linux-2.6.26/Linux_kmalloc7.orig.org
 	rm -f ./results/linux/linux-2.6.27/Linux_kmalloc7.orig.org
 	rm -f ./results/linux/linux-2.6.28/Linux_kmalloc7.orig.org
+	rm -f ./results/linux/linux-5.18.0-rc5/Linux_kmalloc7.orig.org
 	rm -f ./results/linux/linux-2.6.13/Linux_isnull.orig.org
 	rm -f ./results/linux/linux-2.6.14/Linux_isnull.orig.org
 	rm -f ./results/linux/linux-2.6.15/Linux_isnull.orig.org
@@ -464,6 +466,7 @@ erase-Linux:
 	rm -f ./results/linux/linux-2.6.26/Linux_isnull.orig.org
 	rm -f ./results/linux/linux-2.6.27/Linux_isnull.orig.org
 	rm -f ./results/linux/linux-2.6.28/Linux_isnull.orig.org
+	rm -f ./results/linux/linux-5.18.0-rc5/Linux_isnull.orig.org
 	rm -f ./results/linux/linux-2.6.13/Linux_null_ref.orig.org
 	rm -f ./results/linux/linux-2.6.14/Linux_null_ref.orig.org
 	rm -f ./results/linux/linux-2.6.15/Linux_null_ref.orig.org
@@ -480,6 +483,7 @@ erase-Linux:
 	rm -f ./results/linux/linux-2.6.26/Linux_null_ref.orig.org
 	rm -f ./results/linux/linux-2.6.27/Linux_null_ref.orig.org
 	rm -f ./results/linux/linux-2.6.28/Linux_null_ref.orig.org
+	rm -f ./results/linux/linux-5.18.0-rc5/Linux_null_ref.orig.org
 	rm -f ./results/linux/linux-2.6.13/Linux_notnull.orig.org
 	rm -f ./results/linux/linux-2.6.14/Linux_notnull.orig.org
 	rm -f ./results/linux/linux-2.6.15/Linux_notnull.orig.org
@@ -496,6 +500,7 @@ erase-Linux:
 	rm -f ./results/linux/linux-2.6.26/Linux_notnull.orig.org
 	rm -f ./results/linux/linux-2.6.27/Linux_notnull.orig.org
 	rm -f ./results/linux/linux-2.6.28/Linux_notnull.orig.org
+	rm -f ./results/linux/linux-5.18.0-rc5/Linux_notnull.orig.org
 	rm -f ./results/linux/linux-2.6.13/Linux_unused.orig.org
 	rm -f ./results/linux/linux-2.6.14/Linux_unused.orig.org
 	rm -f ./results/linux/linux-2.6.15/Linux_unused.orig.org
@@ -512,6 +517,7 @@ erase-Linux:
 	rm -f ./results/linux/linux-2.6.26/Linux_unused.orig.org
 	rm -f ./results/linux/linux-2.6.27/Linux_unused.orig.org
 	rm -f ./results/linux/linux-2.6.28/Linux_unused.orig.org
+	rm -f ./results/linux/linux-5.18.0-rc5/Linux_unused.orig.org
 	rm -f ./results/linux/linux-2.6.13/Linux_notand.orig.org
 	rm -f ./results/linux/linux-2.6.14/Linux_notand.orig.org
 	rm -f ./results/linux/linux-2.6.15/Linux_notand.orig.org
@@ -528,6 +534,7 @@ erase-Linux:
 	rm -f ./results/linux/linux-2.6.26/Linux_notand.orig.org
 	rm -f ./results/linux/linux-2.6.27/Linux_notand.orig.org
 	rm -f ./results/linux/linux-2.6.28/Linux_notand.orig.org
+	rm -f ./results/linux/linux-5.18.0-rc5/Linux_notand.orig.org
 	rm -f ./results/linux/linux-2.6.13/Linux_find_unsigned.orig.org
 	rm -f ./results/linux/linux-2.6.14/Linux_find_unsigned.orig.org
 	rm -f ./results/linux/linux-2.6.15/Linux_find_unsigned.orig.org
@@ -544,6 +551,7 @@ erase-Linux:
 	rm -f ./results/linux/linux-2.6.26/Linux_find_unsigned.orig.org
 	rm -f ./results/linux/linux-2.6.27/Linux_find_unsigned.orig.org
 	rm -f ./results/linux/linux-2.6.28/Linux_find_unsigned.orig.org
+	rm -f ./results/linux/linux-5.18.0-rc5/Linux_find_unsigned.orig.org
 	rm -f ./results/linux/linux-2.6.13/Linux_badzero.orig.org
 	rm -f ./results/linux/linux-2.6.14/Linux_badzero.orig.org
 	rm -f ./results/linux/linux-2.6.15/Linux_badzero.orig.org
@@ -560,6 +568,7 @@ erase-Linux:
 	rm -f ./results/linux/linux-2.6.26/Linux_badzero.orig.org
 	rm -f ./results/linux/linux-2.6.27/Linux_badzero.orig.org
 	rm -f ./results/linux/linux-2.6.28/Linux_badzero.orig.org
+	rm -f ./results/linux/linux-5.18.0-rc5/Linux_badzero.orig.org
 erase-malloc:
 	rm -f ./results/openssl/OpenSSL_malloc.orig.org
 	rm -f ./results/wine/Wine_malloc.orig.org
@@ -669,6 +678,7 @@ erase-badzero:
 	rm -f ./results/linux/linux-2.6.26/Linux_badzero.orig.org
 	rm -f ./results/linux/linux-2.6.27/Linux_badzero.orig.org
 	rm -f ./results/linux/linux-2.6.28/Linux_badzero.orig.org
+	rm -f ./results/linux/linux-5.18.0-rc5/Linux_badzero.orig.org
 erase-find_unsigned:
 	rm -f ./results/vlc/VLC_find_unsigned.orig.org
 	rm -f ./results/openssl/OpenSSL_find_unsigned.orig.org
@@ -732,6 +742,7 @@ erase-find_unsigned:
 	rm -f ./results/linux/linux-2.6.26/Linux_find_unsigned.orig.org
 	rm -f ./results/linux/linux-2.6.27/Linux_find_unsigned.orig.org
 	rm -f ./results/linux/linux-2.6.28/Linux_find_unsigned.orig.org
+	rm -f ./results/linux/linux-5.18.0-rc5/Linux_find_unsigned.orig.org
 erase-notand:
 	rm -f ./results/openssl/OpenSSL_notand.orig.org
 	rm -f ./results/wine/Wine_notand.orig.org
@@ -795,6 +806,7 @@ erase-notand:
 	rm -f ./results/linux/linux-2.6.26/Linux_notand.orig.org
 	rm -f ./results/linux/linux-2.6.27/Linux_notand.orig.org
 	rm -f ./results/linux/linux-2.6.28/Linux_notand.orig.org
+	rm -f ./results/linux/linux-5.18.0-rc5/Linux_notand.orig.org
 erase-unused:
 	rm -f ./results/openssl/OpenSSL_unused.orig.org
 	rm -f ./results/wine/Wine_unused.orig.org
@@ -858,6 +870,7 @@ erase-unused:
 	rm -f ./results/linux/linux-2.6.26/Linux_unused.orig.org
 	rm -f ./results/linux/linux-2.6.27/Linux_unused.orig.org
 	rm -f ./results/linux/linux-2.6.28/Linux_unused.orig.org
+	rm -f ./results/linux/linux-5.18.0-rc5/Linux_unused.orig.org
 erase-notnull:
 	rm -f ./results/openssl/OpenSSL_notnull.orig.org
 	rm -f ./results/wine/Wine_notnull.orig.org
@@ -921,6 +934,7 @@ erase-notnull:
 	rm -f ./results/linux/linux-2.6.26/Linux_notnull.orig.org
 	rm -f ./results/linux/linux-2.6.27/Linux_notnull.orig.org
 	rm -f ./results/linux/linux-2.6.28/Linux_notnull.orig.org
+	rm -f ./results/linux/linux-5.18.0-rc5/Linux_notnull.orig.org
 erase-null_ref:
 	rm -f ./results/openssl/OpenSSL_null_ref.orig.org
 	rm -f ./results/wine/Wine_null_ref.orig.org
@@ -984,6 +998,7 @@ erase-null_ref:
 	rm -f ./results/linux/linux-2.6.26/Linux_null_ref.orig.org
 	rm -f ./results/linux/linux-2.6.27/Linux_null_ref.orig.org
 	rm -f ./results/linux/linux-2.6.28/Linux_null_ref.orig.org
+	rm -f ./results/linux/linux-5.18.0-rc5/Linux_null_ref.orig.org
 erase-isnull:
 	rm -f ./results/openssl/OpenSSL_isnull.orig.org
 	rm -f ./results/wine/Wine_isnull.orig.org
@@ -1047,6 +1062,7 @@ erase-isnull:
 	rm -f ./results/linux/linux-2.6.26/Linux_isnull.orig.org
 	rm -f ./results/linux/linux-2.6.27/Linux_isnull.orig.org
 	rm -f ./results/linux/linux-2.6.28/Linux_isnull.orig.org
+	rm -f ./results/linux/linux-5.18.0-rc5/Linux_isnull.orig.org
 erase-kmalloc7:
 	rm -f ./results/linux/Linux_kmalloc7.orig.org
 	rm -f ./results/linux/linux-2.6.13/Linux_kmalloc7.orig.org
@@ -1065,6 +1081,7 @@ erase-kmalloc7:
 	rm -f ./results/linux/linux-2.6.26/Linux_kmalloc7.orig.org
 	rm -f ./results/linux/linux-2.6.27/Linux_kmalloc7.orig.org
 	rm -f ./results/linux/linux-2.6.28/Linux_kmalloc7.orig.org
+	rm -f ./results/linux/linux-5.18.0-rc5/Linux_kmalloc7.orig.org
 erase-open:
 	rm -f ./results/openssl/OpenSSL_open.orig.org
 	rm -f ./results/vlc/VLC_open.orig.org
@@ -1128,3 +1145,4 @@ erase-open:
 	rm -f ./results/linux/linux-2.6.26/Linux_open.orig.org
 	rm -f ./results/linux/linux-2.6.27/Linux_open.orig.org
 	rm -f ./results/linux/linux-2.6.28/Linux_open.orig.org
+	rm -f ./results/linux/linux-5.18.0-rc5/Linux_open.orig.org

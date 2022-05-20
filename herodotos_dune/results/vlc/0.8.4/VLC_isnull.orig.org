@@ -1,6 +1,0 @@
-* TODO [[view:./projects/vlc/0.8.4/modules/misc/rtsp.c::face=ovl-face1::linb=235::colb=17::cole=22][ ./projects/vlc/0.8.4/modules/misc/rtsp.c::235]]
-* TODO [[view:./projects/vlc/0.8.4/modules/access/directory.c::face=ovl-face1::linb=293::colb=26::cole=36][ ./projects/vlc/0.8.4/modules/access/directory.c::293]]
-* TODO [[view:./projects/vlc/0.8.4/modules/stream_out/transcode.c::face=ovl-face1::linb=2458::colb=8::cole=21][ ./projects/vlc/0.8.4/modules/stream_out/transcode.c::2458]]
-* TODO [[view:./projects/vlc/0.8.4b/modules/misc/rtsp.c::face=ovl-face1::linb=235::colb=17::cole=22][ ./projects/vlc/0.8.4b/modules/misc/rtsp.c::235]]
-* TODO [[view:./projects/vlc/0.8.4b/modules/access/directory.c::face=ovl-face1::linb=293::colb=26::cole=36][ ./projects/vlc/0.8.4b/modules/access/directory.c::293]]
-* TODO [[view:./projects/vlc/0.8.4b/modules/stream_out/transcode.c::face=ovl-face1::linb=2458::colb=8::cole=21][ ./projects/vlc/0.8.4b/modules/stream_out/transcode.c::2458]]

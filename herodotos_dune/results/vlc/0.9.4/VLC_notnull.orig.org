@@ -1,2 +1,0 @@
-* TODO [[view:./projects/vlc/0.9.4/modules/codec/cmml/xurl.c::face=ovl-face1::linb=243::colb=8::cole=31][ ./projects/vlc/0.9.4/modules/codec/cmml/xurl.c::243]]
-[[view:./projects/vlc/0.9.4/modules/codec/cmml/xurl.c::face=ovl-face2::linb=238::colb=8::cole=31][]]

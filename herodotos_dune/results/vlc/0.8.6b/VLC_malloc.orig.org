@@ -1,2 +1,0 @@
-* TODO [[view:./projects/vlc/0.8.6b/modules/misc/xml/xtag.c::face=ovl-face1::linb=638::colb=23::cole=26][ ./projects/vlc/0.8.6b/modules/misc/xml/xtag.c::638]]
-[[view:./projects/vlc/0.8.6b/modules/misc/xml/xtag.c::face=ovl-face2::linb=639::colb=81::cole=87][]]

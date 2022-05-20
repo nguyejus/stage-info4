@@ -1,2 +1,0 @@
-* TODO [[view:./projects/wine/wine-1.1.11/dlls/user32/dde_client.c::face=ovl-face1::linb=815::colb=8::cole=9][ ./projects/wine/wine-1.1.11/dlls/user32/dde_client.c::815]]
-* TODO [[view:./projects/wine/wine-1.1.11/dlls/user32/dde_client.c::face=ovl-face1::linb=898::colb=8::cole=9][ ./projects/wine/wine-1.1.11/dlls/user32/dde_client.c::898]]

@@ -1,7 +1,3 @@
-* TODO [[view:./projects/vlc/0.8.6i/modules/codec/cmml/xurl.c::face=ovl-face1::linb=241::colb=8::cole=31][./projects/vlc/0.8.6i/modules/codec/cmml/xurl.c::241]]
- [[view:./projects/vlc/0.9.0/modules/codec/cmml/xurl.c::face=ovl-face1::linb=243::colb=8::cole=31][./projects/vlc/0.9.0/modules/codec/cmml/xurl.c::243]]
-* TODO [[view:./projects/vlc/0.8.6i/modules/codec/cmml/xurl.c::face=ovl-face1::linb=241::colb=8::cole=31][./projects/vlc/0.8.6i/modules/codec/cmml/xurl.c::241]]
- [[view:./projects/vlc/0.9.0/modules/codec/cmml/xurl.c::face=ovl-face1::linb=243::colb=8::cole=31][./projects/vlc/0.9.0/modules/codec/cmml/xurl.c::243]]
 
 * org config
 #+SEQ_TODO: TODO | SAME UNRELATED

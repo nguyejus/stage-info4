@@ -1,2 +1,0 @@
-* TODO [[view:./projects/wine/wine-20050830/dlls/comctl32/syslink.c::face=ovl-face1::linb=585::colb=65::cole=72][ ./projects/wine/wine-20050830/dlls/comctl32/syslink.c::585]]
-* TODO [[view:./projects/wine/wine-20050830/dlls/cabinet/fdi.c::face=ovl-face1::linb=2747::colb=10::cole=13][ ./projects/wine/wine-20050830/dlls/cabinet/fdi.c::2747]]
