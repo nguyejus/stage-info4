@@ -45,3 +45,11 @@ J'espère pouvoir avoir un Herodotos fonctionnel dans les semaines qui viennent.
 # 19/05/22: 2ème semaine jour 4
 1. Début de l'ajout d'une autre version de Linux (5.18.0-rc5) (il faut trouver comment l'ajouter dans la liste des versions étudiées)
 2. Recherche d'arrangement pour ranger en sous-dossiers (impossible car menhir ne peut pas rechercher des fichiers .mly dans des sous-dossiers)
+
+# 20/05/22: 2ème semaine jour 5
+1. Continuation des tests avec la version de linux 5.18.0-rc5 (il manque l'application du contenu des fichiers .depend)
+2. Test du mode org de emacs sur les fichiers de l'archive <code>correl.tbz2</code> (TODO/SAME/UNRELATED)
+
+# Bilan de la semaine du 16/05/22 au 20/05/22:
+Herodotos est compilé et semble fonctionner, pour reproduire l'étude de 2011 il faut avoir accès au versions de linux utilisées dans l'étude mais récupérer chacune de versions est long donc les tests se feront d'abord sur une nouvelle version ajoutée pour tester la génération des fichiers nécessaires avant de reproduire l'étude. Dans les semaines qui suivent, l'intégration de nouvelles versions devra être fonctionnelle afin de pouvoir déployer l'application sur Grid'5000 et commencer les tests nécessitant plus de ressources.
+
