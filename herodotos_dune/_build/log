@@ -1,10 +1,10 @@
-# dune exec -- ./herodotos.exe -c test.hc correl
+# dune build
 # OCAMLPARAM: unset
 # Shared cache: disabled
 # Workspace root:
 # /home/justin/Documents/INFO4/Stage/herodotos/dune/herodotos_dune
 # Auto-detected concurrency: 12
-$ /home/justin/.opam/4.11.1/bin/ocamlc.opt -config > /tmp/dune_e40876_output
+$ /home/justin/.opam/4.11.1/bin/ocamlc.opt -config > /tmp/dune_465dea_output
 # Dune context:
 #  { name = "default"
 #  ; kind = "default"
