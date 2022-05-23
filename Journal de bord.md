@@ -53,3 +53,8 @@ J'espère pouvoir avoir un Herodotos fonctionnel dans les semaines qui viennent.
 # Bilan de la semaine du 16/05/22 au 20/05/22:
 Herodotos est compilé et semble fonctionner, pour reproduire l'étude de 2011 il faut avoir accès au versions de linux utilisées dans l'étude mais récupérer chacune de versions est long donc les tests se feront d'abord sur une nouvelle version ajoutée pour tester la génération des fichiers nécessaires avant de reproduire l'étude. Dans les semaines qui suivent, l'intégration de nouvelles versions devra être fonctionnelle afin de pouvoir déployer l'application sur Grid'5000 et commencer les tests nécessitant plus de ressources.
 
+# 23/05/22: 3ème semaine jour 1
+1. Continuation de la préparation pour l'ajout de la version 5.18.0-rc5 de Linux (1 cible sur les 10 de spatch a été générée)
+2. Lecture de la documentation sur le langage Haskell
+3. Lecture de la documentation de make
+
