@@ -62,3 +62,6 @@ Herodotos est compilé et semble fonctionner, pour reproduire l'étude de 2011 i
 1. 2ème réunion pour faire le point, je dois faire un tableau des dépendences afin de lister les versions nécessaires à paqueter dans l'image Debian à déployer sur Grid'5000, je dois également réorganiser le code en sous-répertoires.
 2. Début de la mise en forme (problème à cause de Menhir pour les parseurs contourné par des sous fichiers dune à exporter en tant que librairies mais engendre une dépendence cyclique => problème)
 
+# 25/05/22: 3ème semaine jour 3
+1. Fin de la mise en forme (le problème de dépendences cyclique a été résolu par fusion des sous dossiers même si on perd la raison de la mise en forme...)
+2. Début du listage des versions des dépendences

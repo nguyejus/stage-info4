@@ -1,0 +1,6 @@
+git.cmo : \
+    ../commons/misc.cmo \
+    ../hcl/config.cmo
+git.cmx : \
+    ../commons/misc.cmx \
+    ../hcl/config.cmx
