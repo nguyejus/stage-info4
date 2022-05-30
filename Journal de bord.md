@@ -73,3 +73,6 @@ Herodotos est compilé et semble fonctionner, pour reproduire l'étude de 2011 i
 # Bilan de la semaine du 23/05/22 au 27/05/22:
 Herodotos a été remis en forme pour rester modulable mais il reste la question de l'API pour récupérer des versions de linux à tester et de lister la totalité des dépendences dans l'optique de réaliser un package debian/ubuntu à déployé sur les machines de Grid'5000.
 
+# 30/05/22: 4ème semaine jour 1
+1. Continuation du listage des versions des dépendences sous forme d'un tableau librairies/versions
+2. Modifications pour obtenir un fichier de logs(pour avoir la trace de ce qui est fait par les commandes)
