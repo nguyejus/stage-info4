@@ -76,3 +76,8 @@ Herodotos a été remis en forme pour rester modulable mais il reste la question
 # 30/05/22: 4ème semaine jour 1
 1. Continuation du listage des versions des dépendences sous forme d'un tableau librairies/versions
 2. Modifications pour obtenir un fichier de logs(pour avoir la trace de ce qui est fait par les commandes)
+
+# 31/05/22: 4ème semaine jour 2
+1. Continuation de l'étude de l'API (elle ne fonctionne pas car les informations sont récupérées depuis des fichiers locaux et non des dépôts git distants)
+2. Continuation du listage des dépendances (test de versions différentes pour savoir quelles sont les versions minimales à avoir)
+
