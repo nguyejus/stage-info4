@@ -1,2 +1,9 @@
-BOLT_CONFIG=debug.config
+dune-preinit:
+	BOLT_CONFIG=debug.config dune exec -- ../herodotos.exe -c test.hc preinit
+
+dune-init:
+	BOLT_CONFIG=debug.config dune exec -- ../herodotos.exe -c test.hc init
+
+dune-correl:
+	BOLT_CONFIG=debug.config dune exec -- ../herodotos.exe -c test.hc correl
 -include /usr/local/share/herodotos/Makefile.inc
