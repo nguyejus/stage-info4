@@ -85,3 +85,6 @@ Herodotos a été remis en forme pour rester modulable mais il reste la question
 1. Continuation du listage des dépendances pour en faire un package
 2. Continuation de l'étude de l'API (ne fonctionne toujours pas mais fait appel à la base de données donc je vais regarder comment la base de données est implémentée)
 
+# 2/06/22: 4ème semaine jour 4
+1. 3ème réunion pour faire le point: En plus des dépendances, je dois aussi lister les outils utilisés (comme git), je dois également faire de la documentation pour l'utilisation des différentes options de Herodotos
+
