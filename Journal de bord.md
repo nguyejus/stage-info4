@@ -88,3 +88,11 @@ Herodotos a été remis en forme pour rester modulable mais il reste la question
 # 2/06/22: 4ème semaine jour 4
 1. 3ème réunion pour faire le point: En plus des dépendances, je dois aussi lister les outils utilisés (comme git), je dois également faire de la documentation pour l'utilisation des différentes options de Herodotos
 
+# 3/06/22: 4ème semaine jour 5
+1. Début de la rédaction de la documentation sur les options d'Herodotos
+2. Continuation du listage des dépendances et des outils avec des versions antérieures
+3. Test de l'outil de comptage de lignes de codes de Faults in Linux
+
+# Bilan de la semaine du 30/05/22 au 3/06/22:
+Le travail de documentation a été commencé afin de faciliter l'utilisation et les modifications futures. L'implémentation d'un marqueur signifiant qu'une information n'est pas présente devrait permettre de sélectionner quels tests sont possibles.
+
