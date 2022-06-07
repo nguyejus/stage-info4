@@ -96,3 +96,6 @@ Herodotos a été remis en forme pour rester modulable mais il reste la question
 # Bilan de la semaine du 30/05/22 au 3/06/22:
 Le travail de documentation a été commencé afin de faciliter l'utilisation et les modifications futures. L'implémentation d'un marqueur signifiant qu'une information n'est pas présente devrait permettre de sélectionner quels tests sont possibles.
 
+# 7/06/22: 5ème semaine jour 1
+1. Continuation de la rédaction de la documentation sur les options d'Herodotos
+2. Continuation du listage des dépendances et des outils avec des versions antérieures
