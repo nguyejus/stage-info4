@@ -99,3 +99,9 @@ Le travail de documentation a été commencé afin de faciliter l'utilisation et
 # 7/06/22: 5ème semaine jour 1
 1. Continuation de la rédaction de la documentation sur les options d'Herodotos
 2. Continuation du listage des dépendances et des outils avec des versions antérieures
+
+# 8/06/22: 5ème semaine jour 2
+1. Debuggage de count_lines de Faults in Linux (le test précédemment fait était erroné et de nouvelles erreurs sont apparues)
+2. Continuation de la rédaction de la documentation sur les options d'Herodotos (il manque encore la documentation sur le remplissage automatique des parties manquantes)
+3. Continuation du listage des dépendances et des outils avec des versions antérieures
+
