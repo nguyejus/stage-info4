@@ -105,3 +105,8 @@ Le travail de documentation a été commencé afin de faciliter l'utilisation et
 2. Continuation de la rédaction de la documentation sur les options d'Herodotos (il manque encore la documentation sur le remplissage automatique des parties manquantes)
 3. Continuation du listage des dépendances et des outils avec des versions antérieures
 
+# 9/06/22: 5ème semaine jour 3
+1. 4ème réunion pour faire le point: count_lines n'est plus à jour mais le code est assez ancien -> pas une priorité à mettre à jour, faire des graphes n'est plus nécessaire quand on aura la base de données
+2. Je suis allé faire un test covid car mon collègue est positif mais le résultat est négatif
+
+
