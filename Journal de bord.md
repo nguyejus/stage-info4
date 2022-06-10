@@ -85,3 +85,28 @@ Herodotos a été remis en forme pour rester modulable mais il reste la question
 1. Continuation du listage des dépendances pour en faire un package
 2. Continuation de l'étude de l'API (ne fonctionne toujours pas mais fait appel à la base de données donc je vais regarder comment la base de données est implémentée)
 
+# 2/06/22: 4ème semaine jour 4
+1. 3ème réunion pour faire le point: En plus des dépendances, je dois aussi lister les outils utilisés (comme git), je dois également faire de la documentation pour l'utilisation des différentes options de Herodotos
+
+# 3/06/22: 4ème semaine jour 5
+1. Début de la rédaction de la documentation sur les options d'Herodotos
+2. Continuation du listage des dépendances et des outils avec des versions antérieures
+3. Test de l'outil de comptage de lignes de codes de Faults in Linux
+
+# Bilan de la semaine du 30/05/22 au 3/06/22:
+Le travail de documentation a été commencé afin de faciliter l'utilisation et les modifications futures. L'implémentation d'un marqueur signifiant qu'une information n'est pas présente devrait permettre de sélectionner quels tests sont possibles.
+
+# 7/06/22: 5ème semaine jour 1
+1. Continuation de la rédaction de la documentation sur les options d'Herodotos
+2. Continuation du listage des dépendances et des outils avec des versions antérieures
+
+# 8/06/22: 5ème semaine jour 2
+1. Debuggage de count_lines de Faults in Linux (le test précédemment fait était erroné et de nouvelles erreurs sont apparues)
+2. Continuation de la rédaction de la documentation sur les options d'Herodotos (il manque encore la documentation sur le remplissage automatique des parties manquantes)
+3. Continuation du listage des dépendances et des outils avec des versions antérieures
+
+# 9/06/22: 5ème semaine jour 3
+1. 4ème réunion pour faire le point: count_lines n'est plus à jour mais le code est assez ancien -> pas une priorité à mettre à jour, faire des graphes n'est plus nécessaire quand on aura la base de données
+2. Je suis allé faire un test covid car mon collègue est positif mais le résultat est négatif
+
+
