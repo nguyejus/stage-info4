@@ -107,6 +107,13 @@ Le travail de documentation a été commencé afin de faciliter l'utilisation et
 
 # 9/06/22: 5ème semaine jour 3
 1. 4ème réunion pour faire le point: count_lines n'est plus à jour mais le code est assez ancien -> pas une priorité à mettre à jour, faire des graphes n'est plus nécessaire quand on aura la base de données
-2. Je suis allé faire un test covid car mon collègue est positif mais le résultat est négatif
+2. Je suis allé faire un test covid (mon collègue a contracté la maladie) mais le résultat est négatif
+
+# 10/06/22: 5ème semaine jour 4
+1. Ajout d'un makefile pour vérifier la présence de sloccount pour compter le nombre de lignes de code de chaque version de linux
+2. Test sur la version linux-5.18.0-rc5 : il y a 22,665,813 lignes de code
+
+# Bilan de la semaine du 07/06/22 au 10/06/22:
+Mon travail sur le count_lines de Faults in linux n'était pas nécessaire car on peut utiliser sloccount avec linux-infra mais j'ai pu voir comment les primitives ont changé dans le code source de coccinelle. Mon collègue ne pourra pas revenir avant 10 jours, ce qui compliquera la collaboration sur le projet (je ne pourrait pas répondre à ses questions aussi facilement, et je ne pourrais pas faire des tests sur une autre machine que la mienne)
 
 
