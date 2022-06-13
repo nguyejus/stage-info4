@@ -116,4 +116,7 @@ Le travail de documentation a été commencé afin de faciliter l'utilisation et
 # Bilan de la semaine du 07/06/22 au 10/06/22:
 Mon travail sur le count_lines de Faults in linux n'était pas nécessaire car on peut utiliser sloccount avec linux-infra mais j'ai pu voir comment les primitives ont changé dans le code source de coccinelle. Mon collègue ne pourra pas revenir avant 10 jours, ce qui compliquera la collaboration sur le projet (je ne pourrait pas répondre à ses questions aussi facilement, et je ne pourrais pas faire des tests sur une autre machine que la mienne)
 
+# 13/06/22: 6ème semaine jour 1
+1. Modification de linux-infra pour récupérer les versions de linux à étudier (3.x 4.x 5.x)
+2. Test sur les versions 5.x et test de sloccount sur les versions
 
