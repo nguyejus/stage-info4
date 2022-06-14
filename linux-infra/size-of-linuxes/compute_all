@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for d in `ls -d ../linux-1* ../linux-2.[0123456].* ../linux-[345].*`; do
+	if [ ! -f `basename $d`.sizelog ]; then
+		echo "Processing" $d
+		./size_of $d
+	fi;
+done

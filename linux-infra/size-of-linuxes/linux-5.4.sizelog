@@ -1,0 +1,97 @@
+Have a non-directory at the top, so creating directory top_dir
+Adding /home/justin/Documents/INFO4/Stage/linux-infra/size-of-linuxes/../linux-5.4/COPYING to top_dir
+Adding /home/justin/Documents/INFO4/Stage/linux-infra/size-of-linuxes/../linux-5.4/CREDITS to top_dir
+Creating filelist for Documentation
+Adding /home/justin/Documents/INFO4/Stage/linux-infra/size-of-linuxes/../linux-5.4/Kbuild to top_dir
+Adding /home/justin/Documents/INFO4/Stage/linux-infra/size-of-linuxes/../linux-5.4/Kconfig to top_dir
+Creating filelist for LICENSES
+Adding /home/justin/Documents/INFO4/Stage/linux-infra/size-of-linuxes/../linux-5.4/MAINTAINERS to top_dir
+Adding /home/justin/Documents/INFO4/Stage/linux-infra/size-of-linuxes/../linux-5.4/Makefile to top_dir
+Adding /home/justin/Documents/INFO4/Stage/linux-infra/size-of-linuxes/../linux-5.4/README to top_dir
+Creating filelist for arch
+Creating filelist for block
+Creating filelist for certs
+Creating filelist for crypto
+Creating filelist for drivers
+Creating filelist for fs
+Creating filelist for include
+Creating filelist for init
+Creating filelist for ipc
+Creating filelist for kernel
+Creating filelist for lib
+Creating filelist for mm
+Creating filelist for net
+Creating filelist for samples
+Creating filelist for scripts
+Creating filelist for security
+Creating filelist for sound
+Creating filelist for tools
+Creating filelist for usr
+Creating filelist for virt
+Categorizing files.
+Finding a working MD5 command....
+Found a working MD5 command.
+Warning: in tools, number of duplicates=104
+Computing results.
+
+
+SLOC	Directory	SLOC-by-Language (Sorted)
+12348121 drivers         ansic=12336725,perl=4459,asm=3725,yacc=1680,lex=771,
+                        python=647,sh=114
+1789990 arch            ansic=1526029,asm=259649,sh=2087,perl=1693,awk=482,
+                        python=45,sed=5
+923431  fs              ansic=923431
+891073  sound           ansic=891073
+785206  net             ansic=785200,asm=6
+607734  include         ansic=605426,cpp=2308
+434739  tools           ansic=363850,sh=41407,python=19211,perl=4575,asm=2050,
+                        yacc=1458,cpp=1199,lex=610,awk=354,ruby=25
+221372  kernel          ansic=221320,sh=52
+111860  lib             ansic=111728,perl=119,awk=13
+88805   mm              ansic=88805
+82403   crypto          ansic=82403
+64506   security        ansic=64506
+61407   scripts         ansic=33540,perl=15784,sh=4035,python=2738,cpp=2522,
+                        yacc=1489,lex=1218,awk=81
+35761   block           ansic=35761
+28313   samples         ansic=25828,sh=2485
+17839   virt            ansic=17839
+6643    ipc             ansic=6643
+4604    Documentation   python=1937,perl=1230,sh=936,asm=210,ansic=163,awk=128
+2974    init            ansic=2974
+824     usr             ansic=544,sh=266,asm=14
+372     certs           ansic=342,asm=30
+0       LICENSES        (none)
+0       top_dir         (none)
+
+
+Totals grouped by language (dominant language first):
+ansic:     18124130 (97.93%)
+asm:         265684 (1.44%)
+sh:           51382 (0.28%)
+perl:         27860 (0.15%)
+python:       24578 (0.13%)
+cpp:           6029 (0.03%)
+yacc:          4627 (0.03%)
+lex:           2599 (0.01%)
+awk:           1058 (0.01%)
+ruby:            25 (0.00%)
+sed:              5 (0.00%)
+
+
+
+
+Total Physical Source Lines of Code (SLOC)                = 18,507,977
+Development Effort Estimate, Person-Years (Person-Months) = 6,050.02 (72,600.25)
+ (Basic COCOMO model, Person-Months = 2.4 * (KSLOC**1.05))
+Schedule Estimate, Years (Months)                         = 14.65 (175.83)
+ (Basic COCOMO model, Months = 2.5 * (person-months**0.38))
+Estimated Average Number of Developers (Effort/Schedule)  = 412.90
+Total Estimated Cost to Develop                           = $ 817,275,580
+ (average salary = $56,286/year, overhead = 2.40).
+SLOCCount, Copyright (C) 2001-2004 David A. Wheeler
+SLOCCount is Open Source Software/Free Software, licensed under the GNU GPL.
+SLOCCount comes with ABSOLUTELY NO WARRANTY, and you are welcome to
+redistribute it under certain conditions as specified by the GNU GPL license;
+see the documentation for details.
+Please credit this data as "generated using David A. Wheeler's 'SLOCCount'."

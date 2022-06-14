@@ -1,0 +1,113 @@
+Have a non-directory at the top, so creating directory top_dir
+Adding /home/justin/Documents/INFO4/Stage/linux-infra/size-of-linuxes/../linux-5.18.0-rc5/COPYING to top_dir
+Adding /home/justin/Documents/INFO4/Stage/linux-infra/size-of-linuxes/../linux-5.18.0-rc5/CREDITS to top_dir
+Creating filelist for Documentation
+Adding /home/justin/Documents/INFO4/Stage/linux-infra/size-of-linuxes/../linux-5.18.0-rc5/Kbuild to top_dir
+Adding /home/justin/Documents/INFO4/Stage/linux-infra/size-of-linuxes/../linux-5.18.0-rc5/Kconfig to top_dir
+Creating filelist for LICENSES
+Adding /home/justin/Documents/INFO4/Stage/linux-infra/size-of-linuxes/../linux-5.18.0-rc5/MAINTAINERS to top_dir
+Adding /home/justin/Documents/INFO4/Stage/linux-infra/size-of-linuxes/../linux-5.18.0-rc5/Makefile to top_dir
+Adding /home/justin/Documents/INFO4/Stage/linux-infra/size-of-linuxes/../linux-5.18.0-rc5/README to top_dir
+Creating filelist for arch
+Creating filelist for block
+Creating filelist for certs
+Creating filelist for crypto
+Creating filelist for drivers
+Creating filelist for fs
+Creating filelist for include
+Creating filelist for init
+Creating filelist for ipc
+Creating filelist for kernel
+Creating filelist for lib
+Creating filelist for mm
+Creating filelist for net
+Creating filelist for samples
+Creating filelist for scripts
+Creating filelist for security
+Creating filelist for sound
+Creating filelist for sphinx_2.4.4
+Creating filelist for tools
+Creating filelist for usr
+Creating filelist for virt
+Categorizing files.
+Finding a working MD5 command....
+Found a working MD5 command.
+WARNING! File /home/justin/Documents/INFO4/Stage/linux-infra/linux-5.18.0-rc5/sphinx_2.4.4/bin/sphinx-build has unknown start: #!/home/justin/Documents/INFO4/Stage/linux/linux/sphinx_2.4.4/bin/python3
+WARNING! File /home/justin/Documents/INFO4/Stage/linux-infra/linux-5.18.0-rc5/sphinx_2.4.4/bin/pip has unknown start: #!/home/justin/Documents/INFO4/Stage/linux/linux/sphinx_2.4.4/bin/python3
+WARNING! File /home/justin/Documents/INFO4/Stage/linux-infra/linux-5.18.0-rc5/sphinx_2.4.4/bin/pip3 has unknown start: #!/home/justin/Documents/INFO4/Stage/linux/linux/sphinx_2.4.4/bin/python3
+WARNING! File /home/justin/Documents/INFO4/Stage/linux-infra/linux-5.18.0-rc5/sphinx_2.4.4/bin/sphinx-apidoc has unknown start: #!/home/justin/Documents/INFO4/Stage/linux/linux/sphinx_2.4.4/bin/python3
+WARNING! File /home/justin/Documents/INFO4/Stage/linux-infra/linux-5.18.0-rc5/sphinx_2.4.4/bin/easy_install has unknown start: #!/home/justin/Documents/INFO4/Stage/linux/linux/sphinx_2.4.4/bin/python3
+WARNING! File /home/justin/Documents/INFO4/Stage/linux-infra/linux-5.18.0-rc5/sphinx_2.4.4/bin/sphinx-autogen has unknown start: #!/home/justin/Documents/INFO4/Stage/linux/linux/sphinx_2.4.4/bin/python3
+WARNING! File /home/justin/Documents/INFO4/Stage/linux-infra/linux-5.18.0-rc5/sphinx_2.4.4/bin/pygmentize has unknown start: #!/home/justin/Documents/INFO4/Stage/linux/linux/sphinx_2.4.4/bin/python3
+WARNING! File /home/justin/Documents/INFO4/Stage/linux-infra/linux-5.18.0-rc5/sphinx_2.4.4/bin/pybabel has unknown start: #!/home/justin/Documents/INFO4/Stage/linux/linux/sphinx_2.4.4/bin/python3
+WARNING! File /home/justin/Documents/INFO4/Stage/linux-infra/linux-5.18.0-rc5/sphinx_2.4.4/bin/sphinx-quickstart has unknown start: #!/home/justin/Documents/INFO4/Stage/linux/linux/sphinx_2.4.4/bin/python3
+WARNING! File /home/justin/Documents/INFO4/Stage/linux-infra/linux-5.18.0-rc5/sphinx_2.4.4/bin/normalizer has unknown start: #!/home/justin/Documents/INFO4/Stage/linux/linux/sphinx_2.4.4/bin/python3
+Warning: in tools, number of duplicates=114
+Computing results.
+
+
+SLOC	Directory	SLOC-by-Language (Sorted)
+15371125 drivers         ansic=15359657,perl=4459,asm=3901,yacc=1679,lex=771,
+                        python=641,sh=17
+1772463 arch            ansic=1507859,asm=254723,perl=7687,sh=1600,awk=544,
+                        python=45,sed=5
+1063359 sound           ansic=1063359
+1039057 fs              ansic=1039057
+894120  net             ansic=894114,asm=6
+700555  include         ansic=698121,cpp=2434
+682404  tools           ansic=559455,sh=85530,python=24849,perl=4720,asm=3661,
+                        yacc=1747,cpp=1297,lex=766,awk=354,ruby=25
+291462  sphinx_2.4.4    python=241887,javascript=49243,ansic=278,xml=33,
+                        csh=21
+272007  kernel          ansic=271955,sh=52
+159308  lib             ansic=159176,perl=119,awk=13
+105681  mm              ansic=105681
+83720   crypto          ansic=83720
+71046   security        ansic=71046
+64145   scripts         ansic=32975,perl=17705,sh=5042,python=3222,cpp=2307,
+                        yacc=1486,lex=1185,awk=191,asm=32
+40764   block           ansic=40764
+31567   samples         ansic=29286,sh=2281
+6743    ipc             ansic=6743
+6366    virt            ansic=6366
+5302    Documentation   python=2524,perl=1544,sh=943,ansic=163,awk=128
+3093    init            ansic=3093
+890     usr             ansic=553,sh=194,perl=131,asm=12
+636     certs           ansic=581,asm=55
+0       LICENSES        (none)
+0       top_dir         (none)
+
+
+Totals grouped by language (dominant language first):
+ansic:     21934002 (96.77%)
+python:      273168 (1.21%)
+asm:         262390 (1.16%)
+sh:           95659 (0.42%)
+javascript:     49243 (0.22%)
+perl:         36365 (0.16%)
+cpp:           6038 (0.03%)
+yacc:          4912 (0.02%)
+lex:           2722 (0.01%)
+awk:           1230 (0.01%)
+xml:             33 (0.00%)
+ruby:            25 (0.00%)
+csh:             21 (0.00%)
+sed:              5 (0.00%)
+
+
+
+
+Total Physical Source Lines of Code (SLOC)                = 22,665,813
+Development Effort Estimate, Person-Years (Person-Months) = 7,484.62 (89,815.46)
+ (Basic COCOMO model, Person-Months = 2.4 * (KSLOC**1.05))
+Schedule Estimate, Years (Months)                         = 15.89 (190.64)
+ (Basic COCOMO model, Months = 2.5 * (person-months**0.38))
+Estimated Average Number of Developers (Effort/Schedule)  = 471.13
+Total Estimated Cost to Develop                           = $ 1,011,070,619
+ (average salary = $56,286/year, overhead = 2.40).
+SLOCCount, Copyright (C) 2001-2004 David A. Wheeler
+SLOCCount is Open Source Software/Free Software, licensed under the GNU GPL.
+SLOCCount comes with ABSOLUTELY NO WARRANTY, and you are welcome to
+redistribute it under certain conditions as specified by the GNU GPL license;
+see the documentation for details.
+Please credit this data as "generated using David A. Wheeler's 'SLOCCount'."
