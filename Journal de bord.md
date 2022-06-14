@@ -120,3 +120,7 @@ Mon travail sur le count_lines de Faults in linux n'était pas nécessaire car o
 1. Modification de linux-infra pour récupérer les versions de linux à étudier (3.x 4.x 5.x)
 2. Test sur les versions 5.x et test de sloccount sur les versions
 
+# 14/06/22: 6ème semaine jour 2
+1. Modification du makefile pour linux-infra et test (vérifier la présence de sloccount)
+2. Modification du readme pour prendre en compte les modifications précédentes
+
