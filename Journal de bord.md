@@ -124,3 +124,7 @@ Mon travail sur le count_lines de Faults in linux n'était pas nécessaire car o
 1. Modification du makefile pour linux-infra et test (vérifier la présence de sloccount)
 2. Modification du readme pour prendre en compte les modifications précédentes
 
+# 15/06/22: 6ème semaine jour 3
+1. Début de l'ajout de makefiles et de fichiers sources pour les librairies d'Herodotos afin d'avoir une version ne nécessitant pas beaucoup de dépendances/une version paquet
+2. Continuation de la rédaction du readme de preinit
+
