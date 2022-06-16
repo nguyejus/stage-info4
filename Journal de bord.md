@@ -128,3 +128,7 @@ Mon travail sur le count_lines de Faults in linux n'était pas nécessaire car o
 1. Début de l'ajout de makefiles et de fichiers sources pour les librairies d'Herodotos afin d'avoir une version ne nécessitant pas beaucoup de dépendances/une version paquet
 2. Continuation de la rédaction du readme de preinit
 
+# 16/06/22: 6ème semaine jour 4
+1. 5ème réunion pour faire le point: le makefile pour remplacer le script compute_all doit être interactif pour sélectionner les versions dont on veut générer le rapport
+2. Continuation du Makefile pour remplacer compute_all
+
