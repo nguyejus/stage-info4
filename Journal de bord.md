@@ -132,3 +132,9 @@ Mon travail sur le count_lines de Faults in linux n'était pas nécessaire car o
 1. 5ème réunion pour faire le point: le makefile pour remplacer le script compute_all doit être interactif pour sélectionner les versions dont on veut générer le rapport
 2. Continuation du Makefile pour remplacer compute_all
 
+# 17/06/22: 6ème semaine jour 5
+1. Continuation du Makefile pour remplacer compute_all: Pour générer des sizelog pour toutes les versions contenues dans le dossier ok, pour forcer la génération des sizelog pour les versions données par l'utilisateur ok, pour générer des sizelog renseignés en ligne de commande ok mais pas encore de règle qui génère le sizelog du nom de la règle quand elle est une wildcard, je n'ai pas encore trouvé comment afficher le pattern d'un dossier autre que celui contenant le makefile
+
+# Bilan de la semaine du 13/06/22 au 17/06/22:
+J'ai travaillé uniquement sur des Makefiles cette semaine, mais je dois encore m'améliorer pour savoir faire tout ce que je souhaite, j'ai également accès à Grid'5000 mais pour l'instant je ne l'utilise pas encore ( je dois finir ce que j'ai commencé ). De plus les modifications que je fais doivent être combinées avec les modifications de mon collègue pour avoir une seule version fonctionnelle.
+
