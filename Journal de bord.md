@@ -138,3 +138,7 @@ Mon travail sur le count_lines de Faults in linux n'était pas nécessaire car o
 # Bilan de la semaine du 13/06/22 au 17/06/22:
 J'ai travaillé uniquement sur des Makefiles cette semaine, mais je dois encore m'améliorer pour savoir faire tout ce que je souhaite, j'ai également accès à Grid'5000 mais pour l'instant je ne l'utilise pas encore ( je dois finir ce que j'ai commencé ). De plus les modifications que je fais doivent être combinées avec les modifications de mon collègue pour avoir une seule version fonctionnelle.
 
+# 20/06/22: 7ème semaine jour 1
+1. Fin du Makefile pour remplacer compute_all (pour le moment)
+2. Suppression des librairies préincluses pour Herodotos (nécessite opam pour accéder aux librairies)
+
