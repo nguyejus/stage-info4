@@ -1,6 +1,5 @@
 (executable
 	(name herodotos)
-	(preprocess (action (run camlp4o -I /usr/lib/ocaml/camlp4 -I /home/me/.opam/default/lib/volt -parser o -parser op -printer p -I ./lib/volt/bolt_pp.cmo %{input-file})))
 	(libraries unix str threads dynlink volt parmap postgresql commons configparser existparser orgparser engine))
 	
 (env

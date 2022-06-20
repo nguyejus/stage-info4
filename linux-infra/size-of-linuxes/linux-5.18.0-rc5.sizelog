@@ -49,7 +49,7 @@ Computing results.
 SLOC	Directory	SLOC-by-Language (Sorted)
 15371125 drivers         ansic=15359657,perl=4459,asm=3901,yacc=1679,lex=771,
                         python=641,sh=17
-1772463 arch            ansic=1507859,asm=254723,perl=7687,sh=1600,awk=544,
+1772441 arch            ansic=1507859,asm=254701,perl=7687,sh=1600,awk=544,
                         python=45,sed=5
 1063359 sound           ansic=1063359
 1039057 fs              ansic=1039057
@@ -81,7 +81,7 @@ SLOC	Directory	SLOC-by-Language (Sorted)
 Totals grouped by language (dominant language first):
 ansic:     21934002 (96.77%)
 python:      273168 (1.21%)
-asm:         262390 (1.16%)
+asm:         262368 (1.16%)
 sh:           95659 (0.42%)
 javascript:     49243 (0.22%)
 perl:         36365 (0.16%)
@@ -97,13 +97,13 @@ sed:              5 (0.00%)
 
 
 
-Total Physical Source Lines of Code (SLOC)                = 22,665,813
-Development Effort Estimate, Person-Years (Person-Months) = 7,484.62 (89,815.46)
+Total Physical Source Lines of Code (SLOC)                = 22,665,791
+Development Effort Estimate, Person-Years (Person-Months) = 7,484.61 (89,815.37)
  (Basic COCOMO model, Person-Months = 2.4 * (KSLOC**1.05))
 Schedule Estimate, Years (Months)                         = 15.89 (190.64)
  (Basic COCOMO model, Months = 2.5 * (person-months**0.38))
 Estimated Average Number of Developers (Effort/Schedule)  = 471.13
-Total Estimated Cost to Develop                           = $ 1,011,070,619
+Total Estimated Cost to Develop                           = $ 1,011,069,588
  (average salary = $56,286/year, overhead = 2.40).
 SLOCCount, Copyright (C) 2001-2004 David A. Wheeler
 SLOCCount is Open Source Software/Free Software, licensed under the GNU GPL.

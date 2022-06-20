@@ -153,6 +153,7 @@ IDX=$(DIR:%=idx-%)
 TAGS3=$(shell (git ls-remote --tags $(LINUSTREE) v3.[0-9] v3.[0-9][0-9] | sed 's/^.*\(v3.*\).*$$/\1/'))
 TAGS4=$(shell (git ls-remote --tags $(LINUSTREE) v4.[0-9] v4.[0-9][0-9] | sed 's/^.*\(v4.*\).*$$/\1/'))
 TAGS5=$(shell (git ls-remote --tags $(LINUSTREE) v5.[0-9] v5.[0-9][0-9] | sed 's/^.*\(v5.*\).*$$/\1/'))
+#You can change the tags to download other versions :
 TAGS += $(TAGS5)
 all: update-git
 	$(MAKE) check-all

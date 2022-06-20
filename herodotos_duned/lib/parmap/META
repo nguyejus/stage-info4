@@ -1,7 +1,0 @@
-version = "1.2.4"
-description = "Parallel map primitive for multicores"
-requires = "bigarray unix"
-archive(byte) = "parmap.cma"
-archive(native) = "parmap.cmxa"
-plugin(byte) = "parmap.cma"
-plugin(native) = "parmap.cmxs"
