@@ -142,3 +142,6 @@ J'ai travaillé uniquement sur des Makefiles cette semaine, mais je dois encore 
 1. Fin du Makefile pour remplacer compute_all (pour le moment)
 2. Suppression des librairies préincluses pour Herodotos (nécessite opam pour accéder aux librairies)
 
+# 21/06/22: 7ème semaine jour 2
+1. Test des makefiles ensemble (récupérer les versions puis traiter celles qui nous intéresse)
+
