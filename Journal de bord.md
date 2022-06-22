@@ -145,3 +145,7 @@ J'ai travaillé uniquement sur des Makefiles cette semaine, mais je dois encore 
 # 21/06/22: 7ème semaine jour 2
 1. Test des makefiles ensemble (récupérer les versions puis traiter celles qui nous intéresse)
 
+# 22/06/22: 7ème semaine jour 3
+1. Ajustements sur les makefiles (ajout du make clean entre autres)
+2. Recherches sur l'indexation de coccinelle dans Herodotos
+
