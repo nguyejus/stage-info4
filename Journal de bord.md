@@ -149,3 +149,6 @@ J'ai travaillé uniquement sur des Makefiles cette semaine, mais je dois encore 
 1. Ajustements sur les makefiles (ajout du make clean entre autres)
 2. Recherches sur l'indexation de coccinelle dans Herodotos
 
+# 23/06/22: 7ème semaine jour 4
+1. 5ème réunion pour faire le point: On doit rechercher des pistes d'optimisation par parallélisation de Herodotos, je dois aussi push une nouvelle branche plus propre sur git (enlever les duplicatas et séparer les commits)
+
