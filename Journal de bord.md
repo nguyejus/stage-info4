@@ -152,3 +152,10 @@ J'ai travaillé uniquement sur des Makefiles cette semaine, mais je dois encore 
 # 23/06/22: 7ème semaine jour 4
 1. 5ème réunion pour faire le point: On doit rechercher des pistes d'optimisation par parallélisation de Herodotos, je dois aussi push une nouvelle branche plus propre sur git (enlever les duplicatas et séparer les commits)
 
+# 24/06/22: 7ème semaine jour 5
+1. Nettoyage des fichiers générés du git Herodotos
+2. Continuation de recherche de parallélisation possible de Herodotos
+
+# Bilan de la semaine du 20/06/22 au 24/06/22:
+Cette semaine portait surtout sur les ajustements nécessaires à la reproductibilité de l'étude avec des outils de génération (make) et du dépôt git. La semaine prochaine portera surtout sur l'optimisation des différentes phases de Herodotos avec la parallélisation des tâches comme les extractions de versions par exemple.
+
