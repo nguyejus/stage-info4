@@ -159,3 +159,6 @@ J'ai travaillé uniquement sur des Makefiles cette semaine, mais je dois encore 
 # Bilan de la semaine du 20/06/22 au 24/06/22:
 Cette semaine portait surtout sur les ajustements nécessaires à la reproductibilité de l'étude avec des outils de génération (make) et du dépôt git. La semaine prochaine portera surtout sur l'optimisation des différentes phases de Herodotos avec la parallélisation des tâches comme les extractions de versions par exemple.
 
+# 27/06/22: 8ème semaine jour 1
+1.Recherche de pistes de parallélisation de Herodotos, compliqué car pas de moyen de debugger l'applicatiion
+
