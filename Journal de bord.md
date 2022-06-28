@@ -162,3 +162,7 @@ Cette semaine portait surtout sur les ajustements nécessaires à la reproductib
 # 27/06/22: 8ème semaine jour 1
 1.Recherche de pistes de parallélisation de Herodotos, compliqué car pas de moyen de debugger l'applicatiion
 
+# 28/06/22: 8ème semaine jour 2
+1. Recherche de pistes de parallélisation de Herodotos, on a des fold et des map mais comment cela se comportera sur les clusters de grid'5000
+2. Ajustements des makefiles pour faults in linux pour avoir les bons noms de répertoires
+
