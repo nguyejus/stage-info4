@@ -166,3 +166,6 @@ Cette semaine portait surtout sur les ajustements nécessaires à la reproductib
 1. Recherche de pistes de parallélisation de Herodotos, on a des fold et des map mais comment cela se comportera sur les clusters de grid'5000
 2. Ajustements des makefiles pour faults in linux pour avoir les bons noms de répertoires
 
+# 29/06/22: 8ème semaine jour 3
+1. Recherche de pistes de parallélisation de Herodotos, les map et fold ne concernent pas le déploiement car ce n'est qu'une lliste des versions à traiter (traités en série sans regarder quel support de stockage est utilisé)
+
