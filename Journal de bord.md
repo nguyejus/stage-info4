@@ -167,5 +167,8 @@ Cette semaine portait surtout sur les ajustements nécessaires à la reproductib
 2. Ajustements des makefiles pour faults in linux pour avoir les bons noms de répertoires
 
 # 29/06/22: 8ème semaine jour 3
-1. Recherche de pistes de parallélisation de Herodotos, les map et fold ne concernent pas le déploiement car ce n'est qu'une lliste des versions à traiter (traités en série sans regarder quel support de stockage est utilisé)
+1. Recherche de pistes de parallélisation de Herodotos, les map et fold ne concernent pas le déploiement car ce n'est qu'une liste des versions à traiter (traités en série sans regarder quel support de stockage est utilisé)
+
+# 30/06/22: 8ème semaine jour 4
+1. Recherche de pistes de parallélisation de Herodotos, certaines fonctions ne semblent pas utilisées ou sont des duplicatas d'autres fonctions présentes dans les autres dossiers, je ne sais pas si les enlever permettrait d'y voir plus clair.
 
