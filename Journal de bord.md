@@ -172,3 +172,9 @@ Cette semaine portait surtout sur les ajustements nécessaires à la reproductib
 # 30/06/22: 8ème semaine jour 4
 1. Recherche de pistes de parallélisation de Herodotos, certaines fonctions ne semblent pas utilisées ou sont des duplicatas d'autres fonctions présentes dans les autres dossiers, je ne sais pas si les enlever permettrait d'y voir plus clair.
 
+# 1/07/22: 8ème semaine jour 5
+1. Recherche de pistes de parallélisation de Herodotos, j'ai commencé à configurer mon ssh pour Grid'5000, il faut que je modifie les makefiles pour ma configuration locale mais aussi pour le déploiement sur g5k.
+
+# Bilan de la semaine du 27/06/22 au 1/07/22:
+La reproductibilité de l'étude a été établie, mais il faudra optimiser le projet pour le vérifier. Faire des tests en local sera essentiel avant de commencer à tester sur Grid'5000, mais il faudra modifier les makefiles à chaque fois pour cela.
+
