@@ -178,3 +178,7 @@ Cette semaine portait surtout sur les ajustements nécessaires à la reproductib
 # Bilan de la semaine du 27/06/22 au 1/07/22:
 La reproductibilité de l'étude a été établie, mais il faudra optimiser le projet pour le vérifier. Faire des tests en local sera essentiel avant de commencer à tester sur Grid'5000, mais il faudra modifier les makefiles à chaque fois pour cela.
 
+# 4/07/22: 9ème semaine jour 1
+1. Ajustements dans les makefiles et modification de study.hc.base pour qu'il cherche les bons répertoires locaux.
+2. Recherche de pistes de parallélisation de Herodotos, en pause car ça n'avanace pas trop
+
