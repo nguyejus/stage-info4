@@ -182,3 +182,6 @@ La reproductibilité de l'étude a été établie, mais il faudra optimiser le p
 1. Ajustements dans les makefiles et modification de study.hc.base pour qu'il cherche les bons répertoires locaux.
 2. Recherche de pistes de parallélisation de Herodotos, en pause car ça n'avanace pas trop
 
+# 5/07/22: 9ème semaine jour 2
+1. Les ajustements préalablement réalisés ne semblent pas fonctionner comme espéré (il ne trouve pas le dépôt local) j'essaierai en retéléchargeant une version complète de linux.
+
