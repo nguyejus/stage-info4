@@ -185,3 +185,6 @@ La reproductibilité de l'étude a été établie, mais il faudra optimiser le p
 # 5/07/22: 9ème semaine jour 2
 1. Les ajustements préalablement réalisés ne semblent pas fonctionner comme espéré (il ne trouve pas le dépôt local) j'essaierai en retéléchargeant une version complète de linux.
 
+# 6/07/22: 9ème semaine jour 3
+1. Je dois rectifier le makefile qui récupère les versions de linux car il semble récupérer toutes les versions ou que celles sélectionnées mais sans linux-git
+
