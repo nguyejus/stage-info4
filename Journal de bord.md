@@ -188,3 +188,7 @@ La reproductibilité de l'étude a été établie, mais il faudra optimiser le p
 # 6/07/22: 9ème semaine jour 3
 1. Je dois rectifier le makefile qui récupère les versions de linux car il semble récupérer toutes les versions ou que celles sélectionnées mais sans linux-git
 
+# 7/07/22: 9ème semaine jour 4
+1. Réinstallation sur mon nouveau pc: en utilisant les mêmes dépendances documentées, Herodotos fonctionne
+
+
