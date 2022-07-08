@@ -191,4 +191,10 @@ La reproductibilité de l'étude a été établie, mais il faudra optimiser le p
 # 7/07/22: 9ème semaine jour 4
 1. Réinstallation sur mon nouveau pc: en utilisant les mêmes dépendances documentées, Herodotos fonctionne
 
+# 8/07/22: 9ème semaine jour 5
+1. Test en local de faults in linux: toujours pas bon car il ne trouve pas le dépôt git local malgré le bon chemin, j'espère que ce n'est pas un bug dans herodotos
+
+# Bilan de la semaine du 4/07/22 au 8/07/22:
+Le fait de ne pas pouvoir tester le projet en local va retarder son optimisation, de plus, cette semaine mon tuteur était en mission donc je n'ai pas pu lui poser des questions et mon collègue avait ses rattrapages à passer. J'essaierai  d'être plus productif la semaine suivante pour compenser.
+
 
