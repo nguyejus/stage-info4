@@ -197,4 +197,7 @@ La reproductibilité de l'étude a été établie, mais il faudra optimiser le p
 # Bilan de la semaine du 4/07/22 au 8/07/22:
 Le fait de ne pas pouvoir tester le projet en local va retarder son optimisation, de plus, cette semaine mon tuteur était en mission donc je n'ai pas pu lui poser des questions et mon collègue avait ses rattrapages à passer. J'essaierai  d'être plus productif la semaine suivante pour compenser.
 
+# 11/07/22: 10ème semaine jour 1
+1. Le dépôt local est enfin trouvé, mais  il ne liste pas les versions récupérées automatiquement, je ne peux pas tester la phase de corrélation et la suite sans ça.
+
 
