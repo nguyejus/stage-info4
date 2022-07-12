@@ -200,4 +200,9 @@ Le fait de ne pas pouvoir tester le projet en local va retarder son optimisation
 # 11/07/22: 10ème semaine jour 1
 1. Le dépôt local est enfin trouvé, mais  il ne liste pas les versions récupérées automatiquement, je ne peux pas tester la phase de corrélation et la suite sans ça.
 
+# 12/07/22: 10ème semaine jour 2
+1.6ème réunion pour faire le point: je dois tester sur une machine virtuelle les dépendances sur une installation propre de ubuntu, je dois modifier le fichier dune-project afin de générer un fichier opam correct sans les espaces réservés, je dois documenter les phases de herodotos et dire ce que parmap pourrait gérer.
+2. J'ai installé la vm et fait la liste des dépendances
+3. J'ai modifié le fichier dune-project
+4. J'ai commencé à modifier le fichier latex pour la documentation de herodotos
 
