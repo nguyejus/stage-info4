@@ -1,1 +1,0 @@
-cfgmode.ml: Abstime Ast_config Avgage Avglifespan Birth Birthfile Bolt Cfghelper Config Count Countevol Death Deathfile Debug Defects Eldest Eldestdeath Expertise Filename Graph Group Hashtbl Helper Html Lifeexpect List Misc Netincrease Patchexpert Printexc Printf Ratioevol Reltime Setup Size Sizepct Str String Timeexpert Unix User

@@ -1,2 +1,0 @@
-ocamlbuild:
-	ocamlbuild -use-menhir -use-ocamlfind -cflags -I,`pwd`/../commons/ exists.cma

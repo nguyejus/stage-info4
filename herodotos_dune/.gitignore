@@ -1,9 +1,0 @@
-Makefile.config
-herodotos
-herodotos.opt
-TAGS
-
-#Ocamlbuild
-_build
-herodotos.native
-herodotos.byte
