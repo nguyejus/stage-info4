@@ -206,3 +206,7 @@ Le fait de ne pas pouvoir tester le projet en local va retarder son optimisation
 3. J'ai modifié le fichier dune-project
 4. J'ai commencé à modifier le fichier latex pour la documentation de herodotos
 
+# 13/07/22: 10ème semaine jour 3
+1. Continuation de la modification du fichier latex pour la documentation de herodotos
+2. Ajustements dans le dépôt git de herodotos suite au commentaires de mon tuteur
+
