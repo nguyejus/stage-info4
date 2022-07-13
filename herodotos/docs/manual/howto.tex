@@ -1,0 +1,104 @@
+
+\label{chap:howto}
+
+At this point, you must have Herodotos installed. You now have to
+setup your environment and write a Herodotos Configuration file.
+
+\begin{enumerate}
+\item Setup the environment
+  \begin{itemize}
+  \item Copy default make files and define your working directory. If
+    you installed Herodotos from source, the default make files are
+    \texttt{herodotos/scripts}. For a package install, copy the files
+    from the Herodotos
+    examples\footnote{\texttt{/usr/share/doc/herodotos/examples/scripts}}.
+  \item Write a HC file which declares your projects, patterns and experiments.\\
+    If you want to have several .hc files, you should define the CONF
+    environment variable to select a default one. Every following make
+    command will then use that configuration file.
+  \end{itemize}
+
+\item Recover missing elements in a version description, like a release
+  date, the code size, or extract the code from a given repository:
+
+  \texttt{make preinit}
+  
+\item Initialize the environment:
+
+  \texttt{make init}
+  
+\item Compute raw data:
+
+  \texttt{make -j2}
+
+\item Correlate bug reports and propose an initial set of
+  correlations:
+
+  \texttt{make correl}
+
+  Note: Herodotos will automatically compute the changeset.
+
+\item Manually edit the remaining correlations
+
+  \texttt{\$EDITOR results/*/*.correl.org}
+
+  Emacs with the Org mode is recommended.
+  Org mode view-link add-on will transform your
+  emacs in a wizard to handle Coccinelle reports.
+
+  See \texttt{./tools/org-view-link.el}
+
+\item Use the new complementary correlation information
+
+  \texttt{make correl} (recompute the correlation and use the
+  correlation set manually provided)
+
+\item Check the result:
+
+  \texttt{make stat}
+
+\item Look for false positive
+
+  \begin{itemize}
+  \item \texttt{cp results/*/*.edit.org results/*/*.new.org}
+  \item Edit the new copy and annotate the reported TODO with either
+    BUG or FP.
+  \end{itemize}
+
+\item Generate graphs (or website):
+
+  \texttt{make [graph|web]}
+
+\item Edit and adjust your HC file\\
+
+  Iterate on steps 9 and 10.
+
+\item Generate SQL queries from *.new.org files:
+  
+  \texttt{herodotos ---prefix prefix/ ---parse\_org results/*/*/*.new.org ---to-sql}
+  
+\item Generate incremental SQL queries from *.new.org files
+
+  \texttt{herodotos ---prefix prefix/ ---parse\_org results/*/*/*.new.org ---to-sql-update version}
+  
+  Generated queries are used to update a data base containing data
+  about all versions preceding the given version, with data about the
+  given version and all versions following it.
+  
+  \textbf{Note}: For the last two commands, it's supposed that a
+  database has already been created. To insert new data corresponding
+  to generated queries, the output result of these commands can be
+  redirected to a .sql file, which can be called once connected to the
+  database. This process, that has to be done for each .new.org file,
+  can be automated with a script that handles queries generation and
+  the insertion of data corresponding to these queries.
+\end{enumerate}
+
+
+%%% Local Variables:
+%%% mode: LaTeX
+%%% TeX-master: "herodotos.tex"
+%%% coding: utf-8
+%%% TeX-PDF-mode: t
+%%% ispell-local-dictionary: "american"
+%%% End:

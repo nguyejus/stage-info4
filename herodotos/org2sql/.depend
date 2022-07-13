@@ -1,0 +1,12 @@
+org2sql.cmo : \
+    database/sql.cmo \
+    org/org.cmo \
+    commons/misc.cmo \
+    commons/global.cmo \
+    commons/debug.cmo
+org2sql.cmx : \
+    database/sql.cmx \
+    org/org.cmx \
+    commons/misc.cmx \
+    commons/global.cmx \
+    commons/debug.cmx

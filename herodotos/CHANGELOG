@@ -1,0 +1,36 @@
+
+-*- org -*-
+ 
+ * 0.9.0
+ - Disable recursive lookup in GNU Diff hunk
+ - Replace 'experience' keyword by 'experiment'
+ - Enable SQL for export or new.org files
+ - Add the generation of targets for experiments
+
+ * 0.8.0
+ - Add use of GumTree
+ - Add hybrid strategy with GNU Diff and GumTree
+ - Improve cache of delta files
+ - Use Bolt for logging
+ - Use Parmap to parallelize delta file computations and correlation
+ - Change how the fonctionning mode is specified
+
+ * 0.7.0
+ - Add incremental SQL queries
+ - Add 'experiment' statement
+ - Add preinit mode with automatic computation of release date and project size
+
+ * 0.6.0
+ - Allow "strict" correlation where the link text
+   must match too.
+ - Cleaner use process: generation of edit and new
+   files depends on their status. New files are only
+   generated if the correlation if done. Edit files
+   are generated only if they differ from their
+   corresponding new files.
+ - Rewrite Org parser.
+ - Fix abscisse size for evolution curves.
+ - Provide Herodotos tool suite:
+   herodotos (for the correlation), org2sql
+   (to push correlated reports in a database),
+   and sql2jgr (to generate the graphs from a database)

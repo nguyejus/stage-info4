@@ -1,0 +1,59 @@
+type token =
+    TVIEW
+  | TVERT
+  | TUNRELATED
+  | TUNKNOWN
+  | TTODO
+  | TTEXT of string
+  | TSTODO
+  | TSTAR
+  | TSPACE
+  | TSLASH
+  | TSAME
+  | TRAB
+  | TORG
+  | TOK
+  | TNONBUG
+  | TLINB
+  | TLAB
+  | TInt of int
+  | TId of string
+  | TIGNORED
+  | THASHPLUS
+  | TFP
+  | TFACE
+  | TEQUAL
+  | TCONFIG
+  | TCOLON
+  | TCOLE
+  | TCOLB
+  | TBUG
+  | EOL
+val menhir_begin_marker : int
+val xv_textelm_nost : string
+val xv_textelm_nospecial : string
+val xv_textelm : string
+val xv_text : string
+val xv_tailelm : unit
+val xv_tail : unit
+val xv_status_elm : Ast_org.status
+val xv_status : Ast_org.status
+val xv_split_path_elt : string
+val xv_reason : string
+val xv_path_elt : string
+val xv_path : string
+val xv_org_option : Ast_org.orgoption
+val xv_oneline : int * Ast_org.org
+val xv_ol_option : Ast_org.orgoption
+val xv_nonempty_list_tailelm_ : unit list
+val xv_nonempty_list_TSTAR_ : unit list
+val xv_nonempty_list_TSPACE_ : unit list
+val xv_lm : unit
+val xv_list_textelm_ : string list
+val xv_list_split_path_elt_ : string list
+val xv_list_path_elt_ : string list
+val xv_list_ol_option_ : Ast_org.orgoption list
+val xv_list_TSPACE_ : unit list
+val xv_link : Ast_org.link
+val xv_elt : string
+val menhir_end_marker : int

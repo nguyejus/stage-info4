@@ -1,0 +1,5 @@
+#!/bin/sh
+
+for d in herodotos org2sql sql2jgr; do
+    cd $d ; ./configure $* ; cd - 2> /dev/null;
+done

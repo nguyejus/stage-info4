@@ -1,0 +1,4 @@
+(lang dune 3.3)
+(name herodotos)
+(sections (lib .))
+(files (lib (META dune-package opam)))

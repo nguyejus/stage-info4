@@ -1,0 +1,28 @@
+(lang dune 3.1)
+(using menhir 2.0)
+
+(name herodotos)
+
+(generate_opam_files true)
+
+(source
+ (github coccinelle/herodotos))
+
+(authors "Nicolas Palix")
+
+(maintainers "")
+
+(license LICENSE)
+
+(documentation https://url/to/documentation)
+
+(package
+ (name herodotos)
+ (synopsis "Tracking code patterns through software versions")
+ (description "Herodotos is open source and can be freely redistributed under the terms of the GNU General Public
+License version 2. See the file LICENSE in the distribution for licensing information.")
+ (depends ocaml dune)
+ (tags
+  (coccinelle ocaml menhir volt parmap postgresql dune)))
+
+; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project

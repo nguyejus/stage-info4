@@ -1,0 +1,12 @@
+sql.cmo : \
+    ../org/org_helper.cmo \
+    ../org/org.cmo \
+    ../commons/misc.cmo \
+    ../commons/global.cmo \
+    ../org/ast_org.cmi
+sql.cmx : \
+    ../org/org_helper.cmx \
+    ../org/org.cmx \
+    ../commons/misc.cmx \
+    ../commons/global.cmx \
+    ../org/ast_org.cmi

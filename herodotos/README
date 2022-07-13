@@ -1,0 +1,33 @@
+
+ == Requirements ==
+
+ * A org-mode capable matching tool
+   * For instance, Coccinelle (spatch)
+ * menhir, a O'Caml parser generator
+   * Only for building Herodotos
+ * menhirlib, the menhir runtime library (libmenhir-ocaml-dev)
+ * PostgreSQL-ocaml library (libpostgresql-ocaml-dev)
+ * XML-light (libxml-light-ocaml-dev)
+ * Bolt (http://bolt.x9c.fr/) -- This needs camlp4-extra
+ * Parmap (https://github.com/rdicosmo/parmap.git ; libparmap-ocaml-dev)
+
+ For EPS generation
+====================
+ * jgraph
+ * ps2eps
+
+ For conversion to PDF
+=======================
+ * pdftk
+ * epstopdf
+
+ For conversion to SVG images
+==============================
+ * inkscape ( > 0.46 )
+
+ == Improvements ==
+
+ * Native version of spatch (spatch.opt)
+
+ * Source code repositories can be indexed with glimpse
+   -> may improve spatch efficiency

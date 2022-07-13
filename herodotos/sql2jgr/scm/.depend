@@ -1,0 +1,4 @@
+git.cmo : \
+    ../commons/misc.cmo
+git.cmx : \
+    ../commons/misc.cmx

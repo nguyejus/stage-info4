@@ -1,0 +1,11 @@
+ast.cmi :
+debug.cmo : \
+    misc.cmo
+debug.cmx : \
+    misc.cmx
+global.cmo :
+global.cmx :
+misc.cmo : \
+    ast.cmi
+misc.cmx : \
+    ast.cmi

@@ -1,0 +1,38 @@
+engine.cmo : \
+    graph/user.cmo \
+    config/setup.cmo \
+    commons/misc.cmo \
+    html/html.cmo \
+    graph/helper.cmo \
+    graph/group.cmo \
+    graph/defects.cmo \
+    commons/debug.cmo \
+    database/database.cmo \
+    config/config.cmo \
+    config/ast_config.cmi
+engine.cmx : \
+    graph/user.cmx \
+    config/setup.cmx \
+    commons/misc.cmx \
+    html/html.cmx \
+    graph/helper.cmx \
+    graph/group.cmx \
+    graph/defects.cmx \
+    commons/debug.cmx \
+    database/database.cmx \
+    config/config.cmx \
+    config/ast_config.cmi
+sql2jgr.cmo : \
+    config/setup.cmo \
+    commons/misc.cmo \
+    commons/global.cmo \
+    engine.cmo \
+    commons/debug.cmo \
+    config/config.cmo
+sql2jgr.cmx : \
+    config/setup.cmx \
+    commons/misc.cmx \
+    commons/global.cmx \
+    engine.cmx \
+    commons/debug.cmx \
+    config/config.cmx

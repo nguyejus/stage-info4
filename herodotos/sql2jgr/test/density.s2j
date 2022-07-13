@@ -1,0 +1,151 @@
+graph gr/density.jgr {
+ xaxis = date
+ yaxis = user
+ project = Linux
+ size = 3 0.7
+ ylegend = "Faults\nper 1KLOC"
+ legend = "off
+
+shell : cpp -P -undef -DYMAX=0.2 -DYMIN=0 base.annot
+"
+ ymax = 0.2
+
+ curve pattern Linux {
+   marktype = x
+   sql = SELECT r.version_name, r.release_date,
+       1000*count(report_id)::float/locc::float as fault_density
+FROM "Faults info" r, versions
+WHERE r.release_date >= '2003-12-18'
+AND r.standardized_name != 'BlockRCU'
+AND r.standardized_name != 'LockRCU'
+AND r.standardized_name != 'DerefRCU'
+AND versions.version_name = r.version_name
+GROUP BY r.version_name , r.release_date , locc
+ORDER BY r.release_date;
+ }
+}
+
+#define FLT_AVG_RATE                                    \
+ curve pattern Average {				\
+   sql = SELECT r.version_name, r.release_date,         \
+       	 	100 * sum(r.number_of_reports) / sum(r.number_of_notes) AS rate \
+       	 	FROM rates_per_dir r                    \
+       	 	WHERE r.release_date >= '2003-12-18'    \
+		AND r.standardized_name != 'BlockRCU'   \
+		AND r.standardized_name != 'LockRCU'    \
+		AND r.standardized_name != 'DerefRCU'   \
+		GROUP BY r.version_name, r.release_date \
+		ORDER BY r.release_date;                \
+ }
+
+#define FLT_RATE_KIND(patt, patt2)                      \
+ curve pattern patt {				        \
+   sql = SELECT r.version_name, r.release_date,         \
+       	 	100 * sum(r.number_of_reports) / sum(r.number_of_notes) AS rate \
+       	 	FROM rates_per_dir r                    \
+       	 	WHERE r.standardized_name = patt2       \
+		AND r.release_date >= '2003-12-18'      \
+		GROUP BY r.version_name, r.release_date \
+		ORDER BY r.release_date;                \
+ }
+
+graph gr/rate-evol-per-kind.jgr {
+ xaxis = date
+ yaxis = user
+ project = Linux
+ size = 3 1.5
+ ylegend = "% of faulty notes"
+
+ legend = "defaults
+
+shell : cpp -P -undef -DYMAX=1.65 -DYMIN=0 base.annot
+"
+
+ FLT_AVG_RATE
+
+ FLT_RATE_KIND(BlockLock, 'BlockLock')
+ FLT_RATE_KIND(BlockIntr, 'BlockIntr')
+ FLT_RATE_KIND(Null , 'Null' )
+ FLT_RATE_KIND(Var  , 'Var'  )
+ FLT_RATE_KIND(IsNull , 'IsNull' )
+ FLT_RATE_KIND(NullRef, 'NullRef' )
+ FLT_RATE_KIND(Range , 'Range' )
+ FLT_RATE_KIND(Lock , 'Lock' )
+ FLT_RATE_KIND(Intr , 'Intr' )
+ FLT_RATE_KIND(LockIntr , 'LockIntr' )
+ FLT_RATE_KIND(Free , 'Free' )
+ FLT_RATE_KIND(Param, 'Param')
+ FLT_RATE_KIND(Size , 'Size' )
+}
+
+
+#define FLT_RATE_DIR(patt, patt2)                       \
+ curve pattern patt {				        \
+   sql = SELECT r.version_name, r.release_date,         \
+       	 	100 * sum(r.number_of_reports) / sum(r.number_of_notes) AS rate \
+       	 	FROM rates_per_dir r                    \
+       	 	WHERE r.study_dirname = patt2           \
+		AND r.standardized_name != 'BlockRCU'   \
+		AND r.standardized_name != 'LockRCU'    \
+		AND r.standardized_name != 'DerefRCU'   \
+		AND r.release_date >= '2003-12-18'      \
+		GROUP BY r.version_name, r.release_date \
+		ORDER BY r.release_date;                \
+ }
+
+graph gr/rate-evol-per-dir.jgr {
+ xaxis = date
+ yaxis = user
+ project = Linux
+ size = 3 1.5
+ ylegend = "% of faulty notes"
+
+ legend = "defaults
+
+shell : cpp -P -undef -DYMAX=0.85 -DYMIN=0 base.annot
+"
+
+ FLT_AVG_RATE
+
+ FLT_RATE_DIR(Staging, 'staging')
+ FLT_RATE_DIR(Drivers, 'drivers')
+ FLT_RATE_DIR(Sound  , 'sound'  )
+ FLT_RATE_DIR(Arch   , 'arch'   )
+ FLT_RATE_DIR(FS     , 'fs'     )
+ FLT_RATE_DIR(Net    , 'net'    )
+ FLT_RATE_DIR(Other  , 'other'  )
+}
+
+#define FLT_COUNT_DIR(patt, patt2)                      \
+ curve pattern patt {				        \
+   sql = SELECT r.version_name, r.release_date,         \
+       	 	count(r.report_id) AS count             \
+       	 	FROM "Faults info" r                    \
+       	 	WHERE r.study_dirname = patt2           \
+		AND r.standardized_name != 'BlockRCU'   \
+		AND r.standardized_name != 'LockRCU'    \
+		AND r.standardized_name != 'DerefRCU'   \
+		AND r.release_date >= '2003-12-18'      \
+		GROUP BY r.version_name, r.release_date \
+		ORDER BY r.release_date;                \
+ }
+
+graph gr/count-evol-per-dir.jgr {
+ xaxis = date
+ yaxis = user
+ project = Linux
+ size = 3 1.5
+ ylegend = "# of faults"
+ legend = "defaults
+
+shell : cpp -P -undef -DYMAX=500 -DYMIN=0 base.annot
+"
+
+ FLT_COUNT_DIR(Staging, 'staging')
+ FLT_COUNT_DIR(Drivers, 'drivers')
+ FLT_COUNT_DIR(Sound  , 'sound'  )
+ FLT_COUNT_DIR(Arch   , 'arch'   )
+ FLT_COUNT_DIR(FS     , 'fs'     )
+ FLT_COUNT_DIR(Net    , 'net'    )
+ FLT_COUNT_DIR(Other  , 'other'  )
+}

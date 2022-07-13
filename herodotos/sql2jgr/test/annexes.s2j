@@ -1,0 +1,105 @@
+
+#define CNT_NOTES_KIND(patt, patt2)                    \
+ curve pattern patt {				       \
+   sql = SELECT version_name, release_date, count(*)   \
+       	 	FROM "Notes info"                      \
+       	 	WHERE standardized_name = patt2        \
+		AND release_date >= '2003-12-18'       \
+		GROUP BY version_name,                 \
+		      release_date,                    \
+		      standardized_name                \
+		ORDER BY release_date;                 \
+ }
+
+graph gr/notes-evol-kind.jgr {
+ xaxis = date
+ yaxis = user
+ project = Linux
+ size = 3 1.5
+ ylegend = "# of notes"
+ legend = "defaults
+
+shell : cpp -P -undef -DYMAX=46100 -DYMIN=0 base.annot
+"
+
+ curve pattern BlockLock {
+   legend = "Block{Lock,Intr}"
+   sql = SELECT version_name, release_date, count(*)
+       	 	FROM "Notes info"
+       	 	WHERE standardized_name = 'BlockLock'
+		AND release_date >= '2003-12-18'
+		GROUP BY version_name,
+		      release_date,
+		      standardized_name
+		ORDER BY release_date;
+ }
+
+ CNT_NOTES_KIND(Null , 'Null')
+ CNT_NOTES_KIND(Var  , 'Var'  )
+
+ curve pattern IsNull {
+   legend = "IsNull / NullRef"
+   sql = SELECT version_name, release_date, count(*)
+       	 	FROM "Notes info"
+       	 	WHERE standardized_name = 'IsNull'
+		AND release_date >= '2003-12-18'
+		GROUP BY version_name,
+		      release_date,
+		      standardized_name
+		ORDER BY release_date;
+ }
+
+ CNT_NOTES_KIND(Range, 'Range')
+ CNT_NOTES_KIND(Lock , 'Lock' )
+ CNT_NOTES_KIND(Intr , 'Intr' )
+ CNT_NOTES_KIND(LockIntr , 'LockIntr' )
+ CNT_NOTES_KIND(Free , 'Free' )
+ CNT_NOTES_KIND(Float, 'Float')
+ CNT_NOTES_KIND(Size , 'Size' )
+
+}
+
+#define FLT_FILE_DIR(patt, patt2)                  \
+ curve pattern patt {				       \
+   sql = SELECT r.version_name, r.release_date, count(r.report_id) / a.pts AS count             \
+       	 	FROM "Faults info" r,                    \
+		     (SELECT release_date,               \
+			     sum(pts) as pts             \
+		     FROM study_count_evol_agg_kind      \
+		     WHERE study_dirname = patt2         \
+		     GROUP BY release_date               \
+		     )  AS a                             \
+       	 	WHERE r.study_dirname = patt2            \
+		AND standardized_name != 'BlockRCU'      \
+		AND standardized_name != 'LockRCU'       \
+		AND standardized_name != 'DerefRCU'      \
+		AND r.release_date >= '2003-12-18'       \
+		AND r.release_date = a.release_date	 \
+		GROUP BY r.version_name,                 \
+		      r.release_date,                    \
+		      a.pts				 \
+		ORDER BY r.release_date;                 \
+ }
+
+graph gr/flt_file-evol-dir.jgr {
+ xaxis = date
+ yaxis = user
+ project = Linux
+ size = 3 1.5
+ ymin = 0.8
+ ylegend = "Average faults\nper faulty file"
+
+ legend = "defaults
+
+shell : cpp -P -undef -DYMAX=2.9 -DYMIN=0.8 base.annot
+"
+
+ FLT_FILE_DIR(Staging, 'staging')
+ FLT_FILE_DIR(Drivers, 'drivers')
+ FLT_FILE_DIR(Sound  , 'sound')
+ FLT_FILE_DIR(Arch   , 'arch')
+ FLT_FILE_DIR(FS     , 'fs')
+ FLT_FILE_DIR(Net    , 'net')
+ FLT_FILE_DIR(Other  , 'other')
+}
+

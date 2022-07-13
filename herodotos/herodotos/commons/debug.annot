@@ -1,0 +1,2485 @@
+"debug.ml" 20 686 690 "debug.ml" 20 686 694
+type(
+  'a -> ('a -> 'b) -> 'b
+)
+ident(
+  def +> "debug.ml" 21 705 705 "debug.ml" 0 0 -1
+)
+"debug.ml" 20 686 695 "debug.ml" 20 686 696
+type(
+  'a
+)
+ident(
+  def o "debug.ml" 20 686 697 "debug.ml" 20 686 704
+)
+"debug.ml" 20 686 697 "debug.ml" 20 686 698
+type(
+  'a -> 'b
+)
+ident(
+  def f "debug.ml" 20 686 701 "debug.ml" 20 686 704
+)
+"debug.ml" 20 686 701 "debug.ml" 20 686 702
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "debug.ml" 20 686 697 "debug.ml" 20 686 698
+)
+"debug.ml" 20 686 703 "debug.ml" 20 686 704
+type(
+  'a
+)
+ident(
+  int_ref o "debug.ml" 20 686 695 "debug.ml" 20 686 696
+)
+"debug.ml" 20 686 701 "debug.ml" 20 686 704
+type(
+  'b
+)
+"debug.ml" 20 686 697 "debug.ml" 20 686 704
+type(
+  ('a -> 'b) -> 'b
+)
+"debug.ml" 20 686 695 "debug.ml" 20 686 704
+type(
+  'a -> ('a -> 'b) -> 'b
+)
+"debug.ml" 21 705 709 "debug.ml" 21 705 712
+type(
+  string -> unit
+)
+ident(
+  def pr2 "debug.ml" 23 730 730 "debug.ml" 0 0 -1
+)
+"debug.ml" 21 705 715 "debug.ml" 21 705 728
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.prerr_endline "stdlib.mli" 858 31360 31360 "stdlib.mli" 858 31360 31394
+)
+"debug.ml" 23 730 734 "debug.ml" 23 730 739
+type(
+  string -> unit
+)
+ident(
+  def trace "debug.ml" 26 829 829 "debug.ml" 0 0 -1
+)
+"debug.ml" 23 730 740 "debug.ml" 23 730 743
+type(
+  string
+)
+ident(
+  def msg "debug.ml" 24 746 748 "debug.ml" 24 746 827
+)
+"debug.ml" 24 746 748 "debug.ml" 24 746 757
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 108 4152 4152 "list.mli" 108 4152 4194
+)
+"debug.ml" 24 746 763 "debug.ml" 24 746 764
+type(
+  string
+)
+ident(
+  def m "debug.ml" 24 746 768 "debug.ml" 24 746 785
+)
+"debug.ml" 24 746 772 "debug.ml" 24 746 773
+type(
+  string
+)
+ident(
+  int_ref m "debug.ml" 24 746 763 "debug.ml" 24 746 764
+)
+"debug.ml" 24 746 768 "debug.ml" 24 746 785
+type(
+  string
+)
+type(
+  exn option
+)
+type(
+  exn option option
+)
+type(
+  (string * string) list
+)
+type(
+  (string * string) list option
+)
+type(
+  int
+)
+type(
+  int option
+)
+type(
+  int
+)
+type(
+  int option
+)
+type(
+  string
+)
+type(
+  string option
+)
+type(
+  string
+)
+type(
+  string ->
+  Bolt.Level.t ->
+  ?file:string ->
+  ?line:int ->
+  ?column:int ->
+  ?properties:(string * string) list -> ?error:exn option -> string -> unit
+)
+ident(
+  int_ref Bolt.Logger.log "src/library/logger.mli" 56 2693 2693 "src/library/logger.mli" 57 2768 2843
+)
+type(
+  unit
+)
+"debug.ml" 24 746 763 "debug.ml" 24 746 785
+type(
+  string -> unit
+)
+"debug.ml" 24 746 788 "debug.ml" 24 746 797
+type(
+  Str.regexp -> string -> string list
+)
+ident(
+  int_ref Str.split "str.mli" 230 10341 10341 "str.mli" 230 10341 10384
+)
+"debug.ml" 24 746 799 "debug.ml" 24 746 816
+type(
+  string -> Str.regexp
+)
+ident(
+  int_ref Str.regexp_string "str.mli" 78 3796 3796 "str.mli" 78 3796 3832
+)
+"debug.ml" 24 746 817 "debug.ml" 24 746 821
+type(
+  string
+)
+"debug.ml" 24 746 799 "debug.ml" 24 746 821
+type(
+  Str.regexp
+)
+"debug.ml" 24 746 823 "debug.ml" 24 746 826
+type(
+  string
+)
+ident(
+  int_ref msg "debug.ml" 23 730 740 "debug.ml" 23 730 743
+)
+"debug.ml" 24 746 788 "debug.ml" 24 746 826
+type(
+  string list
+)
+"debug.ml" 24 746 748 "debug.ml" 24 746 827
+type(
+  unit
+)
+"debug.ml" 23 730 740 "debug.ml" 24 746 827
+type(
+  string -> unit
+)
+"debug.ml" 26 829 834 "debug.ml" 26 829 853
+type(
+  ((string -> unit) * Buffer.t -> unit) -> string
+)
+type(
+  ((string -> unit) * Buffer.t -> unit) -> string
+)
+ident(
+  def with_open_stringbuf "debug.ml" 33 1039 1039 "debug.ml" 0 0 -1
+)
+"debug.ml" 27 908 913 "debug.ml" 27 908 914
+type(
+  (string -> unit) * Buffer.t -> unit
+)
+ident(
+  def f "debug.ml" 28 918 920 "debug.ml" 31 1016 1037
+)
+"debug.ml" 28 918 924 "debug.ml" 28 918 927
+type(
+  Buffer.t
+)
+ident(
+  def buf "debug.ml" 29 952 954 "debug.ml" 31 1016 1037
+)
+"debug.ml" 28 918 930 "debug.ml" 28 918 943
+type(
+  int -> Buffer.t
+)
+ident(
+  int_ref Stdlib.Buffer.create "buffer.mli" 27 1376 1376 "buffer.mli" 27 1376 1397
+)
+"debug.ml" 28 918 944 "debug.ml" 28 918 948
+type(
+  int
+)
+"debug.ml" 28 918 930 "debug.ml" 28 918 948
+type(
+  Buffer.t
+)
+"debug.ml" 29 952 958 "debug.ml" 29 952 960
+type(
+  string -> unit
+)
+ident(
+  def pr "debug.ml" 30 1001 1003 "debug.ml" 31 1016 1037
+)
+"debug.ml" 29 952 961 "debug.ml" 29 952 962
+type(
+  string
+)
+ident(
+  def s "debug.ml" 29 952 965 "debug.ml" 29 952 997
+)
+"debug.ml" 29 952 965 "debug.ml" 29 952 982
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  int_ref Stdlib.Buffer.add_string "buffer.mli" 107 4463 4463 "buffer.mli" 107 4463 4499
+)
+"debug.ml" 29 952 983 "debug.ml" 29 952 986
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "debug.ml" 28 918 924 "debug.ml" 28 918 927
+)
+"debug.ml" 29 952 988 "debug.ml" 29 952 989
+type(
+  string
+)
+ident(
+  int_ref s "debug.ml" 29 952 961 "debug.ml" 29 952 962
+)
+"debug.ml" 29 952 990 "debug.ml" 29 952 991
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"debug.ml" 29 952 992 "debug.ml" 29 952 996
+type(
+  string
+)
+"debug.ml" 29 952 988 "debug.ml" 29 952 996
+type(
+  string
+)
+"debug.ml" 29 952 965 "debug.ml" 29 952 997
+type(
+  unit
+)
+"debug.ml" 29 952 961 "debug.ml" 29 952 997
+type(
+  string -> unit
+)
+"debug.ml" 30 1001 1003 "debug.ml" 30 1001 1004
+type(
+  (string -> unit) * Buffer.t -> unit
+)
+ident(
+  int_ref f "debug.ml" 27 908 913 "debug.ml" 27 908 914
+)
+"debug.ml" 30 1001 1006 "debug.ml" 30 1001 1008
+type(
+  string -> unit
+)
+ident(
+  int_ref pr "debug.ml" 29 952 958 "debug.ml" 29 952 960
+)
+"debug.ml" 30 1001 1010 "debug.ml" 30 1001 1013
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "debug.ml" 28 918 924 "debug.ml" 28 918 927
+)
+"debug.ml" 30 1001 1006 "debug.ml" 30 1001 1013
+type(
+  (string -> unit) * Buffer.t
+)
+"debug.ml" 30 1001 1003 "debug.ml" 30 1001 1014
+type(
+  unit
+)
+"debug.ml" 31 1016 1018 "debug.ml" 31 1016 1033
+type(
+  Buffer.t -> string
+)
+ident(
+  int_ref Stdlib.Buffer.contents "buffer.mli" 41 2156 2156 "buffer.mli" 41 2156 2182
+)
+"debug.ml" 31 1016 1034 "debug.ml" 31 1016 1037
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "debug.ml" 28 918 924 "debug.ml" 28 918 927
+)
+"debug.ml" 31 1016 1018 "debug.ml" 31 1016 1037
+type(
+  string
+)
+"debug.ml" 30 1001 1003 "debug.ml" 31 1016 1037
+type(
+  string
+)
+"debug.ml" 29 952 954 "debug.ml" 31 1016 1037
+type(
+  string
+)
+"debug.ml" 28 918 920 "debug.ml" 31 1016 1037
+type(
+  string
+)
+"debug.ml" 27 908 913 "debug.ml" 31 1016 1037
+type(
+  ((string -> unit) * Buffer.t -> unit) -> string
+)
+"debug.ml" 33 1039 1043 "debug.ml" 33 1039 1050
+type(
+  unit -> string
+)
+ident(
+  def timenow "debug.ml" 41 1353 1353 "debug.ml" 0 0 -1
+)
+"debug.ml" 33 1039 1051 "debug.ml" 33 1039 1053
+type(
+  unit
+)
+"debug.ml" 34 1056 1058 "debug.ml" 34 1056 1064
+type(
+  string
+)
+"debug.ml" 34 1056 1065 "debug.ml" 34 1056 1066
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"debug.ml" 34 1056 1068 "debug.ml" 34 1056 1083
+type(
+  float -> string
+)
+ident(
+  int_ref Stdlib.string_of_float "stdlib.mli" 742 27918 27918 "stdlib.mli" 742 27918 27955
+)
+"debug.ml" 34 1056 1085 "debug.ml" 34 1056 1093
+type(
+  unit -> float
+)
+ident(
+  int_ref Stdlib.Sys.time "sys.mli" 89 4134 4134 "sys.mli" 90 4179 4232
+)
+"debug.ml" 34 1056 1094 "debug.ml" 34 1056 1096
+type(
+  unit
+)
+"debug.ml" 34 1056 1085 "debug.ml" 34 1056 1096
+type(
+  float
+)
+"debug.ml" 34 1056 1068 "debug.ml" 34 1056 1097
+type(
+  string
+)
+"debug.ml" 34 1056 1099 "debug.ml" 34 1056 1100
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"debug.ml" 34 1056 1101 "debug.ml" 34 1056 1111
+type(
+  string
+)
+"debug.ml" 34 1056 1112 "debug.ml" 34 1056 1113
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"debug.ml" 35 1114 1116 "debug.ml" 35 1114 1124
+type(
+  string
+)
+"debug.ml" 35 1114 1125 "debug.ml" 35 1114 1126
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"debug.ml" 36 1127 1136 "debug.ml" 36 1127 1138
+type(
+  Unix.tm
+)
+ident(
+  def tm "debug.ml" 37 1172 1177 "debug.ml" 38 1221 1273
+)
+"debug.ml" 36 1127 1141 "debug.ml" 36 1127 1150
+type(
+  unit -> float
+)
+ident(
+  int_ref Unix.time "unix.mli" 1088 45754 45754 "unix.mli" 1088 45754 45778
+)
+"debug.ml" 36 1127 1151 "debug.ml" 36 1127 1153
+type(
+  unit
+)
+"debug.ml" 36 1127 1141 "debug.ml" 36 1127 1153
+type(
+  float
+)
+"debug.ml" 36 1127 1154 "debug.ml" 36 1127 1156
+type(
+  float -> (float -> Unix.tm) -> Unix.tm
+)
+ident(
+  int_ref +> "debug.ml" 20 686 690 "debug.ml" 20 686 694
+)
+"debug.ml" 36 1127 1157 "debug.ml" 36 1127 1168
+type(
+  float -> Unix.tm
+)
+ident(
+  int_ref Unix.gmtime "unix.mli" 1095 45965 45965 "unix.mli" 1095 45965 45989
+)
+"debug.ml" 36 1127 1141 "debug.ml" 36 1127 1168
+type(
+  Unix.tm
+)
+"debug.ml" 37 1172 1177 "debug.ml" 37 1172 1179
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "debug.ml" 36 1127 1136 "debug.ml" 36 1127 1138
+)
+"debug.ml" 37 1172 1177 "debug.ml" 37 1172 1191
+type(
+  int
+)
+"debug.ml" 37 1172 1192 "debug.ml" 37 1172 1194
+type(
+  int -> (int -> string) -> string
+)
+ident(
+  int_ref +> "debug.ml" 20 686 690 "debug.ml" 20 686 694
+)
+"debug.ml" 37 1172 1195 "debug.ml" 37 1172 1208
+type(
+  int -> string
+)
+ident(
+  int_ref Stdlib.string_of_int "stdlib.mli" 714 26833 26833 "stdlib.mli" 714 26833 26866
+)
+"debug.ml" 37 1172 1177 "debug.ml" 37 1172 1208
+type(
+  string
+)
+"debug.ml" 37 1172 1209 "debug.ml" 37 1172 1210
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"debug.ml" 37 1172 1211 "debug.ml" 37 1172 1218
+type(
+  string
+)
+"debug.ml" 37 1172 1219 "debug.ml" 37 1172 1220
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"debug.ml" 38 1221 1226 "debug.ml" 38 1221 1228
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "debug.ml" 36 1127 1136 "debug.ml" 36 1127 1138
+)
+"debug.ml" 38 1221 1226 "debug.ml" 38 1221 1240
+type(
+  int
+)
+"debug.ml" 38 1221 1241 "debug.ml" 38 1221 1243
+type(
+  int -> (int -> string) -> string
+)
+ident(
+  int_ref +> "debug.ml" 20 686 690 "debug.ml" 20 686 694
+)
+"debug.ml" 38 1221 1244 "debug.ml" 38 1221 1257
+type(
+  int -> string
+)
+ident(
+  int_ref Stdlib.string_of_int "stdlib.mli" 714 26833 26833 "stdlib.mli" 714 26833 26866
+)
+"debug.ml" 38 1221 1226 "debug.ml" 38 1221 1257
+type(
+  string
+)
+"debug.ml" 38 1221 1258 "debug.ml" 38 1221 1259
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"debug.ml" 38 1221 1260 "debug.ml" 38 1221 1273
+type(
+  string
+)
+"debug.ml" 38 1221 1226 "debug.ml" 38 1221 1273
+type(
+  string
+)
+"debug.ml" 37 1172 1211 "debug.ml" 38 1221 1273
+type(
+  string
+)
+"debug.ml" 37 1172 1177 "debug.ml" 38 1221 1273
+type(
+  string
+)
+"debug.ml" 36 1127 1132 "debug.ml" 38 1221 1273
+type(
+  string
+)
+"debug.ml" 35 1114 1116 "debug.ml" 38 1221 1274
+type(
+  string
+)
+"debug.ml" 34 1056 1101 "debug.ml" 38 1221 1274
+type(
+  string
+)
+"debug.ml" 34 1056 1067 "debug.ml" 38 1221 1274
+type(
+  string
+)
+"debug.ml" 34 1056 1058 "debug.ml" 38 1221 1274
+type(
+  string
+)
+"debug.ml" 33 1039 1051 "debug.ml" 38 1221 1274
+type(
+  unit -> string
+)
+"debug.ml" 42 1401 1405 "debug.ml" 42 1401 1412
+type(
+  prof ref
+)
+ident(
+  def profile "debug.ml" 43 1425 1425 "debug.ml" 0 0 -1
+)
+"debug.ml" 42 1401 1415 "debug.ml" 42 1401 1418
+type(
+  prof -> prof ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1164 44392 44392 "stdlib.mli" 1164 44392 44436
+)
+"debug.ml" 42 1401 1419 "debug.ml" 42 1401 1424
+type(
+  prof
+)
+"debug.ml" 42 1401 1415 "debug.ml" 42 1401 1424
+type(
+  prof ref
+)
+"debug.ml" 43 1425 1429 "debug.ml" 43 1425 1447
+type(
+  bool ref
+)
+ident(
+  def show_trace_profile "debug.ml" 45 1460 1460 "debug.ml" 0 0 -1
+)
+"debug.ml" 43 1425 1450 "debug.ml" 43 1425 1453
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1164 44392 44392 "stdlib.mli" 1164 44392 44436
+)
+"debug.ml" 43 1425 1454 "debug.ml" 43 1425 1458
+type(
+  bool
+)
+"debug.ml" 43 1425 1450 "debug.ml" 43 1425 1458
+type(
+  bool ref
+)
+"debug.ml" 45 1460 1464 "debug.ml" 45 1460 1477
+type(
+  string -> bool
+)
+ident(
+  def check_profile "debug.ml" 51 1583 1583 "debug.ml" 0 0 -1
+)
+"debug.ml" 45 1460 1478 "debug.ml" 45 1460 1486
+type(
+  string
+)
+ident(
+  def category "debug.ml" 46 1489 1491 "debug.ml" 49 1547 1581
+)
+"debug.ml" 46 1489 1498 "debug.ml" 46 1489 1505
+type(
+  prof ref
+)
+ident(
+  int_ref profile "debug.ml" 42 1401 1405 "debug.ml" 42 1401 1412
+)
+"debug.ml" 46 1489 1497 "debug.ml" 46 1489 1505
+type(
+  prof ref -> prof
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1167 44498 44498 "stdlib.mli" 1167 44498 44539
+)
+type(
+  prof
+)
+"debug.ml" 47 1511 1515 "debug.ml" 47 1511 1519
+type(
+  prof
+)
+type(
+  prof
+)
+"debug.ml" 47 1511 1523 "debug.ml" 47 1511 1527
+type(
+  bool
+)
+"debug.ml" 48 1528 1532 "debug.ml" 48 1528 1537
+type(
+  prof
+)
+type(
+  prof
+)
+"debug.ml" 48 1528 1541 "debug.ml" 48 1528 1546
+type(
+  bool
+)
+"debug.ml" 49 1547 1557 "debug.ml" 49 1547 1558
+type(
+  string list
+)
+ident(
+  def l "debug.ml" 49 1547 1562 "debug.ml" 49 1547 1581
+)
+"debug.ml" 49 1547 1551 "debug.ml" 49 1547 1558
+type(
+  prof
+)
+type(
+  prof
+)
+"debug.ml" 49 1547 1562 "debug.ml" 49 1547 1570
+type(
+  string -> string list -> bool
+)
+ident(
+  int_ref Stdlib.List.mem "list.mli" 224 8487 8487 "list.mli" 224 8487 8518
+)
+"debug.ml" 49 1547 1571 "debug.ml" 49 1547 1579
+type(
+  string
+)
+ident(
+  int_ref category "debug.ml" 45 1460 1478 "debug.ml" 45 1460 1486
+)
+"debug.ml" 49 1547 1580 "debug.ml" 49 1547 1581
+type(
+  string list
+)
+ident(
+  int_ref l "debug.ml" 49 1547 1557 "debug.ml" 49 1547 1558
+)
+"debug.ml" 49 1547 1562 "debug.ml" 49 1547 1581
+type(
+  bool
+)
+"debug.ml" 46 1489 1491 "debug.ml" 49 1547 1581
+type(
+  bool
+)
+"debug.ml" 45 1460 1478 "debug.ml" 49 1547 1581
+type(
+  string -> bool
+)
+"debug.ml" 51 1583 1587 "debug.ml" 51 1583 1601
+type(
+  (string, float ref * int ref) Hashtbl.t
+)
+ident(
+  def _profile_table "debug.ml" 53 1624 1624 "debug.ml" 0 0 -1
+)
+"debug.ml" 51 1583 1604 "debug.ml" 51 1583 1618
+type(
+  ?random:bool -> int -> (string, float ref * int ref) Hashtbl.t
+)
+ident(
+  int_ref Stdlib.Hashtbl.create "hashtbl.mli" 28 1303 1303 "hashtbl.mli" 28 1303 1349
+)
+"debug.ml" 51 1583 1619 "debug.ml" 51 1583 1622
+type(
+  int
+)
+"debug.ml" 51 1583 1604 "debug.ml" 51 1583 1622
+type(
+  (string, float ref * int ref) Hashtbl.t
+)
+"debug.ml" 53 1624 1628 "debug.ml" 53 1624 1648
+type(
+  string -> float -> unit
+)
+ident(
+  def adjust_profile_entry "debug.ml" 72 2203 2203 "debug.ml" 0 0 -1
+)
+"debug.ml" 53 1624 1649 "debug.ml" 53 1624 1657
+type(
+  string
+)
+ident(
+  def category "debug.ml" 53 1624 1658 "debug.ml" 64 1959 1963
+)
+"debug.ml" 53 1624 1658 "debug.ml" 53 1624 1666
+type(
+  float
+)
+ident(
+  def difftime "debug.ml" 54 1669 1671 "debug.ml" 64 1959 1963
+)
+"debug.ml" 54 1669 1676 "debug.ml" 54 1669 1681
+type(
+  float ref
+)
+ident(
+  def xtime "debug.ml" 62 1903 1905 "debug.ml" 64 1959 1963
+)
+"debug.ml" 54 1669 1683 "debug.ml" 54 1669 1689
+type(
+  int ref
+)
+ident(
+  def xcount "debug.ml" 62 1903 1905 "debug.ml" 64 1959 1963
+)
+"debug.ml" 54 1669 1676 "debug.ml" 54 1669 1689
+type(
+  float ref * int ref
+)
+"debug.ml" 55 1693 1702 "debug.ml" 55 1693 1714
+type(
+  (string, float ref * int ref) Hashtbl.t -> string -> float ref * int ref
+)
+ident(
+  int_ref Stdlib.Hashtbl.find "hashtbl.mli" 86 4068 4068 "hashtbl.mli" 86 4068 4101
+)
+"debug.ml" 55 1693 1715 "debug.ml" 55 1693 1729
+type(
+  (string, float ref * int ref) Hashtbl.t
+)
+ident(
+  int_ref _profile_table "debug.ml" 51 1583 1587 "debug.ml" 51 1583 1601
+)
+"debug.ml" 55 1693 1730 "debug.ml" 55 1693 1738
+type(
+  string
+)
+ident(
+  int_ref category "debug.ml" 53 1624 1649 "debug.ml" 53 1624 1657
+)
+"debug.ml" 55 1693 1702 "debug.ml" 55 1693 1738
+type(
+  float ref * int ref
+)
+"debug.ml" 56 1739 1748 "debug.ml" 56 1739 1757
+type(
+  exn
+)
+"debug.ml" 57 1761 1771 "debug.ml" 57 1761 1776
+type(
+  float ref
+)
+ident(
+  def xtime "debug.ml" 58 1790 1796 "debug.ml" 60 1872 1893
+)
+"debug.ml" 57 1761 1779 "debug.ml" 57 1761 1782
+type(
+  float -> float ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1164 44392 44392 "stdlib.mli" 1164 44392 44436
+)
+"debug.ml" 57 1761 1783 "debug.ml" 57 1761 1786
+type(
+  float
+)
+"debug.ml" 57 1761 1779 "debug.ml" 57 1761 1786
+type(
+  float ref
+)
+"debug.ml" 58 1790 1800 "debug.ml" 58 1790 1806
+type(
+  int ref
+)
+ident(
+  def xcount "debug.ml" 59 1818 1819 "debug.ml" 60 1872 1892
+)
+"debug.ml" 58 1790 1809 "debug.ml" 58 1790 1812
+type(
+  int -> int ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1164 44392 44392 "stdlib.mli" 1164 44392 44436
+)
+"debug.ml" 58 1790 1813 "debug.ml" 58 1790 1814
+type(
+  int
+)
+"debug.ml" 58 1790 1809 "debug.ml" 58 1790 1814
+type(
+  int ref
+)
+"debug.ml" 59 1818 1819 "debug.ml" 59 1818 1830
+type(
+  (string, float ref * int ref) Hashtbl.t ->
+  string -> float ref * int ref -> unit
+)
+ident(
+  int_ref Stdlib.Hashtbl.add "hashtbl.mli" 79 3731 3731 "hashtbl.mli" 79 3731 3771
+)
+"debug.ml" 59 1818 1831 "debug.ml" 59 1818 1845
+type(
+  (string, float ref * int ref) Hashtbl.t
+)
+ident(
+  int_ref _profile_table "debug.ml" 51 1583 1587 "debug.ml" 51 1583 1601
+)
+"debug.ml" 59 1818 1846 "debug.ml" 59 1818 1854
+type(
+  string
+)
+ident(
+  int_ref category "debug.ml" 53 1624 1649 "debug.ml" 53 1624 1657
+)
+"debug.ml" 59 1818 1856 "debug.ml" 59 1818 1861
+type(
+  float ref
+)
+ident(
+  int_ref xtime "debug.ml" 57 1761 1771 "debug.ml" 57 1761 1776
+)
+"debug.ml" 59 1818 1863 "debug.ml" 59 1818 1869
+type(
+  int ref
+)
+ident(
+  int_ref xcount "debug.ml" 58 1790 1800 "debug.ml" 58 1790 1806
+)
+"debug.ml" 59 1818 1856 "debug.ml" 59 1818 1869
+type(
+  float ref * int ref
+)
+"debug.ml" 59 1818 1819 "debug.ml" 59 1818 1870
+type(
+  unit
+)
+"debug.ml" 60 1872 1879 "debug.ml" 60 1872 1884
+type(
+  float ref
+)
+ident(
+  int_ref xtime "debug.ml" 57 1761 1771 "debug.ml" 57 1761 1776
+)
+"debug.ml" 60 1872 1886 "debug.ml" 60 1872 1892
+type(
+  int ref
+)
+ident(
+  int_ref xcount "debug.ml" 58 1790 1800 "debug.ml" 58 1790 1806
+)
+"debug.ml" 60 1872 1879 "debug.ml" 60 1872 1892
+type(
+  float ref * int ref
+)
+"debug.ml" 59 1818 1819 "debug.ml" 60 1872 1892
+type(
+  float ref * int ref
+)
+"debug.ml" 58 1790 1796 "debug.ml" 60 1872 1893
+type(
+  float ref * int ref
+)
+"debug.ml" 57 1761 1767 "debug.ml" 60 1872 1893
+type(
+  float ref * int ref
+)
+"debug.ml" 55 1693 1698 "debug.ml" 60 1872 1893
+type(
+  float ref * int ref
+)
+"debug.ml" 62 1903 1905 "debug.ml" 62 1903 1910
+type(
+  float ref
+)
+ident(
+  int_ref xtime "debug.ml" 54 1669 1676 "debug.ml" 54 1669 1681
+)
+"debug.ml" 62 1903 1915 "debug.ml" 62 1903 1920
+type(
+  float ref
+)
+ident(
+  int_ref xtime "debug.ml" 54 1669 1676 "debug.ml" 54 1669 1681
+)
+"debug.ml" 62 1903 1914 "debug.ml" 62 1903 1920
+type(
+  float ref -> float
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1167 44498 44498 "stdlib.mli" 1167 44498 44539
+)
+type(
+  float
+)
+"debug.ml" 62 1903 1921 "debug.ml" 62 1903 1923
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( +. ) "stdlib.mli" 456 17551 17551 "stdlib.mli" 456 17551 17606
+)
+"debug.ml" 62 1903 1924 "debug.ml" 62 1903 1932
+type(
+  float
+)
+ident(
+  int_ref difftime "debug.ml" 53 1624 1658 "debug.ml" 53 1624 1666
+)
+"debug.ml" 62 1903 1914 "debug.ml" 62 1903 1932
+type(
+  float
+)
+"debug.ml" 62 1903 1905 "debug.ml" 62 1903 1932
+type(
+  float ref -> float -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1173 44704 44704 "stdlib.mli" 1173 44704 44757
+)
+type(
+  unit
+)
+"debug.ml" 63 1934 1936 "debug.ml" 63 1934 1942
+type(
+  int ref
+)
+ident(
+  int_ref xcount "debug.ml" 54 1669 1683 "debug.ml" 54 1669 1689
+)
+"debug.ml" 63 1934 1947 "debug.ml" 63 1934 1953
+type(
+  int ref
+)
+ident(
+  int_ref xcount "debug.ml" 54 1669 1683 "debug.ml" 54 1669 1689
+)
+"debug.ml" 63 1934 1946 "debug.ml" 63 1934 1953
+type(
+  int ref -> int
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1167 44498 44498 "stdlib.mli" 1167 44498 44539
+)
+type(
+  int
+)
+"debug.ml" 63 1934 1954 "debug.ml" 63 1934 1955
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 341 13435 13435 "stdlib.mli" 341 13435 13481
+)
+"debug.ml" 63 1934 1956 "debug.ml" 63 1934 1957
+type(
+  int
+)
+"debug.ml" 63 1934 1946 "debug.ml" 63 1934 1957
+type(
+  int
+)
+"debug.ml" 63 1934 1936 "debug.ml" 63 1934 1957
+type(
+  int ref -> int -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1173 44704 44704 "stdlib.mli" 1173 44704 44757
+)
+type(
+  unit
+)
+"debug.ml" 64 1959 1961 "debug.ml" 64 1959 1963
+type(
+  unit
+)
+"debug.ml" 63 1934 1936 "debug.ml" 64 1959 1963
+type(
+  unit
+)
+"debug.ml" 62 1903 1905 "debug.ml" 64 1959 1963
+type(
+  unit
+)
+"debug.ml" 54 1669 1671 "debug.ml" 64 1959 1963
+type(
+  unit
+)
+"debug.ml" 53 1624 1658 "debug.ml" 64 1959 1963
+type(
+  float -> unit
+)
+"debug.ml" 53 1624 1649 "debug.ml" 64 1959 1963
+type(
+  string -> float -> unit
+)
+"debug.ml" 72 2203 2207 "debug.ml" 72 2203 2226
+type(
+  string -> (unit -> 'a) -> 'a
+)
+ident(
+  def profile_code_silent "debug.ml" 91 2671 2671 "debug.ml" 0 0 -1
+)
+"debug.ml" 72 2203 2227 "debug.ml" 72 2203 2235
+type(
+  string
+)
+ident(
+  def category "debug.ml" 72 2203 2236 "debug.ml" 89 2664 2669
+)
+"debug.ml" 72 2203 2236 "debug.ml" 72 2203 2237
+type(
+  unit -> 'a
+)
+ident(
+  def f "debug.ml" 73 2240 2242 "debug.ml" 89 2664 2669
+)
+"debug.ml" 73 2240 2245 "debug.ml" 73 2240 2248
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"debug.ml" 73 2240 2250 "debug.ml" 73 2240 2263
+type(
+  string -> bool
+)
+ident(
+  int_ref check_profile "debug.ml" 45 1460 1464 "debug.ml" 45 1460 1477
+)
+"debug.ml" 73 2240 2264 "debug.ml" 73 2240 2272
+type(
+  string
+)
+ident(
+  int_ref category "debug.ml" 72 2203 2227 "debug.ml" 72 2203 2235
+)
+"debug.ml" 73 2240 2250 "debug.ml" 73 2240 2272
+type(
+  bool
+)
+"debug.ml" 73 2240 2245 "debug.ml" 73 2240 2273
+type(
+  bool
+)
+"debug.ml" 74 2274 2281 "debug.ml" 74 2274 2282
+type(
+  unit -> 'a
+)
+ident(
+  int_ref f "debug.ml" 72 2203 2236 "debug.ml" 72 2203 2237
+)
+"debug.ml" 74 2274 2282 "debug.ml" 74 2274 2284
+type(
+  unit
+)
+"debug.ml" 74 2274 2281 "debug.ml" 74 2274 2284
+type(
+  'a
+)
+"debug.ml" 76 2298 2306 "debug.ml" 76 2298 2307
+type(
+  float
+)
+ident(
+  def t "debug.ml" 77 2334 2338 "debug.ml" 88 2655 2663
+)
+"debug.ml" 76 2298 2310 "debug.ml" 76 2298 2327
+type(
+  unit -> float
+)
+ident(
+  int_ref Unix.gettimeofday "unix.mli" 1092 45860 45860 "unix.mli" 1092 45860 45892
+)
+"debug.ml" 76 2298 2328 "debug.ml" 76 2298 2330
+type(
+  unit
+)
+"debug.ml" 76 2298 2310 "debug.ml" 76 2298 2330
+type(
+  float
+)
+"debug.ml" 77 2334 2342 "debug.ml" 77 2334 2345
+type(
+  'a option
+)
+ident(
+  def res "debug.ml" 81 2421 2425 "debug.ml" 88 2655 2663
+)
+"debug.ml" 77 2334 2347 "debug.ml" 77 2334 2353
+type(
+  string
+)
+ident(
+  def prefix "debug.ml" 81 2421 2425 "debug.ml" 88 2655 2663
+)
+"debug.ml" 77 2334 2342 "debug.ml" 77 2334 2353
+type(
+  'a option * string
+)
+"debug.ml" 78 2356 2372 "debug.ml" 78 2356 2373
+type(
+  unit -> 'a
+)
+ident(
+  int_ref f "debug.ml" 72 2203 2236 "debug.ml" 72 2203 2237
+)
+"debug.ml" 78 2356 2374 "debug.ml" 78 2356 2376
+type(
+  unit
+)
+"debug.ml" 78 2356 2372 "debug.ml" 78 2356 2376
+type(
+  'a
+)
+"debug.ml" 78 2356 2366 "debug.ml" 78 2356 2377
+type(
+  'a option
+)
+"debug.ml" 78 2356 2379 "debug.ml" 78 2356 2381
+type(
+  string
+)
+"debug.ml" 78 2356 2366 "debug.ml" 78 2356 2381
+type(
+  'a option * string
+)
+"debug.ml" 79 2382 2393 "debug.ml" 79 2382 2400
+type(
+  exn
+)
+"debug.ml" 79 2382 2404 "debug.ml" 79 2382 2408
+type(
+  'a option
+)
+"debug.ml" 79 2382 2410 "debug.ml" 79 2382 2413
+type(
+  string
+)
+"debug.ml" 79 2382 2404 "debug.ml" 79 2382 2413
+type(
+  'a option * string
+)
+"debug.ml" 78 2356 2362 "debug.ml" 79 2382 2413
+type(
+  'a option * string
+)
+"debug.ml" 81 2421 2429 "debug.ml" 81 2421 2437
+type(
+  string
+)
+ident(
+  def category "debug.ml" 82 2502 2506 "debug.ml" 88 2655 2663
+)
+"debug.ml" 81 2421 2440 "debug.ml" 81 2421 2446
+type(
+  string
+)
+ident(
+  int_ref prefix "debug.ml" 77 2334 2347 "debug.ml" 77 2334 2353
+)
+"debug.ml" 81 2421 2447 "debug.ml" 81 2421 2448
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"debug.ml" 81 2421 2449 "debug.ml" 81 2421 2457
+type(
+  string
+)
+ident(
+  int_ref category "debug.ml" 72 2203 2227 "debug.ml" 72 2203 2235
+)
+"debug.ml" 81 2421 2440 "debug.ml" 81 2421 2457
+type(
+  string
+)
+"debug.ml" 82 2502 2510 "debug.ml" 82 2502 2512
+type(
+  float
+)
+ident(
+  def t' "debug.ml" 84 2540 2546 "debug.ml" 87 2629 2654
+)
+"debug.ml" 82 2502 2515 "debug.ml" 82 2502 2532
+type(
+  unit -> float
+)
+ident(
+  int_ref Unix.gettimeofday "unix.mli" 1092 45860 45860 "unix.mli" 1092 45860 45892
+)
+"debug.ml" 82 2502 2533 "debug.ml" 82 2502 2535
+type(
+  unit
+)
+"debug.ml" 82 2502 2515 "debug.ml" 82 2502 2535
+type(
+  float
+)
+"debug.ml" 84 2540 2546 "debug.ml" 84 2540 2566
+type(
+  string -> float -> unit
+)
+ident(
+  int_ref adjust_profile_entry "debug.ml" 53 1624 1628 "debug.ml" 53 1624 1648
+)
+"debug.ml" 84 2540 2567 "debug.ml" 84 2540 2575
+type(
+  string
+)
+ident(
+  int_ref category "debug.ml" 81 2421 2429 "debug.ml" 81 2421 2437
+)
+"debug.ml" 84 2540 2577 "debug.ml" 84 2540 2579
+type(
+  float
+)
+ident(
+  int_ref t' "debug.ml" 82 2502 2510 "debug.ml" 82 2502 2512
+)
+"debug.ml" 84 2540 2580 "debug.ml" 84 2540 2582
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( -. ) "stdlib.mli" 461 17716 17716 "stdlib.mli" 461 17716 17771
+)
+"debug.ml" 84 2540 2583 "debug.ml" 84 2540 2584
+type(
+  float
+)
+ident(
+  int_ref t "debug.ml" 76 2298 2306 "debug.ml" 76 2298 2307
+)
+"debug.ml" 84 2540 2577 "debug.ml" 84 2540 2584
+type(
+  float
+)
+"debug.ml" 84 2540 2546 "debug.ml" 84 2540 2585
+type(
+  unit
+)
+"debug.ml" 85 2587 2600 "debug.ml" 85 2587 2603
+type(
+  'a option
+)
+ident(
+  int_ref res "debug.ml" 77 2334 2342 "debug.ml" 77 2334 2345
+)
+"debug.ml" 86 2609 2618 "debug.ml" 86 2609 2621
+type(
+  'a
+)
+ident(
+  def res "debug.ml" 86 2609 2625 "debug.ml" 86 2609 2628
+)
+"debug.ml" 86 2609 2613 "debug.ml" 86 2609 2621
+type(
+  'a option
+)
+type(
+  'a option
+)
+"debug.ml" 86 2609 2625 "debug.ml" 86 2609 2628
+type(
+  'a
+)
+ident(
+  int_ref res "debug.ml" 86 2609 2618 "debug.ml" 86 2609 2621
+)
+"debug.ml" 87 2629 2633 "debug.ml" 87 2629 2637
+type(
+  'a option
+)
+type(
+  'a option
+)
+"debug.ml" 87 2629 2641 "debug.ml" 87 2629 2646
+type(
+  exn -> 'a
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"debug.ml" 87 2629 2647 "debug.ml" 87 2629 2654
+type(
+  exn
+)
+"debug.ml" 87 2629 2641 "debug.ml" 87 2629 2654
+type(
+  'a
+)
+"debug.ml" 85 2587 2594 "debug.ml" 87 2629 2654
+type(
+  'a
+)
+"debug.ml" 84 2540 2546 "debug.ml" 87 2629 2654
+type(
+  'a
+)
+"debug.ml" 82 2502 2506 "debug.ml" 88 2655 2663
+type(
+  'a
+)
+"debug.ml" 81 2421 2425 "debug.ml" 88 2655 2663
+type(
+  'a
+)
+"debug.ml" 77 2334 2338 "debug.ml" 88 2655 2663
+type(
+  'a
+)
+"debug.ml" 76 2298 2302 "debug.ml" 88 2655 2663
+type(
+  'a
+)
+"debug.ml" 73 2240 2242 "debug.ml" 89 2664 2669
+type(
+  'a
+)
+"debug.ml" 72 2203 2236 "debug.ml" 89 2664 2669
+type(
+  (unit -> 'a) -> 'a
+)
+"debug.ml" 72 2203 2227 "debug.ml" 89 2664 2669
+type(
+  string -> (unit -> 'a) -> 'a
+)
+"debug.ml" 91 2671 2675 "debug.ml" 91 2671 2693
+type(
+  unit -> string
+)
+ident(
+  def profile_diagnostic "debug.ml" 109 3158 3158 "debug.ml" 0 0 -1
+)
+"debug.ml" 91 2671 2694 "debug.ml" 91 2671 2696
+type(
+  unit
+)
+"debug.ml" 92 2699 2705 "debug.ml" 92 2699 2712
+type(
+  prof ref
+)
+ident(
+  int_ref profile "debug.ml" 42 1401 1405 "debug.ml" 42 1401 1412
+)
+"debug.ml" 92 2699 2704 "debug.ml" 92 2699 2712
+type(
+  prof ref -> prof
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1167 44498 44498 "stdlib.mli" 1167 44498 44539
+)
+type(
+  prof
+)
+"debug.ml" 92 2699 2713 "debug.ml" 92 2699 2714
+type(
+  prof -> prof -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"debug.ml" 92 2699 2715 "debug.ml" 92 2699 2720
+type(
+  prof
+)
+"debug.ml" 92 2699 2704 "debug.ml" 92 2699 2720
+type(
+  bool
+)
+"debug.ml" 92 2699 2726 "debug.ml" 92 2699 2728
+type(
+  string
+)
+"debug.ml" 94 2744 2754 "debug.ml" 94 2744 2756
+type(
+  (string * (float ref * int ref)) list
+)
+ident(
+  def xs "debug.ml" 98 2893 2894 "debug.ml" 106 3144 3148
+)
+"debug.ml" 95 2759 2760 "debug.ml" 95 2759 2772
+type(
+  (string ->
+   float ref * int ref ->
+   (string * (float ref * int ref)) list ->
+   (string * (float ref * int ref)) list) ->
+  (string, float ref * int ref) Hashtbl.t ->
+  (string * (float ref * int ref)) list ->
+  (string * (float ref * int ref)) list
+)
+ident(
+  int_ref Stdlib.Hashtbl.fold "hashtbl.mli" 146 6645 6645 "hashtbl.mli" 146 6645 6704
+)
+"debug.ml" 95 2759 2778 "debug.ml" 95 2759 2779
+type(
+  string
+)
+ident(
+  def k "debug.ml" 95 2759 2780 "debug.ml" 95 2759 2799
+)
+"debug.ml" 95 2759 2780 "debug.ml" 95 2759 2781
+type(
+  float ref * int ref
+)
+ident(
+  def v "debug.ml" 95 2759 2782 "debug.ml" 95 2759 2799
+)
+"debug.ml" 95 2759 2782 "debug.ml" 95 2759 2785
+type(
+  (string * (float ref * int ref)) list
+)
+ident(
+  def acc "debug.ml" 95 2759 2789 "debug.ml" 95 2759 2799
+)
+"debug.ml" 95 2759 2790 "debug.ml" 95 2759 2791
+type(
+  string
+)
+ident(
+  int_ref k "debug.ml" 95 2759 2778 "debug.ml" 95 2759 2779
+)
+"debug.ml" 95 2759 2792 "debug.ml" 95 2759 2793
+type(
+  float ref * int ref
+)
+ident(
+  int_ref v "debug.ml" 95 2759 2780 "debug.ml" 95 2759 2781
+)
+"debug.ml" 95 2759 2790 "debug.ml" 95 2759 2793
+type(
+  string * (float ref * int ref)
+)
+"debug.ml" 95 2759 2796 "debug.ml" 95 2759 2799
+type(
+  (string * (float ref * int ref)) list
+)
+ident(
+  int_ref acc "debug.ml" 95 2759 2782 "debug.ml" 95 2759 2785
+)
+"debug.ml" 95 2759 2789 "debug.ml" 95 2759 2799
+type(
+  (string * (float ref * int ref)) list
+)
+"debug.ml" 95 2759 2782 "debug.ml" 95 2759 2799
+type(
+  (string * (float ref * int ref)) list ->
+  (string * (float ref * int ref)) list
+)
+"debug.ml" 95 2759 2780 "debug.ml" 95 2759 2799
+type(
+  float ref * int ref ->
+  (string * (float ref * int ref)) list ->
+  (string * (float ref * int ref)) list
+)
+"debug.ml" 95 2759 2778 "debug.ml" 95 2759 2799
+type(
+  string ->
+  float ref * int ref ->
+  (string * (float ref * int ref)) list ->
+  (string * (float ref * int ref)) list
+)
+"debug.ml" 95 2759 2801 "debug.ml" 95 2759 2815
+type(
+  (string, float ref * int ref) Hashtbl.t
+)
+ident(
+  int_ref _profile_table "debug.ml" 51 1583 1587 "debug.ml" 51 1583 1601
+)
+"debug.ml" 95 2759 2816 "debug.ml" 95 2759 2818
+type(
+  (string * (float ref * int ref)) list
+)
+"debug.ml" 95 2759 2760 "debug.ml" 95 2759 2818
+type(
+  (string * (float ref * int ref)) list
+)
+"debug.ml" 96 2819 2820 "debug.ml" 96 2819 2822
+type(
+  (string * (float ref * int ref)) list ->
+  ((string * (float ref * int ref)) list ->
+   (string * (float ref * int ref)) list) ->
+  (string * (float ref * int ref)) list
+)
+ident(
+  int_ref +> "debug.ml" 20 686 690 "debug.ml" 20 686 694
+)
+"debug.ml" 96 2819 2823 "debug.ml" 96 2819 2832
+type(
+  (string * (float ref * int ref) -> string * (float ref * int ref) -> int) ->
+  (string * (float ref * int ref)) list ->
+  (string * (float ref * int ref)) list
+)
+ident(
+  int_ref Stdlib.List.sort "list.mli" 345 12619 12619 "list.mli" 345 12619 12669
+)
+"debug.ml" 96 2819 2839 "debug.ml" 96 2819 2841
+type(
+  string
+)
+ident(
+  def k1 "debug.ml" 96 2819 2852 "debug.ml" 96 2819 2882
+)
+"debug.ml" 96 2819 2844 "debug.ml" 96 2819 2846
+type(
+  float ref
+)
+ident(
+  def t1 "debug.ml" 96 2819 2852 "debug.ml" 96 2819 2882
+)
+"debug.ml" 96 2819 2847 "debug.ml" 96 2819 2849
+type(
+  int ref
+)
+ident(
+  def n1 "debug.ml" 96 2819 2852 "debug.ml" 96 2819 2882
+)
+"debug.ml" 96 2819 2844 "debug.ml" 96 2819 2849
+type(
+  float ref * int ref
+)
+"debug.ml" 96 2819 2839 "debug.ml" 96 2819 2850
+type(
+  string * (float ref * int ref)
+)
+"debug.ml" 96 2819 2853 "debug.ml" 96 2819 2855
+type(
+  string
+)
+ident(
+  def k2 "debug.ml" 96 2819 2869 "debug.ml" 96 2819 2882
+)
+"debug.ml" 96 2819 2858 "debug.ml" 96 2819 2860
+type(
+  float ref
+)
+ident(
+  def t2 "debug.ml" 96 2819 2869 "debug.ml" 96 2819 2882
+)
+"debug.ml" 96 2819 2861 "debug.ml" 96 2819 2863
+type(
+  int ref
+)
+ident(
+  def n2 "debug.ml" 96 2819 2869 "debug.ml" 96 2819 2882
+)
+"debug.ml" 96 2819 2858 "debug.ml" 96 2819 2863
+type(
+  float ref * int ref
+)
+"debug.ml" 96 2819 2853 "debug.ml" 96 2819 2864
+type(
+  string * (float ref * int ref)
+)
+"debug.ml" 96 2819 2869 "debug.ml" 96 2819 2876
+type(
+  float ref -> float ref -> int
+)
+ident(
+  int_ref Stdlib.compare "stdlib.mli" 162 6792 6792 "stdlib.mli" 162 6792 6839
+)
+"debug.ml" 96 2819 2877 "debug.ml" 96 2819 2879
+type(
+  float ref
+)
+ident(
+  int_ref t2 "debug.ml" 96 2819 2858 "debug.ml" 96 2819 2860
+)
+"debug.ml" 96 2819 2880 "debug.ml" 96 2819 2882
+type(
+  float ref
+)
+ident(
+  int_ref t1 "debug.ml" 96 2819 2844 "debug.ml" 96 2819 2846
+)
+"debug.ml" 96 2819 2869 "debug.ml" 96 2819 2882
+type(
+  int
+)
+"debug.ml" 96 2819 2852 "debug.ml" 96 2819 2882
+type(
+  string * (float ref * int ref) -> int
+)
+"debug.ml" 96 2819 2838 "debug.ml" 96 2819 2882
+type(
+  string * (float ref * int ref) -> string * (float ref * int ref) -> int
+)
+"debug.ml" 96 2819 2823 "debug.ml" 96 2819 2883
+type(
+  (string * (float ref * int ref)) list ->
+  (string * (float ref * int ref)) list
+)
+"debug.ml" 95 2759 2760 "debug.ml" 96 2819 2883
+type(
+  (string * (float ref * int ref)) list
+)
+"debug.ml" 98 2893 2894 "debug.ml" 98 2893 2913
+type(
+  ((string -> unit) * Buffer.t -> unit) -> string
+)
+ident(
+  int_ref with_open_stringbuf "debug.ml" 26 829 834 "debug.ml" 26 829 853
+)
+"debug.ml" 99 2914 2923 "debug.ml" 99 2914 2925
+type(
+  string -> unit
+)
+ident(
+  def pr "debug.ml" 100 2932 2938 "debug.ml" 105 3134 3143
+)
+"debug.ml" 99 2914 2926 "debug.ml" 99 2914 2927
+type(
+  Buffer.t
+)
+"debug.ml" 99 2914 2923 "debug.ml" 99 2914 2927
+type(
+  (string -> unit) * Buffer.t
+)
+"debug.ml" 100 2932 2938 "debug.ml" 100 2932 2940
+type(
+  string -> unit
+)
+ident(
+  int_ref pr "debug.ml" 99 2914 2923 "debug.ml" 99 2914 2925
+)
+"debug.ml" 100 2932 2941 "debug.ml" 100 2932 2964
+type(
+  string
+)
+"debug.ml" 100 2932 2938 "debug.ml" 100 2932 2964
+type(
+  unit
+)
+"debug.ml" 101 2966 2972 "debug.ml" 101 2966 2974
+type(
+  string -> unit
+)
+ident(
+  int_ref pr "debug.ml" 99 2914 2923 "debug.ml" 99 2914 2925
+)
+"debug.ml" 101 2966 2975 "debug.ml" 101 2966 2993
+type(
+  string
+)
+"debug.ml" 101 2966 2972 "debug.ml" 101 2966 2993
+type(
+  unit
+)
+"debug.ml" 102 2995 3001 "debug.ml" 102 2995 3003
+type(
+  string -> unit
+)
+ident(
+  int_ref pr "debug.ml" 99 2914 2923 "debug.ml" 99 2914 2925
+)
+"debug.ml" 102 2995 3004 "debug.ml" 102 2995 3027
+type(
+  string
+)
+"debug.ml" 102 2995 3001 "debug.ml" 102 2995 3027
+type(
+  unit
+)
+"debug.ml" 103 3029 3035 "debug.ml" 103 3029 3037
+type(
+  (string * (float ref * int ref)) list
+)
+ident(
+  int_ref xs "debug.ml" 94 2744 2754 "debug.ml" 94 2744 2756
+)
+"debug.ml" 103 3029 3038 "debug.ml" 103 3029 3040
+type(
+  (string * (float ref * int ref)) list ->
+  ((string * (float ref * int ref)) list -> unit) -> unit
+)
+ident(
+  int_ref +> "debug.ml" 20 686 690 "debug.ml" 20 686 694
+)
+"debug.ml" 103 3029 3041 "debug.ml" 103 3029 3050
+type(
+  (string * (float ref * int ref) -> unit) ->
+  (string * (float ref * int ref)) list -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 108 4152 4152 "list.mli" 108 4152 4194
+)
+"debug.ml" 103 3029 3057 "debug.ml" 103 3029 3058
+type(
+  string
+)
+ident(
+  def k "debug.ml" 104 3070 3074 "debug.ml" 104 3070 3133
+)
+"debug.ml" 103 3029 3061 "debug.ml" 103 3029 3062
+type(
+  float ref
+)
+ident(
+  def t "debug.ml" 104 3070 3074 "debug.ml" 104 3070 3133
+)
+"debug.ml" 103 3029 3063 "debug.ml" 103 3029 3064
+type(
+  int ref
+)
+ident(
+  def n "debug.ml" 104 3070 3074 "debug.ml" 104 3070 3133
+)
+"debug.ml" 103 3029 3061 "debug.ml" 103 3029 3064
+type(
+  float ref * int ref
+)
+"debug.ml" 103 3029 3057 "debug.ml" 103 3029 3065
+type(
+  string * (float ref * int ref)
+)
+"debug.ml" 104 3070 3074 "debug.ml" 104 3070 3076
+type(
+  string -> unit
+)
+ident(
+  int_ref pr "debug.ml" 99 2914 2923 "debug.ml" 99 2914 2925
+)
+"debug.ml" 104 3070 3078 "debug.ml" 104 3070 3092
+type(
+  (string -> float -> int -> string, unit, string) format ->
+  string -> float -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"debug.ml" 104 3070 3093 "debug.ml" 104 3070 3124
+type(
+  (string -> float -> int -> string, unit, string) format
+)
+"debug.ml" 104 3070 3125 "debug.ml" 104 3070 3126
+type(
+  string
+)
+ident(
+  int_ref k "debug.ml" 103 3029 3057 "debug.ml" 103 3029 3058
+)
+"debug.ml" 104 3070 3128 "debug.ml" 104 3070 3129
+type(
+  float ref
+)
+ident(
+  int_ref t "debug.ml" 103 3029 3061 "debug.ml" 103 3029 3062
+)
+"debug.ml" 104 3070 3127 "debug.ml" 104 3070 3129
+type(
+  float ref -> float
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1167 44498 44498 "stdlib.mli" 1167 44498 44539
+)
+type(
+  float
+)
+"debug.ml" 104 3070 3131 "debug.ml" 104 3070 3132
+type(
+  int ref
+)
+ident(
+  int_ref n "debug.ml" 103 3029 3063 "debug.ml" 103 3029 3064
+)
+"debug.ml" 104 3070 3130 "debug.ml" 104 3070 3132
+type(
+  int ref -> int
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1167 44498 44498 "stdlib.mli" 1167 44498 44539
+)
+type(
+  int
+)
+"debug.ml" 104 3070 3078 "debug.ml" 104 3070 3132
+type(
+  string
+)
+"debug.ml" 104 3070 3074 "debug.ml" 104 3070 3133
+type(
+  unit
+)
+"debug.ml" 103 3029 3056 "debug.ml" 104 3070 3133
+type(
+  string * (float ref * int ref) -> unit
+)
+"debug.ml" 103 3029 3041 "debug.ml" 105 3134 3143
+type(
+  (string * (float ref * int ref)) list -> unit
+)
+"debug.ml" 103 3029 3035 "debug.ml" 105 3134 3143
+type(
+  unit
+)
+"debug.ml" 102 2995 3001 "debug.ml" 105 3134 3143
+type(
+  unit
+)
+"debug.ml" 101 2966 2972 "debug.ml" 105 3134 3143
+type(
+  unit
+)
+"debug.ml" 100 2932 2938 "debug.ml" 105 3134 3143
+type(
+  unit
+)
+"debug.ml" 99 2914 2922 "debug.ml" 105 3134 3143
+type(
+  (string -> unit) * Buffer.t -> unit
+)
+"debug.ml" 98 2893 2894 "debug.ml" 106 3144 3148
+type(
+  string
+)
+"debug.ml" 94 2744 2750 "debug.ml" 106 3144 3148
+type(
+  string
+)
+"debug.ml" 92 2699 2701 "debug.ml" 107 3149 3156
+type(
+  string
+)
+"debug.ml" 91 2671 2694 "debug.ml" 107 3149 3156
+type(
+  unit -> string
+)
+"debug.ml" 109 3158 3162 "debug.ml" 109 3158 3174
+type(
+  string -> (unit -> 'a) -> 'a
+)
+ident(
+  def profile_code "debug.ml" 132 3888 3891 "debug.ml" 0 0 -1
+)
+"debug.ml" 109 3158 3175 "debug.ml" 109 3158 3183
+type(
+  string
+)
+ident(
+  def category "debug.ml" 109 3158 3184 "debug.ml" 132 3888 3891
+)
+"debug.ml" 109 3158 3184 "debug.ml" 109 3158 3185
+type(
+  unit -> 'a
+)
+ident(
+  def f "debug.ml" 110 3188 3190 "debug.ml" 132 3888 3891
+)
+"debug.ml" 110 3188 3190 "debug.ml" 110 3188 3209
+type(
+  string -> (unit -> 'a) -> 'a
+)
+ident(
+  int_ref profile_code_silent "debug.ml" 72 2203 2207 "debug.ml" 72 2203 2226
+)
+"debug.ml" 110 3188 3210 "debug.ml" 110 3188 3218
+type(
+  string
+)
+ident(
+  int_ref category "debug.ml" 109 3158 3175 "debug.ml" 109 3158 3183
+)
+"debug.ml" 111 3219 3228 "debug.ml" 111 3219 3230
+type(
+  unit
+)
+"debug.ml" 112 3234 3244 "debug.ml" 112 3234 3247
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"debug.ml" 112 3234 3249 "debug.ml" 112 3234 3262
+type(
+  string -> bool
+)
+ident(
+  int_ref check_profile "debug.ml" 45 1460 1464 "debug.ml" 45 1460 1477
+)
+"debug.ml" 112 3234 3263 "debug.ml" 112 3234 3271
+type(
+  string
+)
+ident(
+  int_ref category "debug.ml" 109 3158 3175 "debug.ml" 109 3158 3183
+)
+"debug.ml" 112 3234 3249 "debug.ml" 112 3234 3271
+type(
+  bool
+)
+"debug.ml" 112 3234 3244 "debug.ml" 112 3234 3272
+type(
+  bool
+)
+"debug.ml" 113 3273 3285 "debug.ml" 113 3273 3286
+type(
+  unit -> 'a
+)
+ident(
+  int_ref f "debug.ml" 109 3158 3184 "debug.ml" 109 3158 3185
+)
+"debug.ml" 113 3273 3286 "debug.ml" 113 3273 3288
+type(
+  unit
+)
+"debug.ml" 113 3273 3285 "debug.ml" 113 3273 3288
+type(
+  'a
+)
+"debug.ml" 115 3307 3313 "debug.ml" 115 3307 3323
+type(
+  bool ref
+)
+ident(
+  int_ref Misc.debug "misc.ml" 8 113 117 "misc.ml" 8 113 122
+)
+"debug.ml" 115 3307 3312 "debug.ml" 115 3307 3323
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1167 44498 44498 "stdlib.mli" 1167 44498 44539
+)
+type(
+  bool
+)
+"debug.ml" 115 3307 3329 "debug.ml" 115 3307 3332
+type(
+  string -> unit
+)
+ident(
+  int_ref pr2 "debug.ml" 21 705 709 "debug.ml" 21 705 712
+)
+"debug.ml" 115 3307 3334 "debug.ml" 115 3307 3346
+type(
+  string
+)
+"debug.ml" 115 3307 3347 "debug.ml" 115 3307 3348
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"debug.ml" 115 3307 3349 "debug.ml" 115 3307 3357
+type(
+  string
+)
+ident(
+  int_ref category "debug.ml" 109 3158 3175 "debug.ml" 109 3158 3183
+)
+"debug.ml" 115 3307 3334 "debug.ml" 115 3307 3357
+type(
+  string
+)
+"debug.ml" 115 3307 3329 "debug.ml" 115 3307 3358
+type(
+  unit
+)
+"debug.ml" 115 3307 3309 "debug.ml" 115 3307 3358
+type(
+  unit
+)
+type(
+  unit
+)
+"debug.ml" 116 3360 3366 "debug.ml" 116 3360 3367
+type(
+  float
+)
+ident(
+  def t "debug.ml" 117 3394 3398 "debug.ml" 130 3848 3876
+)
+"debug.ml" 116 3360 3370 "debug.ml" 116 3360 3387
+type(
+  unit -> float
+)
+ident(
+  int_ref Unix.gettimeofday "unix.mli" 1092 45860 45860 "unix.mli" 1092 45860 45892
+)
+"debug.ml" 116 3360 3388 "debug.ml" 116 3360 3390
+type(
+  unit
+)
+"debug.ml" 116 3360 3370 "debug.ml" 116 3360 3390
+type(
+  float
+)
+"debug.ml" 118 3402 3412 "debug.ml" 118 3402 3415
+type(
+  'a
+)
+ident(
+  def res "debug.ml" 119 3426 3432 "debug.ml" 121 3552 3563
+)
+"debug.ml" 118 3402 3418 "debug.ml" 118 3402 3419
+type(
+  unit -> 'a
+)
+ident(
+  int_ref f "debug.ml" 109 3158 3184 "debug.ml" 109 3158 3185
+)
+"debug.ml" 118 3402 3420 "debug.ml" 118 3402 3422
+type(
+  unit
+)
+"debug.ml" 118 3402 3418 "debug.ml" 118 3402 3422
+type(
+  'a
+)
+"debug.ml" 119 3426 3436 "debug.ml" 119 3426 3438
+type(
+  float
+)
+ident(
+  def t' "debug.ml" 120 3465 3473 "debug.ml" 121 3552 3563
+)
+"debug.ml" 119 3426 3441 "debug.ml" 119 3426 3458
+type(
+  unit -> float
+)
+ident(
+  int_ref Unix.gettimeofday "unix.mli" 1092 45860 45860 "unix.mli" 1092 45860 45892
+)
+"debug.ml" 119 3426 3459 "debug.ml" 119 3426 3461
+type(
+  unit
+)
+"debug.ml" 119 3426 3441 "debug.ml" 119 3426 3461
+type(
+  float
+)
+"debug.ml" 120 3465 3477 "debug.ml" 120 3465 3487
+type(
+  bool ref
+)
+ident(
+  int_ref Misc.debug "misc.ml" 8 113 117 "misc.ml" 8 113 122
+)
+"debug.ml" 120 3465 3476 "debug.ml" 120 3465 3487
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1167 44498 44498 "stdlib.mli" 1167 44498 44539
+)
+type(
+  bool
+)
+"debug.ml" 120 3465 3493 "debug.ml" 120 3465 3496
+type(
+  string -> unit
+)
+ident(
+  int_ref pr2 "debug.ml" 21 705 709 "debug.ml" 21 705 712
+)
+"debug.ml" 120 3465 3498 "debug.ml" 120 3465 3512
+type(
+  (string -> float -> string, unit, string) format ->
+  string -> float -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"debug.ml" 120 3465 3513 "debug.ml" 120 3465 3530
+type(
+  (string -> float -> string, unit, string) format
+)
+"debug.ml" 120 3465 3531 "debug.ml" 120 3465 3539
+type(
+  string
+)
+ident(
+  int_ref category "debug.ml" 109 3158 3175 "debug.ml" 109 3158 3183
+)
+"debug.ml" 120 3465 3541 "debug.ml" 120 3465 3543
+type(
+  float
+)
+ident(
+  int_ref t' "debug.ml" 119 3426 3436 "debug.ml" 119 3426 3438
+)
+"debug.ml" 120 3465 3544 "debug.ml" 120 3465 3546
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( -. ) "stdlib.mli" 461 17716 17716 "stdlib.mli" 461 17716 17771
+)
+"debug.ml" 120 3465 3547 "debug.ml" 120 3465 3548
+type(
+  float
+)
+ident(
+  int_ref t "debug.ml" 116 3360 3366 "debug.ml" 116 3360 3367
+)
+"debug.ml" 120 3465 3541 "debug.ml" 120 3465 3548
+type(
+  float
+)
+"debug.ml" 120 3465 3498 "debug.ml" 120 3465 3549
+type(
+  string
+)
+"debug.ml" 120 3465 3493 "debug.ml" 120 3465 3550
+type(
+  unit
+)
+"debug.ml" 120 3465 3473 "debug.ml" 120 3465 3550
+type(
+  unit
+)
+type(
+  unit
+)
+"debug.ml" 121 3552 3560 "debug.ml" 121 3552 3563
+type(
+  'a
+)
+ident(
+  int_ref res "debug.ml" 118 3402 3412 "debug.ml" 118 3402 3415
+)
+"debug.ml" 120 3465 3473 "debug.ml" 121 3552 3563
+type(
+  'a
+)
+"debug.ml" 119 3426 3432 "debug.ml" 121 3552 3563
+type(
+  'a
+)
+"debug.ml" 118 3402 3408 "debug.ml" 121 3552 3563
+type(
+  'a
+)
+"debug.ml" 122 3564 3573 "debug.ml" 122 3564 3574
+type(
+  exn
+)
+ident(
+  def e "debug.ml" 123 3578 3584 "debug.ml" 130 3848 3876
+)
+"debug.ml" 123 3578 3588 "debug.ml" 123 3578 3590
+type(
+  float
+)
+ident(
+  def t' "debug.ml" 124 3617 3625 "debug.ml" 130 3848 3876
+)
+"debug.ml" 123 3578 3593 "debug.ml" 123 3578 3610
+type(
+  unit -> float
+)
+ident(
+  int_ref Unix.gettimeofday "unix.mli" 1092 45860 45860 "unix.mli" 1092 45860 45892
+)
+"debug.ml" 123 3578 3611 "debug.ml" 123 3578 3613
+type(
+  unit
+)
+"debug.ml" 123 3578 3593 "debug.ml" 123 3578 3613
+type(
+  float
+)
+"debug.ml" 124 3617 3629 "debug.ml" 124 3617 3639
+type(
+  bool ref
+)
+ident(
+  int_ref Misc.debug "misc.ml" 8 113 117 "misc.ml" 8 113 122
+)
+"debug.ml" 124 3617 3628 "debug.ml" 124 3617 3639
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1167 44498 44498 "stdlib.mli" 1167 44498 44539
+)
+type(
+  bool
+)
+"debug.ml" 124 3617 3645 "debug.ml" 124 3617 3648
+type(
+  string -> unit
+)
+ident(
+  int_ref pr2 "debug.ml" 21 705 709 "debug.ml" 21 705 712
+)
+"debug.ml" 124 3617 3650 "debug.ml" 124 3617 3664
+type(
+  (string -> float -> string, unit, string) format ->
+  string -> float -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"debug.ml" 124 3617 3665 "debug.ml" 124 3617 3695
+type(
+  (string -> float -> string, unit, string) format
+)
+"debug.ml" 124 3617 3696 "debug.ml" 124 3617 3704
+type(
+  string
+)
+ident(
+  int_ref category "debug.ml" 109 3158 3175 "debug.ml" 109 3158 3183
+)
+"debug.ml" 124 3617 3706 "debug.ml" 124 3617 3708
+type(
+  float
+)
+ident(
+  int_ref t' "debug.ml" 123 3578 3588 "debug.ml" 123 3578 3590
+)
+"debug.ml" 124 3617 3709 "debug.ml" 124 3617 3711
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( -. ) "stdlib.mli" 461 17716 17716 "stdlib.mli" 461 17716 17771
+)
+"debug.ml" 124 3617 3712 "debug.ml" 124 3617 3713
+type(
+  float
+)
+ident(
+  int_ref t "debug.ml" 116 3360 3366 "debug.ml" 116 3360 3367
+)
+"debug.ml" 124 3617 3706 "debug.ml" 124 3617 3713
+type(
+  float
+)
+"debug.ml" 124 3617 3650 "debug.ml" 124 3617 3714
+type(
+  string
+)
+"debug.ml" 124 3617 3645 "debug.ml" 124 3617 3715
+type(
+  unit
+)
+"debug.ml" 124 3617 3625 "debug.ml" 124 3617 3715
+type(
+  unit
+)
+type(
+  unit
+)
+"debug.ml" 125 3717 3731 "debug.ml" 125 3717 3732
+type(
+  exn
+)
+ident(
+  int_ref e "debug.ml" 122 3564 3573 "debug.ml" 122 3564 3574
+)
+"debug.ml" 126 3738 3751 "debug.ml" 126 3738 3752
+type(
+  string
+)
+"debug.ml" 126 3738 3743 "debug.ml" 126 3738 3752
+type(
+  exn
+)
+type(
+  exn
+)
+"debug.ml" 126 3738 3756 "debug.ml" 126 3738 3761
+type(
+  exn -> 'a
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"debug.ml" 126 3738 3762 "debug.ml" 126 3738 3763
+type(
+  exn
+)
+ident(
+  int_ref e "debug.ml" 122 3564 3573 "debug.ml" 122 3564 3574
+)
+"debug.ml" 126 3738 3756 "debug.ml" 126 3738 3763
+type(
+  'a
+)
+"debug.ml" 127 3764 3769 "debug.ml" 127 3764 3770
+type(
+  exn
+)
+type(
+  exn
+)
+"debug.ml" 128 3774 3785 "debug.ml" 128 3774 3788
+type(
+  string
+)
+ident(
+  def msg "debug.ml" 129 3820 3829 "debug.ml" 130 3848 3876
+)
+"debug.ml" 128 3774 3791 "debug.ml" 128 3774 3813
+type(
+  unit -> string
+)
+ident(
+  int_ref Stdlib.Printexc.get_backtrace "printexc.mli" 64 3031 3031 "printexc.mli" 64 3031 3064
+)
+"debug.ml" 128 3774 3814 "debug.ml" 128 3774 3816
+type(
+  unit
+)
+"debug.ml" 128 3774 3791 "debug.ml" 128 3774 3816
+type(
+  string
+)
+"debug.ml" 129 3820 3829 "debug.ml" 129 3820 3842
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.prerr_endline "stdlib.mli" 858 31360 31360 "stdlib.mli" 858 31360 31394
+)
+"debug.ml" 129 3820 3843 "debug.ml" 129 3820 3846
+type(
+  string
+)
+ident(
+  int_ref msg "debug.ml" 128 3774 3785 "debug.ml" 128 3774 3788
+)
+"debug.ml" 129 3820 3829 "debug.ml" 129 3820 3846
+type(
+  unit
+)
+"debug.ml" 130 3848 3857 "debug.ml" 130 3848 3862
+type(
+  exn -> 'a
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"debug.ml" 130 3848 3872 "debug.ml" 130 3848 3875
+type(
+  string
+)
+ident(
+  int_ref msg "debug.ml" 128 3774 3785 "debug.ml" 128 3774 3788
+)
+"debug.ml" 130 3848 3864 "debug.ml" 130 3848 3875
+type(
+  exn
+)
+"debug.ml" 130 3848 3857 "debug.ml" 130 3848 3876
+type(
+  'a
+)
+"debug.ml" 129 3820 3829 "debug.ml" 130 3848 3876
+type(
+  'a
+)
+"debug.ml" 128 3774 3781 "debug.ml" 130 3848 3876
+type(
+  'a
+)
+"debug.ml" 125 3717 3725 "debug.ml" 130 3848 3876
+type(
+  'a
+)
+"debug.ml" 124 3617 3625 "debug.ml" 130 3848 3876
+type(
+  'a
+)
+"debug.ml" 123 3578 3584 "debug.ml" 130 3848 3876
+type(
+  'a
+)
+"debug.ml" 117 3394 3398 "debug.ml" 130 3848 3876
+type(
+  'a
+)
+"debug.ml" 116 3360 3362 "debug.ml" 130 3848 3876
+type(
+  'a
+)
+"debug.ml" 115 3307 3309 "debug.ml" 131 3877 3887
+type(
+  'a
+)
+"debug.ml" 112 3234 3241 "debug.ml" 131 3877 3887
+type(
+  'a
+)
+"debug.ml" 111 3219 3228 "debug.ml" 131 3877 3887
+type(
+  unit -> 'a
+)
+"debug.ml" 110 3188 3190 "debug.ml" 132 3888 3891
+type(
+  'a
+)
+"debug.ml" 109 3158 3184 "debug.ml" 132 3888 3891
+type(
+  (unit -> 'a) -> 'a
+)
+"debug.ml" 109 3158 3175 "debug.ml" 132 3888 3891
+type(
+  string -> (unit -> 'a) -> 'a
+)

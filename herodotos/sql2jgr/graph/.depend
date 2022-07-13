@@ -1,0 +1,78 @@
+defects.cmo : \
+    stats.cmo \
+    ../config/setup.cmo \
+    ../commons/misc.cmo \
+    helper.cmo \
+    graph.cmo \
+    ../config/config.cmo
+defects.cmx : \
+    stats.cmx \
+    ../config/setup.cmx \
+    ../commons/misc.cmx \
+    helper.cmx \
+    graph.cmx \
+    ../config/config.cmx
+expertise.cmo : \
+    ../commons/misc.cmo \
+    helper.cmo \
+    ../scm/git.cmo
+expertise.cmx : \
+    ../commons/misc.cmx \
+    helper.cmx \
+    ../scm/git.cmx
+graph.cmo : \
+    ../config/setup.cmo \
+    ../config/config.cmo \
+    ../config/ast_config.cmi
+graph.cmx : \
+    ../config/setup.cmx \
+    ../config/config.cmx \
+    ../config/ast_config.cmi
+group.cmo : \
+    ../config/setup.cmo \
+    ../commons/misc.cmo \
+    helper.cmo \
+    graph.cmo \
+    ../database/database.cmo \
+    ../config/config.cmo \
+    ../config/ast_config.cmi
+group.cmx : \
+    ../config/setup.cmx \
+    ../commons/misc.cmx \
+    helper.cmx \
+    graph.cmx \
+    ../database/database.cmx \
+    ../config/config.cmx \
+    ../config/ast_config.cmi
+helper.cmo : \
+    ../config/setup.cmo \
+    ../commons/misc.cmo \
+    graph.cmo \
+    ../scm/git.cmo \
+    ../commons/debug.cmo \
+    ../database/database.cmo \
+    ../config/config.cmo \
+    ../config/ast_config.cmi
+helper.cmx : \
+    ../config/setup.cmx \
+    ../commons/misc.cmx \
+    graph.cmx \
+    ../scm/git.cmx \
+    ../commons/debug.cmx \
+    ../database/database.cmx \
+    ../config/config.cmx \
+    ../config/ast_config.cmi
+patchexpert.cmo : \
+    helper.cmo \
+    ../scm/git.cmo
+patchexpert.cmx : \
+    helper.cmx \
+    ../scm/git.cmx
+stats.cmo : \
+    helper.cmo
+stats.cmx : \
+    helper.cmx
+user.cmo : \
+    helper.cmo
+user.cmx : \
+    helper.cmx

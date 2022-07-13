@@ -1,0 +1,3979 @@
+"misc.ml" 8 113 117 "misc.ml" 8 113 122
+type(
+  bool ref
+)
+ident(
+  def debug "misc.ml" 13 244 244 "misc.ml" 0 0 -1
+)
+"misc.ml" 8 113 125 "misc.ml" 8 113 128
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1164 44392 44392 "stdlib.mli" 1164 44392 44436
+)
+"misc.ml" 8 113 129 "misc.ml" 8 113 134
+type(
+  bool
+)
+"misc.ml" 8 113 125 "misc.ml" 8 113 134
+type(
+  bool ref
+)
+"misc.ml" 13 244 248 "misc.ml" 13 244 257
+type(
+  Ast.pos -> string
+)
+ident(
+  def print_pos "misc.ml" 22 518 518 "misc.ml" 0 0 -1
+)
+"misc.ml" 13 244 258 "misc.ml" 13 244 261
+type(
+  Ast.pos
+)
+ident(
+  def pos "misc.ml" 14 264 266 "misc.ml" 15 326 383
+)
+"misc.ml" 14 264 266 "misc.ml" 14 264 280
+type(
+  (string -> int -> int -> int -> string, unit, string) format ->
+  string -> int -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"misc.ml" 14 264 280 "misc.ml" 14 264 325
+type(
+  (string -> int -> int -> int -> string, unit, string) format
+)
+"misc.ml" 15 326 330 "misc.ml" 15 326 333
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "misc.ml" 13 244 258 "misc.ml" 13 244 261
+)
+"misc.ml" 15 326 330 "misc.ml" 15 326 342
+type(
+  string
+)
+"misc.ml" 15 326 343 "misc.ml" 15 326 346
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "misc.ml" 13 244 258 "misc.ml" 13 244 261
+)
+"misc.ml" 15 326 343 "misc.ml" 15 326 355
+type(
+  int
+)
+"misc.ml" 15 326 356 "misc.ml" 15 326 359
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "misc.ml" 13 244 258 "misc.ml" 13 244 261
+)
+"misc.ml" 15 326 356 "misc.ml" 15 326 369
+type(
+  int
+)
+"misc.ml" 15 326 370 "misc.ml" 15 326 373
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "misc.ml" 13 244 258 "misc.ml" 13 244 261
+)
+"misc.ml" 15 326 370 "misc.ml" 15 326 383
+type(
+  int
+)
+"misc.ml" 14 264 266 "misc.ml" 15 326 383
+type(
+  string
+)
+"misc.ml" 22 518 522 "misc.ml" 22 518 528
+type(
+  Lexing.position -> int -> Ast.pos
+)
+ident(
+  def getpos "misc.ml" 30 700 700 "misc.ml" 0 0 -1
+)
+"misc.ml" 22 518 529 "misc.ml" 22 518 532
+type(
+  Lexing.position
+)
+ident(
+  def pos "misc.ml" 22 518 533 "misc.ml" 28 693 698
+)
+"misc.ml" 22 518 533 "misc.ml" 22 518 536
+type(
+  int
+)
+ident(
+  def ofs "misc.ml" 23 539 543 "misc.ml" 28 693 698
+)
+"misc.ml" 24 545 563 "misc.ml" 24 545 566
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "misc.ml" 22 518 529 "misc.ml" 22 518 532
+)
+"misc.ml" 24 545 563 "misc.ml" 24 545 576
+type(
+  string
+)
+"misc.ml" 25 578 596 "misc.ml" 25 578 599
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "misc.ml" 22 518 529 "misc.ml" 22 518 532
+)
+"misc.ml" 25 578 596 "misc.ml" 25 578 608
+type(
+  int
+)
+"misc.ml" 26 610 628 "misc.ml" 26 610 631
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "misc.ml" 22 518 529 "misc.ml" 22 518 532
+)
+"misc.ml" 26 610 628 "misc.ml" 26 610 640
+type(
+  int
+)
+"misc.ml" 26 610 641 "misc.ml" 26 610 642
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 346 13584 13584 "stdlib.mli" 346 13584 13630
+)
+"misc.ml" 26 610 643 "misc.ml" 26 610 646
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "misc.ml" 22 518 529 "misc.ml" 22 518 532
+)
+"misc.ml" 26 610 643 "misc.ml" 26 610 654
+type(
+  int
+)
+"misc.ml" 26 610 628 "misc.ml" 26 610 654
+type(
+  int
+)
+"misc.ml" 27 656 674 "misc.ml" 27 656 677
+type(
+  int
+)
+ident(
+  int_ref ofs "misc.ml" 22 518 533 "misc.ml" 22 518 536
+)
+"misc.ml" 27 656 678 "misc.ml" 27 656 679
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 346 13584 13584 "stdlib.mli" 346 13584 13630
+)
+"misc.ml" 27 656 680 "misc.ml" 27 656 683
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "misc.ml" 22 518 529 "misc.ml" 22 518 532
+)
+"misc.ml" 27 656 680 "misc.ml" 27 656 691
+type(
+  int
+)
+"misc.ml" 27 656 674 "misc.ml" 27 656 691
+type(
+  int
+)
+"misc.ml" 23 539 543 "misc.ml" 28 693 698
+type(
+  Ast.pos
+)
+"misc.ml" 30 700 704 "misc.ml" 30 700 713
+type(
+  Ast.pos
+)
+ident(
+  def dummy_pos "misc.ml" 31 742 742 "misc.ml" 0 0 -1
+)
+"misc.ml" 30 700 716 "misc.ml" 30 700 722
+type(
+  Lexing.position -> int -> Ast.pos
+)
+ident(
+  int_ref getpos "misc.ml" 22 518 522 "misc.ml" 22 518 528
+)
+"misc.ml" 30 700 723 "misc.ml" 30 700 739
+type(
+  Lexing.position
+)
+ident(
+  int_ref Stdlib.Lexing.dummy_pos "lexing.mli" 40 1950 1950 "lexing.mli" 40 1950 1974
+)
+"misc.ml" 30 700 740 "misc.ml" 30 700 741
+type(
+  int
+)
+"misc.ml" 30 700 716 "misc.ml" 30 700 741
+type(
+  Ast.pos
+)
+"misc.ml" 31 742 746 "misc.ml" 31 742 758
+type(
+  string -> Ast.pos
+)
+ident(
+  def dummy_pos_in "misc.ml" 39 854 854 "misc.ml" 0 0 -1
+)
+"misc.ml" 31 742 759 "misc.ml" 31 742 763
+type(
+  string
+)
+ident(
+  def file "misc.ml" 32 766 768 "misc.ml" 37 849 852
+)
+"misc.ml" 33 770 786 "misc.ml" 33 770 790
+type(
+  string
+)
+ident(
+  int_ref file "misc.ml" 31 742 759 "misc.ml" 31 742 763
+)
+"misc.ml" 34 792 808 "misc.ml" 34 792 809
+type(
+  int
+)
+"misc.ml" 35 811 827 "misc.ml" 35 811 828
+type(
+  int
+)
+"misc.ml" 36 830 846 "misc.ml" 36 830 847
+type(
+  int
+)
+"misc.ml" 32 766 768 "misc.ml" 37 849 852
+type(
+  Ast.pos
+)
+"misc.ml" 39 854 858 "misc.ml" 39 854 869
+type(
+  Ast.pos -> string -> unit
+)
+ident(
+  def print_error "misc.ml" 42 921 921 "misc.ml" 0 0 -1
+)
+"misc.ml" 39 854 870 "misc.ml" 39 854 873
+type(
+  Ast.pos
+)
+ident(
+  def pos "misc.ml" 39 854 874 "misc.ml" 40 880 919
+)
+"misc.ml" 39 854 874 "misc.ml" 39 854 877
+type(
+  string
+)
+ident(
+  def str "misc.ml" 40 880 882 "misc.ml" 40 880 919
+)
+"misc.ml" 40 880 882 "misc.ml" 40 880 895
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.prerr_endline "stdlib.mli" 858 31360 31360 "stdlib.mli" 858 31360 31394
+)
+"misc.ml" 40 880 898 "misc.ml" 40 880 907
+type(
+  Ast.pos -> string
+)
+ident(
+  int_ref print_pos "misc.ml" 13 244 248 "misc.ml" 13 244 257
+)
+"misc.ml" 40 880 908 "misc.ml" 40 880 911
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "misc.ml" 39 854 870 "misc.ml" 39 854 873
+)
+"misc.ml" 40 880 897 "misc.ml" 40 880 912
+type(
+  string
+)
+"misc.ml" 40 880 913 "misc.ml" 40 880 914
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 40 880 915 "misc.ml" 40 880 918
+type(
+  string
+)
+ident(
+  int_ref str "misc.ml" 39 854 874 "misc.ml" 39 854 877
+)
+"misc.ml" 40 880 896 "misc.ml" 40 880 919
+type(
+  string
+)
+"misc.ml" 40 880 882 "misc.ml" 40 880 919
+type(
+  unit
+)
+"misc.ml" 42 921 925 "misc.ml" 42 921 937
+type(
+  Ast.pos -> string -> 'a
+)
+ident(
+  def report_error "misc.ml" 48 1003 1003 "misc.ml" 0 0 -1
+)
+"misc.ml" 42 921 938 "misc.ml" 42 921 941
+type(
+  Ast.pos
+)
+ident(
+  def pos "misc.ml" 42 921 942 "misc.ml" 44 971 979
+)
+"misc.ml" 42 921 942 "misc.ml" 42 921 945
+type(
+  string
+)
+ident(
+  def str "misc.ml" 43 948 950 "misc.ml" 44 971 979
+)
+"misc.ml" 43 948 950 "misc.ml" 43 948 961
+type(
+  Ast.pos -> string -> unit
+)
+ident(
+  int_ref print_error "misc.ml" 39 854 858 "misc.ml" 39 854 869
+)
+"misc.ml" 43 948 962 "misc.ml" 43 948 965
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "misc.ml" 42 921 938 "misc.ml" 42 921 941
+)
+"misc.ml" 43 948 966 "misc.ml" 43 948 969
+type(
+  string
+)
+ident(
+  int_ref str "misc.ml" 42 921 942 "misc.ml" 42 921 945
+)
+"misc.ml" 43 948 950 "misc.ml" 43 948 969
+type(
+  unit
+)
+"misc.ml" 44 971 973 "misc.ml" 44 971 977
+type(
+  int -> 'a
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1296 49854 49854 "stdlib.mli" 1296 49854 49874
+)
+"misc.ml" 44 971 978 "misc.ml" 44 971 979
+type(
+  int
+)
+"misc.ml" 44 971 973 "misc.ml" 44 971 979
+type(
+  'a
+)
+"misc.ml" 43 948 950 "misc.ml" 44 971 979
+type(
+  'a
+)
+"misc.ml" 48 1003 1007 "misc.ml" 48 1003 1011
+type(
+  string -> Lexing.lexbuf -> unit
+)
+ident(
+  def init "misc.ml" 54 1144 1144 "misc.ml" 0 0 -1
+)
+"misc.ml" 48 1003 1012 "misc.ml" 48 1003 1020
+type(
+  string
+)
+ident(
+  def filename "misc.ml" 48 1003 1021 "misc.ml" 52 1121 1142
+)
+"misc.ml" 48 1003 1021 "misc.ml" 48 1003 1027
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "misc.ml" 49 1030 1032 "misc.ml" 52 1121 1142
+)
+"misc.ml" 49 1030 1032 "misc.ml" 49 1030 1038
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "misc.ml" 48 1003 1021 "misc.ml" 48 1003 1027
+)
+"misc.ml" 49 1030 1067 "misc.ml" 49 1030 1075
+type(
+  string
+)
+ident(
+  int_ref filename "misc.ml" 48 1003 1012 "misc.ml" 48 1003 1020
+)
+"misc.ml" 50 1077 1096 "misc.ml" 50 1077 1097
+type(
+  int
+)
+"misc.ml" 51 1099 1118 "misc.ml" 51 1099 1119
+type(
+  int
+)
+"misc.ml" 52 1121 1140 "misc.ml" 52 1121 1141
+type(
+  int
+)
+"misc.ml" 49 1030 1053 "misc.ml" 52 1121 1142
+type(
+  Lexing.position
+)
+"misc.ml" 49 1030 1032 "misc.ml" 52 1121 1142
+type(
+  unit
+)
+"misc.ml" 54 1144 1148 "misc.ml" 54 1144 1157
+type(
+  string -> int -> Lexing.lexbuf -> unit
+)
+ident(
+  def init_line "misc.ml" 62 1370 1370 "misc.ml" 0 0 -1
+)
+"misc.ml" 54 1144 1158 "misc.ml" 54 1144 1166
+type(
+  string
+)
+ident(
+  def filename "misc.ml" 54 1144 1167 "misc.ml" 58 1275 1296
+)
+"misc.ml" 54 1144 1167 "misc.ml" 54 1144 1171
+type(
+  int
+)
+ident(
+  def lnum "misc.ml" 54 1144 1172 "misc.ml" 58 1275 1296
+)
+"misc.ml" 54 1144 1172 "misc.ml" 54 1144 1178
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "misc.ml" 55 1181 1183 "misc.ml" 58 1275 1296
+)
+"misc.ml" 55 1181 1183 "misc.ml" 55 1181 1189
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "misc.ml" 54 1144 1172 "misc.ml" 54 1144 1178
+)
+"misc.ml" 55 1181 1218 "misc.ml" 55 1181 1226
+type(
+  string
+)
+ident(
+  int_ref filename "misc.ml" 54 1144 1158 "misc.ml" 54 1144 1166
+)
+"misc.ml" 56 1228 1247 "misc.ml" 56 1228 1251
+type(
+  int
+)
+ident(
+  int_ref lnum "misc.ml" 54 1144 1167 "misc.ml" 54 1144 1171
+)
+"misc.ml" 57 1253 1272 "misc.ml" 57 1253 1273
+type(
+  int
+)
+"misc.ml" 58 1275 1294 "misc.ml" 58 1275 1295
+type(
+  int
+)
+"misc.ml" 55 1181 1204 "misc.ml" 58 1275 1296
+type(
+  Lexing.position
+)
+"misc.ml" 55 1181 1183 "misc.ml" 58 1275 1296
+type(
+  unit
+)
+"misc.ml" 62 1370 1374 "misc.ml" 62 1370 1388
+type(
+  char -> string
+)
+ident(
+  def string_of_char "misc.ml" 71 1653 1653 "misc.ml" 0 0 -1
+)
+"misc.ml" 62 1370 1389 "misc.ml" 62 1370 1390
+type(
+  char
+)
+ident(
+  def c "misc.ml" 62 1370 1393 "misc.ml" 62 1370 1408
+)
+"misc.ml" 62 1370 1393 "misc.ml" 62 1370 1404
+type(
+  int -> char -> string
+)
+ident(
+  int_ref Stdlib.String.make "string.mli" 75 3836 3836 "string.mli" 75 3836 3868
+)
+"misc.ml" 62 1370 1405 "misc.ml" 62 1370 1406
+type(
+  int
+)
+"misc.ml" 62 1370 1407 "misc.ml" 62 1370 1408
+type(
+  char
+)
+ident(
+  int_ref c "misc.ml" 62 1370 1389 "misc.ml" 62 1370 1390
+)
+"misc.ml" 62 1370 1393 "misc.ml" 62 1370 1408
+type(
+  string
+)
+"misc.ml" 71 1653 1657 "misc.ml" 71 1653 1669
+type(
+  string -> string -> string * string
+)
+ident(
+  def strip_prefix "misc.ml" 91 2265 2265 "misc.ml" 0 0 -1
+)
+"misc.ml" 71 1653 1670 "misc.ml" 71 1653 1676
+type(
+  string
+)
+ident(
+  def prefix "misc.ml" 71 1653 1677 "misc.ml" 81 2049 2089
+)
+"misc.ml" 71 1653 1677 "misc.ml" 71 1653 1681
+type(
+  string
+)
+ident(
+  def path "misc.ml" 72 1684 1685 "misc.ml" 81 2049 2089
+)
+"misc.ml" 73 1689 1695 "misc.ml" 73 1689 1697
+type(
+  string
+)
+ident(
+  def p2 "misc.ml" 74 1756 1758 "misc.ml" 78 1925 1942
+)
+"misc.ml" 73 1689 1700 "misc.ml" 73 1689 1717
+type(
+  Str.regexp -> string -> string -> string
+)
+ident(
+  int_ref Str.replace_first "str.mli" 202 9105 9105 "str.mli" 202 9105 9161
+)
+"misc.ml" 73 1689 1719 "misc.ml" 73 1689 1736
+type(
+  string -> Str.regexp
+)
+ident(
+  int_ref Str.regexp_string "str.mli" 78 3796 3796 "str.mli" 78 3796 3832
+)
+"misc.ml" 73 1689 1737 "misc.ml" 73 1689 1743
+type(
+  string
+)
+ident(
+  int_ref prefix "misc.ml" 71 1653 1670 "misc.ml" 71 1653 1676
+)
+"misc.ml" 73 1689 1718 "misc.ml" 73 1689 1744
+type(
+  Str.regexp
+)
+"misc.ml" 73 1689 1745 "misc.ml" 73 1689 1747
+type(
+  string
+)
+"misc.ml" 73 1689 1748 "misc.ml" 73 1689 1752
+type(
+  string
+)
+ident(
+  int_ref path "misc.ml" 71 1653 1677 "misc.ml" 71 1653 1681
+)
+"misc.ml" 73 1689 1700 "misc.ml" 73 1689 1752
+type(
+  string
+)
+"misc.ml" 74 1756 1762 "misc.ml" 74 1756 1764
+type(
+  Str.regexp
+)
+ident(
+  def re "misc.ml" 75 1806 1810 "misc.ml" 78 1925 1942
+)
+"misc.ml" 74 1756 1767 "misc.ml" 74 1756 1777
+type(
+  string -> Str.regexp
+)
+ident(
+  int_ref Str.regexp "str.mli" 26 1237 1237 "str.mli" 26 1237 1266
+)
+"misc.ml" 74 1756 1778 "misc.ml" 74 1756 1802
+type(
+  string
+)
+"misc.ml" 74 1756 1767 "misc.ml" 74 1756 1802
+type(
+  Str.regexp
+)
+"misc.ml" 75 1806 1810 "misc.ml" 75 1806 1816
+type(
+  bool -> unit
+)
+ident(
+  int_ref Stdlib.ignore "stdlib.mli" 687 25951 25951 "stdlib.mli" 687 25951 25991
+)
+"misc.ml" 75 1806 1817 "misc.ml" 75 1806 1833
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  int_ref Str.string_match "str.mli" 90 4155 4155 "str.mli" 90 4155 4205
+)
+"misc.ml" 75 1806 1834 "misc.ml" 75 1806 1836
+type(
+  Str.regexp
+)
+ident(
+  int_ref re "misc.ml" 74 1756 1762 "misc.ml" 74 1756 1764
+)
+"misc.ml" 75 1806 1837 "misc.ml" 75 1806 1839
+type(
+  string
+)
+ident(
+  int_ref p2 "misc.ml" 73 1689 1695 "misc.ml" 73 1689 1697
+)
+"misc.ml" 75 1806 1840 "misc.ml" 75 1806 1841
+type(
+  int
+)
+"misc.ml" 75 1806 1816 "misc.ml" 75 1806 1842
+type(
+  bool
+)
+"misc.ml" 75 1806 1810 "misc.ml" 75 1806 1842
+type(
+  unit
+)
+"misc.ml" 76 1844 1852 "misc.ml" 76 1844 1855
+type(
+  string
+)
+ident(
+  def ver "misc.ml" 77 1884 1888 "misc.ml" 78 1925 1942
+)
+"misc.ml" 76 1844 1858 "misc.ml" 76 1844 1875
+type(
+  int -> string -> string
+)
+ident(
+  int_ref Str.matched_group "str.mli" 155 6886 6886 "str.mli" 155 6886 6929
+)
+"misc.ml" 76 1844 1876 "misc.ml" 76 1844 1877
+type(
+  int
+)
+"misc.ml" 76 1844 1878 "misc.ml" 76 1844 1880
+type(
+  string
+)
+ident(
+  int_ref p2 "misc.ml" 73 1689 1695 "misc.ml" 73 1689 1697
+)
+"misc.ml" 76 1844 1858 "misc.ml" 76 1844 1880
+type(
+  string
+)
+"misc.ml" 77 1884 1892 "misc.ml" 77 1884 1896
+type(
+  string
+)
+ident(
+  def file "misc.ml" 78 1925 1931 "misc.ml" 78 1925 1942
+)
+"misc.ml" 77 1884 1899 "misc.ml" 77 1884 1916
+type(
+  int -> string -> string
+)
+ident(
+  int_ref Str.matched_group "str.mli" 155 6886 6886 "str.mli" 155 6886 6929
+)
+"misc.ml" 77 1884 1917 "misc.ml" 77 1884 1918
+type(
+  int
+)
+"misc.ml" 77 1884 1919 "misc.ml" 77 1884 1921
+type(
+  string
+)
+ident(
+  int_ref p2 "misc.ml" 73 1689 1695 "misc.ml" 73 1689 1697
+)
+"misc.ml" 77 1884 1899 "misc.ml" 77 1884 1921
+type(
+  string
+)
+"misc.ml" 78 1925 1932 "misc.ml" 78 1925 1935
+type(
+  string
+)
+ident(
+  int_ref ver "misc.ml" 76 1844 1852 "misc.ml" 76 1844 1855
+)
+"misc.ml" 78 1925 1937 "misc.ml" 78 1925 1941
+type(
+  string
+)
+ident(
+  int_ref file "misc.ml" 77 1884 1892 "misc.ml" 77 1884 1896
+)
+"misc.ml" 78 1925 1931 "misc.ml" 78 1925 1942
+type(
+  string * string
+)
+"misc.ml" 77 1884 1888 "misc.ml" 78 1925 1942
+type(
+  string * string
+)
+"misc.ml" 76 1844 1848 "misc.ml" 78 1925 1942
+type(
+  string * string
+)
+"misc.ml" 75 1806 1810 "misc.ml" 78 1925 1942
+type(
+  string * string
+)
+"misc.ml" 74 1756 1758 "misc.ml" 78 1925 1942
+type(
+  string * string
+)
+"misc.ml" 73 1689 1691 "misc.ml" 78 1925 1942
+type(
+  string * string
+)
+"misc.ml" 79 1943 1971 "misc.ml" 79 1943 1972
+type(
+  string
+)
+"misc.ml" 79 1943 1954 "misc.ml" 79 1943 1972
+type(
+  exn
+)
+"misc.ml" 80 1976 1983 "misc.ml" 80 1976 1988
+type(
+  exn -> string * string
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"misc.ml" 80 1976 1997 "misc.ml" 80 1976 2014
+type(
+  string
+)
+"misc.ml" 80 1976 2014 "misc.ml" 80 1976 2015
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 80 1976 2016 "misc.ml" 80 1976 2022
+type(
+  string
+)
+ident(
+  int_ref prefix "misc.ml" 71 1653 1670 "misc.ml" 71 1653 1676
+)
+"misc.ml" 80 1976 2023 "misc.ml" 80 1976 2024
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 80 1976 2025 "misc.ml" 80 1976 2035
+type(
+  string
+)
+"misc.ml" 80 1976 2036 "misc.ml" 80 1976 2037
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 80 1976 2038 "misc.ml" 80 1976 2042
+type(
+  string
+)
+ident(
+  int_ref path "misc.ml" 71 1653 1677 "misc.ml" 71 1653 1681
+)
+"misc.ml" 80 1976 2042 "misc.ml" 80 1976 2043
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 80 1976 2043 "misc.ml" 80 1976 2047
+type(
+  string
+)
+"misc.ml" 80 1976 2047 "misc.ml" 80 1976 2048
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 81 2049 2051 "misc.ml" 81 2049 2087
+type(
+  string
+)
+"misc.ml" 80 1976 2043 "misc.ml" 81 2049 2087
+type(
+  string
+)
+"misc.ml" 80 1976 2038 "misc.ml" 81 2049 2087
+type(
+  string
+)
+"misc.ml" 80 1976 2025 "misc.ml" 81 2049 2087
+type(
+  string
+)
+"misc.ml" 80 1976 2016 "misc.ml" 81 2049 2087
+type(
+  string
+)
+"misc.ml" 80 1976 1996 "misc.ml" 81 2049 2088
+type(
+  string
+)
+"misc.ml" 80 1976 1989 "misc.ml" 81 2049 2089
+type(
+  exn
+)
+"misc.ml" 80 1976 1983 "misc.ml" 81 2049 2089
+type(
+  string * string
+)
+"misc.ml" 72 1684 1685 "misc.ml" 81 2049 2089
+type(
+  string * string
+)
+"misc.ml" 91 2265 2273 "misc.ml" 91 2265 2282
+type(
+  int -> string list -> string * string
+)
+ident(
+  def recompose "misc.ml" 91 2265 2265 "misc.ml" 0 0 -1
+)
+"misc.ml" 91 2265 2283 "misc.ml" 91 2265 2288
+type(
+  int
+)
+ident(
+  def depth "misc.ml" 91 2265 2289 "misc.ml" 97 2467 2492
+)
+"misc.ml" 91 2265 2289 "misc.ml" 91 2265 2295
+type(
+  string list
+)
+ident(
+  def tokens "misc.ml" 92 2298 2300 "misc.ml" 97 2467 2492
+)
+"misc.ml" 92 2298 2307 "misc.ml" 92 2298 2312
+type(
+  int
+)
+ident(
+  int_ref depth "misc.ml" 91 2265 2283 "misc.ml" 91 2265 2288
+)
+"misc.ml" 92 2298 2314 "misc.ml" 92 2298 2320
+type(
+  string list
+)
+ident(
+  int_ref tokens "misc.ml" 91 2265 2289 "misc.ml" 91 2265 2295
+)
+"misc.ml" 92 2298 2306 "misc.ml" 92 2298 2321
+type(
+  int * string list
+)
+"misc.ml" 93 2327 2334 "misc.ml" 93 2327 2335
+type(
+  int
+)
+"misc.ml" 93 2327 2337 "misc.ml" 93 2327 2339
+type(
+  string list
+)
+"misc.ml" 93 2327 2333 "misc.ml" 93 2327 2340
+type(
+  int * string list
+)
+type(
+  int * string list
+)
+"misc.ml" 93 2327 2345 "misc.ml" 93 2327 2347
+type(
+  string
+)
+"misc.ml" 93 2327 2349 "misc.ml" 93 2327 2351
+type(
+  string
+)
+"misc.ml" 93 2327 2344 "misc.ml" 93 2327 2352
+type(
+  string * string
+)
+"misc.ml" 94 2353 2360 "misc.ml" 94 2353 2361
+type(
+  int
+)
+"misc.ml" 94 2353 2364 "misc.ml" 94 2353 2365
+type(
+  string list
+)
+"misc.ml" 94 2353 2359 "misc.ml" 94 2353 2366
+type(
+  int * string list
+)
+type(
+  int * string list
+)
+"misc.ml" 94 2353 2371 "misc.ml" 94 2353 2373
+type(
+  string
+)
+"misc.ml" 94 2353 2375 "misc.ml" 94 2353 2388
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref Stdlib.String.concat "string.mli" 114 5309 5309 "string.mli" 114 5309 5353
+)
+"misc.ml" 94 2353 2389 "misc.ml" 94 2353 2392
+type(
+  string
+)
+"misc.ml" 94 2353 2393 "misc.ml" 94 2353 2399
+type(
+  string list
+)
+ident(
+  int_ref tokens "misc.ml" 91 2265 2289 "misc.ml" 91 2265 2295
+)
+"misc.ml" 94 2353 2375 "misc.ml" 94 2353 2399
+type(
+  string
+)
+"misc.ml" 94 2353 2370 "misc.ml" 94 2353 2400
+type(
+  string * string
+)
+"misc.ml" 95 2401 2408 "misc.ml" 95 2401 2409
+type(
+  int
+)
+ident(
+  def d "misc.ml" 96 2424 2425 "misc.ml" 97 2467 2492
+)
+"misc.ml" 95 2401 2411 "misc.ml" 95 2401 2413
+type(
+  string
+)
+ident(
+  def hd "misc.ml" 96 2424 2425 "misc.ml" 97 2467 2492
+)
+"misc.ml" 95 2401 2415 "misc.ml" 95 2401 2419
+type(
+  string list
+)
+ident(
+  def tail "misc.ml" 96 2424 2425 "misc.ml" 97 2467 2492
+)
+"misc.ml" 95 2401 2411 "misc.ml" 95 2401 2419
+type(
+  string list
+)
+"misc.ml" 95 2401 2407 "misc.ml" 95 2401 2420
+type(
+  int * string list
+)
+type(
+  int * string list
+)
+"misc.ml" 96 2424 2430 "misc.ml" 96 2424 2433
+type(
+  string
+)
+ident(
+  def sub "misc.ml" 97 2467 2470 "misc.ml" 97 2467 2492
+)
+"misc.ml" 96 2424 2435 "misc.ml" 96 2424 2439
+type(
+  string
+)
+ident(
+  def file "misc.ml" 97 2467 2470 "misc.ml" 97 2467 2492
+)
+"misc.ml" 96 2424 2429 "misc.ml" 96 2424 2440
+type(
+  string * string
+)
+"misc.ml" 96 2424 2443 "misc.ml" 96 2424 2452
+type(
+  int -> string list -> string * string
+)
+ident(
+  int_ref recompose "misc.ml" 91 2265 2273 "misc.ml" 91 2265 2282
+)
+"misc.ml" 96 2424 2454 "misc.ml" 96 2424 2455
+type(
+  int
+)
+ident(
+  int_ref d "misc.ml" 95 2401 2408 "misc.ml" 95 2401 2409
+)
+"misc.ml" 96 2424 2455 "misc.ml" 96 2424 2456
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 346 13584 13584 "stdlib.mli" 346 13584 13630
+)
+"misc.ml" 96 2424 2456 "misc.ml" 96 2424 2457
+type(
+  int
+)
+"misc.ml" 96 2424 2453 "misc.ml" 96 2424 2458
+type(
+  int
+)
+"misc.ml" 96 2424 2459 "misc.ml" 96 2424 2463
+type(
+  string list
+)
+ident(
+  int_ref tail "misc.ml" 95 2401 2415 "misc.ml" 95 2401 2419
+)
+"misc.ml" 96 2424 2443 "misc.ml" 96 2424 2463
+type(
+  string * string
+)
+"misc.ml" 97 2467 2471 "misc.ml" 97 2467 2474
+type(
+  string
+)
+"misc.ml" 97 2467 2475 "misc.ml" 97 2467 2476
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 97 2467 2477 "misc.ml" 97 2467 2479
+type(
+  string
+)
+ident(
+  int_ref hd "misc.ml" 95 2401 2411 "misc.ml" 95 2401 2413
+)
+"misc.ml" 97 2467 2480 "misc.ml" 97 2467 2481
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 97 2467 2482 "misc.ml" 97 2467 2485
+type(
+  string
+)
+ident(
+  int_ref sub "misc.ml" 96 2424 2430 "misc.ml" 96 2424 2433
+)
+"misc.ml" 97 2467 2477 "misc.ml" 97 2467 2485
+type(
+  string
+)
+"misc.ml" 97 2467 2471 "misc.ml" 97 2467 2485
+type(
+  string
+)
+"misc.ml" 97 2467 2487 "misc.ml" 97 2467 2491
+type(
+  string
+)
+ident(
+  int_ref file "misc.ml" 96 2424 2435 "misc.ml" 96 2424 2439
+)
+"misc.ml" 97 2467 2470 "misc.ml" 97 2467 2492
+type(
+  string * string
+)
+"misc.ml" 96 2424 2425 "misc.ml" 97 2467 2492
+type(
+  string * string
+)
+"misc.ml" 92 2298 2300 "misc.ml" 97 2467 2492
+type(
+  string * string
+)
+"misc.ml" 99 2494 2498 "misc.ml" 99 2494 2516
+type(
+  string -> int -> string -> string * string
+)
+ident(
+  def strip_prefix_depth "misc.ml" 141 3990 3990 "misc.ml" 0 0 -1
+)
+"misc.ml" 99 2494 2517 "misc.ml" 99 2494 2523
+type(
+  string
+)
+ident(
+  def prefix "misc.ml" 99 2494 2524 "misc.ml" 111 3037 3077
+)
+"misc.ml" 99 2494 2524 "misc.ml" 99 2494 2529
+type(
+  int
+)
+ident(
+  def depth "misc.ml" 99 2494 2530 "misc.ml" 111 3037 3077
+)
+"misc.ml" 99 2494 2530 "misc.ml" 99 2494 2534
+type(
+  string
+)
+ident(
+  def path "misc.ml" 100 2537 2538 "misc.ml" 111 3037 3077
+)
+"misc.ml" 101 2542 2548 "misc.ml" 101 2542 2550
+type(
+  string
+)
+ident(
+  def p2 "misc.ml" 102 2609 2611 "misc.ml" 108 2907 2930
+)
+"misc.ml" 101 2542 2553 "misc.ml" 101 2542 2570
+type(
+  Str.regexp -> string -> string -> string
+)
+ident(
+  int_ref Str.replace_first "str.mli" 202 9105 9105 "str.mli" 202 9105 9161
+)
+"misc.ml" 101 2542 2572 "misc.ml" 101 2542 2589
+type(
+  string -> Str.regexp
+)
+ident(
+  int_ref Str.regexp_string "str.mli" 78 3796 3796 "str.mli" 78 3796 3832
+)
+"misc.ml" 101 2542 2590 "misc.ml" 101 2542 2596
+type(
+  string
+)
+ident(
+  int_ref prefix "misc.ml" 99 2494 2517 "misc.ml" 99 2494 2523
+)
+"misc.ml" 101 2542 2571 "misc.ml" 101 2542 2597
+type(
+  Str.regexp
+)
+"misc.ml" 101 2542 2598 "misc.ml" 101 2542 2600
+type(
+  string
+)
+"misc.ml" 101 2542 2601 "misc.ml" 101 2542 2605
+type(
+  string
+)
+ident(
+  int_ref path "misc.ml" 99 2494 2530 "misc.ml" 99 2494 2534
+)
+"misc.ml" 101 2542 2553 "misc.ml" 101 2542 2605
+type(
+  string
+)
+"misc.ml" 102 2609 2615 "misc.ml" 102 2609 2617
+type(
+  Str.regexp
+)
+ident(
+  def re "misc.ml" 103 2659 2663 "misc.ml" 108 2907 2930
+)
+"misc.ml" 102 2609 2620 "misc.ml" 102 2609 2630
+type(
+  string -> Str.regexp
+)
+ident(
+  int_ref Str.regexp "str.mli" 26 1237 1237 "str.mli" 26 1237 1266
+)
+"misc.ml" 102 2609 2631 "misc.ml" 102 2609 2655
+type(
+  string
+)
+"misc.ml" 102 2609 2620 "misc.ml" 102 2609 2655
+type(
+  Str.regexp
+)
+"misc.ml" 103 2659 2663 "misc.ml" 103 2659 2669
+type(
+  bool -> unit
+)
+ident(
+  int_ref Stdlib.ignore "stdlib.mli" 687 25951 25951 "stdlib.mli" 687 25951 25991
+)
+"misc.ml" 103 2659 2670 "misc.ml" 103 2659 2686
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  int_ref Str.string_match "str.mli" 90 4155 4155 "str.mli" 90 4155 4205
+)
+"misc.ml" 103 2659 2687 "misc.ml" 103 2659 2689
+type(
+  Str.regexp
+)
+ident(
+  int_ref re "misc.ml" 102 2609 2615 "misc.ml" 102 2609 2617
+)
+"misc.ml" 103 2659 2690 "misc.ml" 103 2659 2692
+type(
+  string
+)
+ident(
+  int_ref p2 "misc.ml" 101 2542 2548 "misc.ml" 101 2542 2550
+)
+"misc.ml" 103 2659 2693 "misc.ml" 103 2659 2694
+type(
+  int
+)
+"misc.ml" 103 2659 2669 "misc.ml" 103 2659 2695
+type(
+  bool
+)
+"misc.ml" 103 2659 2663 "misc.ml" 103 2659 2695
+type(
+  unit
+)
+"misc.ml" 104 2697 2705 "misc.ml" 104 2697 2708
+type(
+  string
+)
+ident(
+  def ver "misc.ml" 105 2737 2741 "misc.ml" 108 2907 2930
+)
+"misc.ml" 104 2697 2711 "misc.ml" 104 2697 2728
+type(
+  int -> string -> string
+)
+ident(
+  int_ref Str.matched_group "str.mli" 155 6886 6886 "str.mli" 155 6886 6929
+)
+"misc.ml" 104 2697 2729 "misc.ml" 104 2697 2730
+type(
+  int
+)
+"misc.ml" 104 2697 2731 "misc.ml" 104 2697 2733
+type(
+  string
+)
+ident(
+  int_ref p2 "misc.ml" 101 2542 2548 "misc.ml" 101 2542 2550
+)
+"misc.ml" 104 2697 2711 "misc.ml" 104 2697 2733
+type(
+  string
+)
+"misc.ml" 105 2737 2745 "misc.ml" 105 2737 2752
+type(
+  string
+)
+ident(
+  def dirfile "misc.ml" 106 2781 2785 "misc.ml" 108 2907 2930
+)
+"misc.ml" 105 2737 2755 "misc.ml" 105 2737 2772
+type(
+  int -> string -> string
+)
+ident(
+  int_ref Str.matched_group "str.mli" 155 6886 6886 "str.mli" 155 6886 6929
+)
+"misc.ml" 105 2737 2773 "misc.ml" 105 2737 2774
+type(
+  int
+)
+"misc.ml" 105 2737 2775 "misc.ml" 105 2737 2777
+type(
+  string
+)
+ident(
+  int_ref p2 "misc.ml" 101 2542 2548 "misc.ml" 101 2542 2550
+)
+"misc.ml" 105 2737 2755 "misc.ml" 105 2737 2777
+type(
+  string
+)
+"misc.ml" 106 2781 2789 "misc.ml" 106 2781 2795
+type(
+  string list
+)
+ident(
+  def tokens "misc.ml" 107 2855 2859 "misc.ml" 108 2907 2930
+)
+"misc.ml" 106 2781 2798 "misc.ml" 106 2781 2807
+type(
+  Str.regexp -> string -> string list
+)
+ident(
+  int_ref Str.split "str.mli" 230 10341 10341 "str.mli" 230 10341 10384
+)
+"misc.ml" 106 2781 2809 "misc.ml" 106 2781 2826
+type(
+  string -> Str.regexp
+)
+ident(
+  int_ref Str.regexp_string "str.mli" 78 3796 3796 "str.mli" 78 3796 3832
+)
+"misc.ml" 106 2781 2828 "misc.ml" 106 2781 2837
+type(
+  string -> string
+)
+ident(
+  int_ref Str.quote "str.mli" 74 3675 3675 "str.mli" 74 3675 3703
+)
+"misc.ml" 106 2781 2838 "misc.ml" 106 2781 2841
+type(
+  string
+)
+"misc.ml" 106 2781 2827 "misc.ml" 106 2781 2842
+type(
+  string
+)
+"misc.ml" 106 2781 2808 "misc.ml" 106 2781 2843
+type(
+  Str.regexp
+)
+"misc.ml" 106 2781 2844 "misc.ml" 106 2781 2851
+type(
+  string
+)
+ident(
+  int_ref dirfile "misc.ml" 105 2737 2745 "misc.ml" 105 2737 2752
+)
+"misc.ml" 106 2781 2798 "misc.ml" 106 2781 2851
+type(
+  string list
+)
+"misc.ml" 107 2855 2864 "misc.ml" 107 2855 2867
+type(
+  string
+)
+ident(
+  def sub "misc.ml" 108 2907 2913 "misc.ml" 108 2907 2930
+)
+"misc.ml" 107 2855 2869 "misc.ml" 107 2855 2873
+type(
+  string
+)
+ident(
+  def file "misc.ml" 108 2907 2913 "misc.ml" 108 2907 2930
+)
+"misc.ml" 107 2855 2863 "misc.ml" 107 2855 2874
+type(
+  string * string
+)
+"misc.ml" 107 2855 2877 "misc.ml" 107 2855 2886
+type(
+  int -> string list -> string * string
+)
+ident(
+  int_ref recompose "misc.ml" 91 2265 2273 "misc.ml" 91 2265 2282
+)
+"misc.ml" 107 2855 2888 "misc.ml" 107 2855 2893
+type(
+  int
+)
+ident(
+  int_ref depth "misc.ml" 99 2494 2524 "misc.ml" 99 2494 2529
+)
+"misc.ml" 107 2855 2893 "misc.ml" 107 2855 2894
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 346 13584 13584 "stdlib.mli" 346 13584 13630
+)
+"misc.ml" 107 2855 2894 "misc.ml" 107 2855 2895
+type(
+  int
+)
+"misc.ml" 107 2855 2887 "misc.ml" 107 2855 2896
+type(
+  int
+)
+"misc.ml" 107 2855 2897 "misc.ml" 107 2855 2903
+type(
+  string list
+)
+ident(
+  int_ref tokens "misc.ml" 106 2781 2789 "misc.ml" 106 2781 2795
+)
+"misc.ml" 107 2855 2877 "misc.ml" 107 2855 2903
+type(
+  string * string
+)
+"misc.ml" 108 2907 2914 "misc.ml" 108 2907 2917
+type(
+  string
+)
+ident(
+  int_ref ver "misc.ml" 104 2697 2705 "misc.ml" 104 2697 2708
+)
+"misc.ml" 108 2907 2918 "misc.ml" 108 2907 2919
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 108 2907 2920 "misc.ml" 108 2907 2923
+type(
+  string
+)
+ident(
+  int_ref sub "misc.ml" 107 2855 2864 "misc.ml" 107 2855 2867
+)
+"misc.ml" 108 2907 2914 "misc.ml" 108 2907 2923
+type(
+  string
+)
+"misc.ml" 108 2907 2925 "misc.ml" 108 2907 2929
+type(
+  string
+)
+ident(
+  int_ref file "misc.ml" 107 2855 2869 "misc.ml" 107 2855 2873
+)
+"misc.ml" 108 2907 2913 "misc.ml" 108 2907 2930
+type(
+  string * string
+)
+"misc.ml" 107 2855 2859 "misc.ml" 108 2907 2930
+type(
+  string * string
+)
+"misc.ml" 106 2781 2785 "misc.ml" 108 2907 2930
+type(
+  string * string
+)
+"misc.ml" 105 2737 2741 "misc.ml" 108 2907 2930
+type(
+  string * string
+)
+"misc.ml" 104 2697 2701 "misc.ml" 108 2907 2930
+type(
+  string * string
+)
+"misc.ml" 103 2659 2663 "misc.ml" 108 2907 2930
+type(
+  string * string
+)
+"misc.ml" 102 2609 2611 "misc.ml" 108 2907 2930
+type(
+  string * string
+)
+"misc.ml" 101 2542 2544 "misc.ml" 108 2907 2930
+type(
+  string * string
+)
+"misc.ml" 109 2931 2959 "misc.ml" 109 2931 2960
+type(
+  string
+)
+"misc.ml" 109 2931 2942 "misc.ml" 109 2931 2960
+type(
+  exn
+)
+"misc.ml" 110 2964 2971 "misc.ml" 110 2964 2976
+type(
+  exn -> string * string
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"misc.ml" 110 2964 2985 "misc.ml" 110 2964 3002
+type(
+  string
+)
+"misc.ml" 110 2964 3002 "misc.ml" 110 2964 3003
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 110 2964 3004 "misc.ml" 110 2964 3010
+type(
+  string
+)
+ident(
+  int_ref prefix "misc.ml" 99 2494 2517 "misc.ml" 99 2494 2523
+)
+"misc.ml" 110 2964 3011 "misc.ml" 110 2964 3012
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 110 2964 3013 "misc.ml" 110 2964 3023
+type(
+  string
+)
+"misc.ml" 110 2964 3024 "misc.ml" 110 2964 3025
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 110 2964 3026 "misc.ml" 110 2964 3030
+type(
+  string
+)
+ident(
+  int_ref path "misc.ml" 99 2494 2530 "misc.ml" 99 2494 2534
+)
+"misc.ml" 110 2964 3030 "misc.ml" 110 2964 3031
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 110 2964 3031 "misc.ml" 110 2964 3035
+type(
+  string
+)
+"misc.ml" 110 2964 3035 "misc.ml" 110 2964 3036
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 111 3037 3039 "misc.ml" 111 3037 3075
+type(
+  string
+)
+"misc.ml" 110 2964 3031 "misc.ml" 111 3037 3075
+type(
+  string
+)
+"misc.ml" 110 2964 3026 "misc.ml" 111 3037 3075
+type(
+  string
+)
+"misc.ml" 110 2964 3013 "misc.ml" 111 3037 3075
+type(
+  string
+)
+"misc.ml" 110 2964 3004 "misc.ml" 111 3037 3075
+type(
+  string
+)
+"misc.ml" 110 2964 2984 "misc.ml" 111 3037 3076
+type(
+  string
+)
+"misc.ml" 110 2964 2977 "misc.ml" 111 3037 3077
+type(
+  exn
+)
+"misc.ml" 110 2964 2971 "misc.ml" 111 3037 3077
+type(
+  string * string
+)
+"misc.ml" 100 2537 2538 "misc.ml" 111 3037 3077
+type(
+  string * string
+)
+"misc.ml" 141 3990 3998 "misc.ml" 141 3990 4020
+type(
+  (string * 'a * 'b * 'c) array -> string -> int -> int
+)
+ident(
+  def get_idx_of_version_sub "misc.ml" 141 3990 3990 "misc.ml" 0 0 -1
+)
+"misc.ml" 141 3990 4021 "misc.ml" 141 3990 4026
+type(
+  (string * 'a * 'b * 'c) array
+)
+ident(
+  def vlist "misc.ml" 141 3990 4027 "misc.ml" 149 4196 4216
+)
+"misc.ml" 141 3990 4027 "misc.ml" 141 3990 4028
+type(
+  string
+)
+ident(
+  def v "misc.ml" 141 3990 4029 "misc.ml" 149 4196 4216
+)
+"misc.ml" 141 3990 4029 "misc.ml" 141 3990 4030
+type(
+  int
+)
+ident(
+  def i "misc.ml" 142 4033 4035 "misc.ml" 149 4196 4216
+)
+"misc.ml" 143 4039 4048 "misc.ml" 143 4039 4053
+type(
+  string
+)
+ident(
+  def vname "misc.ml" 144 4085 4089 "misc.ml" 147 4124 4166
+)
+"misc.ml" 143 4039 4054 "misc.ml" 143 4039 4055
+type(
+  'a
+)
+"misc.ml" 143 4039 4056 "misc.ml" 143 4039 4057
+type(
+  'b
+)
+"misc.ml" 143 4039 4059 "misc.ml" 143 4039 4060
+type(
+  'c
+)
+"misc.ml" 143 4039 4047 "misc.ml" 143 4039 4061
+type(
+  string * 'a * 'b * 'c
+)
+"misc.ml" 143 4039 4064 "misc.ml" 143 4039 4073
+type(
+  (string * 'a * 'b * 'c) array -> int -> string * 'a * 'b * 'c
+)
+ident(
+  int_ref Stdlib.Array.get "array.mli" 24 1286 1286 "array.mli" 24 1286 1342
+)
+"misc.ml" 143 4039 4074 "misc.ml" 143 4039 4079
+type(
+  (string * 'a * 'b * 'c) array
+)
+ident(
+  int_ref vlist "misc.ml" 141 3990 4021 "misc.ml" 141 3990 4026
+)
+"misc.ml" 143 4039 4080 "misc.ml" 143 4039 4081
+type(
+  int
+)
+ident(
+  int_ref i "misc.ml" 141 3990 4029 "misc.ml" 141 3990 4030
+)
+"misc.ml" 143 4039 4064 "misc.ml" 143 4039 4081
+type(
+  string * 'a * 'b * 'c
+)
+"misc.ml" 144 4085 4092 "misc.ml" 144 4085 4097
+type(
+  string
+)
+ident(
+  int_ref vname "misc.ml" 143 4039 4048 "misc.ml" 143 4039 4053
+)
+"misc.ml" 144 4085 4098 "misc.ml" 144 4085 4099
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"misc.ml" 144 4085 4100 "misc.ml" 144 4085 4101
+type(
+  string
+)
+ident(
+  int_ref v "misc.ml" 141 3990 4027 "misc.ml" 141 3990 4028
+)
+"misc.ml" 144 4085 4092 "misc.ml" 144 4085 4101
+type(
+  bool
+)
+"misc.ml" 145 4107 4113 "misc.ml" 145 4107 4114
+type(
+  int
+)
+ident(
+  int_ref i "misc.ml" 141 3990 4029 "misc.ml" 141 3990 4030
+)
+"misc.ml" 147 4124 4130 "misc.ml" 147 4124 4152
+type(
+  (string * 'a * 'b * 'c) array -> string -> int -> int
+)
+ident(
+  int_ref get_idx_of_version_sub "misc.ml" 141 3990 3998 "misc.ml" 141 3990 4020
+)
+"misc.ml" 147 4124 4153 "misc.ml" 147 4124 4158
+type(
+  (string * 'a * 'b * 'c) array
+)
+ident(
+  int_ref vlist "misc.ml" 141 3990 4021 "misc.ml" 141 3990 4026
+)
+"misc.ml" 147 4124 4159 "misc.ml" 147 4124 4160
+type(
+  string
+)
+ident(
+  int_ref v "misc.ml" 141 3990 4027 "misc.ml" 141 3990 4028
+)
+"misc.ml" 147 4124 4162 "misc.ml" 147 4124 4163
+type(
+  int
+)
+ident(
+  int_ref i "misc.ml" 141 3990 4029 "misc.ml" 141 3990 4030
+)
+"misc.ml" 147 4124 4163 "misc.ml" 147 4124 4164
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 341 13435 13435 "stdlib.mli" 341 13435 13481
+)
+"misc.ml" 147 4124 4164 "misc.ml" 147 4124 4165
+type(
+  int
+)
+"misc.ml" 147 4124 4161 "misc.ml" 147 4124 4166
+type(
+  int
+)
+"misc.ml" 147 4124 4130 "misc.ml" 147 4124 4166
+type(
+  int
+)
+"misc.ml" 144 4085 4089 "misc.ml" 147 4124 4166
+type(
+  int
+)
+"misc.ml" 143 4039 4043 "misc.ml" 147 4124 4166
+type(
+  int
+)
+"misc.ml" 148 4167 4191 "misc.ml" 148 4167 4192
+type(
+  string
+)
+"misc.ml" 148 4167 4174 "misc.ml" 148 4167 4192
+type(
+  exn
+)
+"misc.ml" 149 4196 4200 "misc.ml" 149 4196 4205
+type(
+  exn -> int
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"misc.ml" 149 4196 4214 "misc.ml" 149 4196 4215
+type(
+  string
+)
+ident(
+  int_ref v "misc.ml" 141 3990 4027 "misc.ml" 141 3990 4028
+)
+"misc.ml" 149 4196 4206 "misc.ml" 149 4196 4216
+type(
+  exn
+)
+"misc.ml" 149 4196 4200 "misc.ml" 149 4196 4216
+type(
+  int
+)
+"misc.ml" 142 4033 4035 "misc.ml" 149 4196 4216
+type(
+  int
+)
+"misc.ml" 151 4218 4222 "misc.ml" 151 4218 4240
+type(
+  (string * 'a * 'b * 'c) array -> string -> int
+)
+ident(
+  def get_idx_of_version "misc.ml" 161 4454 4454 "misc.ml" 0 0 -1
+)
+"misc.ml" 151 4218 4241 "misc.ml" 151 4218 4246
+type(
+  (string * 'a * 'b * 'c) array
+)
+ident(
+  def vlist "misc.ml" 151 4218 4247 "misc.ml" 159 4448 4452
+)
+"misc.ml" 151 4218 4247 "misc.ml" 151 4218 4248
+type(
+  string
+)
+ident(
+  def v "misc.ml" 152 4251 4253 "misc.ml" 159 4448 4452
+)
+"misc.ml" 153 4257 4261 "misc.ml" 153 4257 4283
+type(
+  (string * 'a * 'b * 'c) array -> string -> int -> int
+)
+ident(
+  int_ref get_idx_of_version_sub "misc.ml" 141 3990 3998 "misc.ml" 141 3990 4020
+)
+"misc.ml" 153 4257 4284 "misc.ml" 153 4257 4289
+type(
+  (string * 'a * 'b * 'c) array
+)
+ident(
+  int_ref vlist "misc.ml" 151 4218 4241 "misc.ml" 151 4218 4246
+)
+"misc.ml" 153 4257 4290 "misc.ml" 153 4257 4291
+type(
+  string
+)
+ident(
+  int_ref v "misc.ml" 151 4218 4247 "misc.ml" 151 4218 4248
+)
+"misc.ml" 153 4257 4292 "misc.ml" 153 4257 4293
+type(
+  int
+)
+"misc.ml" 153 4257 4261 "misc.ml" 153 4257 4293
+type(
+  int
+)
+"misc.ml" 154 4294 4308 "misc.ml" 154 4294 4309
+type(
+  string
+)
+ident(
+  def v "misc.ml" 156 4321 4323 "misc.ml" 159 4448 4452
+)
+"misc.ml" 154 4294 4301 "misc.ml" 154 4294 4309
+type(
+  exn
+)
+"misc.ml" 156 4321 4323 "misc.ml" 156 4321 4336
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.prerr_endline "stdlib.mli" 858 31360 31360 "stdlib.mli" 858 31360 31394
+)
+"misc.ml" 156 4321 4338 "misc.ml" 156 4321 4366
+type(
+  string
+)
+"misc.ml" 156 4321 4366 "misc.ml" 156 4321 4367
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 156 4321 4368 "misc.ml" 156 4321 4369
+type(
+  string
+)
+ident(
+  int_ref v "misc.ml" 154 4294 4308 "misc.ml" 154 4294 4309
+)
+"misc.ml" 156 4321 4337 "misc.ml" 156 4321 4370
+type(
+  string
+)
+"misc.ml" 156 4321 4323 "misc.ml" 156 4321 4370
+type(
+  unit
+)
+"misc.ml" 157 4372 4376 "misc.ml" 157 4372 4386
+type(
+  (string * 'a * 'b * 'c -> unit) -> (string * 'a * 'b * 'c) array -> unit
+)
+ident(
+  int_ref Stdlib.Array.iter "array.mli" 139 6298 6298 "array.mli" 139 6298 6341
+)
+"misc.ml" 157 4372 4393 "misc.ml" 157 4372 4394
+type(
+  string
+)
+ident(
+  def x "misc.ml" 157 4372 4408 "misc.ml" 157 4372 4432
+)
+"misc.ml" 157 4372 4396 "misc.ml" 157 4372 4397
+type(
+  'a
+)
+"misc.ml" 157 4372 4399 "misc.ml" 157 4372 4400
+type(
+  'b
+)
+"misc.ml" 157 4372 4402 "misc.ml" 157 4372 4403
+type(
+  'c
+)
+"misc.ml" 157 4372 4392 "misc.ml" 157 4372 4404
+type(
+  string * 'a * 'b * 'c
+)
+"misc.ml" 157 4372 4408 "misc.ml" 157 4372 4421
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.prerr_endline "stdlib.mli" 858 31360 31360 "stdlib.mli" 858 31360 31394
+)
+"misc.ml" 157 4372 4423 "misc.ml" 157 4372 4428
+type(
+  string
+)
+"misc.ml" 157 4372 4428 "misc.ml" 157 4372 4429
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 157 4372 4430 "misc.ml" 157 4372 4431
+type(
+  string
+)
+ident(
+  int_ref x "misc.ml" 157 4372 4393 "misc.ml" 157 4372 4394
+)
+"misc.ml" 157 4372 4422 "misc.ml" 157 4372 4432
+type(
+  string
+)
+"misc.ml" 157 4372 4408 "misc.ml" 157 4372 4432
+type(
+  unit
+)
+"misc.ml" 157 4372 4387 "misc.ml" 157 4372 4433
+type(
+  string * 'a * 'b * 'c -> unit
+)
+"misc.ml" 157 4372 4434 "misc.ml" 157 4372 4439
+type(
+  (string * 'a * 'b * 'c) array
+)
+ident(
+  int_ref vlist "misc.ml" 151 4218 4241 "misc.ml" 151 4218 4246
+)
+"misc.ml" 157 4372 4376 "misc.ml" 157 4372 4439
+type(
+  unit
+)
+"misc.ml" 159 4448 4450 "misc.ml" 159 4448 4452
+type(
+  int
+)
+"misc.ml" 157 4372 4376 "misc.ml" 159 4448 4452
+type(
+  int
+)
+"misc.ml" 156 4321 4323 "misc.ml" 159 4448 4452
+type(
+  int
+)
+"misc.ml" 152 4251 4253 "misc.ml" 159 4448 4452
+type(
+  int
+)
+"misc.ml" 161 4454 4458 "misc.ml" 161 4454 4474
+type(
+  ('a * 'b * 'c * 'd) array -> int -> 'a
+)
+ident(
+  def get_version_name "misc.ml" 165 4546 4546 "misc.ml" 0 0 -1
+)
+"misc.ml" 161 4454 4475 "misc.ml" 161 4454 4480
+type(
+  ('a * 'b * 'c * 'd) array
+)
+ident(
+  def vlist "misc.ml" 161 4454 4481 "misc.ml" 163 4535 4544
+)
+"misc.ml" 161 4454 4481 "misc.ml" 161 4454 4484
+type(
+  int
+)
+ident(
+  def idx "misc.ml" 162 4487 4489 "misc.ml" 163 4535 4544
+)
+"misc.ml" 162 4487 4494 "misc.ml" 162 4487 4499
+type(
+  'a
+)
+ident(
+  def vname "misc.ml" 163 4535 4539 "misc.ml" 163 4535 4544
+)
+"misc.ml" 162 4487 4501 "misc.ml" 162 4487 4502
+type(
+  'b
+)
+"misc.ml" 162 4487 4504 "misc.ml" 162 4487 4505
+type(
+  'c
+)
+"misc.ml" 162 4487 4507 "misc.ml" 162 4487 4508
+type(
+  'd
+)
+"misc.ml" 162 4487 4493 "misc.ml" 162 4487 4509
+type(
+  'a * 'b * 'c * 'd
+)
+"misc.ml" 162 4487 4512 "misc.ml" 162 4487 4521
+type(
+  ('a * 'b * 'c * 'd) array -> int -> 'a * 'b * 'c * 'd
+)
+ident(
+  int_ref Stdlib.Array.get "array.mli" 24 1286 1286 "array.mli" 24 1286 1342
+)
+"misc.ml" 162 4487 4522 "misc.ml" 162 4487 4527
+type(
+  ('a * 'b * 'c * 'd) array
+)
+ident(
+  int_ref vlist "misc.ml" 161 4454 4475 "misc.ml" 161 4454 4480
+)
+"misc.ml" 162 4487 4528 "misc.ml" 162 4487 4531
+type(
+  int
+)
+ident(
+  int_ref idx "misc.ml" 161 4454 4481 "misc.ml" 161 4454 4484
+)
+"misc.ml" 162 4487 4512 "misc.ml" 162 4487 4531
+type(
+  'a * 'b * 'c * 'd
+)
+"misc.ml" 163 4535 4539 "misc.ml" 163 4535 4544
+type(
+  'a
+)
+ident(
+  int_ref vname "misc.ml" 162 4487 4494 "misc.ml" 162 4487 4499
+)
+"misc.ml" 162 4487 4489 "misc.ml" 163 4535 4544
+type(
+  'a
+)
+"misc.ml" 165 4546 4550 "misc.ml" 165 4546 4566
+type(
+  (string * 'a * 'b * 'c) array -> string -> string
+)
+ident(
+  def get_next_version "misc.ml" 175 4820 4820 "misc.ml" 0 0 -1
+)
+"misc.ml" 165 4546 4567 "misc.ml" 165 4546 4572
+type(
+  (string * 'a * 'b * 'c) array
+)
+ident(
+  def vlist "misc.ml" 165 4546 4573 "misc.ml" 169 4664 4695
+)
+"misc.ml" 165 4546 4573 "misc.ml" 165 4546 4574
+type(
+  string
+)
+ident(
+  def v "misc.ml" 166 4577 4579 "misc.ml" 169 4664 4695
+)
+"misc.ml" 167 4583 4591 "misc.ml" 167 4583 4594
+type(
+  int
+)
+ident(
+  def idx "misc.ml" 168 4627 4633 "misc.ml" 168 4627 4663
+)
+"misc.ml" 167 4583 4597 "misc.ml" 167 4583 4615
+type(
+  (string * 'a * 'b * 'c) array -> string -> int
+)
+ident(
+  int_ref get_idx_of_version "misc.ml" 151 4218 4222 "misc.ml" 151 4218 4240
+)
+"misc.ml" 167 4583 4616 "misc.ml" 167 4583 4621
+type(
+  (string * 'a * 'b * 'c) array
+)
+ident(
+  int_ref vlist "misc.ml" 165 4546 4567 "misc.ml" 165 4546 4572
+)
+"misc.ml" 167 4583 4622 "misc.ml" 167 4583 4623
+type(
+  string
+)
+ident(
+  int_ref v "misc.ml" 165 4546 4573 "misc.ml" 165 4546 4574
+)
+"misc.ml" 167 4583 4597 "misc.ml" 167 4583 4623
+type(
+  int
+)
+"misc.ml" 168 4627 4633 "misc.ml" 168 4627 4649
+type(
+  (string * 'a * 'b * 'c) array -> int -> string
+)
+ident(
+  int_ref get_version_name "misc.ml" 161 4454 4458 "misc.ml" 161 4454 4474
+)
+"misc.ml" 168 4627 4650 "misc.ml" 168 4627 4655
+type(
+  (string * 'a * 'b * 'c) array
+)
+ident(
+  int_ref vlist "misc.ml" 165 4546 4567 "misc.ml" 165 4546 4572
+)
+"misc.ml" 168 4627 4657 "misc.ml" 168 4627 4660
+type(
+  int
+)
+ident(
+  int_ref idx "misc.ml" 167 4583 4591 "misc.ml" 167 4583 4594
+)
+"misc.ml" 168 4627 4660 "misc.ml" 168 4627 4661
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 341 13435 13435 "stdlib.mli" 341 13435 13481
+)
+"misc.ml" 168 4627 4661 "misc.ml" 168 4627 4662
+type(
+  int
+)
+"misc.ml" 168 4627 4656 "misc.ml" 168 4627 4663
+type(
+  int
+)
+"misc.ml" 168 4627 4633 "misc.ml" 168 4627 4663
+type(
+  string
+)
+"misc.ml" 167 4583 4587 "misc.ml" 168 4627 4663
+type(
+  string
+)
+"misc.ml" 169 4664 4688 "misc.ml" 169 4664 4689
+type(
+  string
+)
+"misc.ml" 169 4664 4671 "misc.ml" 169 4664 4689
+type(
+  exn
+)
+"misc.ml" 169 4664 4693 "misc.ml" 169 4664 4695
+type(
+  string
+)
+"misc.ml" 166 4577 4579 "misc.ml" 169 4664 4695
+type(
+  string
+)
+"misc.ml" 175 4820 4824 "misc.ml" 175 4820 4838
+type(
+  Unix.tm -> string
+)
+ident(
+  def string_of_date "misc.ml" 181 4984 4984 "misc.ml" 0 0 -1
+)
+"misc.ml" 175 4820 4839 "misc.ml" 175 4820 4841
+type(
+  Unix.tm
+)
+ident(
+  def tm "misc.ml" 176 4844 4846 "misc.ml" 179 4930 4982
+)
+"misc.ml" 176 4844 4850 "misc.ml" 176 4844 4851
+type(
+  int
+)
+ident(
+  def d "misc.ml" 177 4873 4875 "misc.ml" 179 4930 4982
+)
+"misc.ml" 176 4844 4854 "misc.ml" 176 4844 4856
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "misc.ml" 175 4820 4839 "misc.ml" 175 4820 4841
+)
+"misc.ml" 176 4844 4854 "misc.ml" 176 4844 4869
+type(
+  int
+)
+"misc.ml" 177 4873 4879 "misc.ml" 177 4873 4880
+type(
+  int
+)
+ident(
+  def m "misc.ml" 178 4901 4903 "misc.ml" 179 4930 4982
+)
+"misc.ml" 177 4873 4883 "misc.ml" 177 4873 4885
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "misc.ml" 175 4820 4839 "misc.ml" 175 4820 4841
+)
+"misc.ml" 177 4873 4883 "misc.ml" 177 4873 4897
+type(
+  int
+)
+"misc.ml" 178 4901 4907 "misc.ml" 178 4901 4908
+type(
+  int
+)
+ident(
+  def y "misc.ml" 179 4930 4934 "misc.ml" 179 4930 4982
+)
+"misc.ml" 178 4901 4911 "misc.ml" 178 4901 4913
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "misc.ml" 175 4820 4839 "misc.ml" 175 4820 4841
+)
+"misc.ml" 178 4901 4911 "misc.ml" 178 4901 4926
+type(
+  int
+)
+"misc.ml" 179 4930 4934 "misc.ml" 179 4930 4948
+type(
+  (int -> int -> int -> string, unit, string) format ->
+  int -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"misc.ml" 179 4930 4949 "misc.ml" 179 4930 4965
+type(
+  (int -> int -> int -> string, unit, string) format
+)
+"misc.ml" 179 4930 4967 "misc.ml" 179 4930 4968
+type(
+  int
+)
+ident(
+  int_ref m "misc.ml" 177 4873 4879 "misc.ml" 177 4873 4880
+)
+"misc.ml" 179 4930 4968 "misc.ml" 179 4930 4969
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 341 13435 13435 "stdlib.mli" 341 13435 13481
+)
+"misc.ml" 179 4930 4969 "misc.ml" 179 4930 4970
+type(
+  int
+)
+"misc.ml" 179 4930 4966 "misc.ml" 179 4930 4971
+type(
+  int
+)
+"misc.ml" 179 4930 4972 "misc.ml" 179 4930 4973
+type(
+  int
+)
+ident(
+  int_ref d "misc.ml" 176 4844 4850 "misc.ml" 176 4844 4851
+)
+"misc.ml" 179 4930 4975 "misc.ml" 179 4930 4976
+type(
+  int
+)
+ident(
+  int_ref y "misc.ml" 178 4901 4907 "misc.ml" 178 4901 4908
+)
+"misc.ml" 179 4930 4976 "misc.ml" 179 4930 4977
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 341 13435 13435 "stdlib.mli" 341 13435 13481
+)
+"misc.ml" 179 4930 4977 "misc.ml" 179 4930 4981
+type(
+  int
+)
+"misc.ml" 179 4930 4974 "misc.ml" 179 4930 4982
+type(
+  int
+)
+"misc.ml" 179 4930 4934 "misc.ml" 179 4930 4982
+type(
+  string
+)
+"misc.ml" 178 4901 4903 "misc.ml" 179 4930 4982
+type(
+  string
+)
+"misc.ml" 177 4873 4875 "misc.ml" 179 4930 4982
+type(
+  string
+)
+"misc.ml" 176 4844 4846 "misc.ml" 179 4930 4982
+type(
+  string
+)
+"misc.ml" 181 4984 4988 "misc.ml" 181 4984 4999
+type(
+  Unix.tm -> int
+)
+ident(
+  def get_year_of "misc.ml" 188 5152 5152 "misc.ml" 0 0 -1
+)
+"misc.ml" 181 4984 5000 "misc.ml" 181 4984 5002
+type(
+  Unix.tm
+)
+ident(
+  def tm "misc.ml" 182 5005 5007 "misc.ml" 182 5005 5029
+)
+"misc.ml" 182 5005 5007 "misc.ml" 182 5005 5009
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "misc.ml" 181 4984 5000 "misc.ml" 181 4984 5002
+)
+"misc.ml" 182 5005 5007 "misc.ml" 182 5005 5022
+type(
+  int
+)
+"misc.ml" 182 5005 5023 "misc.ml" 182 5005 5024
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 341 13435 13435 "stdlib.mli" 341 13435 13481
+)
+"misc.ml" 182 5005 5025 "misc.ml" 182 5005 5029
+type(
+  int
+)
+"misc.ml" 182 5005 5007 "misc.ml" 182 5005 5029
+type(
+  int
+)
+"misc.ml" 188 5152 5156 "misc.ml" 188 5152 5167
+type(
+  'a list -> 'a list
+)
+ident(
+  def unique_list "misc.ml" 196 5281 5281 "misc.ml" 0 0 -1
+)
+"misc.ml" 188 5152 5168 "misc.ml" 188 5152 5172
+type(
+  'a list
+)
+ident(
+  def list "misc.ml" 189 5175 5177 "misc.ml" 194 5267 5279
+)
+"misc.ml" 189 5175 5177 "misc.ml" 189 5175 5191
+type(
+  ('a list -> 'a -> 'a list) -> 'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 157 5882 5882 "list.mli" 157 5882 5937
+)
+"misc.ml" 189 5175 5197 "misc.ml" 189 5175 5198
+type(
+  'a list
+)
+ident(
+  def u "misc.ml" 189 5175 5199 "misc.ml" 193 5252 5266
+)
+"misc.ml" 189 5175 5199 "misc.ml" 189 5175 5200
+type(
+  'a
+)
+ident(
+  def e "misc.ml" 190 5204 5210 "misc.ml" 193 5252 5266
+)
+"misc.ml" 190 5204 5213 "misc.ml" 190 5204 5221
+type(
+  'a -> 'a list -> bool
+)
+ident(
+  int_ref Stdlib.List.mem "list.mli" 224 8487 8487 "list.mli" 224 8487 8518
+)
+"misc.ml" 190 5204 5222 "misc.ml" 190 5204 5223
+type(
+  'a
+)
+ident(
+  int_ref e "misc.ml" 189 5175 5199 "misc.ml" 189 5175 5200
+)
+"misc.ml" 190 5204 5224 "misc.ml" 190 5204 5225
+type(
+  'a list
+)
+ident(
+  int_ref u "misc.ml" 189 5175 5197 "misc.ml" 189 5175 5198
+)
+"misc.ml" 190 5204 5213 "misc.ml" 190 5204 5225
+type(
+  bool
+)
+"misc.ml" 191 5231 5239 "misc.ml" 191 5231 5240
+type(
+  'a list
+)
+ident(
+  int_ref u "misc.ml" 189 5175 5197 "misc.ml" 189 5175 5198
+)
+"misc.ml" 193 5252 5260 "misc.ml" 193 5252 5261
+type(
+  'a
+)
+ident(
+  int_ref e "misc.ml" 189 5175 5199 "misc.ml" 189 5175 5200
+)
+"misc.ml" 193 5252 5265 "misc.ml" 193 5252 5266
+type(
+  'a list
+)
+ident(
+  int_ref u "misc.ml" 189 5175 5197 "misc.ml" 189 5175 5198
+)
+"misc.ml" 193 5252 5260 "misc.ml" 193 5252 5266
+type(
+  'a list
+)
+"misc.ml" 190 5204 5210 "misc.ml" 193 5252 5266
+type(
+  'a list
+)
+"misc.ml" 189 5175 5192 "misc.ml" 194 5267 5271
+type(
+  'a list -> 'a -> 'a list
+)
+"misc.ml" 194 5267 5272 "misc.ml" 194 5267 5274
+type(
+  'a list
+)
+"misc.ml" 194 5267 5275 "misc.ml" 194 5267 5279
+type(
+  'a list
+)
+ident(
+  int_ref list "misc.ml" 188 5152 5168 "misc.ml" 188 5152 5172
+)
+"misc.ml" 189 5175 5177 "misc.ml" 194 5267 5279
+type(
+  'a list
+)
+"misc.ml" 196 5281 5285 "misc.ml" 196 5281 5295
+type(
+  'a option list -> 'a list
+)
+ident(
+  def filter_opt "misc.ml" 207 5544 5544 "misc.ml" 0 0 -1
+)
+"misc.ml" 196 5281 5296 "misc.ml" 196 5281 5303
+type(
+  'a option list
+)
+ident(
+  def optlist "misc.ml" 197 5306 5308 "misc.ml" 201 5405 5420
+)
+"misc.ml" 197 5306 5308 "misc.ml" 197 5306 5322
+type(
+  ('a list -> 'a option -> 'a list) -> 'a list -> 'a option list -> 'a list
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 157 5882 5882 "list.mli" 157 5882 5937
+)
+"misc.ml" 197 5306 5328 "misc.ml" 197 5306 5332
+type(
+  'a list
+)
+ident(
+  def good "misc.ml" 197 5306 5333 "misc.ml" 200 5377 5404
+)
+"misc.ml" 197 5306 5333 "misc.ml" 197 5306 5336
+type(
+  'a option
+)
+ident(
+  def opt "misc.ml" 198 5340 5346 "misc.ml" 200 5377 5404
+)
+"misc.ml" 198 5340 5352 "misc.ml" 198 5340 5355
+type(
+  'a option
+)
+ident(
+  int_ref opt "misc.ml" 197 5306 5333 "misc.ml" 197 5306 5336
+)
+"misc.ml" 199 5361 5364 "misc.ml" 199 5361 5368
+type(
+  'a option
+)
+type(
+  'a option
+)
+"misc.ml" 199 5361 5372 "misc.ml" 199 5361 5376
+type(
+  'a list
+)
+ident(
+  int_ref good "misc.ml" 197 5306 5328 "misc.ml" 197 5306 5332
+)
+"misc.ml" 200 5377 5392 "misc.ml" 200 5377 5393
+type(
+  'a
+)
+ident(
+  def a "misc.ml" 200 5377 5397 "misc.ml" 200 5377 5404
+)
+"misc.ml" 200 5377 5387 "misc.ml" 200 5377 5393
+type(
+  'a option
+)
+type(
+  'a option
+)
+"misc.ml" 200 5377 5397 "misc.ml" 200 5377 5398
+type(
+  'a
+)
+ident(
+  int_ref a "misc.ml" 200 5377 5392 "misc.ml" 200 5377 5393
+)
+"misc.ml" 200 5377 5400 "misc.ml" 200 5377 5404
+type(
+  'a list
+)
+ident(
+  int_ref good "misc.ml" 197 5306 5328 "misc.ml" 197 5306 5332
+)
+"misc.ml" 200 5377 5397 "misc.ml" 200 5377 5404
+type(
+  'a list
+)
+"misc.ml" 198 5340 5346 "misc.ml" 200 5377 5404
+type(
+  'a list
+)
+"misc.ml" 197 5306 5323 "misc.ml" 201 5405 5409
+type(
+  'a list -> 'a option -> 'a list
+)
+"misc.ml" 201 5405 5410 "misc.ml" 201 5405 5412
+type(
+  'a list
+)
+"misc.ml" 201 5405 5413 "misc.ml" 201 5405 5420
+type(
+  'a option list
+)
+ident(
+  int_ref optlist "misc.ml" 196 5281 5296 "misc.ml" 196 5281 5303
+)
+"misc.ml" 197 5306 5308 "misc.ml" 201 5405 5420
+type(
+  'a list
+)
+"misc.ml" 207 5544 5548 "misc.ml" 207 5544 5553
+type(
+  string -> string -> unit
+)
+ident(
+  def touch "misc.ml" 224 6032 6032 "misc.ml" 0 0 -1
+)
+"misc.ml" 207 5544 5554 "misc.ml" 207 5544 5560
+type(
+  string
+)
+ident(
+  def prefix "misc.ml" 207 5544 5561 "misc.ml" 209 5611 5627
+)
+"misc.ml" 207 5544 5561 "misc.ml" 207 5544 5565
+type(
+  string
+)
+ident(
+  def file "misc.ml" 208 5568 5570 "misc.ml" 209 5611 5627
+)
+"misc.ml" 208 5568 5574 "misc.ml" 208 5568 5576
+type(
+  out_channel
+)
+ident(
+  def ch "misc.ml" 209 5611 5615 "misc.ml" 209 5611 5627
+)
+"misc.ml" 208 5568 5579 "misc.ml" 208 5568 5587
+type(
+  string -> out_channel
+)
+ident(
+  int_ref Stdlib.open_out "stdlib.mli" 915 33380 33380 "stdlib.mli" 915 33380 33416
+)
+"misc.ml" 208 5568 5589 "misc.ml" 208 5568 5595
+type(
+  string
+)
+ident(
+  int_ref prefix "misc.ml" 207 5544 5554 "misc.ml" 207 5544 5560
+)
+"misc.ml" 208 5568 5596 "misc.ml" 208 5568 5597
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 208 5568 5598 "misc.ml" 208 5568 5601
+type(
+  string
+)
+"misc.ml" 208 5568 5601 "misc.ml" 208 5568 5602
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 208 5568 5602 "misc.ml" 208 5568 5606
+type(
+  string
+)
+ident(
+  int_ref file "misc.ml" 207 5544 5561 "misc.ml" 207 5544 5565
+)
+"misc.ml" 208 5568 5598 "misc.ml" 208 5568 5606
+type(
+  string
+)
+"misc.ml" 208 5568 5588 "misc.ml" 208 5568 5607
+type(
+  string
+)
+"misc.ml" 208 5568 5579 "misc.ml" 208 5568 5607
+type(
+  out_channel
+)
+"misc.ml" 209 5611 5615 "misc.ml" 209 5611 5624
+type(
+  out_channel -> unit
+)
+ident(
+  int_ref Stdlib.close_out "stdlib.mli" 1002 37215 37215 "stdlib.mli" 1002 37215 37250
+)
+"misc.ml" 209 5611 5625 "misc.ml" 209 5611 5627
+type(
+  out_channel
+)
+ident(
+  int_ref ch "misc.ml" 208 5568 5574 "misc.ml" 208 5568 5576
+)
+"misc.ml" 209 5611 5615 "misc.ml" 209 5611 5627
+type(
+  unit
+)
+"misc.ml" 208 5568 5570 "misc.ml" 209 5611 5627
+type(
+  unit
+)
+"misc.ml" 224 6032 6040 "misc.ml" 224 6032 6050
+type(
+  bool -> string -> unit
+)
+ident(
+  def create_dir "misc.ml" 224 6032 6032 "misc.ml" 0 0 -1
+)
+"misc.ml" 224 6032 6051 "misc.ml" 224 6032 6058
+type(
+  bool
+)
+ident(
+  def verbose "misc.ml" 224 6032 6059 "misc.ml" 234 6349 6415
+)
+"misc.ml" 224 6032 6059 "misc.ml" 224 6032 6066
+type(
+  string
+)
+ident(
+  def dirname "misc.ml" 225 6069 6071 "misc.ml" 234 6349 6415
+)
+"misc.ml" 226 6075 6083 "misc.ml" 226 6075 6085
+type(
+  Unix.dir_handle
+)
+ident(
+  def ok "misc.ml" 227 6112 6118 "misc.ml" 227 6112 6134
+)
+"misc.ml" 226 6075 6088 "misc.ml" 226 6075 6100
+type(
+  string -> Unix.dir_handle
+)
+ident(
+  int_ref Unix.opendir "unix.mli" 724 30388 30388 "unix.mli" 724 30388 30422
+)
+"misc.ml" 226 6075 6101 "misc.ml" 226 6075 6108
+type(
+  string
+)
+ident(
+  int_ref dirname "misc.ml" 224 6032 6059 "misc.ml" 224 6032 6066
+)
+"misc.ml" 226 6075 6088 "misc.ml" 226 6075 6108
+type(
+  Unix.dir_handle
+)
+"misc.ml" 227 6112 6118 "misc.ml" 227 6112 6131
+type(
+  Unix.dir_handle -> unit
+)
+ident(
+  int_ref Unix.closedir "unix.mli" 734 30718 30718 "unix.mli" 734 30718 30751
+)
+"misc.ml" 227 6112 6132 "misc.ml" 227 6112 6134
+type(
+  Unix.dir_handle
+)
+ident(
+  int_ref ok "misc.ml" 226 6075 6083 "misc.ml" 226 6075 6085
+)
+"misc.ml" 227 6112 6118 "misc.ml" 227 6112 6134
+type(
+  unit
+)
+"misc.ml" 226 6075 6079 "misc.ml" 227 6112 6134
+type(
+  unit
+)
+"misc.ml" 228 6135 6158 "misc.ml" 228 6135 6159
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Unix.error
+)
+"misc.ml" 228 6135 6142 "misc.ml" 228 6135 6159
+type(
+  exn
+)
+"misc.ml" 229 6163 6170 "misc.ml" 229 6163 6177
+type(
+  bool
+)
+ident(
+  int_ref verbose "misc.ml" 224 6032 6051 "misc.ml" 224 6032 6058
+)
+"misc.ml" 229 6163 6183 "misc.ml" 229 6163 6196
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.prerr_endline "stdlib.mli" 858 31360 31360 "stdlib.mli" 858 31360 31394
+)
+"misc.ml" 229 6163 6198 "misc.ml" 229 6163 6219
+type(
+  string
+)
+"misc.ml" 229 6163 6219 "misc.ml" 229 6163 6220
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 229 6163 6220 "misc.ml" 229 6163 6227
+type(
+  string
+)
+ident(
+  int_ref dirname "misc.ml" 224 6032 6059 "misc.ml" 224 6032 6066
+)
+"misc.ml" 229 6163 6197 "misc.ml" 229 6163 6228
+type(
+  string
+)
+"misc.ml" 229 6163 6183 "misc.ml" 229 6163 6228
+type(
+  unit
+)
+"misc.ml" 229 6163 6167 "misc.ml" 229 6163 6228
+type(
+  unit
+)
+"misc.ml" 230 6230 6238 "misc.ml" 230 6230 6244
+type(
+  Unix.process_status
+)
+ident(
+  def status "misc.ml" 231 6285 6291 "misc.ml" 234 6349 6415
+)
+"misc.ml" 230 6230 6247 "misc.ml" 230 6230 6258
+type(
+  string -> Unix.process_status
+)
+ident(
+  int_ref Unix.system "unix.mli" 233 10226 10226 "unix.mli" 233 10226 10263
+)
+"misc.ml" 230 6230 6260 "misc.ml" 230 6230 6271
+type(
+  string
+)
+"misc.ml" 230 6230 6271 "misc.ml" 230 6230 6272
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 230 6230 6273 "misc.ml" 230 6230 6280
+type(
+  string
+)
+ident(
+  int_ref dirname "misc.ml" 224 6032 6059 "misc.ml" 224 6032 6066
+)
+"misc.ml" 230 6230 6259 "misc.ml" 230 6230 6281
+type(
+  string
+)
+"misc.ml" 230 6230 6247 "misc.ml" 230 6230 6281
+type(
+  Unix.process_status
+)
+"misc.ml" 231 6285 6297 "misc.ml" 231 6285 6303
+type(
+  Unix.process_status
+)
+ident(
+  int_ref status "misc.ml" 230 6230 6238 "misc.ml" 230 6230 6244
+)
+"misc.ml" 232 6309 6325 "misc.ml" 232 6309 6326
+type(
+  int
+)
+"misc.ml" 232 6309 6312 "misc.ml" 232 6309 6326
+type(
+  Unix.process_status
+)
+type(
+  Unix.process_status
+)
+"misc.ml" 232 6309 6330 "misc.ml" 232 6309 6332
+type(
+  unit
+)
+"misc.ml" 233 6333 6336 "misc.ml" 233 6333 6337
+type(
+  Unix.process_status
+)
+type(
+  Unix.process_status
+)
+"misc.ml" 234 6349 6354 "misc.ml" 234 6349 6367
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.prerr_endline "stdlib.mli" 858 31360 31360 "stdlib.mli" 858 31360 31394
+)
+"misc.ml" 234 6349 6369 "misc.ml" 234 6349 6390
+type(
+  string
+)
+"misc.ml" 234 6349 6390 "misc.ml" 234 6349 6391
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 234 6349 6391 "misc.ml" 234 6349 6398
+type(
+  string
+)
+ident(
+  int_ref dirname "misc.ml" 224 6032 6059 "misc.ml" 224 6032 6066
+)
+"misc.ml" 234 6349 6398 "misc.ml" 234 6349 6399
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 234 6349 6399 "misc.ml" 234 6349 6414
+type(
+  string
+)
+"misc.ml" 234 6349 6391 "misc.ml" 234 6349 6414
+type(
+  string
+)
+"misc.ml" 234 6349 6368 "misc.ml" 234 6349 6415
+type(
+  string
+)
+"misc.ml" 234 6349 6354 "misc.ml" 234 6349 6415
+type(
+  unit
+)
+"misc.ml" 231 6285 6291 "misc.ml" 234 6349 6415
+type(
+  unit
+)
+"misc.ml" 230 6230 6234 "misc.ml" 234 6349 6415
+type(
+  unit
+)
+"misc.ml" 229 6163 6167 "misc.ml" 234 6349 6415
+type(
+  unit
+)
+"misc.ml" 225 6069 6071 "misc.ml" 234 6349 6415
+type(
+  unit
+)
+"misc.ml" 236 6417 6421 "misc.ml" 236 6417 6440
+type(
+  bool -> string -> out_channel
+)
+ident(
+  def create_dir_and_open "misc.ml" 242 6579 6579 "misc.ml" 0 0 -1
+)
+"misc.ml" 236 6417 6441 "misc.ml" 236 6417 6442
+type(
+  bool
+)
+ident(
+  def v "misc.ml" 236 6417 6443 "misc.ml" 240 6568 6577
+)
+"misc.ml" 236 6417 6443 "misc.ml" 236 6417 6451
+type(
+  string
+)
+ident(
+  def filename "misc.ml" 237 6454 6456 "misc.ml" 240 6568 6577
+)
+"misc.ml" 237 6454 6460 "misc.ml" 237 6454 6467
+type(
+  string
+)
+ident(
+  def dirpath "misc.ml" 238 6499 6501 "misc.ml" 240 6568 6577
+)
+"misc.ml" 237 6454 6470 "misc.ml" 237 6454 6486
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.Filename.dirname "filename.mli" 116 4610 4610 "filename.mli" 116 4610 4640
+)
+"misc.ml" 237 6454 6487 "misc.ml" 237 6454 6495
+type(
+  string
+)
+ident(
+  int_ref filename "misc.ml" 236 6417 6443 "misc.ml" 236 6417 6451
+)
+"misc.ml" 237 6454 6470 "misc.ml" 237 6454 6495
+type(
+  string
+)
+"misc.ml" 238 6499 6505 "misc.ml" 238 6499 6506
+type(
+  unit
+)
+"misc.ml" 238 6499 6509 "misc.ml" 238 6499 6519
+type(
+  bool -> string -> unit
+)
+ident(
+  int_ref create_dir "misc.ml" 224 6032 6040 "misc.ml" 224 6032 6050
+)
+"misc.ml" 238 6499 6520 "misc.ml" 238 6499 6521
+type(
+  bool
+)
+ident(
+  int_ref v "misc.ml" 236 6417 6441 "misc.ml" 236 6417 6442
+)
+"misc.ml" 238 6499 6522 "misc.ml" 238 6499 6529
+type(
+  string
+)
+ident(
+  int_ref dirpath "misc.ml" 237 6454 6460 "misc.ml" 237 6454 6467
+)
+"misc.ml" 238 6499 6509 "misc.ml" 238 6499 6529
+type(
+  unit
+)
+"misc.ml" 239 6533 6539 "misc.ml" 239 6533 6544
+type(
+  out_channel
+)
+ident(
+  def outch "misc.ml" 240 6568 6572 "misc.ml" 240 6568 6577
+)
+"misc.ml" 239 6533 6547 "misc.ml" 239 6533 6555
+type(
+  string -> out_channel
+)
+ident(
+  int_ref Stdlib.open_out "stdlib.mli" 915 33380 33380 "stdlib.mli" 915 33380 33416
+)
+"misc.ml" 239 6533 6556 "misc.ml" 239 6533 6564
+type(
+  string
+)
+ident(
+  int_ref filename "misc.ml" 236 6417 6443 "misc.ml" 236 6417 6451
+)
+"misc.ml" 239 6533 6547 "misc.ml" 239 6533 6564
+type(
+  out_channel
+)
+"misc.ml" 240 6568 6572 "misc.ml" 240 6568 6577
+type(
+  out_channel
+)
+ident(
+  int_ref outch "misc.ml" 239 6533 6539 "misc.ml" 239 6533 6544
+)
+"misc.ml" 239 6533 6535 "misc.ml" 240 6568 6577
+type(
+  out_channel
+)
+"misc.ml" 238 6499 6501 "misc.ml" 240 6568 6577
+type(
+  out_channel
+)
+"misc.ml" 237 6454 6456 "misc.ml" 240 6568 6577
+type(
+  out_channel
+)
+"misc.ml" 242 6579 6583 "misc.ml" 242 6579 6601
+type(
+  string -> string -> string -> string
+)
+ident(
+  def get_canonical_name "misc.ml" 254 7010 7010 "misc.ml" 0 0 -1
+)
+"misc.ml" 242 6579 6602 "misc.ml" 242 6579 6608
+type(
+  string
+)
+ident(
+  def prefix "misc.ml" 242 6579 6609 "misc.ml" 250 6864 6936
+)
+"misc.ml" 242 6579 6609 "misc.ml" 242 6579 6612
+type(
+  string
+)
+ident(
+  def ver "misc.ml" 242 6579 6613 "misc.ml" 250 6864 6936
+)
+"misc.ml" 242 6579 6613 "misc.ml" 242 6579 6621
+type(
+  string
+)
+ident(
+  def filename "misc.ml" 243 6624 6626 "misc.ml" 250 6864 6936
+)
+"misc.ml" 243 6624 6630 "misc.ml" 243 6624 6634
+type(
+  string
+)
+ident(
+  def base "misc.ml" 244 6659 6661 "misc.ml" 250 6864 6936
+)
+"misc.ml" 243 6624 6637 "misc.ml" 243 6624 6643
+type(
+  string
+)
+ident(
+  int_ref prefix "misc.ml" 242 6579 6602 "misc.ml" 242 6579 6608
+)
+"misc.ml" 243 6624 6644 "misc.ml" 243 6624 6645
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 243 6624 6646 "misc.ml" 243 6624 6649
+type(
+  string
+)
+ident(
+  int_ref ver "misc.ml" 242 6579 6609 "misc.ml" 242 6579 6612
+)
+"misc.ml" 243 6624 6650 "misc.ml" 243 6624 6651
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 243 6624 6652 "misc.ml" 243 6624 6655
+type(
+  string
+)
+"misc.ml" 243 6624 6646 "misc.ml" 243 6624 6655
+type(
+  string
+)
+"misc.ml" 243 6624 6637 "misc.ml" 243 6624 6655
+type(
+  string
+)
+"misc.ml" 244 6659 6665 "misc.ml" 244 6659 6669
+type(
+  string
+)
+ident(
+  def file "misc.ml" 245 6690 6692 "misc.ml" 250 6864 6936
+)
+"misc.ml" 244 6659 6672 "misc.ml" 244 6659 6676
+type(
+  string
+)
+ident(
+  int_ref base "misc.ml" 243 6624 6630 "misc.ml" 243 6624 6634
+)
+"misc.ml" 244 6659 6677 "misc.ml" 244 6659 6678
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 244 6659 6678 "misc.ml" 244 6659 6686
+type(
+  string
+)
+ident(
+  int_ref filename "misc.ml" 242 6579 6613 "misc.ml" 242 6579 6621
+)
+"misc.ml" 244 6659 6672 "misc.ml" 244 6659 6686
+type(
+  string
+)
+"misc.ml" 245 6690 6696 "misc.ml" 245 6690 6699
+type(
+  string
+)
+ident(
+  def cwd "misc.ml" 246 6719 6721 "misc.ml" 250 6864 6936
+)
+"misc.ml" 245 6690 6702 "misc.ml" 245 6690 6712
+type(
+  unit -> string
+)
+ident(
+  int_ref Stdlib.Sys.getcwd "sys.mli" 97 4449 4449 "sys.mli" 97 4449 4501
+)
+"misc.ml" 245 6690 6713 "misc.ml" 245 6690 6715
+type(
+  unit
+)
+"misc.ml" 245 6690 6702 "misc.ml" 245 6690 6715
+type(
+  string
+)
+"misc.ml" 246 6719 6725 "misc.ml" 246 6719 6728
+type(
+  string
+)
+ident(
+  def dir "misc.ml" 247 6756 6758 "misc.ml" 250 6864 6936
+)
+"misc.ml" 246 6719 6731 "misc.ml" 246 6719 6747
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.Filename.dirname "filename.mli" 116 4610 4610 "filename.mli" 116 4610 4640
+)
+"misc.ml" 246 6719 6748 "misc.ml" 246 6719 6752
+type(
+  string
+)
+ident(
+  int_ref file "misc.ml" 244 6659 6665 "misc.ml" 244 6659 6669
+)
+"misc.ml" 246 6719 6731 "misc.ml" 246 6719 6752
+type(
+  string
+)
+"misc.ml" 247 6756 6762 "misc.ml" 247 6756 6770
+type(
+  string
+)
+ident(
+  def filebase "misc.ml" 248 6799 6801 "misc.ml" 250 6864 6936
+)
+"misc.ml" 247 6756 6773 "misc.ml" 247 6756 6790
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.Filename.basename "filename.mli" 105 4062 4062 "filename.mli" 105 4062 4093
+)
+"misc.ml" 247 6756 6791 "misc.ml" 247 6756 6795
+type(
+  string
+)
+ident(
+  int_ref file "misc.ml" 244 6659 6665 "misc.ml" 244 6659 6669
+)
+"misc.ml" 247 6756 6773 "misc.ml" 247 6756 6795
+type(
+  string
+)
+"misc.ml" 248 6799 6805 "misc.ml" 248 6799 6809
+type(
+  string
+)
+ident(
+  def cdir "misc.ml" 249 6845 6849 "misc.ml" 250 6864 6936
+)
+"misc.ml" 248 6799 6812 "misc.ml" 248 6799 6821
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Sys.chdir "sys.mli" 94 4337 4337 "sys.mli" 94 4337 4387
+)
+"misc.ml" 248 6799 6822 "misc.ml" 248 6799 6825
+type(
+  string
+)
+ident(
+  int_ref dir "misc.ml" 246 6719 6725 "misc.ml" 246 6719 6728
+)
+"misc.ml" 248 6799 6812 "misc.ml" 248 6799 6825
+type(
+  unit
+)
+"misc.ml" 248 6799 6828 "misc.ml" 248 6799 6838
+type(
+  unit -> string
+)
+ident(
+  int_ref Stdlib.Sys.getcwd "sys.mli" 97 4449 4449 "sys.mli" 97 4449 4501
+)
+"misc.ml" 248 6799 6839 "misc.ml" 248 6799 6841
+type(
+  unit
+)
+"misc.ml" 248 6799 6828 "misc.ml" 248 6799 6841
+type(
+  string
+)
+"misc.ml" 248 6799 6812 "misc.ml" 248 6799 6841
+type(
+  string
+)
+"misc.ml" 249 6845 6849 "misc.ml" 249 6845 6858
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Sys.chdir "sys.mli" 94 4337 4337 "sys.mli" 94 4337 4387
+)
+"misc.ml" 249 6845 6859 "misc.ml" 249 6845 6862
+type(
+  string
+)
+ident(
+  int_ref cwd "misc.ml" 245 6690 6696 "misc.ml" 245 6690 6699
+)
+"misc.ml" 249 6845 6849 "misc.ml" 249 6845 6862
+type(
+  unit
+)
+"misc.ml" 250 6864 6869 "misc.ml" 250 6864 6886
+type(
+  Str.regexp -> string -> string -> string
+)
+ident(
+  int_ref Str.replace_first "str.mli" 202 9105 9105 "str.mli" 202 9105 9161
+)
+"misc.ml" 250 6864 6888 "misc.ml" 250 6864 6905
+type(
+  string -> Str.regexp
+)
+ident(
+  int_ref Str.regexp_string "str.mli" 78 3796 3796 "str.mli" 78 3796 3832
+)
+"misc.ml" 250 6864 6906 "misc.ml" 250 6864 6910
+type(
+  string
+)
+ident(
+  int_ref base "misc.ml" 243 6624 6630 "misc.ml" 243 6624 6634
+)
+"misc.ml" 250 6864 6887 "misc.ml" 250 6864 6911
+type(
+  Str.regexp
+)
+"misc.ml" 250 6864 6912 "misc.ml" 250 6864 6914
+type(
+  string
+)
+"misc.ml" 250 6864 6915 "misc.ml" 250 6864 6919
+type(
+  string
+)
+ident(
+  int_ref cdir "misc.ml" 248 6799 6805 "misc.ml" 248 6799 6809
+)
+"misc.ml" 250 6864 6868 "misc.ml" 250 6864 6920
+type(
+  string
+)
+"misc.ml" 250 6864 6921 "misc.ml" 250 6864 6922
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 250 6864 6923 "misc.ml" 250 6864 6926
+type(
+  string
+)
+"misc.ml" 250 6864 6927 "misc.ml" 250 6864 6928
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 250 6864 6928 "misc.ml" 250 6864 6936
+type(
+  string
+)
+ident(
+  int_ref filebase "misc.ml" 247 6756 6762 "misc.ml" 247 6756 6770
+)
+"misc.ml" 250 6864 6923 "misc.ml" 250 6864 6936
+type(
+  string
+)
+"misc.ml" 250 6864 6868 "misc.ml" 250 6864 6936
+type(
+  string
+)
+"misc.ml" 249 6845 6849 "misc.ml" 250 6864 6936
+type(
+  string
+)
+"misc.ml" 248 6799 6801 "misc.ml" 250 6864 6936
+type(
+  string
+)
+"misc.ml" 247 6756 6758 "misc.ml" 250 6864 6936
+type(
+  string
+)
+"misc.ml" 246 6719 6721 "misc.ml" 250 6864 6936
+type(
+  string
+)
+"misc.ml" 245 6690 6692 "misc.ml" 250 6864 6936
+type(
+  string
+)
+"misc.ml" 244 6659 6661 "misc.ml" 250 6864 6936
+type(
+  string
+)
+"misc.ml" 243 6624 6626 "misc.ml" 250 6864 6936
+type(
+  string
+)
+"misc.ml" 254 7010 7014 "misc.ml" 254 7010 7027
+type(
+  float * float * float -> string
+)
+ident(
+  def string_of_rgb "misc.ml" 257 7110 7110 "misc.ml" 0 0 -1
+)
+"misc.ml" 254 7010 7029 "misc.ml" 254 7010 7030
+type(
+  float
+)
+ident(
+  def r "misc.ml" 255 7038 7040 "misc.ml" 255 7038 7108
+)
+"misc.ml" 254 7010 7031 "misc.ml" 254 7010 7032
+type(
+  float
+)
+ident(
+  def g "misc.ml" 255 7038 7040 "misc.ml" 255 7038 7108
+)
+"misc.ml" 254 7010 7033 "misc.ml" 254 7010 7034
+type(
+  float
+)
+ident(
+  def b "misc.ml" 255 7038 7040 "misc.ml" 255 7038 7108
+)
+"misc.ml" 254 7010 7028 "misc.ml" 254 7010 7035
+type(
+  float * float * float
+)
+"misc.ml" 255 7038 7040 "misc.ml" 255 7038 7055
+type(
+  float -> string
+)
+ident(
+  int_ref Stdlib.string_of_float "stdlib.mli" 742 27918 27918 "stdlib.mli" 742 27918 27955
+)
+"misc.ml" 255 7038 7056 "misc.ml" 255 7038 7057
+type(
+  float
+)
+ident(
+  int_ref r "misc.ml" 254 7010 7029 "misc.ml" 254 7010 7030
+)
+"misc.ml" 255 7038 7040 "misc.ml" 255 7038 7057
+type(
+  string
+)
+"misc.ml" 255 7038 7058 "misc.ml" 255 7038 7059
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 255 7038 7060 "misc.ml" 255 7038 7063
+type(
+  string
+)
+"misc.ml" 255 7038 7064 "misc.ml" 255 7038 7065
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 255 7038 7066 "misc.ml" 255 7038 7081
+type(
+  float -> string
+)
+ident(
+  int_ref Stdlib.string_of_float "stdlib.mli" 742 27918 27918 "stdlib.mli" 742 27918 27955
+)
+"misc.ml" 255 7038 7082 "misc.ml" 255 7038 7083
+type(
+  float
+)
+ident(
+  int_ref g "misc.ml" 254 7010 7031 "misc.ml" 254 7010 7032
+)
+"misc.ml" 255 7038 7066 "misc.ml" 255 7038 7083
+type(
+  string
+)
+"misc.ml" 255 7038 7084 "misc.ml" 255 7038 7085
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 255 7038 7085 "misc.ml" 255 7038 7088
+type(
+  string
+)
+"misc.ml" 255 7038 7089 "misc.ml" 255 7038 7090
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 666 25424 25424 "stdlib.mli" 666 25424 25462
+)
+"misc.ml" 255 7038 7091 "misc.ml" 255 7038 7106
+type(
+  float -> string
+)
+ident(
+  int_ref Stdlib.string_of_float "stdlib.mli" 742 27918 27918 "stdlib.mli" 742 27918 27955
+)
+"misc.ml" 255 7038 7107 "misc.ml" 255 7038 7108
+type(
+  float
+)
+ident(
+  int_ref b "misc.ml" 254 7010 7033 "misc.ml" 254 7010 7034
+)
+"misc.ml" 255 7038 7091 "misc.ml" 255 7038 7108
+type(
+  string
+)
+"misc.ml" 255 7038 7085 "misc.ml" 255 7038 7108
+type(
+  string
+)
+"misc.ml" 255 7038 7066 "misc.ml" 255 7038 7108
+type(
+  string
+)
+"misc.ml" 255 7038 7060 "misc.ml" 255 7038 7108
+type(
+  string
+)
+"misc.ml" 255 7038 7040 "misc.ml" 255 7038 7108
+type(
+  string
+)
+"misc.ml" 257 7110 7114 "misc.ml" 257 7110 7128
+type(
+  bool -> string
+)
+ident(
+  def string_of_bool "misc.ml" 264 7272 7272 "misc.ml" 0 0 -1
+)
+"misc.ml" 257 7110 7129 "misc.ml" 257 7110 7130
+type(
+  bool
+)
+ident(
+  def b "misc.ml" 257 7110 7133 "misc.ml" 257 7110 7162
+)
+"misc.ml" 257 7110 7136 "misc.ml" 257 7110 7137
+type(
+  bool
+)
+ident(
+  int_ref b "misc.ml" 257 7110 7129 "misc.ml" 257 7110 7130
+)
+"misc.ml" 257 7110 7143 "misc.ml" 257 7110 7149
+type(
+  string
+)
+"misc.ml" 257 7110 7155 "misc.ml" 257 7110 7162
+type(
+  string
+)
+"misc.ml" 257 7110 7133 "misc.ml" 257 7110 7162
+type(
+  string
+)
+"misc.ml" 264 7272 7276 "misc.ml" 264 7272 7287
+type(
+  string list -> unit
+)
+ident(
+  def print_stack "misc.ml" 272 7518 7518 "misc.ml" 0 0 -1
+)
+"misc.ml" 264 7272 7288 "misc.ml" 264 7272 7296
+type(
+  string list
+)
+ident(
+  def msgstack "misc.ml" 265 7299 7301 "misc.ml" 265 7299 7358
+)
+"misc.ml" 265 7299 7301 "misc.ml" 265 7299 7310
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 108 4152 4152 "list.mli" 108 4152 4194
+)
+"misc.ml" 265 7299 7316 "misc.ml" 265 7299 7319
+type(
+  string
+)
+ident(
+  def msg "misc.ml" 265 7299 7323 "misc.ml" 265 7299 7348
+)
+"misc.ml" 265 7299 7323 "misc.ml" 265 7299 7337
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.eprintf "printf.mli" 132 6998 6998 "printf.mli" 132 6998 7048
+)
+"misc.ml" 265 7299 7338 "misc.ml" 265 7299 7344
+type(
+  (string -> unit, out_channel, unit) format
+)
+"misc.ml" 265 7299 7345 "misc.ml" 265 7299 7348
+type(
+  string
+)
+ident(
+  int_ref msg "misc.ml" 265 7299 7316 "misc.ml" 265 7299 7319
+)
+"misc.ml" 265 7299 7323 "misc.ml" 265 7299 7348
+type(
+  unit
+)
+"misc.ml" 265 7299 7311 "misc.ml" 265 7299 7349
+type(
+  string -> unit
+)
+"misc.ml" 265 7299 7350 "misc.ml" 265 7299 7358
+type(
+  string list
+)
+ident(
+  int_ref msgstack "misc.ml" 264 7272 7288 "misc.ml" 264 7272 7296
+)
+"misc.ml" 265 7299 7301 "misc.ml" 265 7299 7358
+type(
+  unit
+)
+"misc.ml" 272 7518 7522 "misc.ml" 272 7518 7541
+type(
+  unit -> int
+)
+ident(
+  def get_number_of_cores "misc.ml" 289 7937 7937 "misc.ml" 0 0 -1
+)
+"misc.ml" 272 7518 7542 "misc.ml" 272 7518 7544
+type(
+  unit
+)
+"misc.ml" 273 7547 7552 "misc.ml" 273 7547 7563
+type(
+  string
+)
+ident(
+  int_ref Stdlib.Sys.os_type "sys.mli" 114 5273 5273 "sys.mli" 114 5273 5293
+)
+"misc.ml" 273 7547 7564 "misc.ml" 273 7547 7565
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"misc.ml" 273 7547 7566 "misc.ml" 273 7547 7572
+type(
+  string
+)
+"misc.ml" 273 7547 7552 "misc.ml" 273 7547 7572
+type(
+  bool
+)
+"misc.ml" 274 7578 7585 "misc.ml" 274 7578 7600
+type(
+  string -> bool
+)
+ident(
+  int_ref Stdlib.Sys.file_exists "sys.mli" 35 1767 1767 "sys.mli" 35 1767 1829
+)
+"misc.ml" 274 7578 7601 "misc.ml" 274 7578 7616
+type(
+  string
+)
+"misc.ml" 274 7578 7585 "misc.ml" 274 7578 7616
+type(
+  bool
+)
+"misc.ml" 275 7622 7632 "misc.ml" 275 7622 7635
+type(
+  string
+)
+ident(
+  def cmd "misc.ml" 276 7690 7696 "misc.ml" 280 7850 7869
+)
+"misc.ml" 275 7622 7638 "misc.ml" 275 7622 7686
+type(
+  string
+)
+"misc.ml" 276 7690 7700 "misc.ml" 276 7690 7702
+type(
+  in_channel
+)
+ident(
+  def ch "misc.ml" 277 7733 7739 "misc.ml" 280 7850 7869
+)
+"misc.ml" 276 7690 7705 "misc.ml" 276 7690 7725
+type(
+  string -> in_channel
+)
+ident(
+  int_ref Unix.open_process_in "unix.mli" 780 32477 32477 "unix.mli" 780 32477 32519
+)
+"misc.ml" 276 7690 7726 "misc.ml" 276 7690 7729
+type(
+  string
+)
+ident(
+  int_ref cmd "misc.ml" 275 7622 7632 "misc.ml" 275 7622 7635
+)
+"misc.ml" 276 7690 7705 "misc.ml" 276 7690 7729
+type(
+  in_channel
+)
+"misc.ml" 277 7733 7743 "misc.ml" 277 7733 7748
+type(
+  int
+)
+ident(
+  def cores "misc.ml" 278 7784 7785 "misc.ml" 280 7850 7869
+)
+"misc.ml" 277 7733 7751 "misc.ml" 277 7733 7764
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.int_of_string "stdlib.mli" 738 27743 27743 "stdlib.mli" 738 27743 27804
+)
+"misc.ml" 277 7733 7766 "misc.ml" 277 7733 7776
+type(
+  in_channel -> string
+)
+ident(
+  int_ref Stdlib.input_line "stdlib.mli" 1047 39261 39261 "stdlib.mli" 1047 39261 39298
+)
+"misc.ml" 277 7733 7777 "misc.ml" 277 7733 7779
+type(
+  in_channel
+)
+ident(
+  int_ref ch "misc.ml" 276 7690 7700 "misc.ml" 276 7690 7702
+)
+"misc.ml" 277 7733 7765 "misc.ml" 277 7733 7780
+type(
+  string
+)
+"misc.ml" 277 7733 7751 "misc.ml" 277 7733 7780
+type(
+  int
+)
+"misc.ml" 278 7784 7791 "misc.ml" 278 7784 7812
+type(
+  in_channel -> Unix.process_status
+)
+ident(
+  int_ref Unix.close_process_in "unix.mli" 883 37053 37053 "unix.mli" 883 37053 37104
+)
+"misc.ml" 278 7784 7813 "misc.ml" 278 7784 7815
+type(
+  in_channel
+)
+ident(
+  int_ref ch "misc.ml" 276 7690 7700 "misc.ml" 276 7690 7702
+)
+"misc.ml" 278 7784 7791 "misc.ml" 278 7784 7815
+type(
+  Unix.process_status
+)
+"misc.ml" 279 7821 7839 "misc.ml" 279 7821 7840
+type(
+  int
+)
+"misc.ml" 279 7821 7826 "misc.ml" 279 7821 7840
+type(
+  Unix.process_status
+)
+type(
+  Unix.process_status
+)
+"misc.ml" 279 7821 7844 "misc.ml" 279 7821 7849
+type(
+  int
+)
+ident(
+  int_ref cores "misc.ml" 277 7733 7743 "misc.ml" 277 7733 7748
+)
+"misc.ml" 280 7850 7855 "misc.ml" 280 7850 7856
+type(
+  Unix.process_status
+)
+type(
+  Unix.process_status
+)
+"misc.ml" 280 7850 7868 "misc.ml" 280 7850 7869
+type(
+  int
+)
+"misc.ml" 278 7784 7785 "misc.ml" 280 7850 7869
+type(
+  int
+)
+"misc.ml" 277 7733 7739 "misc.ml" 280 7850 7869
+type(
+  int
+)
+"misc.ml" 276 7690 7696 "misc.ml" 280 7850 7869
+type(
+  int
+)
+"misc.ml" 275 7622 7628 "misc.ml" 280 7850 7869
+type(
+  int
+)
+"misc.ml" 282 7879 7885 "misc.ml" 282 7879 7886
+type(
+  int
+)
+"misc.ml" 274 7578 7582 "misc.ml" 282 7879 7886
+type(
+  int
+)
+"misc.ml" 284 7894 7898 "misc.ml" 284 7894 7899
+type(
+  int
+)
+"misc.ml" 273 7547 7549 "misc.ml" 284 7894 7899
+type(
+  int
+)
+"misc.ml" 289 7937 7941 "misc.ml" 289 7937 7953
+type(
+  string -> int
+)
+ident(
+  def size_of_file "misc.ml" 293 8042 8050 "misc.ml" 0 0 -1
+)
+"misc.ml" 289 7937 7954 "misc.ml" 289 7937 7958
+type(
+  string
+)
+ident(
+  def file "misc.ml" 290 7961 7963 "misc.ml" 293 8042 8050
+)
+"misc.ml" 290 7961 7967 "misc.ml" 290 7961 7969
+type(
+  in_channel
+)
+ident(
+  def ch "misc.ml" 291 7988 7990 "misc.ml" 293 8042 8050
+)
+"misc.ml" 290 7961 7972 "misc.ml" 290 7961 7979
+type(
+  string -> in_channel
+)
+ident(
+  int_ref Stdlib.open_in "stdlib.mli" 1026 38307 38307 "stdlib.mli" 1026 38307 38341
+)
+"misc.ml" 290 7961 7980 "misc.ml" 290 7961 7984
+type(
+  string
+)
+ident(
+  int_ref file "misc.ml" 289 7937 7954 "misc.ml" 289 7937 7958
+)
+"misc.ml" 290 7961 7972 "misc.ml" 290 7961 7984
+type(
+  in_channel
+)
+"misc.ml" 291 7988 7994 "misc.ml" 291 7988 7998
+type(
+  int
+)
+ident(
+  def size "misc.ml" 292 8025 8029 "misc.ml" 293 8042 8050
+)
+"misc.ml" 291 7988 8001 "misc.ml" 291 7988 8018
+type(
+  in_channel -> int
+)
+ident(
+  int_ref Stdlib.in_channel_length "stdlib.mli" 1112 42258 42258 "stdlib.mli" 1112 42258 42299
+)
+"misc.ml" 291 7988 8019 "misc.ml" 291 7988 8021
+type(
+  in_channel
+)
+ident(
+  int_ref ch "misc.ml" 290 7961 7967 "misc.ml" 290 7961 7969
+)
+"misc.ml" 291 7988 8001 "misc.ml" 291 7988 8021
+type(
+  int
+)
+"misc.ml" 292 8025 8029 "misc.ml" 292 8025 8037
+type(
+  in_channel -> unit
+)
+ident(
+  int_ref Stdlib.close_in "stdlib.mli" 1120 42661 42661 "stdlib.mli" 1120 42661 42694
+)
+"misc.ml" 292 8025 8038 "misc.ml" 292 8025 8040
+type(
+  in_channel
+)
+ident(
+  int_ref ch "misc.ml" 290 7961 7967 "misc.ml" 290 7961 7969
+)
+"misc.ml" 292 8025 8029 "misc.ml" 292 8025 8040
+type(
+  unit
+)
+"misc.ml" 293 8042 8046 "misc.ml" 293 8042 8050
+type(
+  int
+)
+ident(
+  int_ref size "misc.ml" 291 7988 7994 "misc.ml" 291 7988 7998
+)
+"misc.ml" 292 8025 8029 "misc.ml" 293 8042 8050
+type(
+  int
+)
+"misc.ml" 291 7988 7990 "misc.ml" 293 8042 8050
+type(
+  int
+)
+"misc.ml" 290 7961 7963 "misc.ml" 293 8042 8050
+type(
+  int
+)

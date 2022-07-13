@@ -1,0 +1,127 @@
+#if 0
+#define CMP_RATE_YMAX
+#else
+#define CMP_RATE_YMAX ymax = 10
+#endif
+
+#define CMP_RATE_DIR_CURVE(ver, patt, patt2, dir) \
+  curve pattern patt {              \
+   sql = SELECT standardized_name, rate FROM study_cmp_rate_by_directory_and_error_name \
+         WHERE standardized_name = patt2 AND dirname = dir          \
+	       AND version_name = ver; \
+  }
+
+#define CMP_RATE_DIR_GRP(ver, dir, dir2)   \
+ group dir {          		  \
+  CMP_RATE_DIR_CURVE(ver, BlockLock, 'BlockLock', dir2) \
+  CMP_RATE_DIR_CURVE(ver, BlockIntr, 'BlockIntr', dir2) \
+  CMP_RATE_DIR_CURVE(ver, Null , 'Null' , dir2) \
+  CMP_RATE_DIR_CURVE(ver, Var  , 'Var'  , dir2) \
+  CMP_RATE_DIR_CURVE(ver, IsNull , 'IsNull' , dir2) \
+  CMP_RATE_DIR_CURVE(ver, NullRef , 'NullRef' , dir2) \
+  CMP_RATE_DIR_CURVE(ver, Range, 'Range', dir2) \
+  CMP_RATE_DIR_CURVE(ver, Lock , 'Lock' , dir2) \
+  CMP_RATE_DIR_CURVE(ver, Intr , 'Intr' , dir2) \
+  CMP_RATE_DIR_CURVE(ver, LockIntr , 'LockIntr' , dir2) \
+  CMP_RATE_DIR_CURVE(ver, Free , 'Free' , dir2) \
+  CMP_RATE_DIR_CURVE(ver, Size , 'Size' , dir2) \
+ }
+//  CMP_RATE_DIR_CURVE(ver, INull, 'INull', dir2) \
+//  CMP_RATE_DIR_CURVE(ver, Float, 'Float', dir2) \
+//  CMP_RATE_DIR_CURVE(ver, Real , 'Real' , dir2) \
+//  CMP_RATE_DIR_CURVE(ver, Param, 'Param', dir2) \
+
+graph gr/cmp-rate-per-dir-4-241.jgr {
+ xaxis = groups
+ size = 3 1
+ ylegend = "Relative fault rate"
+ legend = "off (* defaults fontsize 6 *)
+
+ newcurve marktype none linetype dotted color 0 0 0
+ pts
+ 0   1
+ 55  1
+"
+
+footer = "
+newgraph
+ xaxis no_auto_hash_labels no_auto_hash_marks min 0 max 60 size 3
+ yaxis no_auto_hash_labels no_auto_hash_marks min 0 max 235 size 1
+legend defaults fontsize 6 x 24 y 150
+
+newcurve marktype xbar linetype none color 0. 1. 0.  marksize 2  label : BlockLock
+newcurve marktype xbar linetype none color 0. 1. 0.  marksize 2  pattern stripe 45 label : BlockIntr
+newcurve marktype xbar linetype none color 1. 0. 1.  marksize 2  label : Null
+newcurve marktype xbar linetype none color 0. 1. 0.5  marksize 2 pattern stripe -45 label : Var
+newcurve marktype xbar linetype none color 1. 0.69 0.  marksize 2  label : IsNull
+newcurve marktype xbar linetype none color 1. 0. 0.  marksize 2  pattern stripe 45 label : NullRef
+
+newgraph
+ xaxis no_auto_hash_labels no_auto_hash_marks min 0 max 60 size 3
+ yaxis no_auto_hash_labels no_auto_hash_marks min 0 max 235 size 1
+legend defaults fontsize 6 x 38 y 150
+
+newcurve marktype xbar linetype none color 0. 0. 0.  marksize 2  label : Range
+newcurve marktype xbar linetype none color 0.5 0. 1.  marksize 2  label : Lock
+newcurve marktype xbar linetype none color 0. 0.5 1.  marksize 2  label : Intr
+newcurve marktype xbar linetype none color 0.5 0.5 1.  marksize 2  label : LockIntr
+newcurve marktype xbar linetype none color 0.5 0. 0.  marksize 2  label : Free
+newcurve marktype xbar linetype none color 0. 1. 1.  marksize 2  label : Size
+"
+
+ CMP_RATE_YMAX
+
+ CMP_RATE_DIR_GRP('linux-2.4.1', "Drivers", 'drivers')
+ CMP_RATE_DIR_GRP('linux-2.4.1', "Arch"   , 'arch')
+ CMP_RATE_DIR_GRP('linux-2.4.1', "FS"     , 'fs')
+ CMP_RATE_DIR_GRP('linux-2.4.1', "Net"    , 'net')
+ CMP_RATE_DIR_GRP('linux-2.4.1', "Other"  , 'other')
+}
+
+graph gr/cmp-rate-per-dir-4-2633.jgr {
+ xaxis = groups
+ size = 3 1
+ legend = "off
+
+ newcurve marktype none linetype dotted color 0 0 0
+ pts
+ 0   1
+ 77  1
+"
+ ymax = 8
+
+footer = "
+
+newstring fontsize 6 x 31 y 8 hjl vjt : 33.31
+newstring fontsize 6 x 38 y 8 hjl vjt : 19.48
+
+newgraph
+ xaxis no_auto_hash_labels no_auto_hash_marks min 0 max 60 size 3
+  yaxis no_auto_hash_labels no_auto_hash_marks min 0 max 235 size 1
+  legend defaults fontsize 6 x 35 y 150
+  newcurve marktype xbar linetype none color 0. 1. 0. marksize 2 label : BlockLock
+  newcurve marktype xbar linetype none color 0. 1. 0. marksize 2 pattern stripe 45 label : BlockIntr
+  newcurve marktype xbar linetype none color 1. 0. 1. marksize 2 label : Null
+  newcurve marktype xbar linetype none color 0. 1. 0.5 marksize 2 pattern stripe -45 label : Var
+  newcurve marktype xbar linetype none color 1. 0.69 0. marksize 2 label : IsNull
+  newcurve marktype xbar linetype none color 1. 0. 0. marksize 2 pattern stripe 45 label : NullRef
+newgraph
+  xaxis no_auto_hash_labels no_auto_hash_marks min 0 max 60 size 3
+  yaxis no_auto_hash_labels no_auto_hash_marks min 0 max 235 size 1
+  legend defaults fontsize 6 x 50 y 150
+  newcurve marktype xbar linetype none color 0. 0. 0. marksize 2 label : Range
+  newcurve marktype xbar linetype none color 0.5 0. 1. marksize 2 label : Lock
+  newcurve marktype xbar linetype none color 0. 0.5 1. marksize 2 label : Intr
+  newcurve marktype xbar linetype none color 0.5 0.5 1. marksize 2 label : LockIntr
+  newcurve marktype xbar linetype none color 0.5 0. 0. marksize 2 label : Free
+  newcurve marktype xbar linetype none color 0. 1. 1. marksize 2 label : Size
+    "
+
+ CMP_RATE_DIR_GRP('linux-2.6.33', "Staging", 'staging')
+ CMP_RATE_DIR_GRP('linux-2.6.33', "Drivers", 'drivers')
+ CMP_RATE_DIR_GRP('linux-2.6.33', "Sound"  , 'sound')
+ CMP_RATE_DIR_GRP('linux-2.6.33', "Arch"   , 'arch')
+ CMP_RATE_DIR_GRP('linux-2.6.33', "FS"     , 'fs')
+ CMP_RATE_DIR_GRP('linux-2.6.33', "Net"    , 'net')
+ CMP_RATE_DIR_GRP('linux-2.6.33', "Other"  , 'other')
+}

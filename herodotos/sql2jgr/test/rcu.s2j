@@ -1,0 +1,136 @@
+
+/* ***********  CHECKERS  ********************* */
+
+pattern BlockRCU {
+ color = 0 1 0
+ marktype = "circle fill 1"
+}
+
+pattern LockRCU {
+ color = .5 0 1
+ marktype = "circle"
+}
+
+pattern DerefRCU {
+ color = 1 0 0
+ marktype = "triangle fill 1"
+}
+
+/* ******************************************** */
+
+graph gr/count-evol-rcu.jgr {
+ xaxis = date
+ yaxis = user
+ project = Linux
+ size = 3 1
+ ymax = 10
+ ylegend = "# of faults"
+ legend = "defaults
+
+shell : cpp -P -undef -DYMAX=10 -DYMIN=0 base.annot
+"
+
+ COUNT_CURVE(BlockRCU, 'BlockRCU' )
+ COUNT_CURVE(LockRCU , 'LockRCU' )
+ COUNT_CURVE(DerefRCU, 'DerefRCU' )
+}
+
+/* ******************************************** */
+
+graph gr/count-evol-lock-vs-lock-rcu.jgr {
+ xaxis = date
+ yaxis = user
+ project = Linux
+ size = 3 1
+ ymax = 85
+ ylegend = "# of faults"
+ legend = "defaults
+
+shell : cpp -P -undef -DYMAX=83 -DYMIN=0 base.annot
+"
+
+ curve pattern Lock {				 
+   legend = "Lock / LockIntr"      
+   sql = SELECT version_name, release_date, sum(data) as data
+       	 	FROM "Count evol"
+       	 	WHERE (standardized_name = 'Lock'
+		OR  standardized_name = 'LockIntr')
+		AND release_date >= '2003-12-18'
+		GROUP BY version_name, release_date
+		ORDER BY release_date;
+ }
+ COUNT_CURVE(LockRCU , 'LockRCU' )
+}
+
+
+/* ******************************************** */
+
+graph gr/notes-evol-rcu.jgr {
+ xaxis = date
+ yaxis = user
+ project = Linux
+ size = 3 1
+ ylegend = "# of notes"
+ legend = "defaults
+
+shell : cpp -P -undef -DYMAX=28000 -DYMIN=0 base.annot
+"
+
+ curve pattern Lock {
+   legend = "Lock / LockIntr"
+   sql = SELECT version_name, release_date, sum(notes)
+       	 	FROM  (
+		SELECT version_name, release_date, count(*) as notes
+       	 	FROM "Notes info"
+       	 	WHERE (standardized_name = 'Lock'
+		OR standardized_name = 'LockIntr')
+		AND release_date >= '2003-12-18'
+		GROUP BY version_name,
+		      release_date,
+		      standardized_name) as info
+		GROUP BY version_name,
+		      release_date
+		ORDER BY release_date;
+ }
+ CNT_NOTES_KIND(LockRCU , 'LockRCU' )
+}
+
+/* ******************************************** */
+
+#define FLT_COUNT_DIR_RCU(patt, patt2)                      \
+ curve pattern patt {				        \
+   sql = SELECT r.version_name, r.release_date,         \
+       	 	count(r.report_id) AS count             \
+       	 	FROM "Faults info" r                    \
+       	 	WHERE r.study_dirname = patt2           \
+		AND (r.standardized_name = 'BlockRCU'   \
+		OR r.standardized_name = 'LockRCU'      \
+		OR r.standardized_name = 'DerefRCU')    \
+		AND r.release_date >= '2003-12-18'      \
+		GROUP BY r.version_name, r.release_date \
+		ORDER BY r.release_date;                \
+ }
+
+graph gr/count-evol-per-dir-rcu.jgr {
+ xaxis = date
+ yaxis = user
+ project = Linux
+ size = 3 1
+ ylegend = "# of faults"
+ ymax = 10
+ legend = "defaults
+
+shell : cpp -P -undef -DYMAX=9.5 -DYMIN=0 base.annot
+"
+
+ FLT_COUNT_DIR_RCU(Staging, 'staging')
+ FLT_COUNT_DIR_RCU(Drivers, 'drivers')
+ FLT_COUNT_DIR_RCU(Sound  , 'sound'  )
+ FLT_COUNT_DIR_RCU(Arch   , 'arch'   )
+ FLT_COUNT_DIR_RCU(FS     , 'fs'     )
+ FLT_COUNT_DIR_RCU(Net    , 'net'    )
+ FLT_COUNT_DIR_RCU(Other  , 'other'  )
+}
+
+/* ******************************************** */
+

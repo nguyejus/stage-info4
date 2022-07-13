@@ -1,0 +1,110 @@
+"global.ml" 2 1 5 "global.ml" 2 1 12
+type(
+  string
+)
+ident(
+  def version "global.ml" 4 22 22 "global.ml" 0 0 -1
+)
+"global.ml" 2 1 13 "global.ml" 2 1 20
+type(
+  string
+)
+"global.ml" 4 22 26 "global.ml" 4 22 34
+type(
+  string
+)
+ident(
+  def cocciext "global.ml" 5 47 47 "global.ml" 0 0 -1
+)
+"global.ml" 4 22 38 "global.ml" 4 22 46
+type(
+  string
+)
+"global.ml" 5 47 51 "global.ml" 5 47 58
+type(
+  string
+)
+ident(
+  def origext "global.ml" 6 75 75 "global.ml" 0 0 -1
+)
+"global.ml" 5 47 63 "global.ml" 5 47 74
+type(
+  string
+)
+"global.ml" 6 75 79 "global.ml" 6 75 88
+type(
+  string
+)
+ident(
+  def correlext "global.ml" 7 105 105 "global.ml" 0 0 -1
+)
+"global.ml" 6 75 91 "global.ml" 6 75 104
+type(
+  string
+)
+"global.ml" 7 105 109 "global.ml" 7 105 117
+type(
+  string
+)
+ident(
+  def patchext "global.ml" 8 133 133 "global.ml" 0 0 -1
+)
+"global.ml" 7 105 121 "global.ml" 7 105 132
+type(
+  string
+)
+"global.ml" 8 133 137 "global.ml" 8 133 144
+type(
+  string
+)
+ident(
+  def editext "global.ml" 9 161 161 "global.ml" 0 0 -1
+)
+"global.ml" 8 133 149 "global.ml" 8 133 160
+type(
+  string
+)
+"global.ml" 9 161 165 "global.ml" 9 161 171
+type(
+  string
+)
+ident(
+  def bugext "global.ml" 10 188 188 "global.ml" 0 0 -1
+)
+"global.ml" 9 161 177 "global.ml" 9 161 187
+type(
+  string
+)
+"global.ml" 10 188 192 "global.ml" 10 188 200
+type(
+  string
+)
+ident(
+  def existext "global.ml" 11 213 213 "global.ml" 0 0 -1
+)
+"global.ml" 10 188 204 "global.ml" 10 188 212
+type(
+  string
+)
+"global.ml" 11 213 217 "global.ml" 11 213 224
+type(
+  string
+)
+ident(
+  def listext "global.ml" 13 238 238 "global.ml" 0 0 -1
+)
+"global.ml" 11 213 229 "global.ml" 11 213 236
+type(
+  string
+)
+"global.ml" 13 238 242 "global.ml" 13 238 245
+type(
+  string
+)
+ident(
+  def sep "global.ml" 13 238 251 "global.ml" 0 0 -1
+)
+"global.ml" 13 238 248 "global.ml" 13 238 251
+type(
+  string
+)
