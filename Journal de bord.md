@@ -201,12 +201,19 @@ Le fait de ne pas pouvoir tester le projet en local va retarder son optimisation
 1. Le dépôt local est enfin trouvé, mais  il ne liste pas les versions récupérées automatiquement, je ne peux pas tester la phase de corrélation et la suite sans ça.
 
 # 12/07/22: 10ème semaine jour 2
-1.6ème réunion pour faire le point: je dois tester sur une machine virtuelle les dépendances sur une installation propre de ubuntu, je dois modifier le fichier dune-project afin de générer un fichier opam correct sans les espaces réservés, je dois documenter les phases de herodotos et dire ce que parmap pourrait gérer.
+1. 6ème réunion pour faire le point: je dois tester sur une machine virtuelle les dépendances sur une installation propre de ubuntu, je dois modifier le fichier dune-project afin de générer un fichier opam correct sans les espaces réservés, je dois documenter les phases de herodotos et dire ce que parmap pourrait gérer.
 2. J'ai installé la vm et fait la liste des dépendances
 3. J'ai modifié le fichier dune-project
 4. J'ai commencé à modifier le fichier latex pour la documentation de herodotos
 
 # 13/07/22: 10ème semaine jour 3
 1. Continuation de la modification du fichier latex pour la documentation de herodotos
-2. Ajustements dans le dépôt git de herodotos suite au commentaires de mon tuteur
+2. Ajustements dans le dépôt git de herodotos suite aux commentaires de mon tuteur
+
+# 15/07/22: 10ème semaine jour 4
+1. Continuation de la modification du fichier latex pour la documentation de herodotos
+2. Je suis rentré chez moi quand il n'y avait plus d'électricité dans le bâtiment...
+
+# Bilan de la semaine du 11/07/22 au 15/07/22:
+Les tâches finales à réaliser ont été planifiées afin que je puisse commencer la rédaction de mon rapport de stage, qui sera commencé la semaine prochaine.
 
