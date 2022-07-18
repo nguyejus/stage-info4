@@ -217,3 +217,7 @@ Le fait de ne pas pouvoir tester le projet en local va retarder son optimisation
 # Bilan de la semaine du 11/07/22 au 15/07/22:
 Les tâches finales à réaliser ont été planifiées afin que je puisse commencer la rédaction de mon rapport de stage, qui sera commencé la semaine prochaine.
 
+# 18/07/22: 11ème semaine jour 1
+1. J'ai vérifié à nouveau mon implémentation dune de herodotos et je suis parvenu à prouver qu'elle était la meilleure dans mon cas
+2. J'ai commencé à réfléchir à mon plan détaillé
+
