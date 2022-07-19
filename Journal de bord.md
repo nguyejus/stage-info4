@@ -221,3 +221,5 @@ Les tâches finales à réaliser ont été planifiées afin que je puisse commen
 1. J'ai vérifié à nouveau mon implémentation dune de herodotos et je suis parvenu à prouver qu'elle était la meilleure dans mon cas
 2. J'ai commencé à réfléchir à mon plan détaillé
 
+# 19/07/22: 11ème semaine jour 2
+1. Continuation de la modification du fichier latex pour la documentation de herodotos
