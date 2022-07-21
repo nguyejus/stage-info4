@@ -228,3 +228,7 @@ Les tâches finales à réaliser ont été planifiées afin que je puisse commen
 1. Continuation de la modification du fichier latex pour la documentation de herodotos
 2. Continuation de la rédaction du plan détaillé pour mon rapport
 
+# 21/07/22: 11ème semaine jour 4
+1. Continuation de la modification du fichier latex pour la documentation de herodotos(derniers ajustements)
+2. Continuation de la rédaction du plan détaillé pour mon rapport(je dois l'envoyer pour avoir un premier retour)
+
