@@ -232,3 +232,10 @@ Les tâches finales à réaliser ont été planifiées afin que je puisse commen
 1. Continuation de la modification du fichier latex pour la documentation de herodotos(derniers ajustements)
 2. Continuation de la rédaction du plan détaillé pour mon rapport(je dois l'envoyer pour avoir un premier retour)
 
+# 22/07/22: 11ème semaine jour 5
+1. Finalisation de la modification du fichier latex pour la documentation de herodotos
+2. Finalisation de la rédaction du plan détaillé pour mon rapport
+3. Début de la rédaction de mon rapport de stage
+
+# Bilan de la semaine du 18/07/22 au 22/07/22:
+J'ai commencé à rédiger mon rapport de stage un peu plus tard que prévu mais j'ai encore la semaine prochaine pour le faire relire à mon tuteur.
