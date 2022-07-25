@@ -239,3 +239,7 @@ Les tâches finales à réaliser ont été planifiées afin que je puisse commen
 
 # Bilan de la semaine du 18/07/22 au 22/07/22:
 J'ai commencé à rédiger mon rapport de stage un peu plus tard que prévu mais j'ai encore la semaine prochaine pour le faire relire à mon tuteur.
+
+# 25/07/22: 12ème semaine jour 1
+1.Continuation de la rédaction de mon rapport de stage
+
