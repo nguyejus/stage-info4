@@ -243,3 +243,5 @@ J'ai commencé à rédiger mon rapport de stage un peu plus tard que prévu mais
 # 25/07/22: 12ème semaine jour 1
 1.Continuation de la rédaction de mon rapport de stage
 
+# 26/07/22: 12ème semaine jour 2
+1.Continuation de la rédaction de mon rapport de stage
