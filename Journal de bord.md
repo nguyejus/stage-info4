@@ -241,13 +241,13 @@ Les tâches finales à réaliser ont été planifiées afin que je puisse commen
 J'ai commencé à rédiger mon rapport de stage un peu plus tard que prévu mais j'ai encore la semaine prochaine pour le faire relire à mon tuteur.
 
 # 25/07/22: 12ème semaine jour 1
-1.Continuation de la rédaction de mon rapport de stage
+1. Continuation de la rédaction de mon rapport de stage
 
 # 26/07/22: 12ème semaine jour 2
-1.Continuation de la rédaction de mon rapport de stage
+1. Continuation de la rédaction de mon rapport de stage
 
 # 27/07/22: 12ème semaine jour 3
-1.Continuation de la rédaction de mon rapport de stage
-2.Début diagramme de Gantt des tâches effectuées
+1. Continuation de la rédaction de mon rapport de stage
+2. Début diagramme de Gantt des tâches effectuées
 
 
