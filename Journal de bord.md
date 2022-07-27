@@ -245,3 +245,9 @@ J'ai commencé à rédiger mon rapport de stage un peu plus tard que prévu mais
 
 # 26/07/22: 12ème semaine jour 2
 1.Continuation de la rédaction de mon rapport de stage
+
+# 27/07/22: 12ème semaine jour 3
+1.Continuation de la rédaction de mon rapport de stage
+2.Début diagramme de Gantt des tâches effectuées
+
+
