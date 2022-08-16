@@ -160,7 +160,7 @@ J'ai travaillé uniquement sur des Makefiles cette semaine, mais je dois encore 
 Cette semaine portait surtout sur les ajustements nécessaires à la reproductibilité de l'étude avec des outils de génération (make) et du dépôt git. La semaine prochaine portera surtout sur l'optimisation des différentes phases de Herodotos avec la parallélisation des tâches comme les extractions de versions par exemple.
 
 # 27/06/22: 8ème semaine jour 1
-1.Recherche de pistes de parallélisation de Herodotos, compliqué car pas de moyen de debugger l'applicatiion
+1. Recherche de pistes de parallélisation de Herodotos, compliqué car pas de moyen de debugger l'applicatiion
 
 # 28/06/22: 8ème semaine jour 2
 1. Recherche de pistes de parallélisation de Herodotos, on a des fold et des map mais comment cela se comportera sur les clusters de grid'5000
@@ -261,3 +261,7 @@ J'ai commencé à rédiger mon rapport de stage un peu plus tard que prévu mais
 
 # Bilan de la semaine du 25/07/22 au 29/07/22:
 Je me suis concentré sur la rédaction de mon rapport de stage, j'essaye d'ajouter des diagrammes de gestion du travail mais c'est compliqué à réaliser.
+
+# 16/08/22: 13ème semaine jour 1
+1. Début préparation soutenance de stage
+
