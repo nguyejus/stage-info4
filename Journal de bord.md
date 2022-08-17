@@ -265,3 +265,6 @@ Je me suis concentré sur la rédaction de mon rapport de stage, j'essaye d'ajou
 # 16/08/22: 13ème semaine jour 1
 1. Début préparation soutenance de stage
 
+# 17/08/22: 13ème semaine jour 
+1. Continuation préparation soutenance de stage
+
