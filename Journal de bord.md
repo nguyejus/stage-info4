@@ -276,3 +276,7 @@ Je me suis concentré sur la rédaction de mon rapport de stage, j'essaye d'ajou
 
 # Bilan de la semaine du 16/08/22 au 19/08/22:
 Je prépare ma soutenance de stage même si je devrais continuer à travailler sur mon sujet de stage...
+
+# 22/08/22: 14ème semaine jour 1
+1. Continuation préparation soutenance de stage: je refais un diagramme de gantt pour présenter mon travail effectué
+
