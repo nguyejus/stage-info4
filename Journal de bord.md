@@ -283,3 +283,6 @@ Je prépare ma soutenance de stage même si je devrais continuer à travailler s
 # 23/08/22: 14ème semaine jour 2
 1. Continuation préparation soutenance de stage: je complète avec des captures d'écran pour expliquer les problèmes rencontrés
 
+# 24/08/22: 14ème semaine jour 3
+1. Continuation préparation soutenance de stage: je dois faire une présentation pour que mon tuteur puisse donner son avis
+
