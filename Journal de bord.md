@@ -280,3 +280,6 @@ Je prépare ma soutenance de stage même si je devrais continuer à travailler s
 # 22/08/22: 14ème semaine jour 1
 1. Continuation préparation soutenance de stage: je refais un diagramme de gantt pour présenter mon travail effectué
 
+# 23/08/22: 14ème semaine jour 2
+1. Continuation préparation soutenance de stage: je complète avec des captures d'écran pour expliquer les problèmes rencontrés
+
