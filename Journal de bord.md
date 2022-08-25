@@ -286,3 +286,6 @@ Je prépare ma soutenance de stage même si je devrais continuer à travailler s
 # 24/08/22: 14ème semaine jour 3
 1. Continuation préparation soutenance de stage: je dois faire une présentation pour que mon tuteur puisse donner son avis
 
+# 25/08/22: 14ème semaine jour 4
+1. Continuation préparation soutenance de stage: rectifications suite au retour de mon tuteur
+
